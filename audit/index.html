@@ -194,8 +194,9 @@
         </div>
         <div class="card reveal reveal-d1">
           <h3>Request Your Free Audit</h3>
-          <!-- TODO: replace with live form endpoint -->
-          <form action="https://formspree.io/f/placeholder" method="POST" style="margin-top:18px;display:grid;gap:16px">
+          <form action="/api/lead" method="POST" style="margin-top:18px;display:grid;gap:16px">
+            <input type="hidden" name="form_type" value="audit">
+            <div style="position:absolute;left:-9999px" aria-hidden="true"><label for="company_hp">Company</label><input type="text" id="company_hp" name="company_hp" tabindex="-1" autocomplete="off"></div>
             <div>
               <label for="name" style="display:block;font-family:var(--font);font-weight:600;font-size:0.9rem;margin-bottom:6px">Name</label>
               <input type="text" id="name" name="name" required autocomplete="name" style="width:100%;padding:12px 14px;border-radius:10px;border:1px solid var(--border-bright);background:rgba(10,17,28,0.6);color:var(--text);font-family:var(--font-body);font-size:1rem">
