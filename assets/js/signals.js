@@ -100,16 +100,18 @@
   function drawChart(el) {
     const svg = el.querySelector('svg');
     if (!svg) return;
-    const path = svg.querySelector('.line');
+    const lines = Array.from(svg.querySelectorAll('.line'));
+    const path = svg.querySelector('.line-main') || lines[0];
     const area = svg.querySelector('.area');
     const dot = svg.querySelector('.chart-dot');
     const ring = svg.querySelector('.chart-ring');
     const valueLabel = svg.querySelector('.chart-value');
     const markersGroup = svg.querySelector('.chart-markers');
+    const endLabels = Array.from(svg.querySelectorAll('.chart-endlabel'));
     if (!path) return;
     const len = path.getTotalLength();
-    // Value scale matches SVG y-axis: £450K at y=200, £850K at y=40 (2.5£K per px)
-    const valFromY = (y) => 450 + (200 - y) * 2.5;
+    // Revenue scale: £450K at y=130, £850K at y=40 (0.225px per £K)
+    const valFromY = (y) => 450 + (130 - y) / 0.225;
     const MARKERS = [0.25, 0.45, 0.63, 0.82]; // Feb–May data points along the line
     const dropped = [];
     const fmt = (v) => '\u00a3' + Math.round(v) + 'K';
@@ -136,15 +138,18 @@
       dot && (dot.setAttribute('cx', pt.x), dot.setAttribute('cy', pt.y), dot.style.opacity = 1);
       if (ring) { ring.setAttribute('cx', pt.x); ring.setAttribute('cy', pt.y); ring.classList.add('pulsing'); }
       placeValue(pt, valFromY(pt.y));
+      endLabels.forEach((t) => { t.style.transition = 'opacity 0.5s ease'; t.style.opacity = 1; });
     }
 
-    path.style.strokeDasharray = len;
-    path.style.strokeDashoffset = reduced ? 0 : len;
+    lines.forEach((l) => {
+      const ll = l.getTotalLength();
+      l.style.strokeDasharray = ll;
+      l.style.strokeDashoffset = reduced ? 0 : ll;
+    });
     if (area) { area.style.opacity = reduced ? 0.3 : 0; }
     if (!reduced) {
       path.getBoundingClientRect();
-      path.style.transition = 'stroke-dashoffset 2.2s ease-out';
-      path.style.strokeDashoffset = 0;
+      lines.forEach((l) => { l.style.transition = 'stroke-dashoffset 2.2s ease-out'; l.style.strokeDashoffset = 0; });
       if (area) { area.style.transition = 'opacity 1.2s ease 1.2s'; area.style.opacity = 0.3; }
       let start = null;
       (function move(ts) {
