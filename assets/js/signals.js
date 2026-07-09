@@ -217,4 +217,54 @@
   document.querySelectorAll('.ticker').forEach((tk) => {
     tk.innerHTML += tk.innerHTML;
   });
+
+  /* ---------- Blog carousel (renders latest posts from /blog/posts.json) ---------- */
+  const bcTrack = document.getElementById('bcTrack');
+  if (bcTrack) {
+    const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    fetch('/blog/posts.json')
+      .then((r) => r.json())
+      .then((posts) => {
+        posts
+          .slice()
+          .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+          .slice(0, 8)
+          .forEach((p) => {
+            const a = document.createElement('a');
+            a.className = 'card bc-card';
+            a.href = '/blog/' + p.slug + '/';
+            a.innerHTML = '<span class="bc-tag">' + esc(p.tag || 'PPC') + '</span>' +
+              '<h3>' + esc(p.title) + '</h3>' +
+              '<p>' + esc(p.excerpt) + '</p>' +
+              '<span class="bc-read">Read post \u2192</span>';
+            bcTrack.appendChild(a);
+          });
+        const step = () => {
+          const card = bcTrack.querySelector('.bc-card');
+          return card ? card.offsetWidth + 24 : 364;
+        };
+        const prev = document.querySelector('.bc-prev');
+        const next = document.querySelector('.bc-next');
+        prev && prev.addEventListener('click', () => bcTrack.scrollBy({ left: -step(), behavior: 'smooth' }));
+        next && next.addEventListener('click', () => bcTrack.scrollBy({ left: step(), behavior: 'smooth' }));
+        if (!reduced) {
+          let timer = null;
+          const play = () => {
+            timer = setInterval(() => {
+              if (bcTrack.scrollLeft + bcTrack.clientWidth >= bcTrack.scrollWidth - 10) {
+                bcTrack.scrollTo({ left: 0, behavior: 'smooth' });
+              } else {
+                bcTrack.scrollBy({ left: step(), behavior: 'smooth' });
+              }
+            }, 5000);
+          };
+          const stop = () => { if (timer) { clearInterval(timer); timer = null; } };
+          play();
+          bcTrack.addEventListener('pointerenter', stop);
+          bcTrack.addEventListener('pointerleave', play);
+          bcTrack.addEventListener('touchstart', stop, { passive: true });
+        }
+      })
+      .catch(() => {});
+  }
 })();
