@@ -20,6 +20,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
   
+  <!-- GA4 (Consent Mode v2, cookieless until consent granted) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJYGTYLBR1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {analytics_storage:'denied', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'});
+    gtag('js', new Date());
+    gtag('config', 'G-JJYGTYLBR1');
+  </script>
 </head>
 <body>
 
@@ -125,5 +134,14 @@
   </footer>
 
   <script src="/assets/js/signals.js" defer></script>
+  <script>
+    // Lead conversion event — fired once per arrival from a form redirect
+    (function () {
+      var src = new URLSearchParams(location.search).get('src');
+      if (src && typeof gtag === 'function') {
+        gtag('event', 'generate_lead', { form_type: src });
+      }
+    })();
+  </script>
 </body>
 </html>

@@ -68,6 +68,12 @@ export async function onRequestPost(context) {
     return Response.redirect(new URL("/thanks/", request.url).toString(), 302);
   }
 
+  const thanksUrl = (t) => {
+    const u = new URL("/thanks/", request.url);
+    u.searchParams.set("src", t);
+    return u.toString();
+  };
+
   const name = (form.get("name") || "").toString().trim().slice(0, 200);
   const email = (form.get("email") || "").toString().trim().slice(0, 200);
   const website = (form.get("website") || "").toString().trim().slice(0, 300);
@@ -119,5 +125,5 @@ export async function onRequestPost(context) {
     return new Response("Something went wrong — please email hello@social-surge.co.uk directly.", { status: 500 });
   }
 
-  return Response.redirect(new URL("/thanks/", request.url).toString(), 302);
+  return Response.redirect(thanksUrl(formType), 302);
 }
