@@ -49,10 +49,10 @@
     const ctx = canvas.getContext('2d');
     let w, h, t = 0;
     const waves = [
-      { amp: 26, freq: 0.010, speed: 0.016, y: 0.42, color: 'rgba(82,153,224,0.5)', lw: 1.6 },
-      { amp: 18, freq: 0.014, speed: 0.022, y: 0.55, color: 'rgba(55,190,118,0.4)', lw: 1.3 },
-      { amp: 34, freq: 0.007, speed: 0.011, y: 0.68, color: 'rgba(82,153,224,0.25)', lw: 1.1 },
-      { amp: 12, freq: 0.02,  speed: 0.03,  y: 0.32, color: 'rgba(247,183,110,0.22)', lw: 1.0 }
+      { amp: 26, freq: 0.010, speed: 0.016, y: 0.42, color: 'rgba(142,183,215,0.9)', lw: 1.6 },
+      { amp: 18, freq: 0.014, speed: 0.022, y: 0.55, color: 'rgba(180,170,172,0.8)', lw: 1.3 },
+      { amp: 34, freq: 0.007, speed: 0.011, y: 0.68, color: 'rgba(142,183,215,0.55)', lw: 1.1 },
+      { amp: 12, freq: 0.02,  speed: 0.03,  y: 0.32, color: 'rgba(180,170,172,0.5)', lw: 1.0 }
     ];
     const pulses = waves.map((_, i) => ({ x: Math.random(), speed: 0.0016 + i * 0.0007 }));
     function resize() {
@@ -85,11 +85,11 @@
         p.x += p.speed; if (p.x > 1.05) p.x = -0.05;
         const px = p.x * w, py = waveY(wv, px);
         const grad = ctx.createRadialGradient(px, py, 0, px, py, 14 * devicePixelRatio);
-        grad.addColorStop(0, 'rgba(111,179,245,0.9)');
-        grad.addColorStop(1, 'rgba(111,179,245,0)');
+        grad.addColorStop(0, 'rgba(142,183,215,0.55)');
+        grad.addColorStop(1, 'rgba(142,183,215,0)');
         ctx.fillStyle = grad;
         ctx.beginPath(); ctx.arc(px, py, 14 * devicePixelRatio, 0, Math.PI * 2); ctx.fill();
-        ctx.fillStyle = '#fff';
+        ctx.fillStyle = 'rgba(108,156,196,0.85)';
         ctx.beginPath(); ctx.arc(px, py, 2.4 * devicePixelRatio, 0, Math.PI * 2); ctx.fill();
       });
       requestAnimationFrame(frame);
@@ -125,7 +125,7 @@
       const pt = path.getPointAtLength(len * frac);
       const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
       c.setAttribute('cx', pt.x); c.setAttribute('cy', pt.y); c.setAttribute('r', 3.5);
-      c.setAttribute('fill', '#0d1622'); c.setAttribute('stroke', '#5299E0'); c.setAttribute('stroke-width', '2');
+      c.setAttribute('fill', '#ffffff'); c.setAttribute('stroke', '#8a7f82'); c.setAttribute('stroke-width', '2');
       c.style.opacity = 0; c.style.transition = 'opacity 0.4s ease';
       markersGroup.appendChild(c);
       requestAnimationFrame(() => { c.style.opacity = 1; });
