@@ -108,8 +108,9 @@
     const markersGroup = svg.querySelector('.chart-markers');
     if (!path) return;
     const len = path.getTotalLength();
-    const VAL_START = 400, VAL_END = 539; // £K
-    const MARKERS = [0.18, 0.38, 0.58, 0.78]; // month data points along the line
+    // Value scale matches SVG y-axis: £450K at y=200, £850K at y=40 (2.5£K per px)
+    const valFromY = (y) => 450 + (200 - y) * 2.5;
+    const MARKERS = [0.25, 0.45, 0.63, 0.82]; // Feb–May data points along the line
     const dropped = [];
     const fmt = (v) => '\u00a3' + Math.round(v) + 'K';
 
@@ -134,7 +135,7 @@
       const pt = path.getPointAtLength(len);
       dot && (dot.setAttribute('cx', pt.x), dot.setAttribute('cy', pt.y), dot.style.opacity = 1);
       if (ring) { ring.setAttribute('cx', pt.x); ring.setAttribute('cy', pt.y); ring.classList.add('pulsing'); }
-      placeValue(pt, VAL_END);
+      placeValue(pt, valFromY(pt.y));
     }
 
     path.style.strokeDasharray = len;
@@ -152,7 +153,7 @@
         const eased = 1 - Math.pow(1 - p, 2.5);
         const pt = path.getPointAtLength(len * eased);
         if (dot) { dot.setAttribute('cx', pt.x); dot.setAttribute('cy', pt.y); dot.style.opacity = 1; }
-        placeValue(pt, VAL_START + (VAL_END - VAL_START) * eased);
+        placeValue(pt, valFromY(pt.y));
         MARKERS.forEach((m, i) => { if (eased >= m && !dropped[i]) { dropped[i] = true; dropMarker(m); } });
         if (p < 1) requestAnimationFrame(move); else finish();
       })(performance.now());
