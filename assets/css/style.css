@@ -349,3 +349,20 @@ footer { border-top: 1px solid var(--border); padding: 70px 0 36px; background: 
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* --- icon SVGs (emoji replacement) --- */
+.card .icon { color: var(--blue-bright); }
+.card .icon svg { width: 22px; height: 22px; }
+
+/* --- chart end-point radar pulse --- */
+.chart-ring.pulsing {
+  opacity: 1;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: chartRing 2.2s ease-out infinite;
+}
+@keyframes chartRing {
+  0%   { transform: scale(1);   opacity: 0.8; }
+  70%  { transform: scale(2.6); opacity: 0; }
+  100% { transform: scale(2.6); opacity: 0; }
+}

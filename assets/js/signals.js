@@ -103,32 +103,62 @@
     const path = svg.querySelector('.line');
     const area = svg.querySelector('.area');
     const dot = svg.querySelector('.chart-dot');
+    const ring = svg.querySelector('.chart-ring');
+    const valueLabel = svg.querySelector('.chart-value');
+    const markersGroup = svg.querySelector('.chart-markers');
     if (!path) return;
     const len = path.getTotalLength();
+    const VAL_START = 400, VAL_END = 539; // £K
+    const MARKERS = [0.18, 0.38, 0.58, 0.78]; // month data points along the line
+    const dropped = [];
+    const fmt = (v) => '\u00a3' + Math.round(v) + 'K';
+
+    function placeValue(pt, v) {
+      if (!valueLabel) return;
+      valueLabel.textContent = fmt(v);
+      valueLabel.setAttribute('x', Math.min(Math.max(pt.x - 24, 14), 448));
+      valueLabel.setAttribute('y', Math.max(pt.y - 16, 18));
+      valueLabel.style.opacity = 1;
+    }
+    function dropMarker(frac) {
+      if (!markersGroup) return;
+      const pt = path.getPointAtLength(len * frac);
+      const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      c.setAttribute('cx', pt.x); c.setAttribute('cy', pt.y); c.setAttribute('r', 3.5);
+      c.setAttribute('fill', '#0d1622'); c.setAttribute('stroke', '#5299E0'); c.setAttribute('stroke-width', '2');
+      c.style.opacity = 0; c.style.transition = 'opacity 0.4s ease';
+      markersGroup.appendChild(c);
+      requestAnimationFrame(() => { c.style.opacity = 1; });
+    }
+    function finish() {
+      const pt = path.getPointAtLength(len);
+      dot && (dot.setAttribute('cx', pt.x), dot.setAttribute('cy', pt.y), dot.style.opacity = 1);
+      if (ring) { ring.setAttribute('cx', pt.x); ring.setAttribute('cy', pt.y); ring.classList.add('pulsing'); }
+      placeValue(pt, VAL_END);
+    }
+
     path.style.strokeDasharray = len;
     path.style.strokeDashoffset = reduced ? 0 : len;
-    if (area) { area.style.opacity = reduced ? 0.18 : 0; }
+    if (area) { area.style.opacity = reduced ? 0.3 : 0; }
     if (!reduced) {
       path.getBoundingClientRect();
       path.style.transition = 'stroke-dashoffset 2.2s ease-out';
       path.style.strokeDashoffset = 0;
-      if (area) { area.style.transition = 'opacity 1.2s ease 1.4s'; area.style.opacity = 0.18; }
-      if (dot) {
-        let start = null;
-        (function move(ts) {
-          if (!start) start = ts;
-          const p = Math.min((ts - start) / 2200, 1);
-          const eased = 1 - Math.pow(1 - p, 2.5);
-          const pt = path.getPointAtLength(len * eased);
-          dot.setAttribute('cx', pt.x); dot.setAttribute('cy', pt.y);
-          dot.style.opacity = 1;
-          if (p < 1) requestAnimationFrame(move);
-        })(performance.now());
-      }
-    } else if (dot) {
-      const pt = path.getPointAtLength(len);
-      dot.setAttribute('cx', pt.x); dot.setAttribute('cy', pt.y);
-      dot.style.opacity = 1;
+      if (area) { area.style.transition = 'opacity 1.2s ease 1.2s'; area.style.opacity = 0.3; }
+      let start = null;
+      (function move(ts) {
+        if (!start) start = ts;
+        const p = Math.min((ts - start) / 2200, 1);
+        const eased = 1 - Math.pow(1 - p, 2.5);
+        const pt = path.getPointAtLength(len * eased);
+        if (dot) { dot.setAttribute('cx', pt.x); dot.setAttribute('cy', pt.y); dot.style.opacity = 1; }
+        placeValue(pt, VAL_START + (VAL_END - VAL_START) * eased);
+        MARKERS.forEach((m, i) => { if (eased >= m && !dropped[i]) { dropped[i] = true; dropMarker(m); } });
+        if (p < 1) requestAnimationFrame(move); else finish();
+      })(performance.now());
+    } else {
+      MARKERS.forEach(dropMarker);
+      finish();
     }
   }
 
