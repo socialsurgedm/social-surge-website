@@ -103,7 +103,7 @@
     const area = svg.querySelector('.area');
     const markersGroup = svg.querySelector('.chart-markers');
     const NS = 'http://www.w3.org/2000/svg';
-    const MONTH_X = [116, 212, 308, 404]; // Feb–May data-point x positions
+    const MONTH_X = [20, 116, 212, 308, 404]; // Jan–May data-point x positions (Jun = resting dot)
     const SERIES = [
       { sel: '.line-rev',  color: '#8a7f82', main: true, fmt: (v) => '\u00a3' + Math.round(v) + 'K', valFromY: (y) => 450 + (130 - y) / 0.225 },
       { sel: '.line-roas', color: '#7fa88f', fmt: (v) => v.toFixed(1) + 'x',                          valFromY: (y) => 10 + (160 - y) * 0.3 },
