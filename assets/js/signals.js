@@ -96,74 +96,102 @@
     })();
   });
 
-  /* ---------- Animated line chart (SVG path draw + area fill) ---------- */
+  /* ---------- Animated multi-line chart (SVG path draw, per-series dot + counting value) ---------- */
   function drawChart(el) {
     const svg = el.querySelector('svg');
     if (!svg) return;
-    const lines = Array.from(svg.querySelectorAll('.line'));
-    const path = svg.querySelector('.line-main') || lines[0];
     const area = svg.querySelector('.area');
-    const dot = svg.querySelector('.chart-dot');
-    const ring = svg.querySelector('.chart-ring');
-    const valueLabel = svg.querySelector('.chart-value');
     const markersGroup = svg.querySelector('.chart-markers');
-    const endLabels = Array.from(svg.querySelectorAll('.chart-endlabel'));
-    if (!path) return;
-    const len = path.getTotalLength();
-    // Revenue scale: £450K at y=130, £850K at y=40 (0.225px per £K)
-    const valFromY = (y) => 450 + (130 - y) / 0.225;
-    const MARKERS = [0.25, 0.45, 0.63, 0.82]; // Feb–May data points along the line
-    const dropped = [];
-    const fmt = (v) => '\u00a3' + Math.round(v) + 'K';
+    const NS = 'http://www.w3.org/2000/svg';
+    const MONTH_X = [116, 212, 308, 404]; // Feb–May data-point x positions
+    const SERIES = [
+      { sel: '.line-rev',  color: '#8a7f82', main: true, fmt: (v) => '\u00a3' + Math.round(v) + 'K', valFromY: (y) => 450 + (130 - y) / 0.225 },
+      { sel: '.line-roas', color: '#7fa88f', fmt: (v) => v.toFixed(1) + 'x',                          valFromY: (y) => 10 + (160 - y) * 0.3 },
+      { sel: '.line-cost', color: '#c98d7a', fmt: (v) => '\u00a3' + Math.round(v) + 'K',              valFromY: (y) => 25 + (215 - y) / 1.4 }
+    ];
 
-    function placeValue(pt, v) {
-      if (!valueLabel) return;
-      valueLabel.textContent = fmt(v);
-      valueLabel.setAttribute('x', Math.min(Math.max(pt.x - 24, 14), 448));
-      valueLabel.setAttribute('y', Math.max(pt.y - 16, 18));
-      valueLabel.style.opacity = 1;
+    const items = SERIES.map((s) => {
+      const path = svg.querySelector(s.sel);
+      if (!path) return null;
+      const len = path.getTotalLength();
+      // fraction along the path where each month's x is crossed (arc lengths differ per line)
+      const fracs = MONTH_X.map((mx) => {
+        let lo = 0, hi = len;
+        for (let i = 0; i < 20; i++) { const mid = (lo + hi) / 2; if (path.getPointAtLength(mid).x < mx) lo = mid; else hi = mid; }
+        return lo / len;
+      });
+      const dot = document.createElementNS(NS, 'circle');
+      dot.setAttribute('r', s.main ? 6 : 4.5);
+      dot.setAttribute('fill', s.color);
+      dot.style.opacity = 0;
+      if (s.main) dot.setAttribute('filter', 'drop-shadow(0 0 8px rgba(138,127,130,0.7))');
+      const label = document.createElementNS(NS, 'text');
+      label.setAttribute('text-anchor', 'end');
+      label.setAttribute('fill', s.color);
+      label.setAttribute('font-size', s.main ? 15 : 12.5);
+      label.setAttribute('font-weight', 700);
+      label.style.opacity = 0;
+      svg.appendChild(dot); svg.appendChild(label);
+      let ring = null;
+      if (s.main) {
+        ring = document.createElementNS(NS, 'circle');
+        ring.setAttribute('class', 'chart-ring'); ring.setAttribute('r', 6);
+        ring.setAttribute('fill', 'none'); ring.setAttribute('stroke', s.color); ring.setAttribute('stroke-width', 2);
+        ring.style.opacity = 0;
+        svg.appendChild(ring);
+      }
+      return Object.assign({}, s, { path, len, fracs, dot, label, ring, dropped: [] });
+    }).filter(Boolean);
+    if (!items.length) return;
+
+    function setDot(it, pt) { it.dot.setAttribute('cx', pt.x); it.dot.setAttribute('cy', pt.y); it.dot.style.opacity = 1; }
+    function setLabel(it, pt) {
+      it.label.textContent = it.fmt(it.valFromY(pt.y));
+      it.label.setAttribute('x', Math.max(pt.x - 10, 74));
+      it.label.setAttribute('y', Math.max(pt.y - 10, 16));
+      it.label.style.opacity = 1;
     }
-    function dropMarker(frac) {
+    function dropMarker(it, frac) {
       if (!markersGroup) return;
-      const pt = path.getPointAtLength(len * frac);
-      const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-      c.setAttribute('cx', pt.x); c.setAttribute('cy', pt.y); c.setAttribute('r', 3.5);
-      c.setAttribute('fill', '#ffffff'); c.setAttribute('stroke', '#8a7f82'); c.setAttribute('stroke-width', '2');
+      const pt = it.path.getPointAtLength(it.len * frac);
+      const c = document.createElementNS(NS, 'circle');
+      c.setAttribute('cx', pt.x); c.setAttribute('cy', pt.y); c.setAttribute('r', it.main ? 3.5 : 3);
+      c.setAttribute('fill', '#ffffff'); c.setAttribute('stroke', it.color); c.setAttribute('stroke-width', '2');
       c.style.opacity = 0; c.style.transition = 'opacity 0.4s ease';
       markersGroup.appendChild(c);
       requestAnimationFrame(() => { c.style.opacity = 1; });
     }
     function finish() {
-      const pt = path.getPointAtLength(len);
-      dot && (dot.setAttribute('cx', pt.x), dot.setAttribute('cy', pt.y), dot.style.opacity = 1);
-      if (ring) { ring.setAttribute('cx', pt.x); ring.setAttribute('cy', pt.y); ring.classList.add('pulsing'); }
-      placeValue(pt, valFromY(pt.y));
-      endLabels.forEach((t) => { t.style.transition = 'opacity 0.5s ease'; t.style.opacity = 1; });
+      items.forEach((it) => {
+        const pt = it.path.getPointAtLength(it.len);
+        setDot(it, pt); setLabel(it, pt);
+        if (it.ring) { it.ring.setAttribute('cx', pt.x); it.ring.setAttribute('cy', pt.y); it.ring.classList.add('pulsing'); }
+      });
     }
 
-    lines.forEach((l) => {
-      const ll = l.getTotalLength();
-      l.style.strokeDasharray = ll;
-      l.style.strokeDashoffset = reduced ? 0 : ll;
+    items.forEach((it) => {
+      it.path.style.strokeDasharray = it.len;
+      it.path.style.strokeDashoffset = reduced ? 0 : it.len;
     });
     if (area) { area.style.opacity = reduced ? 0.3 : 0; }
     if (!reduced) {
-      path.getBoundingClientRect();
-      lines.forEach((l) => { l.style.transition = 'stroke-dashoffset 2.2s ease-out'; l.style.strokeDashoffset = 0; });
+      items[0].path.getBoundingClientRect();
+      items.forEach((it) => { it.path.style.transition = 'stroke-dashoffset 2.2s ease-out'; it.path.style.strokeDashoffset = 0; });
       if (area) { area.style.transition = 'opacity 1.2s ease 1.2s'; area.style.opacity = 0.3; }
       let start = null;
       (function move(ts) {
         if (!start) start = ts;
         const p = Math.min((ts - start) / 2200, 1);
         const eased = 1 - Math.pow(1 - p, 2.5);
-        const pt = path.getPointAtLength(len * eased);
-        if (dot) { dot.setAttribute('cx', pt.x); dot.setAttribute('cy', pt.y); dot.style.opacity = 1; }
-        placeValue(pt, valFromY(pt.y));
-        MARKERS.forEach((m, i) => { if (eased >= m && !dropped[i]) { dropped[i] = true; dropMarker(m); } });
+        items.forEach((it) => {
+          const pt = it.path.getPointAtLength(it.len * eased);
+          setDot(it, pt); setLabel(it, pt);
+          it.fracs.forEach((f, i) => { if (eased >= f && !it.dropped[i]) { it.dropped[i] = true; dropMarker(it, f); } });
+        });
         if (p < 1) requestAnimationFrame(move); else finish();
       })(performance.now());
     } else {
-      MARKERS.forEach(dropMarker);
+      items.forEach((it) => { it.fracs.forEach((f) => dropMarker(it, f)); });
       finish();
     }
   }
