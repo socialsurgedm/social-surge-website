@@ -359,6 +359,11 @@ footer { border-top: 1px solid var(--border); padding: 70px 0 36px; background: 
   .hamburger { display: block; }
   .nav-cta .btn { padding: 10px 18px; font-size: 0.85rem; }
   .steps { grid-template-columns: 1fr; }
+  /* data tables scroll sideways instead of cramming/clipping */
+  .prose table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; white-space: nowrap; }
+  /* hero chart: tighter card padding + larger axis/series labels at small scale */
+  .chart-card { padding: 20px 12px; }
+  .chart-card svg text.axis { font-size: 15px; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
