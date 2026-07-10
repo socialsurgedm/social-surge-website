@@ -85,7 +85,9 @@ export async function onRequestPost(context) {
     return new Response("Missing or invalid fields", { status: 422 });
   }
 
-  const label = formType === "audit" ? "Free Audit Request" : "Contact Enquiry";
+  const label = formType === "audit" ? "Free Audit Request"
+    : formType.startsWith("lp-") ? `LP Audit Request (${formType.slice(3)})`
+    : "Contact Enquiry";
   const subject = `🔥 New lead — ${label} — ${name}`;
   const html = `
     <div style="font-family:Arial,sans-serif;max-width:560px">
