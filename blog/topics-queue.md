@@ -3,7 +3,7 @@
 # When a draft is written for an entry, mark it [DRAFTED YYYY-MM-DD <slug>]. When published, mark [PUBLISHED].
 # Secondary queries listed under an entry should be worked in as H2s/FAQ items in the same post (avoids keyword cannibalisation).
 
-1. Best paid advertising channels for rapid e-commerce growth
+1. [DRAFTED 2026-07-14 best-paid-advertising-channels-ecommerce] Best paid advertising channels for rapid e-commerce growth
    - secondary: What paid advertising methods deliver the fastest growth for online retail stores?
 
 2. How do I create a paid ad campaign to rapidly increase my online store's sales?
