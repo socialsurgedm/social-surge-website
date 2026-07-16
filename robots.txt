@@ -1,4 +1,4 @@
-# robots.txt — social-surge.co.uk
+# robots.txt, social-surge.co.uk
 # All crawlers welcome, including AI crawlers.
 
 User-agent: *

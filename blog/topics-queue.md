@@ -6,7 +6,7 @@
 1. [PUBLISHED 2026-07-14 best-paid-advertising-channels-ecommerce] Best paid advertising channels for rapid e-commerce growth
    - secondary: What paid advertising methods deliver the fastest growth for online retail stores?
 
-2. How do I create a paid ad campaign to rapidly increase my online store's sales?
+2. [DRAFTED 2026-07-16 paid-ad-campaign-online-store] How do I create a paid ad campaign to rapidly increase my online store's sales?
 
 3. What are the best retargeting strategies to boost online store conversions?
 

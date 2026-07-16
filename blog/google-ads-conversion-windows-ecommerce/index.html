@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Ads Conversion Windows for E-Commerce: Is Your ROAS Inflated?</title>
+  <meta name="description" content="Extended conversion windows quietly inflate Google Ads ROAS by 20-40%. The correct windows for e-commerce, how to check yours, and the GA4 cross-check that exposes it.">
+  <link rel="canonical" href="https://social-surge.co.uk/blog/google-ads-conversion-windows-ecommerce/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Google Ads Conversion Windows for E-Commerce: Is Your ROAS Inflated?">
+  <meta property="og:description" content="Extended conversion windows quietly inflate Google Ads ROAS by 20-40%. The correct windows for e-commerce, how to check yours, and the GA4 cross-check that exposes it.">
+  <meta property="og:url" content="https://social-surge.co.uk/blog/google-ads-conversion-windows-ecommerce/">
+  <meta property="og:image" content="https://social-surge.co.uk/assets/img/og-image.jpg">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css?v=4">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://social-surge.co.uk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://social-surge.co.uk/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Google Ads Conversion Windows for E-Commerce: Is Your ROAS Inflated?"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Google Ads Conversion Windows for E-Commerce: Is Your ROAS Inflated?",
+  "description": "Extended conversion windows quietly inflate Google Ads ROAS by 20-40%. The correct windows for e-commerce, how to check yours, and the GA4 cross-check that exposes it.",
+  "url": "https://social-surge.co.uk/blog/google-ads-conversion-windows-ecommerce/",
+  "datePublished": "2026-07-15",
+  "dateModified": "2026-07-15",
+  "inLanguage": "en-GB",
+  "image": "https://social-surge.co.uk/assets/img/ss-logo.png",
+  "author": {
+    "@type": "Person",
+    "name": "Jack Goldsmith",
+    "jobTitle": "Founder & Performance Marketer",
+    "url": "https://social-surge.co.uk/about/",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Social Surge DM LTD",
+      "url": "https://social-surge.co.uk/"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Social Surge DM LTD",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://social-surge.co.uk/assets/img/ss-logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://social-surge.co.uk/blog/google-ads-conversion-windows-ecommerce/"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What conversion window should e-commerce brands use in Google Ads?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For e-commerce, the rule is a 30-day click-through window, a 7-day engaged-view window and a 1-day view-through window. Anything longer needs a written commercial justification tied to your actual purchase cycle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Won't a shorter conversion window lose conversions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No sales disappear, customers still buy. What changes is which channel gets the credit. A 30-day click window captures the overwhelming majority of genuine ad-driven e-commerce purchases; what it stops capturing is revenue that email, organic and direct actually drove."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why doesn't GA4 match Google Ads conversion data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They measure differently by design: GA4 is session-scoped and cross-channel, Google Ads is interaction-scoped and windowed. A small stable gap is normal measurement noise. A 20-40% gap that widens as conversion windows get longer is attribution inflation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I check if Google Ads is over-reporting my ROAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Compare Google Ads conversion value against GA4 revenue attributed to google/cpc for the same clean date range, excluding the most recent 3-7 days for conversion lag. If the figures deviate by more than 3-5%, Google Ads is boosting its figures off the back of extended conversion windows."
+      }
+    }
+  ]
+}
+  </script>
+  <!-- GA4 (Consent Mode v2, cookieless until consent granted) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJYGTYLBR1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {analytics_storage:'denied', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'});
+    try{if(localStorage.getItem('ss_consent')==='granted'){gtag('consent','update',{analytics_storage:'granted', ad_storage:'granted', ad_user_data:'granted', ad_personalization:'granted'});}}catch(e){}
+    gtag('js', new Date());
+    gtag('config', 'G-JJYGTYLBR1');
+  </script>
+  <script src="/assets/js/consent.js?v=1"></script>
+</head>
+<body>
+
+  <div class="announce"><span class="dot"></span>Get your first month FREE or 25% off your first 3 months, <a href="/audit/">Book a free PPC audit</a></div>
+
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" aria-label="Social Surge home"><img src="/assets/img/ss-logo-nav.png" alt="Social Surge logo" width="60" height="48"></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">Home</a></li>
+        <li>
+          <a href="/services/">Services ▾</a>
+          <div class="dropdown">
+            <a href="/services/google-ads-management/">Google Ads Management<span>Search, Shopping &amp; Performance Max</span></a>
+            <a href="/services/meta-ads-management/">Meta Ads Management<span>Facebook &amp; Instagram Ads</span></a>
+            <a href="/services/ai-performance-infrastructure/">AI Performance Infrastructure<span>Managed intelligence layer</span></a>
+            <a href="/audit/">Free PPC Audit<span>Full account review, no obligation</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="/industries/">Industries ▾</a>
+          <div class="dropdown">
+            <a href="/industries/cycling/">Cycling<span>Bike shops &amp; cycling brands</span></a>
+            <a href="/industries/fishing/">Fishing<span>Tackle shops &amp; angling gear</span></a>
+            <a href="/industries/outdoor-hobbyist/">Outdoor &amp; Hobbyist<span>Enthusiast niche brands</span></a>
+          </div>
+        </li>
+        <li><a href="/case-studies/">Results</a></li>
+        <li><a href="/pricing/">Pricing</a></li>
+        <li><a href="/blog/" class="active">Blog</a></li>
+        <li><a href="/about/">Company</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="/audit/" class="btn btn-primary">Book Free Audit</a>
+        <button class="hamburger" aria-label="Toggle menu" aria-controls="navLinks"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/blog/">Blog</a><span>›</span>Google Ads Conversion Windows for E-Commerce</nav>
+  </div>
+
+  <header class="page-hero">
+    <div class="container">
+      <span class="eyebrow"><span class="signal-dot"></span>Blog · 15 July 2026</span>
+      <h1 style="max-width:840px">Google Ads Conversion Windows: The Setting That's Quietly Inflating Your E-Commerce ROAS</h1>
+      <p class="lead">Stretched conversion windows claim revenue your email, organic and direct channels actually drove. Here's what the windows should be for e-commerce, how to check yours in five minutes, and the GA4 cross-check that exposes inflated reporting.</p>
+      <p style="margin-top:18px;font-size:0.9rem;color:var(--text-faint)">By <a href="/about/" style="font-weight:600">Jack Goldsmith</a>, Founder &amp; Performance Marketer, Social Surge · 15 July 2026</p>
+    </div>
+  </header>
+
+  <section class="section-tight" style="padding-top:0">
+    <div class="container prose">
+
+      <div class="answer-box">
+        <p class="q">What conversion windows should e-commerce brands use in Google Ads?</p>
+        <p>The rule for e-commerce is a <strong>30-day click-through window, a 7-day engaged-view window and a 1-day view-through window</strong>. Accounts running 60-90 day click, 14-30 day engaged-view and 7-14 day view-through windows are over-crediting Google Ads with revenue that other channels drove, inflating reported ROAS and sales beyond what the platform genuinely earned.</p>
+      </div>
+
+      <p>If your Google Ads dashboard says you're getting an 8x return but your bank account, your Shopify revenue and your gut all disagree, this article explains why. The culprit is usually a setting most advertisers have never opened: the <strong>conversion window</strong>. It takes five minutes to check, and if it's been stretched, every performance number you've been shown is inflated.</p>
+
+      <h2>What Is a Conversion Window?</h2>
+      <p>Every conversion action in Google Ads (a purchase, a lead, a sign-up) has a conversion window, the period of time after someone interacts with your ad during which their purchase still gets credited back to that ad.</p>
+      <p>Simple example: a customer clicks your ad on the 1st of the month and buys on the 20th. With a 30-day click-through window, Google Ads counts that sale as an ad conversion. With a 14-day window, it doesn't. Same customer, same sale, same ad, the only thing that changed is a setting. That setting silently defines what "performance" means in your account, and almost nobody audits it.</p>
+      <p>There are actually <strong>three separate windows</strong> per conversion action, and each one credits sales on progressively weaker evidence:</p>
+      <ul>
+        <li><strong>Click-through window</strong> (1-90 days available), credit after someone <em>clicks</em> an ad. The strongest signal of intent: they saw your ad and actively chose to visit.</li>
+        <li><strong>Engaged-view window</strong> (1-30 days), credit after someone watches <em>10+ seconds of a video ad</em> without clicking. They never visited your site from the ad; Google infers the ad influenced them.</li>
+        <li><strong>View-through window</strong> (1-30 days), credit after someone merely had an ad impression <em>rendered on their screen</em>. No click, no watch. They may not have consciously noticed the ad at all.</li>
+      </ul>
+      <p>The further down that list you go, the more the "conversion" is a statistical guess rather than a measured cause. Stretch those windows and the guesses pile up fast.</p>
+
+      <h2>What We're Seeing in the Wild</h2>
+      <p>Across the e-commerce accounts we audit, particularly agency-managed ones, a pattern keeps showing up:</p>
+      <ul>
+        <li><strong>60-90 day</strong> click-through conversion windows</li>
+        <li><strong>14-30 day</strong> engaged-view windows</li>
+        <li><strong>7-14 day</strong> view-through conversion windows</li>
+      </ul>
+      <p>For a typical e-commerce brand, the genuine purchase consideration cycle is 1-14 days. Nobody deliberates for three months over a £40 product. So what do these stretched settings actually do?</p>
+      <ul>
+        <li><strong>Stale clicks get credited.</strong> A customer clicks an ad in January, forgets about you, then comes back in March through your email newsletter and buys. With a 90-day click window still open, Google Ads claims that sale, even though your email did the work.</li>
+        <li><strong>Other channels get cannibalised on paper.</strong> Sales genuinely driven by email, organic search, social, influencers or people simply typing your URL get attributed to Google Ads because an ad click or impression existed <em>somewhere</em> in the trailing window. Irrelevant data flows into the account and gets dressed up as ad performance.</li>
+        <li><strong>View-through is the worst offender.</strong> Someone scrolled past a display banner ten days ago, then searched your brand name and bought organically. Google Ads books the revenue. No click ever happened. On long view-through windows this isn't measurement, it's revenue laundering between channels.</li>
+        <li><strong>Repeat customers inflate it further.</strong> Brands with loyal customers are hit hardest: every returning buyer who clicked <em>any</em> ad in the past 90 days gets re-credited to ads, even when retention channels drove the repeat purchase.</li>
+        <li><strong>ROAS and sales figures inside Google Ads climb</strong> well beyond what the channel actually drove. The dashboard looks brilliant. The P&amp;L doesn't move.</li>
+      </ul>
+
+      <h2>A Worked Example: How Big Is the Inflation?</h2>
+      <p>Say you spend £10,000/month and Google Ads reports £80,000 in conversion value, a reported <strong>8.0x ROAS</strong>. But the account runs a 90-day click window with 14-day view-through, and when you cross-check independently you find:</p>
+      <ul>
+        <li>£12,000 of that "ad revenue" came from view-through conversions, impressions, not clicks;</li>
+        <li>£14,000 came from clicks older than 30 days, where email or organic closed the sale;</li>
+        <li>leaving roughly <strong>£54,000</strong> genuinely attributable to ads in a realistic window.</li>
+      </ul>
+      <p>Your real ROAS is <strong>5.4x, not 8.0x</strong>, a 48% overstatement. Every decision built on the 8x is wrong: the budget you scaled, the products you doubled down on, and the performance fee you paid on it. (For context on what honest ROAS figures look like at different spend levels, see <a href="/blog/what-is-a-good-roas-google-ads/">what is a good ROAS for Google Ads</a>.)</p>
+
+      <h2>Why Smart Bidding Makes It Worse, Not Better</h2>
+      <p>This isn't just a reporting problem. Google's automated bidding (Target ROAS, Maximise Conversion Value) optimises toward whatever the conversion column says. Feed it conversions that email and organic actually drove, and Smart Bidding learns to <strong>bid on people who were going to buy anyway</strong>, your existing customers and brand searchers, because those "convert" most reliably inside a long window. The algorithm looks smarter, the reported ROAS climbs further, and your actual incremental revenue per pound of ad spend quietly falls. It's a self-reinforcing loop, and the longer the window, the tighter the loop.</p>
+
+      <h2>How to Check Your Conversion Windows in Google Ads</h2>
+      <p>You don't need edit access or any technical skill, read-only access is enough. Five minutes:</p>
+      <ol>
+        <li>Sign in to Google Ads at the account level (if you're in an agency MCC view, make sure you're inside <em>your</em> account).</li>
+        <li>Click the <strong>Goals</strong> icon in the left-hand navigation.</li>
+        <li>Go to <strong>Conversions → Summary</strong>.</li>
+        <li>Click into your main purchase conversion action (usually named "Purchase" or similar).</li>
+        <li>Open <strong>Edit settings</strong>, you can view the values without saving anything.</li>
+        <li>Read three fields: <strong>Click-through conversion window</strong>, <strong>Engaged-view conversion window</strong> and <strong>View-through conversion window</strong>. Write them down.</li>
+        <li>Repeat for every conversion action marked <strong>Primary</strong>, primary actions feed Smart Bidding and the headline "Conversions" column. (Secondary actions are observation-only.)</li>
+        <li>While you're there, note the <strong>attribution model</strong> and check which column your reports are built on: in any campaign view, <strong>Columns → Modify columns → Conversions</strong>. "Conversions", "All conv." and "View-through conv." are different columns measuring different things, if your agency reports "All conv. value", ask why.</li>
+      </ol>
+      <p><strong>The rule for e-commerce: 30-day click-through window · 7-day engaged-view window · 1-day view-through window.</strong> Anything beyond that needs a written commercial justification, and "more data for the algorithm" is not one.</p>
+
+      <h2>How to Build a GA4 Explore to Cross-Reference Reality</h2>
+      <p>Google Ads marks its own homework. Google Analytics 4 measures the same purchases through an independent, cross-channel lens, which makes it the cheapest referee you have. Build the comparison view once and reuse it every month:</p>
+      <ol>
+        <li>Open GA4 and click <strong>Explore</strong> in the left navigation.</li>
+        <li>Create a <strong>Blank</strong> exploration and name it (e.g. "Channel Revenue Cross-Check").</li>
+        <li>Set the <strong>date range</strong> to exactly match the Google Ads period you're auditing. Misaligned dates invalidate the whole comparison, so be precise.</li>
+        <li>Under <strong>Dimensions</strong>, click <strong>+</strong> and import: <em>Session default channel group</em>, <em>Session source / medium</em> and <em>Session campaign</em>.</li>
+        <li>Under <strong>Metrics</strong>, click <strong>+</strong> and import: <em>Purchases</em> (key events), <em>Total revenue</em> (or <em>Purchase revenue</em>) and <em>Sessions</em>.</li>
+        <li>Drag <strong>Session default channel group</strong> into <strong>Rows</strong>.</li>
+        <li>Drag <strong>Purchases</strong> and <strong>Total revenue</strong> into <strong>Values</strong>.</li>
+        <li>You now see where revenue is actually coming from: Paid Search, Organic, Email, Direct, Paid Social, Referral, side by side.</li>
+        <li>Add a second tab (or swap the row dimension) using <strong>Session source / medium</strong> to isolate <code>google / cpc</code>, that line is what Google Ads paid traffic genuinely closed.</li>
+        <li>Recommended: add a filter <em>Session source / medium exactly matches google / cpc</em> and break rows out by <strong>Session campaign</strong> to compare campaign-level revenue directly against the Google Ads UI.</li>
+        <li>Now put the two numbers next to each other: <strong>Google Ads reported conversion value</strong> vs <strong>GA4 revenue attributed to google/cpc</strong> for the identical period.</li>
+      </ol>
+      <p><em>Fair-comparison notes:</em> GA4 and Google Ads will never match to the penny, GA4 is session-scoped and cross-channel, Ads is interaction-scoped and windowed; consent banners, ad blockers and conversion lag all create a small natural gap. Exclude the most recent 3-7 days from the comparison (conversions are still being reported into that period) and compare a full clean month where possible. The deviation rule below already accounts for the honest portion of the gap.</p>
+
+      <h2>The 3-5% Deviation Rule</h2>
+      <p>With the same clean date window in both platforms, apply this test:</p>
+      <ul>
+        <li><strong>Within 3-5% deviation:</strong> attribution is healthy. Google Ads is claiming roughly what it genuinely drove.</li>
+        <li><strong>Beyond 3-5% deviation:</strong> Google Ads is boosting its own figures off the back of extended conversion windows, claiming revenue that belongs to email, organic, social or direct. Your "ROAS" is partly other channels' work wearing a Google Ads badge.</li>
+      </ul>
+      <p>And here's the part that matters commercially: <strong>if your agency manages the account on a percentage-of-spend or percentage-of-revenue model and the windows are stretched to 90/30/14, they are either lying to you or committing fraud.</strong> Inflated attribution directly inflates their reported performance and, on a revenue-share model, their invoice. At best it's negligence; at worst it's deliberate misrepresentation of results for financial gain. Either way, the deviation check gives you the evidence in black and white: their platform screenshot vs your independent GA4 data. You don't need to argue, you just need to show both numbers. (This sits alongside the other <a href="/blog/marketing-agency-red-flags/">marketing agency red flags</a> worth checking before you sign or renew.)</p>
+
+      <h2>What To Do If You Find It</h2>
+      <ol>
+        <li><strong>Screenshot the current window settings before anything changes.</strong> Settings can be quietly "fixed" once questions get asked, date-stamped screenshots are your paper trail.</li>
+        <li><strong>Reset the windows to the e-commerce rule:</strong> 30-day click-through, 7-day engaged-view, 1-day view-through.</li>
+        <li><strong>Expect reported ROAS to drop after the change, and hold your nerve.</strong> Performance didn't get worse; it got honest. Historical conversions keep their original window, so the numbers wash through over the following weeks. Re-baseline your targets on the honest figures.</li>
+        <li><strong>Give Smart Bidding 2-4 weeks to relearn</strong> on clean conversion data before judging campaign performance. Bids were trained on inflated signals; they need time to recalibrate.</li>
+        <li><strong>Re-run the GA4 cross-check after 30 days.</strong> The deviation should collapse into the 3-5% band. If it doesn't, keep digging, check for double-counted conversion actions and imported GA4 key events sitting alongside the Ads tag (both marked primary = every sale counted twice).</li>
+        <li><strong>If an agency set this up and billed against the inflated numbers,</strong> ask them in writing to justify the window settings. Their answer will tell you everything you need to know about the relationship.</li>
+      </ol>
+      <p>Attribution settings aren't admin. They're the difference between scaling what genuinely works and funding a spreadsheet illusion, and they take five minutes to check. It's one of the first things we look at in every <a href="/audit/">free PPC audit</a>, and honest attribution is the foundation of our <a href="/services/google-ads-management/">Google Ads management</a> service.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <details class="faq-item"><summary>What conversion window should e-commerce brands use in Google Ads?</summary><div class="faq-body"><p>For e-commerce, the rule is a 30-day click-through window, a 7-day engaged-view window and a 1-day view-through window. Anything longer needs a written commercial justification tied to your actual purchase cycle.</p></div></details>
+      <details class="faq-item"><summary>Won't a shorter conversion window lose conversions?</summary><div class="faq-body"><p>No sales disappear, customers still buy. What changes is which channel gets the credit. A 30-day click window captures the overwhelming majority of genuine ad-driven e-commerce purchases; what it stops capturing is revenue that email, organic and direct actually drove. If a meaningful share of your real ad conversions took 60+ days, you'd sell considered high-ticket purchases, and you'd know it from your own sales cycle.</p></div></details>
+      <details class="faq-item"><summary>Why doesn't GA4 match Google Ads conversion data?</summary><div class="faq-body"><p>They measure differently by design: GA4 is session-scoped and cross-channel, Google Ads is interaction-scoped and windowed. A small stable gap is normal measurement noise. A 20-40% gap that widens as conversion windows get longer is attribution inflation, and it moves exactly in line with the window settings.</p></div></details>
+      <details class="faq-item"><summary>How do I check if Google Ads is over-reporting my ROAS?</summary><div class="faq-body"><p>Compare Google Ads conversion value against GA4 revenue attributed to google/cpc for the same clean date range, excluding the most recent 3-7 days for conversion lag. If the figures deviate by more than 3-5%, Google Ads is boosting its figures off the back of extended conversion windows.</p></div></details>
+
+    </div>
+  </section>
+
+  <section class="cta-final">
+    <canvas class="signal-canvas" aria-hidden="true"></canvas>
+    <div class="container">
+      <span class="eyebrow"><span class="signal-dot"></span>Free, no-obligation audit</span>
+      <h2>Want to know if your ROAS is real?</h2>
+      <p>Book a free PPC audit, conversion windows, attribution, tracking accuracy and wasted spend, quantified in pounds and delivered in plain English.</p>
+      <a href="/audit/" class="btn btn-primary btn-lg">Book Your Free Audit</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/assets/img/ss-logo.png" alt="Social Surge logo">
+          <p>Built on trust. Driven by results. Transparent ads that actually work for you.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/_socialsurge/" target="_blank" rel="noopener" aria-label="Social Surge on Instagram"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+            <a href="https://www.linkedin.com/in/jack-goldsmith30122002/" target="_blank" rel="noopener" aria-label="Jack Goldsmith on LinkedIn"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="/services/google-ads-management/">Google Ads Management</a></li>
+            <li><a href="/services/meta-ads-management/">Meta Ads Management</a></li>
+            <li><a href="/services/ai-performance-infrastructure/">AI Infrastructure</a></li>
+            <li><a href="/audit/">Free PPC Audit</a></li>
+            <li><a href="/pricing/">Pricing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/case-studies/">Case Studies</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/ppc-agency-bristol/">PPC Agency Bristol</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get in Touch</h4>
+          <ul>
+            <li><a href="mailto:hello@social-surge.co.uk">hello@social-surge.co.uk</a></li>
+            <li><a href="tel:+447796374758">+44 7796 374 758</a></li>
+            <li>Bristol, United Kingdom</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 Social Surge DM LTD. All rights reserved.</div>
+        <div>
+          <a href="/privacy/">Privacy Policy</a>
+          <a href="/terms/">Terms of Service</a>
+          <a href="/data-deletion/">Data Deletion</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/signals.js?v=3" defer></script>
+</body>
+</html>
