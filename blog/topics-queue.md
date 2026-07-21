@@ -8,7 +8,7 @@
 
 2. [DRAFTED 2026-07-16 paid-ad-campaign-online-store] How do I create a paid ad campaign to rapidly increase my online store's sales?
 
-3. What are the best retargeting strategies to boost online store conversions?
+3. [DRAFTED 2026-07-21 retargeting-strategies-online-store-conversions] What are the best retargeting strategies to boost online store conversions?
 
 4. How to structure a campaign for high-value product sales
 
