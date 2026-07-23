@@ -10,7 +10,7 @@
 
 3. [DRAFTED 2026-07-21 retargeting-strategies-online-store-conversions] What are the best retargeting strategies to boost online store conversions?
 
-4. How to structure a campaign for high-value product sales
+4. [DRAFTED 2026-07-23 how-to-structure-campaign-high-value-product-sales] How to structure a campaign for high-value product sales
 
 5. Recommended budget allocation for scaling digital storefront ads
 
