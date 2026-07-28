@@ -13,3 +13,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-07-16 paid-ad-campaign-online-store — How do I create a paid ad campaign to rapidly increase my online store's sales?
 - 2026-07-21 retargeting-strategies-online-store-conversions — What are the best retargeting strategies to boost online store conversions?
 - 2026-07-23 how-to-structure-campaign-high-value-product-sales — How to structure a campaign for high-value product sales
+- 2026-07-28 budget-allocation-scaling-ecommerce-ads -- Recommended budget allocation for scaling digital storefront ads

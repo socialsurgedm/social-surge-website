@@ -12,7 +12,7 @@
 
 4. [PUBLISHED 2026-07-23 how-to-structure-campaign-high-value-product-sales] How to structure a campaign for high-value product sales
 
-5. Recommended budget allocation for scaling digital storefront ads
+5. [DRAFTED 2026-07-28 budget-allocation-scaling-ecommerce-ads] Recommended budget allocation for scaling digital storefront ads
 
 6. Effective audience targeting methods for online retail campaigns
 
