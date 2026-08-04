@@ -15,3 +15,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-07-23 how-to-structure-campaign-high-value-product-sales — How to structure a campaign for high-value product sales
 - 2026-07-28 budget-allocation-scaling-ecommerce-ads -- Recommended budget allocation for scaling digital storefront ads
 - 2026-07-30 audience-targeting-online-retail-campaigns -- Effective audience targeting methods for online retail campaigns
+- 2026-08-04 optimising-social-media-ad-spend-ecommerce -- Strategies for optimising ad spend on popular social platforms

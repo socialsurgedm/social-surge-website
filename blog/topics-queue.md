@@ -14,6 +14,6 @@
 
 5. [DRAFTED 2026-07-28 budget-allocation-scaling-ecommerce-ads] Recommended budget allocation for scaling digital storefront ads
 
-6. [DRAFTED 2026-07-30 audience-targeting-online-retail-campaigns] Effective audience targeting methods for online retail campaigns
+6. [PUBLISHED 2026-07-30 audience-targeting-online-retail-campaigns] Effective audience targeting methods for online retail campaigns
 
-7. Strategies for optimising ad spend on popular social platforms
+7. [DRAFTED 2026-08-04 optimising-social-media-ad-spend-ecommerce] Strategies for optimising ad spend on popular social platforms
