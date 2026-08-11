@@ -17,3 +17,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-07-30 audience-targeting-online-retail-campaigns -- Effective audience targeting methods for online retail campaigns
 - 2026-08-04 optimising-social-media-ad-spend-ecommerce -- Strategies for optimising ad spend on popular social platforms
 - 2026-08-06 performance-max-not-working-ecommerce -- Performance Max not working: why your PMAX campaign is underperforming and how to fix it
+- 2026-08-11 google-merchant-center-suspended -- Google Merchant Center suspended: how to fix product disapprovals and get Shopping ads running again

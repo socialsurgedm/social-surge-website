@@ -3,6 +3,7 @@
 
 User-agent: *
 Allow: /
+Disallow: /oauth/
 
 # --- AI / LLM crawlers (explicitly allowed) ---
 User-agent: GPTBot
