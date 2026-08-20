@@ -1,0 +1,1922 @@
+{
+ "client": "Shyre Bikes",
+ "cid": "1624703099",
+ "currency": "GBP",
+ "pulled_at": "2026-08-18T11:22:27.765298+00:00",
+ "daily": [
+  {
+   "date": "2026-04-20",
+   "cost": 6.67,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 10,
+   "impr": 760
+  },
+  {
+   "date": "2026-04-21",
+   "cost": 16.79,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 25,
+   "impr": 891
+  },
+  {
+   "date": "2026-04-22",
+   "cost": 12.19,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 32,
+   "impr": 814
+  },
+  {
+   "date": "2026-04-23",
+   "cost": 12.6,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 34,
+   "impr": 883
+  },
+  {
+   "date": "2026-04-24",
+   "cost": 9.17,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 28,
+   "impr": 551
+  },
+  {
+   "date": "2026-04-25",
+   "cost": 6.46,
+   "conv": 2.0,
+   "value": 119.98,
+   "clicks": 19,
+   "impr": 649
+  },
+  {
+   "date": "2026-04-26",
+   "cost": 12.34,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 27,
+   "impr": 917
+  },
+  {
+   "date": "2026-04-27",
+   "cost": 3.86,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 14,
+   "impr": 589
+  },
+  {
+   "date": "2026-04-28",
+   "cost": 9.28,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 28,
+   "impr": 764
+  },
+  {
+   "date": "2026-04-29",
+   "cost": 11.84,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 33,
+   "impr": 948
+  },
+  {
+   "date": "2026-04-30",
+   "cost": 12.15,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 37,
+   "impr": 839
+  },
+  {
+   "date": "2026-05-01",
+   "cost": 10.84,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 31,
+   "impr": 919
+  },
+  {
+   "date": "2026-05-02",
+   "cost": 12.63,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 29,
+   "impr": 828
+  },
+  {
+   "date": "2026-05-03",
+   "cost": 6.74,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 12,
+   "impr": 770
+  },
+  {
+   "date": "2026-05-04",
+   "cost": 12.57,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 39,
+   "impr": 926
+  },
+  {
+   "date": "2026-05-05",
+   "cost": 13.05,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 37,
+   "impr": 700
+  },
+  {
+   "date": "2026-05-06",
+   "cost": 5.49,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 17,
+   "impr": 686
+  },
+  {
+   "date": "2026-05-07",
+   "cost": 0.64,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 378
+  },
+  {
+   "date": "2026-05-08",
+   "cost": 1.21,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 327
+  },
+  {
+   "date": "2026-05-09",
+   "cost": 0.7,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 332
+  },
+  {
+   "date": "2026-05-10",
+   "cost": 1.1,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 5,
+   "impr": 355
+  },
+  {
+   "date": "2026-05-11",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 167
+  },
+  {
+   "date": "2026-05-12",
+   "cost": 0.07,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 176
+  },
+  {
+   "date": "2026-05-13",
+   "cost": 1.37,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 196
+  },
+  {
+   "date": "2026-05-14",
+   "cost": 0.28,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 200
+  },
+  {
+   "date": "2026-05-15",
+   "cost": 1.1,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 116
+  },
+  {
+   "date": "2026-05-16",
+   "cost": 0.9,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 5,
+   "impr": 167
+  },
+  {
+   "date": "2026-05-17",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 152
+  },
+  {
+   "date": "2026-05-18",
+   "cost": 0.7,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 163
+  },
+  {
+   "date": "2026-05-19",
+   "cost": 1.02,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 205
+  },
+  {
+   "date": "2026-05-20",
+   "cost": 0.33,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 154
+  },
+  {
+   "date": "2026-05-21",
+   "cost": 0.09,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 204
+  },
+  {
+   "date": "2026-05-22",
+   "cost": 2.3,
+   "conv": 2.0,
+   "value": 119.98,
+   "clicks": 3,
+   "impr": 225
+  },
+  {
+   "date": "2026-05-23",
+   "cost": 0.36,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 309
+  },
+  {
+   "date": "2026-05-24",
+   "cost": 0.62,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 337
+  },
+  {
+   "date": "2026-05-25",
+   "cost": 2.63,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 10,
+   "impr": 435
+  },
+  {
+   "date": "2026-05-26",
+   "cost": 6.3,
+   "conv": 2.0,
+   "value": 119.98,
+   "clicks": 9,
+   "impr": 311
+  },
+  {
+   "date": "2026-05-27",
+   "cost": 1.46,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 352
+  },
+  {
+   "date": "2026-05-28",
+   "cost": 0.81,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 358
+  },
+  {
+   "date": "2026-05-29",
+   "cost": 6.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 6,
+   "impr": 330
+  },
+  {
+   "date": "2026-05-30",
+   "cost": 2.07,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 238
+  },
+  {
+   "date": "2026-05-31",
+   "cost": 4.33,
+   "conv": 2.0,
+   "value": 119.98,
+   "clicks": 7,
+   "impr": 483
+  },
+  {
+   "date": "2026-06-01",
+   "cost": 3.03,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 448
+  },
+  {
+   "date": "2026-06-02",
+   "cost": 0.78,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 422
+  },
+  {
+   "date": "2026-06-03",
+   "cost": 1.41,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 564
+  },
+  {
+   "date": "2026-06-04",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 281
+  },
+  {
+   "date": "2026-06-05",
+   "cost": 0.46,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 269
+  },
+  {
+   "date": "2026-06-06",
+   "cost": 1.12,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 359
+  },
+  {
+   "date": "2026-06-07",
+   "cost": 1.34,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 478
+  },
+  {
+   "date": "2026-06-08",
+   "cost": 0.85,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 403
+  },
+  {
+   "date": "2026-06-09",
+   "cost": 0.62,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 309
+  },
+  {
+   "date": "2026-06-10",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 221
+  },
+  {
+   "date": "2026-06-11",
+   "cost": 2.88,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 222
+  },
+  {
+   "date": "2026-06-12",
+   "cost": 0.05,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 177
+  },
+  {
+   "date": "2026-06-13",
+   "cost": 0.47,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 208
+  },
+  {
+   "date": "2026-06-14",
+   "cost": 0.26,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 265
+  },
+  {
+   "date": "2026-06-15",
+   "cost": 1.47,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 242
+  },
+  {
+   "date": "2026-06-16",
+   "cost": 2.67,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 233
+  },
+  {
+   "date": "2026-06-17",
+   "cost": 0.18,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 164
+  },
+  {
+   "date": "2026-06-18",
+   "cost": 2.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 247
+  },
+  {
+   "date": "2026-06-19",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 82
+  },
+  {
+   "date": "2026-06-20",
+   "cost": 0.97,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 106
+  },
+  {
+   "date": "2026-06-21",
+   "cost": 0.75,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 60
+  },
+  {
+   "date": "2026-06-22",
+   "cost": 1.45,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 54
+  },
+  {
+   "date": "2026-06-23",
+   "cost": 0.82,
+   "conv": 2.0,
+   "value": 119.98,
+   "clicks": 2,
+   "impr": 97
+  },
+  {
+   "date": "2026-06-24",
+   "cost": 1.8,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 6,
+   "impr": 190
+  },
+  {
+   "date": "2026-06-25",
+   "cost": 0.18,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 274
+  },
+  {
+   "date": "2026-06-26",
+   "cost": 0.41,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 226
+  },
+  {
+   "date": "2026-06-27",
+   "cost": 1.14,
+   "conv": 1.0,
+   "value": 59.99,
+   "clicks": 5,
+   "impr": 291
+  },
+  {
+   "date": "2026-06-28",
+   "cost": 0.48,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 205
+  },
+  {
+   "date": "2026-06-29",
+   "cost": 2.89,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 5,
+   "impr": 220
+  },
+  {
+   "date": "2026-06-30",
+   "cost": 0.32,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 208
+  },
+  {
+   "date": "2026-07-01",
+   "cost": 1.82,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 241
+  },
+  {
+   "date": "2026-07-02",
+   "cost": 0.16,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 177
+  },
+  {
+   "date": "2026-07-03",
+   "cost": 0.57,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 206
+  },
+  {
+   "date": "2026-07-04",
+   "cost": 0.16,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 216
+  },
+  {
+   "date": "2026-07-05",
+   "cost": 1.76,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 306
+  },
+  {
+   "date": "2026-07-06",
+   "cost": 0.41,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 208
+  },
+  {
+   "date": "2026-07-07",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 126
+  },
+  {
+   "date": "2026-07-08",
+   "cost": 0.71,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 116
+  },
+  {
+   "date": "2026-07-09",
+   "cost": 0.74,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 105
+  },
+  {
+   "date": "2026-07-10",
+   "cost": 0.23,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 102
+  },
+  {
+   "date": "2026-07-11",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 149
+  },
+  {
+   "date": "2026-07-12",
+   "cost": 0.61,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 200
+  },
+  {
+   "date": "2026-07-13",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 194
+  },
+  {
+   "date": "2026-07-14",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 101
+  },
+  {
+   "date": "2026-07-15",
+   "cost": 0.55,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 90
+  },
+  {
+   "date": "2026-07-16",
+   "cost": 0.1,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 136
+  },
+  {
+   "date": "2026-07-17",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 57
+  },
+  {
+   "date": "2026-07-18",
+   "cost": 1.52,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 127
+  },
+  {
+   "date": "2026-07-19",
+   "cost": 1.22,
+   "conv": 1.0,
+   "value": 329.99,
+   "clicks": 3,
+   "impr": 153
+  },
+  {
+   "date": "2026-07-20",
+   "cost": 11.24,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 22,
+   "impr": 1620
+  },
+  {
+   "date": "2026-07-21",
+   "cost": 53.21,
+   "conv": 2.03,
+   "value": 378.93,
+   "clicks": 68,
+   "impr": 4183
+  },
+  {
+   "date": "2026-07-22",
+   "cost": 34.84,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 49,
+   "impr": 4099
+  },
+  {
+   "date": "2026-07-23",
+   "cost": 23.8,
+   "conv": 1.0,
+   "value": 339.99,
+   "clicks": 46,
+   "impr": 4399
+  },
+  {
+   "date": "2026-07-24",
+   "cost": 22.18,
+   "conv": 4.0,
+   "value": 1099.96,
+   "clicks": 37,
+   "impr": 4544
+  },
+  {
+   "date": "2026-07-25",
+   "cost": 51.81,
+   "conv": 1.42,
+   "value": 475.86,
+   "clicks": 68,
+   "impr": 6720
+  },
+  {
+   "date": "2026-07-26",
+   "cost": 57.35,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 69,
+   "impr": 6220
+  },
+  {
+   "date": "2026-07-27",
+   "cost": 64.71,
+   "conv": 3.68,
+   "value": 1017.42,
+   "clicks": 77,
+   "impr": 7043
+  },
+  {
+   "date": "2026-07-28",
+   "cost": 61.56,
+   "conv": 2.0,
+   "value": 679.98,
+   "clicks": 85,
+   "impr": 8847
+  },
+  {
+   "date": "2026-07-29",
+   "cost": 66.68,
+   "conv": 1.02,
+   "value": 345.63,
+   "clicks": 82,
+   "impr": 8248
+  },
+  {
+   "date": "2026-07-30",
+   "cost": 59.85,
+   "conv": 4.0,
+   "value": 1389.96,
+   "clicks": 65,
+   "impr": 7298
+  },
+  {
+   "date": "2026-07-31",
+   "cost": 106.56,
+   "conv": 1.92,
+   "value": 651.72,
+   "clicks": 118,
+   "impr": 12098
+  },
+  {
+   "date": "2026-08-01",
+   "cost": 189.4,
+   "conv": 10.51,
+   "value": 3603.22,
+   "clicks": 177,
+   "impr": 16839
+  },
+  {
+   "date": "2026-08-02",
+   "cost": 322.51,
+   "conv": 3.0,
+   "value": 481.16,
+   "clicks": 212,
+   "impr": 24709
+  },
+  {
+   "date": "2026-08-03",
+   "cost": 150.54,
+   "conv": 3.0,
+   "value": 1064.96,
+   "clicks": 145,
+   "impr": 16496
+  },
+  {
+   "date": "2026-08-04",
+   "cost": 162.08,
+   "conv": 2.5,
+   "value": 909.98,
+   "clicks": 164,
+   "impr": 15931
+  },
+  {
+   "date": "2026-08-05",
+   "cost": 132.68,
+   "conv": 0.53,
+   "value": 191.26,
+   "clicks": 134,
+   "impr": 16542
+  },
+  {
+   "date": "2026-08-06",
+   "cost": 92.38,
+   "conv": 1.0,
+   "value": 359.99,
+   "clicks": 120,
+   "impr": 12686
+  },
+  {
+   "date": "2026-08-07",
+   "cost": 88.83,
+   "conv": 2.0,
+   "value": 699.98,
+   "clicks": 111,
+   "impr": 12072
+  },
+  {
+   "date": "2026-08-08",
+   "cost": 90.51,
+   "conv": 3.0,
+   "value": 1039.97,
+   "clicks": 98,
+   "impr": 13968
+  },
+  {
+   "date": "2026-08-09",
+   "cost": 132.76,
+   "conv": 2.0,
+   "value": 389.98,
+   "clicks": 154,
+   "impr": 14157
+  },
+  {
+   "date": "2026-08-10",
+   "cost": 105.57,
+   "conv": 1.0,
+   "value": 69.99,
+   "clicks": 133,
+   "impr": 12142
+  },
+  {
+   "date": "2026-08-11",
+   "cost": 106.57,
+   "conv": 1.0,
+   "value": 279.99,
+   "clicks": 115,
+   "impr": 12130
+  },
+  {
+   "date": "2026-08-12",
+   "cost": 105.5,
+   "conv": 1.75,
+   "value": 629.98,
+   "clicks": 94,
+   "impr": 8704
+  },
+  {
+   "date": "2026-08-13",
+   "cost": 76.28,
+   "conv": 0.25,
+   "value": 90.0,
+   "clicks": 75,
+   "impr": 7935
+  },
+  {
+   "date": "2026-08-14",
+   "cost": 75.7,
+   "conv": 1.0,
+   "value": 339.99,
+   "clicks": 73,
+   "impr": 7629
+  },
+  {
+   "date": "2026-08-15",
+   "cost": 102.28,
+   "conv": 0.97,
+   "value": 330.73,
+   "clicks": 99,
+   "impr": 8899
+  },
+  {
+   "date": "2026-08-16",
+   "cost": 108.66,
+   "conv": 1.0,
+   "value": 359.99,
+   "clicks": 105,
+   "impr": 10512
+  },
+  {
+   "date": "2026-08-17",
+   "cost": 92.12,
+   "conv": 2.0,
+   "value": 669.98,
+   "clicks": 113,
+   "impr": 8940
+  }
+ ],
+ "monthly": [
+  {
+   "month": "2025-08",
+   "cost": 791.89,
+   "conv": 2.85,
+   "value": 925.72,
+   "clicks": 1418,
+   "impr": 141777
+  },
+  {
+   "month": "2025-09",
+   "cost": 40.03,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 175,
+   "impr": 9950
+  },
+  {
+   "month": "2025-10",
+   "cost": 80.89,
+   "conv": 3.0,
+   "value": 928.99,
+   "clicks": 358,
+   "impr": 21452
+  },
+  {
+   "month": "2025-11",
+   "cost": 3305.92,
+   "conv": 71.15,
+   "value": 21592.63,
+   "clicks": 6073,
+   "impr": 555393
+  },
+  {
+   "month": "2025-12",
+   "cost": 3184.23,
+   "conv": 63.85,
+   "value": 21683.11,
+   "clicks": 2896,
+   "impr": 218966
+  },
+  {
+   "month": "2026-01",
+   "cost": 320.94,
+   "conv": 5.0,
+   "value": 1295.56,
+   "clicks": 654,
+   "impr": 40982
+  },
+  {
+   "month": "2026-02",
+   "cost": 121.16,
+   "conv": 3.0,
+   "value": 899.96,
+   "clicks": 387,
+   "impr": 8252
+  },
+  {
+   "month": "2026-03",
+   "cost": 107.25,
+   "conv": 1.0,
+   "value": 69.99,
+   "clicks": 255,
+   "impr": 11366
+  },
+  {
+   "month": "2026-04",
+   "cost": 302.22,
+   "conv": 3.0,
+   "value": 179.97,
+   "clicks": 666,
+   "impr": 30876
+  },
+  {
+   "month": "2026-05",
+   "cost": 97.7,
+   "conv": 6.0,
+   "value": 359.94,
+   "clicks": 240,
+   "impr": 11499
+  },
+  {
+   "month": "2026-06",
+   "cost": 30.8,
+   "conv": 3.0,
+   "value": 179.97,
+   "clicks": 76,
+   "impr": 7525
+  },
+  {
+   "month": "2026-07",
+   "cost": 624.35,
+   "conv": 22.06,
+   "value": 6709.44,
+   "clicks": 816,
+   "impr": 78329
+  },
+  {
+   "month": "2026-08",
+   "cost": 2134.38,
+   "conv": 36.51,
+   "value": 11511.15,
+   "clicks": 2122,
+   "impr": 220291
+  }
+ ],
+ "campaigns": [
+  {
+   "name": "Shyre PMax [Shopping]",
+   "status": "ENABLED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 42.0,
+   "cost": 1002.39,
+   "conv": 17.06,
+   "value": 5001.24,
+   "clicks": 1184,
+   "impr": 115323
+  },
+  {
+   "name": "Shyre - HIGH",
+   "status": "ENABLED",
+   "type": "SHOPPING",
+   "budget": 70.0,
+   "cost": 722.53,
+   "conv": 15.81,
+   "value": 5372.24,
+   "clicks": 994,
+   "impr": 98470
+  },
+  {
+   "name": "Shyre - LOW",
+   "status": "ENABLED",
+   "type": "SHOPPING",
+   "budget": 79.0,
+   "cost": 538.87,
+   "conv": 6.18,
+   "value": 1907.4,
+   "clicks": 327,
+   "impr": 31955
+  },
+  {
+   "name": "Shyre - MEDIUM",
+   "status": "ENABLED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 485.6,
+   "conv": 19.52,
+   "value": 5939.72,
+   "clicks": 406,
+   "impr": 50015
+  },
+  {
+   "name": "Kevs Learning Campaign",
+   "status": "REMOVED",
+   "type": "SMART",
+   "budget": 10.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shyre PMax [Assets]",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 5.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Demand Gen \u2013 Test",
+   "status": "PAUSED",
+   "type": "DEMAND_GEN",
+   "budget": 5.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Website traffic-Search-1",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 10.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shyre \u2014 Balance Bikes [Search] UK",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 0.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  }
+ ],
+ "products_30d": [
+  {
+   "id": "seast202",
+   "title": "Shyre Eastie 20\" Wheel Kids Mountain Bike, Charcoal Grey",
+   "cost": 489.76,
+   "conv": 11.86,
+   "value": 4028.92,
+   "clicks": 607,
+   "impr": 51477
+  },
+  {
+   "id": "seast242",
+   "title": "Shyre Eastie 24\" Wheel Kids Mountain Bike, Charcoal Grey",
+   "cost": 645.07,
+   "conv": 6.97,
+   "value": 2530.3,
+   "clicks": 800,
+   "impr": 60216
+  },
+  {
+   "id": "seast241",
+   "title": "Shyre Eastie 24\" Wheel Kids Mountain Bike, Light Grey",
+   "cost": 189.68,
+   "conv": 7.02,
+   "value": 2166.56,
+   "clicks": 183,
+   "impr": 18655
+  },
+  {
+   "id": "seast203",
+   "title": "Shyre Eastie 20\" Wheel Kids Mountain Bike, Acid Lime",
+   "cost": 114.21,
+   "conv": 6.5,
+   "value": 2139.93,
+   "clicks": 133,
+   "impr": 20744
+  },
+  {
+   "id": "shop164",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Pink",
+   "cost": 61.27,
+   "conv": 5.0,
+   "value": 1379.95,
+   "clicks": 39,
+   "impr": 5900
+  },
+  {
+   "id": "shop241",
+   "title": "Shyre Hopton 24\" Wheel Kids Hybrid Bike, Blue",
+   "cost": 33.16,
+   "conv": 4.0,
+   "value": 1369.96,
+   "clicks": 23,
+   "impr": 4044
+  },
+  {
+   "id": "seast201",
+   "title": "Shyre Eastie 20\" Wheel Kids Mountain Bike, Light Grey",
+   "cost": 73.26,
+   "conv": 3.0,
+   "value": 1039.97,
+   "clicks": 85,
+   "impr": 9480
+  },
+  {
+   "id": "shop242",
+   "title": "Shyre Hopton 24\" Wheel Kids Hybrid Bike, Pink",
+   "cost": 125.15,
+   "conv": 2.5,
+   "value": 869.98,
+   "clicks": 111,
+   "impr": 14733
+  },
+  {
+   "id": "seast262",
+   "title": "Shyre Eastie 26\" Wheel Kids Mountain Bike, Charcoal Grey",
+   "cost": 229.27,
+   "conv": 2.0,
+   "value": 749.98,
+   "clicks": 237,
+   "impr": 22843
+  },
+  {
+   "id": "shop201",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Pink",
+   "cost": 166.14,
+   "conv": 1.67,
+   "value": 536.64,
+   "clicks": 127,
+   "impr": 16159
+  },
+  {
+   "id": "seast243",
+   "title": "Shyre Eastie 24\" Wheel Junior Mountain Bike, Light Grey",
+   "cost": 124.25,
+   "conv": 1.03,
+   "value": 359.5,
+   "clicks": 133,
+   "impr": 15529
+  },
+  {
+   "id": "shop243",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Grey",
+   "cost": 4.03,
+   "conv": 1.0,
+   "value": 329.99,
+   "clicks": 4,
+   "impr": 1456
+  },
+  {
+   "id": "shop264",
+   "title": "Shyre Hopton 26\" Wheel Kids Hybrid Bike, Pink",
+   "cost": 79.94,
+   "conv": 0.67,
+   "value": 239.99,
+   "clicks": 59,
+   "impr": 6223
+  },
+  {
+   "id": "sbmyn12pin",
+   "title": "Shyre Myndie 12\" Wheel Balance Bike, Pink",
+   "cost": 14.24,
+   "conv": 3.0,
+   "value": 209.97,
+   "clicks": 14,
+   "impr": 2776
+  },
+  {
+   "id": "sbmyn12blu",
+   "title": "Shyre Myndie 12\" Wheel Balance Bike, Blue",
+   "cost": 20.1,
+   "conv": 2.0,
+   "value": 139.98,
+   "clicks": 28,
+   "impr": 3546
+  },
+  {
+   "id": "shop267",
+   "title": "Shyre Hopton 26\" Wheel Kids Hybrid Bike, White",
+   "cost": 30.62,
+   "conv": 0.33,
+   "value": 120.0,
+   "clicks": 19,
+   "impr": 3166
+  },
+  {
+   "id": "seast201",
+   "title": "Shyre Eastie 20\" Wheel Kids Mountain Bike, Charcoal Grey",
+   "cost": 10.67,
+   "conv": 0.03,
+   "value": 8.96,
+   "clicks": 18,
+   "impr": 913
+  },
+  {
+   "id": "1250183-3",
+   "title": "Shyre Hopton 24\" Wheel Kids Hybrid Bike, Blue",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 27
+  },
+  {
+   "id": "shop262",
+   "title": "Shyre Hopton 26\" Wheel Kids Hybrid Bike, Red",
+   "cost": 13.75,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 11,
+   "impr": 2369
+  },
+  {
+   "id": "shop262",
+   "title": "Shyre Hopton 26\" Wheel Kids Hybrid Bike, Grey",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 49
+  },
+  {
+   "id": "sbmyn12red",
+   "title": "Shyre Myndie 12\" Wheel Balance Bike, Red",
+   "cost": 8.88,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 12,
+   "impr": 1812
+  },
+  {
+   "id": "shop161",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Purple",
+   "cost": 103.44,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 100,
+   "impr": 13286
+  },
+  {
+   "id": "1250183-2",
+   "title": "Shyre Hopton 24\" Wheel Kids Hybrid Bike, Pink",
+   "cost": 2.52,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 150
+  },
+  {
+   "id": "shop242",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Pink",
+   "cost": 1.69,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 253
+  },
+  {
+   "id": "sbmyn12pur",
+   "title": "Shyre Myndie 12\" Wheel Balance Bike, Purple",
+   "cost": 2.71,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 6,
+   "impr": 1841
+  },
+  {
+   "id": "1250181-3",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Pink",
+   "cost": 0.21,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 58
+  },
+  {
+   "id": "seast261",
+   "title": "Shyre Eastie 26\" Wheel Kids Mountain Bike, Light Grey",
+   "cost": 69.76,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 57,
+   "impr": 5621
+  },
+  {
+   "id": "seast202",
+   "title": "Shyre Eastie 20\" Wheel Kids Mountain Bike, Light Grey",
+   "cost": 5.61,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 8,
+   "impr": 474
+  },
+  {
+   "id": "1250181-1",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Purple",
+   "cost": 2.78,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 208
+  },
+  {
+   "id": "1250181-2",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Blue",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 1
+  },
+  {
+   "id": "shop206",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Purple",
+   "cost": 48.54,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 25,
+   "impr": 4468
+  },
+  {
+   "id": "shop202",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Green",
+   "cost": 1.97,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 1438
+  },
+  {
+   "id": "1250181-4",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Green",
+   "cost": 1.89,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 1242
+  },
+  {
+   "id": "shop204",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Blue",
+   "cost": 23.47,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 18,
+   "impr": 3504
+  },
+  {
+   "id": "seast263",
+   "title": "Shyre Eastie 26\" Wheel Kids Mountain Bike, Light Grey",
+   "cost": 2.92,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 258
+  },
+  {
+   "id": "shop163",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Blue",
+   "cost": 19.77,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 12,
+   "impr": 2243
+  },
+  {
+   "id": "shop244",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Blue",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 5
+  },
+  {
+   "id": "sbmyn12grn",
+   "title": "Shyre Myndie 12\" Wheel Balance Bike, Green",
+   "cost": 5.91,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 6,
+   "impr": 1851
+  },
+  {
+   "id": "shop261",
+   "title": "Shyre Hopton 26\" Wheel Kids Hybrid Bike, Red",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 39
+  },
+  {
+   "id": "shop261",
+   "title": "Shyre Hopton 26\" Wheel Kids Hybrid Bike, Grey",
+   "cost": 22.72,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 10,
+   "impr": 3202
+  }
+ ],
+ "products_90d": [
+  {
+   "id": "seast202",
+   "title": "Shyre Eastie 20\" Wheel Kids Mountain Bike, Charcoal Grey",
+   "cost": 489.76,
+   "conv": 11.86,
+   "value": 4028.92,
+   "clicks": 607,
+   "impr": 51477
+  },
+  {
+   "id": "seast242",
+   "title": "Shyre Eastie 24\" Wheel Kids Mountain Bike, Charcoal Grey",
+   "cost": 645.07,
+   "conv": 6.97,
+   "value": 2530.3,
+   "clicks": 800,
+   "impr": 60216
+  },
+  {
+   "id": "seast241",
+   "title": "Shyre Eastie 24\" Wheel Kids Mountain Bike, Light Grey",
+   "cost": 189.68,
+   "conv": 7.02,
+   "value": 2166.56,
+   "clicks": 183,
+   "impr": 18655
+  },
+  {
+   "id": "seast203",
+   "title": "Shyre Eastie 20\" Wheel Kids Mountain Bike, Acid Lime",
+   "cost": 114.21,
+   "conv": 6.5,
+   "value": 2139.93,
+   "clicks": 133,
+   "impr": 20744
+  },
+  {
+   "id": "shop164",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Pink",
+   "cost": 61.27,
+   "conv": 5.0,
+   "value": 1379.95,
+   "clicks": 39,
+   "impr": 5900
+  },
+  {
+   "id": "shop241",
+   "title": "Shyre Hopton 24\" Wheel Kids Hybrid Bike, Blue",
+   "cost": 33.16,
+   "conv": 4.0,
+   "value": 1369.96,
+   "clicks": 23,
+   "impr": 4044
+  },
+  {
+   "id": "seast201",
+   "title": "Shyre Eastie 20\" Wheel Kids Mountain Bike, Light Grey",
+   "cost": 73.26,
+   "conv": 3.0,
+   "value": 1039.97,
+   "clicks": 85,
+   "impr": 9480
+  },
+  {
+   "id": "shop242",
+   "title": "Shyre Hopton 24\" Wheel Kids Hybrid Bike, Pink",
+   "cost": 125.15,
+   "conv": 2.5,
+   "value": 869.98,
+   "clicks": 111,
+   "impr": 14733
+  },
+  {
+   "id": "seast262",
+   "title": "Shyre Eastie 26\" Wheel Kids Mountain Bike, Charcoal Grey",
+   "cost": 229.27,
+   "conv": 2.0,
+   "value": 749.98,
+   "clicks": 237,
+   "impr": 22843
+  },
+  {
+   "id": "shop201",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Pink",
+   "cost": 166.14,
+   "conv": 1.67,
+   "value": 536.64,
+   "clicks": 127,
+   "impr": 16159
+  },
+  {
+   "id": "seast243",
+   "title": "Shyre Eastie 24\" Wheel Junior Mountain Bike, Light Grey",
+   "cost": 124.25,
+   "conv": 1.03,
+   "value": 359.5,
+   "clicks": 133,
+   "impr": 15529
+  },
+  {
+   "id": "shop243",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Grey",
+   "cost": 12.57,
+   "conv": 1.0,
+   "value": 329.99,
+   "clicks": 17,
+   "impr": 2760
+  },
+  {
+   "id": "sbmyn12pin",
+   "title": "Shyre Myndie 12\" Wheel Balance Bike, Pink",
+   "cost": 22.41,
+   "conv": 5.0,
+   "value": 329.95,
+   "clicks": 27,
+   "impr": 4044
+  },
+  {
+   "id": "sbmyn12blu",
+   "title": "Shyre Myndie 12\" Wheel Balance Bike, Blue",
+   "cost": 25.83,
+   "conv": 5.0,
+   "value": 319.95,
+   "clicks": 45,
+   "impr": 5807
+  },
+  {
+   "id": "shop264",
+   "title": "Shyre Hopton 26\" Wheel Kids Hybrid Bike, Pink",
+   "cost": 79.94,
+   "conv": 0.67,
+   "value": 239.99,
+   "clicks": 59,
+   "impr": 6223
+  },
+  {
+   "id": "shop267",
+   "title": "Shyre Hopton 26\" Wheel Kids Hybrid Bike, White",
+   "cost": 30.62,
+   "conv": 0.33,
+   "value": 120.0,
+   "clicks": 19,
+   "impr": 3166
+  },
+  {
+   "id": "sbmyn12pur",
+   "title": "Shyre Myndie 12\" Wheel Balance Bike, Purple",
+   "cost": 8.31,
+   "conv": 2.0,
+   "value": 119.98,
+   "clicks": 24,
+   "impr": 3399
+  },
+  {
+   "id": "sbmyn12grn",
+   "title": "Shyre Myndie 12\" Wheel Balance Bike, Green",
+   "cost": 13.78,
+   "conv": 2.0,
+   "value": 119.98,
+   "clicks": 25,
+   "impr": 4083
+  },
+  {
+   "id": "seast201",
+   "title": "Shyre Eastie 20\" Wheel Kids Mountain Bike, Charcoal Grey",
+   "cost": 10.67,
+   "conv": 0.03,
+   "value": 8.96,
+   "clicks": 18,
+   "impr": 913
+  },
+  {
+   "id": "1250183-3",
+   "title": "Shyre Hopton 24\" Wheel Kids Hybrid Bike, Blue",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 27
+  },
+  {
+   "id": "shop262",
+   "title": "Shyre Hopton 26\" Wheel Kids Hybrid Bike, Red",
+   "cost": 13.75,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 11,
+   "impr": 2369
+  },
+  {
+   "id": "shop262",
+   "title": "Shyre Hopton 26\" Wheel Kids Hybrid Bike, Grey",
+   "cost": 4.23,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 12,
+   "impr": 872
+  },
+  {
+   "id": "sbmyn12red",
+   "title": "Shyre Myndie 12\" Wheel Balance Bike, Red",
+   "cost": 14.46,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 24,
+   "impr": 3078
+  },
+  {
+   "id": "shop161",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Purple",
+   "cost": 103.44,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 100,
+   "impr": 13286
+  },
+  {
+   "id": "1250183-2",
+   "title": "Shyre Hopton 24\" Wheel Kids Hybrid Bike, Pink",
+   "cost": 2.52,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 150
+  },
+  {
+   "id": "shop242",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Pink",
+   "cost": 1.69,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 253
+  },
+  {
+   "id": "1250181-3",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Pink",
+   "cost": 0.21,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 58
+  },
+  {
+   "id": "seast261",
+   "title": "Shyre Eastie 26\" Wheel Kids Mountain Bike, Light Grey",
+   "cost": 69.76,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 57,
+   "impr": 5621
+  },
+  {
+   "id": "seast202",
+   "title": "Shyre Eastie 20\" Wheel Kids Mountain Bike, Light Grey",
+   "cost": 5.61,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 8,
+   "impr": 474
+  },
+  {
+   "id": "1250181-1",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Purple",
+   "cost": 6.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 7,
+   "impr": 734
+  },
+  {
+   "id": "shop241",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Green",
+   "cost": 2.1,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 6,
+   "impr": 221
+  },
+  {
+   "id": "1250181-2",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Blue",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 1
+  },
+  {
+   "id": "shop206",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Purple",
+   "cost": 48.54,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 25,
+   "impr": 4468
+  },
+  {
+   "id": "shop202",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Green",
+   "cost": 1.97,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 1438
+  },
+  {
+   "id": "1250181-4",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Green",
+   "cost": 10.08,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 15,
+   "impr": 2406
+  },
+  {
+   "id": "shop204",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Blue",
+   "cost": 23.47,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 18,
+   "impr": 3504
+  },
+  {
+   "id": "seast263",
+   "title": "Shyre Eastie 26\" Wheel Kids Mountain Bike, Light Grey",
+   "cost": 2.92,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 4,
+   "impr": 258
+  },
+  {
+   "id": "shop163",
+   "title": "Shyre Hopton 16\" Wheel Kids Hybrid Bike, Blue",
+   "cost": 19.77,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 12,
+   "impr": 2243
+  },
+  {
+   "id": "shop244",
+   "title": "Shyre Hopton 20\" Wheel Hybrid Kids Bike, Blue",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 5
+  },
+  {
+   "id": "shop261",
+   "title": "Shyre Hopton 26\" Wheel Kids Hybrid Bike, Red",
+   "cost": 5.87,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 7,
+   "impr": 783
+  }
+ ],
+ "devices": [
+  {
+   "device": "DESKTOP",
+   "cost": 334.9,
+   "conv": 5.6,
+   "value": 1709.34,
+   "clicks": 288
+  },
+  {
+   "device": "MOBILE",
+   "cost": 2385.15,
+   "conv": 52.97,
+   "value": 16511.25,
+   "clicks": 2566
+  },
+  {
+   "device": "TABLET",
+   "cost": 29.34,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 57
+  }
+ ]
+}

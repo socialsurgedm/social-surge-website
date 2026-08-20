@@ -1,0 +1,2842 @@
+{
+ "client": "Certini",
+ "cid": "9888034198",
+ "currency": "GBP",
+ "pulled_at": "2026-08-18T11:21:59.951470+00:00",
+ "daily": [
+  {
+   "date": "2026-04-20",
+   "cost": 982.48,
+   "conv": 457.56,
+   "value": 24133.21,
+   "clicks": 2704,
+   "impr": 134221
+  },
+  {
+   "date": "2026-04-21",
+   "cost": 1004.65,
+   "conv": 470.31,
+   "value": 37783.58,
+   "clicks": 2772,
+   "impr": 144707
+  },
+  {
+   "date": "2026-04-22",
+   "cost": 917.46,
+   "conv": 346.78,
+   "value": 28580.43,
+   "clicks": 2586,
+   "impr": 129519
+  },
+  {
+   "date": "2026-04-23",
+   "cost": 990.88,
+   "conv": 365.37,
+   "value": 16063.13,
+   "clicks": 2633,
+   "impr": 140228
+  },
+  {
+   "date": "2026-04-24",
+   "cost": 890.83,
+   "conv": 409.96,
+   "value": 15438.44,
+   "clicks": 2643,
+   "impr": 135388
+  },
+  {
+   "date": "2026-04-25",
+   "cost": 1037.17,
+   "conv": 421.0,
+   "value": 36655.39,
+   "clicks": 2812,
+   "impr": 135869
+  },
+  {
+   "date": "2026-04-26",
+   "cost": 1040.22,
+   "conv": 494.67,
+   "value": 31423.35,
+   "clicks": 3042,
+   "impr": 147986
+  },
+  {
+   "date": "2026-04-27",
+   "cost": 847.22,
+   "conv": 506.95,
+   "value": 18691.04,
+   "clicks": 2702,
+   "impr": 118920
+  },
+  {
+   "date": "2026-04-28",
+   "cost": 855.9,
+   "conv": 449.54,
+   "value": 31738.67,
+   "clicks": 2595,
+   "impr": 125780
+  },
+  {
+   "date": "2026-04-29",
+   "cost": 827.47,
+   "conv": 452.8,
+   "value": 14570.16,
+   "clicks": 2505,
+   "impr": 127421
+  },
+  {
+   "date": "2026-04-30",
+   "cost": 831.75,
+   "conv": 420.42,
+   "value": 43910.29,
+   "clicks": 2466,
+   "impr": 120432
+  },
+  {
+   "date": "2026-05-01",
+   "cost": 822.27,
+   "conv": 368.88,
+   "value": 19571.7,
+   "clicks": 2444,
+   "impr": 124624
+  },
+  {
+   "date": "2026-05-02",
+   "cost": 984.32,
+   "conv": 417.75,
+   "value": 16977.4,
+   "clicks": 2875,
+   "impr": 147057
+  },
+  {
+   "date": "2026-05-03",
+   "cost": 876.84,
+   "conv": 322.6,
+   "value": 33400.23,
+   "clicks": 2690,
+   "impr": 130875
+  },
+  {
+   "date": "2026-05-04",
+   "cost": 702.53,
+   "conv": 442.71,
+   "value": 21623.1,
+   "clicks": 2711,
+   "impr": 128092
+  },
+  {
+   "date": "2026-05-05",
+   "cost": 577.0,
+   "conv": 365.19,
+   "value": 12883.02,
+   "clicks": 2109,
+   "impr": 92763
+  },
+  {
+   "date": "2026-05-06",
+   "cost": 673.45,
+   "conv": 367.57,
+   "value": 23962.69,
+   "clicks": 2128,
+   "impr": 104526
+  },
+  {
+   "date": "2026-05-07",
+   "cost": 793.94,
+   "conv": 395.63,
+   "value": 16838.62,
+   "clicks": 2502,
+   "impr": 121979
+  },
+  {
+   "date": "2026-05-08",
+   "cost": 805.25,
+   "conv": 335.9,
+   "value": 24220.08,
+   "clicks": 2225,
+   "impr": 116867
+  },
+  {
+   "date": "2026-05-09",
+   "cost": 825.94,
+   "conv": 339.76,
+   "value": 20034.68,
+   "clicks": 2473,
+   "impr": 129607
+  },
+  {
+   "date": "2026-05-10",
+   "cost": 767.65,
+   "conv": 401.77,
+   "value": 10279.13,
+   "clicks": 2505,
+   "impr": 130877
+  },
+  {
+   "date": "2026-05-11",
+   "cost": 768.05,
+   "conv": 425.9,
+   "value": 27916.19,
+   "clicks": 2434,
+   "impr": 121587
+  },
+  {
+   "date": "2026-05-12",
+   "cost": 599.22,
+   "conv": 362.76,
+   "value": 14262.94,
+   "clicks": 2030,
+   "impr": 102213
+  },
+  {
+   "date": "2026-05-13",
+   "cost": 532.79,
+   "conv": 298.8,
+   "value": 13778.92,
+   "clicks": 1797,
+   "impr": 93821
+  },
+  {
+   "date": "2026-05-14",
+   "cost": 797.03,
+   "conv": 383.09,
+   "value": 18359.91,
+   "clicks": 2233,
+   "impr": 126593
+  },
+  {
+   "date": "2026-05-15",
+   "cost": 623.12,
+   "conv": 273.96,
+   "value": 20440.54,
+   "clicks": 1914,
+   "impr": 93655
+  },
+  {
+   "date": "2026-05-16",
+   "cost": 775.51,
+   "conv": 341.38,
+   "value": 22695.47,
+   "clicks": 2430,
+   "impr": 118663
+  },
+  {
+   "date": "2026-05-17",
+   "cost": 681.71,
+   "conv": 311.84,
+   "value": 11279.9,
+   "clicks": 2233,
+   "impr": 112516
+  },
+  {
+   "date": "2026-05-18",
+   "cost": 626.92,
+   "conv": 310.84,
+   "value": 31333.48,
+   "clicks": 2016,
+   "impr": 94643
+  },
+  {
+   "date": "2026-05-19",
+   "cost": 609.87,
+   "conv": 379.98,
+   "value": 12978.83,
+   "clicks": 1944,
+   "impr": 99699
+  },
+  {
+   "date": "2026-05-20",
+   "cost": 681.92,
+   "conv": 329.87,
+   "value": 14861.03,
+   "clicks": 2107,
+   "impr": 106430
+  },
+  {
+   "date": "2026-05-21",
+   "cost": 526.14,
+   "conv": 337.4,
+   "value": 10085.2,
+   "clicks": 1685,
+   "impr": 89503
+  },
+  {
+   "date": "2026-05-22",
+   "cost": 523.33,
+   "conv": 319.74,
+   "value": 21018.49,
+   "clicks": 1594,
+   "impr": 80890
+  },
+  {
+   "date": "2026-05-23",
+   "cost": 556.21,
+   "conv": 294.52,
+   "value": 5241.74,
+   "clicks": 1821,
+   "impr": 86430
+  },
+  {
+   "date": "2026-05-24",
+   "cost": 699.16,
+   "conv": 324.69,
+   "value": 19343.37,
+   "clicks": 2124,
+   "impr": 95757
+  },
+  {
+   "date": "2026-05-25",
+   "cost": 554.63,
+   "conv": 305.5,
+   "value": 11717.59,
+   "clicks": 1982,
+   "impr": 84233
+  },
+  {
+   "date": "2026-05-26",
+   "cost": 551.97,
+   "conv": 412.32,
+   "value": 16775.32,
+   "clicks": 1833,
+   "impr": 88217
+  },
+  {
+   "date": "2026-05-27",
+   "cost": 588.56,
+   "conv": 290.88,
+   "value": 10546.12,
+   "clicks": 1902,
+   "impr": 94225
+  },
+  {
+   "date": "2026-05-28",
+   "cost": 604.72,
+   "conv": 388.38,
+   "value": 30466.17,
+   "clicks": 1869,
+   "impr": 94827
+  },
+  {
+   "date": "2026-05-29",
+   "cost": 522.79,
+   "conv": 386.34,
+   "value": 25922.04,
+   "clicks": 1873,
+   "impr": 83876
+  },
+  {
+   "date": "2026-05-30",
+   "cost": 501.68,
+   "conv": 304.27,
+   "value": 18100.98,
+   "clicks": 1894,
+   "impr": 86378
+  },
+  {
+   "date": "2026-05-31",
+   "cost": 630.81,
+   "conv": 420.19,
+   "value": 26045.05,
+   "clicks": 2020,
+   "impr": 92802
+  },
+  {
+   "date": "2026-06-01",
+   "cost": 581.21,
+   "conv": 456.1,
+   "value": 19227.18,
+   "clicks": 1856,
+   "impr": 82525
+  },
+  {
+   "date": "2026-06-02",
+   "cost": 562.23,
+   "conv": 336.94,
+   "value": 35907.29,
+   "clicks": 1811,
+   "impr": 93628
+  },
+  {
+   "date": "2026-06-03",
+   "cost": 567.13,
+   "conv": 323.53,
+   "value": 12678.08,
+   "clicks": 1830,
+   "impr": 88473
+  },
+  {
+   "date": "2026-06-04",
+   "cost": 677.37,
+   "conv": 402.78,
+   "value": 60035.72,
+   "clicks": 2058,
+   "impr": 96956
+  },
+  {
+   "date": "2026-06-05",
+   "cost": 700.01,
+   "conv": 336.55,
+   "value": 70001.95,
+   "clicks": 1981,
+   "impr": 88784
+  },
+  {
+   "date": "2026-06-06",
+   "cost": 692.1,
+   "conv": 277.13,
+   "value": 29585.53,
+   "clicks": 2135,
+   "impr": 96532
+  },
+  {
+   "date": "2026-06-07",
+   "cost": 684.14,
+   "conv": 272.05,
+   "value": 15239.47,
+   "clicks": 1991,
+   "impr": 96013
+  },
+  {
+   "date": "2026-06-08",
+   "cost": 617.2,
+   "conv": 324.29,
+   "value": 13313.49,
+   "clicks": 1886,
+   "impr": 92497
+  },
+  {
+   "date": "2026-06-09",
+   "cost": 574.47,
+   "conv": 266.91,
+   "value": 33542.25,
+   "clicks": 1784,
+   "impr": 86701
+  },
+  {
+   "date": "2026-06-10",
+   "cost": 523.01,
+   "conv": 331.16,
+   "value": 28232.01,
+   "clicks": 1663,
+   "impr": 80535
+  },
+  {
+   "date": "2026-06-11",
+   "cost": 612.78,
+   "conv": 271.14,
+   "value": 23831.89,
+   "clicks": 1820,
+   "impr": 91964
+  },
+  {
+   "date": "2026-06-12",
+   "cost": 560.75,
+   "conv": 227.11,
+   "value": 16467.2,
+   "clicks": 1611,
+   "impr": 83419
+  },
+  {
+   "date": "2026-06-13",
+   "cost": 563.17,
+   "conv": 223.33,
+   "value": 5256.69,
+   "clicks": 1717,
+   "impr": 82589
+  },
+  {
+   "date": "2026-06-14",
+   "cost": 650.35,
+   "conv": 261.55,
+   "value": 13167.98,
+   "clicks": 2011,
+   "impr": 91851
+  },
+  {
+   "date": "2026-06-15",
+   "cost": 546.67,
+   "conv": 284.14,
+   "value": 28260.33,
+   "clicks": 1616,
+   "impr": 72844
+  },
+  {
+   "date": "2026-06-16",
+   "cost": 486.98,
+   "conv": 272.48,
+   "value": 24596.84,
+   "clicks": 1594,
+   "impr": 72650
+  },
+  {
+   "date": "2026-06-17",
+   "cost": 520.21,
+   "conv": 210.56,
+   "value": 8724.42,
+   "clicks": 1482,
+   "impr": 66546
+  },
+  {
+   "date": "2026-06-18",
+   "cost": 524.07,
+   "conv": 223.27,
+   "value": 7370.69,
+   "clicks": 1625,
+   "impr": 71658
+  },
+  {
+   "date": "2026-06-19",
+   "cost": 554.33,
+   "conv": 171.98,
+   "value": 13521.92,
+   "clicks": 1524,
+   "impr": 75334
+  },
+  {
+   "date": "2026-06-20",
+   "cost": 552.25,
+   "conv": 251.58,
+   "value": 14077.27,
+   "clicks": 1476,
+   "impr": 70129
+  },
+  {
+   "date": "2026-06-21",
+   "cost": 512.86,
+   "conv": 246.58,
+   "value": 18210.86,
+   "clicks": 1647,
+   "impr": 71822
+  },
+  {
+   "date": "2026-06-22",
+   "cost": 465.37,
+   "conv": 251.48,
+   "value": 16420.8,
+   "clicks": 1410,
+   "impr": 60043
+  },
+  {
+   "date": "2026-06-23",
+   "cost": 474.36,
+   "conv": 241.19,
+   "value": 9612.55,
+   "clicks": 1533,
+   "impr": 64019
+  },
+  {
+   "date": "2026-06-24",
+   "cost": 494.73,
+   "conv": 152.7,
+   "value": 6493.73,
+   "clicks": 1437,
+   "impr": 70002
+  },
+  {
+   "date": "2026-06-25",
+   "cost": 561.73,
+   "conv": 192.35,
+   "value": 5142.2,
+   "clicks": 1478,
+   "impr": 72979
+  },
+  {
+   "date": "2026-06-26",
+   "cost": 485.11,
+   "conv": 178.4,
+   "value": 11887.81,
+   "clicks": 1267,
+   "impr": 62144
+  },
+  {
+   "date": "2026-06-27",
+   "cost": 531.26,
+   "conv": 200.51,
+   "value": 11778.76,
+   "clicks": 1486,
+   "impr": 68292
+  },
+  {
+   "date": "2026-06-28",
+   "cost": 530.78,
+   "conv": 199.74,
+   "value": 27086.23,
+   "clicks": 1494,
+   "impr": 66863
+  },
+  {
+   "date": "2026-06-29",
+   "cost": 466.65,
+   "conv": 238.51,
+   "value": 17603.4,
+   "clicks": 1370,
+   "impr": 58061
+  },
+  {
+   "date": "2026-06-30",
+   "cost": 456.57,
+   "conv": 258.19,
+   "value": 20768.59,
+   "clicks": 1522,
+   "impr": 66043
+  },
+  {
+   "date": "2026-07-01",
+   "cost": 458.65,
+   "conv": 158.46,
+   "value": 7038.73,
+   "clicks": 1543,
+   "impr": 64743
+  },
+  {
+   "date": "2026-07-02",
+   "cost": 474.31,
+   "conv": 248.51,
+   "value": 9924.38,
+   "clicks": 1480,
+   "impr": 64315
+  },
+  {
+   "date": "2026-07-03",
+   "cost": 465.54,
+   "conv": 181.71,
+   "value": 6058.08,
+   "clicks": 1440,
+   "impr": 61857
+  },
+  {
+   "date": "2026-07-04",
+   "cost": 571.39,
+   "conv": 177.45,
+   "value": 16954.38,
+   "clicks": 1650,
+   "impr": 69249
+  },
+  {
+   "date": "2026-07-05",
+   "cost": 515.36,
+   "conv": 230.69,
+   "value": 9115.5,
+   "clicks": 1657,
+   "impr": 76120
+  },
+  {
+   "date": "2026-07-06",
+   "cost": 542.34,
+   "conv": 236.08,
+   "value": 15184.66,
+   "clicks": 1620,
+   "impr": 72039
+  },
+  {
+   "date": "2026-07-07",
+   "cost": 534.46,
+   "conv": 234.15,
+   "value": 8207.48,
+   "clicks": 1491,
+   "impr": 62360
+  },
+  {
+   "date": "2026-07-08",
+   "cost": 500.56,
+   "conv": 189.66,
+   "value": 7324.05,
+   "clicks": 1387,
+   "impr": 63246
+  },
+  {
+   "date": "2026-07-09",
+   "cost": 494.15,
+   "conv": 232.94,
+   "value": 18168.18,
+   "clicks": 1371,
+   "impr": 64632
+  },
+  {
+   "date": "2026-07-10",
+   "cost": 525.3,
+   "conv": 231.57,
+   "value": 13819.48,
+   "clicks": 1520,
+   "impr": 67853
+  },
+  {
+   "date": "2026-07-11",
+   "cost": 568.63,
+   "conv": 181.75,
+   "value": 20264.54,
+   "clicks": 1555,
+   "impr": 63099
+  },
+  {
+   "date": "2026-07-12",
+   "cost": 538.29,
+   "conv": 202.74,
+   "value": 10592.12,
+   "clicks": 1347,
+   "impr": 58237
+  },
+  {
+   "date": "2026-07-13",
+   "cost": 509.46,
+   "conv": 208.22,
+   "value": 9010.29,
+   "clicks": 1422,
+   "impr": 63198
+  },
+  {
+   "date": "2026-07-14",
+   "cost": 499.23,
+   "conv": 190.42,
+   "value": 7080.51,
+   "clicks": 1435,
+   "impr": 59001
+  },
+  {
+   "date": "2026-07-15",
+   "cost": 442.67,
+   "conv": 219.16,
+   "value": 10222.82,
+   "clicks": 1388,
+   "impr": 61056
+  },
+  {
+   "date": "2026-07-16",
+   "cost": 551.56,
+   "conv": 177.87,
+   "value": 13285.95,
+   "clicks": 1695,
+   "impr": 75635
+  },
+  {
+   "date": "2026-07-17",
+   "cost": 500.54,
+   "conv": 191.9,
+   "value": 11089.93,
+   "clicks": 1659,
+   "impr": 76630
+  },
+  {
+   "date": "2026-07-18",
+   "cost": 542.13,
+   "conv": 276.22,
+   "value": 15558.97,
+   "clicks": 1819,
+   "impr": 73687
+  },
+  {
+   "date": "2026-07-19",
+   "cost": 552.43,
+   "conv": 204.21,
+   "value": 21073.99,
+   "clicks": 1956,
+   "impr": 76046
+  },
+  {
+   "date": "2026-07-20",
+   "cost": 498.97,
+   "conv": 205.6,
+   "value": 11167.19,
+   "clicks": 1511,
+   "impr": 64389
+  },
+  {
+   "date": "2026-07-21",
+   "cost": 513.71,
+   "conv": 206.73,
+   "value": 8192.88,
+   "clicks": 1723,
+   "impr": 75297
+  },
+  {
+   "date": "2026-07-22",
+   "cost": 496.83,
+   "conv": 233.25,
+   "value": 7696.02,
+   "clicks": 1703,
+   "impr": 72760
+  },
+  {
+   "date": "2026-07-23",
+   "cost": 508.02,
+   "conv": 185.21,
+   "value": 13786.24,
+   "clicks": 1742,
+   "impr": 75805
+  },
+  {
+   "date": "2026-07-24",
+   "cost": 519.2,
+   "conv": 226.33,
+   "value": 14884.74,
+   "clicks": 1733,
+   "impr": 73888
+  },
+  {
+   "date": "2026-07-25",
+   "cost": 529.21,
+   "conv": 206.45,
+   "value": 10020.51,
+   "clicks": 1655,
+   "impr": 77854
+  },
+  {
+   "date": "2026-07-26",
+   "cost": 529.65,
+   "conv": 184.95,
+   "value": 4840.94,
+   "clicks": 1920,
+   "impr": 87155
+  },
+  {
+   "date": "2026-07-27",
+   "cost": 511.75,
+   "conv": 193.3,
+   "value": 16293.56,
+   "clicks": 1694,
+   "impr": 76591
+  },
+  {
+   "date": "2026-07-28",
+   "cost": 484.96,
+   "conv": 221.43,
+   "value": 24030.57,
+   "clicks": 1676,
+   "impr": 74095
+  },
+  {
+   "date": "2026-07-29",
+   "cost": 456.12,
+   "conv": 193.56,
+   "value": 16799.92,
+   "clicks": 1553,
+   "impr": 68485
+  },
+  {
+   "date": "2026-07-30",
+   "cost": 496.01,
+   "conv": 174.34,
+   "value": 18218.68,
+   "clicks": 1624,
+   "impr": 73505
+  },
+  {
+   "date": "2026-07-31",
+   "cost": 461.23,
+   "conv": 154.92,
+   "value": 12077.26,
+   "clicks": 1481,
+   "impr": 67270
+  },
+  {
+   "date": "2026-08-01",
+   "cost": 494.49,
+   "conv": 180.44,
+   "value": 9349.73,
+   "clicks": 1573,
+   "impr": 72420
+  },
+  {
+   "date": "2026-08-02",
+   "cost": 530.83,
+   "conv": 182.69,
+   "value": 12169.56,
+   "clicks": 1744,
+   "impr": 82031
+  },
+  {
+   "date": "2026-08-03",
+   "cost": 501.01,
+   "conv": 226.37,
+   "value": 17460.92,
+   "clicks": 1477,
+   "impr": 68371
+  },
+  {
+   "date": "2026-08-04",
+   "cost": 491.65,
+   "conv": 205.63,
+   "value": 12130.55,
+   "clicks": 1711,
+   "impr": 78636
+  },
+  {
+   "date": "2026-08-05",
+   "cost": 527.12,
+   "conv": 209.17,
+   "value": 24135.4,
+   "clicks": 1741,
+   "impr": 78998
+  },
+  {
+   "date": "2026-08-06",
+   "cost": 493.65,
+   "conv": 154.68,
+   "value": 3592.51,
+   "clicks": 1597,
+   "impr": 76353
+  },
+  {
+   "date": "2026-08-07",
+   "cost": 490.06,
+   "conv": 142.37,
+   "value": 3390.22,
+   "clicks": 1575,
+   "impr": 70205
+  },
+  {
+   "date": "2026-08-08",
+   "cost": 500.4,
+   "conv": 175.09,
+   "value": 9876.39,
+   "clicks": 1630,
+   "impr": 75799
+  },
+  {
+   "date": "2026-08-09",
+   "cost": 540.69,
+   "conv": 191.78,
+   "value": 25440.98,
+   "clicks": 1769,
+   "impr": 79632
+  },
+  {
+   "date": "2026-08-10",
+   "cost": 481.89,
+   "conv": 221.33,
+   "value": 11378.03,
+   "clicks": 1587,
+   "impr": 68213
+  },
+  {
+   "date": "2026-08-11",
+   "cost": 481.12,
+   "conv": 173.91,
+   "value": 7356.19,
+   "clicks": 1625,
+   "impr": 77421
+  },
+  {
+   "date": "2026-08-12",
+   "cost": 486.25,
+   "conv": 164.19,
+   "value": 5603.28,
+   "clicks": 1610,
+   "impr": 81815
+  },
+  {
+   "date": "2026-08-13",
+   "cost": 554.11,
+   "conv": 214.62,
+   "value": 16025.01,
+   "clicks": 1654,
+   "impr": 84236
+  },
+  {
+   "date": "2026-08-14",
+   "cost": 475.53,
+   "conv": 197.64,
+   "value": 12865.06,
+   "clicks": 1464,
+   "impr": 66800
+  },
+  {
+   "date": "2026-08-15",
+   "cost": 502.34,
+   "conv": 134.65,
+   "value": 19700.34,
+   "clicks": 1643,
+   "impr": 74428
+  },
+  {
+   "date": "2026-08-16",
+   "cost": 522.66,
+   "conv": 172.91,
+   "value": 8728.28,
+   "clicks": 1697,
+   "impr": 72355
+  },
+  {
+   "date": "2026-08-17",
+   "cost": 422.76,
+   "conv": 140.04,
+   "value": 3281.83,
+   "clicks": 1556,
+   "impr": 65769
+  }
+ ],
+ "monthly": [
+  {
+   "month": "2025-08",
+   "cost": 17447.21,
+   "conv": 1979.47,
+   "value": 198466.56,
+   "clicks": 56207,
+   "impr": 2559256
+  },
+  {
+   "month": "2025-09",
+   "cost": 16129.99,
+   "conv": 8956.88,
+   "value": 321318.51,
+   "clicks": 57884,
+   "impr": 2946122
+  },
+  {
+   "month": "2025-10",
+   "cost": 22378.33,
+   "conv": 2983.95,
+   "value": 388458.01,
+   "clicks": 68077,
+   "impr": 3028381
+  },
+  {
+   "month": "2025-11",
+   "cost": 29218.52,
+   "conv": 4220.92,
+   "value": 466662.85,
+   "clicks": 67486,
+   "impr": 3153725
+  },
+  {
+   "month": "2025-12",
+   "cost": 31695.59,
+   "conv": 9345.36,
+   "value": 578587.49,
+   "clicks": 93042,
+   "impr": 3675852
+  },
+  {
+   "month": "2026-01",
+   "cost": 22813.7,
+   "conv": 8441.99,
+   "value": 276668.23,
+   "clicks": 82825,
+   "impr": 3515937
+  },
+  {
+   "month": "2026-02",
+   "cost": 25386.08,
+   "conv": 9776.17,
+   "value": 460319.63,
+   "clicks": 74760,
+   "impr": 3604044
+  },
+  {
+   "month": "2026-03",
+   "cost": 28478.29,
+   "conv": 11503.31,
+   "value": 609157.07,
+   "clicks": 83776,
+   "impr": 4197562
+  },
+  {
+   "month": "2026-04",
+   "cost": 28619.82,
+   "conv": 12525.82,
+   "value": 662930.98,
+   "clicks": 81121,
+   "impr": 4107304
+  },
+  {
+   "month": "2026-05",
+   "cost": 20785.35,
+   "conv": 10960.4,
+   "value": 582959.89,
+   "clicks": 66397,
+   "impr": 3274225
+  },
+  {
+   "month": "2026-06",
+   "cost": 16729.85,
+   "conv": 7884.25,
+   "value": 618043.13,
+   "clicks": 50115,
+   "impr": 2341896
+  },
+  {
+   "month": "2026-07",
+   "cost": 15792.65,
+   "conv": 6359.78,
+   "value": 387982.55,
+   "clicks": 49450,
+   "impr": 2160097
+  },
+  {
+   "month": "2026-08",
+   "cost": 8496.54,
+   "conv": 3087.52,
+   "value": 202484.28,
+   "clicks": 27653,
+   "impr": 1273482
+  }
+ ],
+ "campaigns": [
+  {
+   "name": "PMax - P&A",
+   "status": "ENABLED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 275.0,
+   "cost": 8198.45,
+   "conv": 4678.43,
+   "value": 198313.13,
+   "clicks": 25173,
+   "impr": 1241006
+  },
+  {
+   "name": "PMax - Road & Gravel",
+   "status": "ENABLED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 90.0,
+   "cost": 2678.4,
+   "conv": 407.56,
+   "value": 80229.07,
+   "clicks": 9139,
+   "impr": 371421
+  },
+  {
+   "name": "Lower Threshold Campaign (Catch All)",
+   "status": "ENABLED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 82.0,
+   "cost": 2357.02,
+   "conv": 559.88,
+   "value": 51267.19,
+   "clicks": 8286,
+   "impr": 382937
+  },
+  {
+   "name": "PMax - Sale bikes",
+   "status": "ENABLED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 54.0,
+   "cost": 1586.87,
+   "conv": 29.92,
+   "value": 51697.4,
+   "clicks": 6659,
+   "impr": 231175
+  },
+  {
+   "name": "LEVO/CRUX/EPIC Focus Campaign - June 26",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 54.0,
+   "cost": 233.89,
+   "conv": 2.0,
+   "value": 59.99,
+   "clicks": 367,
+   "impr": 10083
+  },
+  {
+   "name": "Google Shopping Campaign",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 900.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Google Shopping Campaign - Promo Stock",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 80.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Google Shopping Campaign - Black Friday",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 400.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Google Shopping Campaign: 2019",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 1200.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Google Shopping Campaign: Old/No Season",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 1200.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Google Shopping Campaign: 2021",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 1200.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Google Shopping Campaign: 2020",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 1200.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Google Shopping Campaign: Current Model",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 1200.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Road Bikes",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 250.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - MT Bikes",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 80.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - All bikes (Excl. Road, E-Bikes & MTB)",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 150.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Helmets",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 70.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - E-Bikes",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 200.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - P&A",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 300.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Clothing",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 100.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Wahoo",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 55.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Priority",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 40.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Wahoo Rival",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Jan Sale - Old",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Jan Sale",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Jan Sale",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Jan Sale - New",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "January Sale - 2021",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 45.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Aethos Pro - Feb '21",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 35.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - CREO",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - SRAM",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 40.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Display - Prospecting",
+   "status": "PAUSED",
+   "type": "DISPLAY",
+   "budget": 35.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - High Priority",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 35.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Aethos",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Catch All",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 65.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - High Competition",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 80.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Paddleboards",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Search - E-Bikes",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 12.5,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Zipp",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 40.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Black Friday '21",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 100.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Frog Bikes",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 35.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Tyres",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Search - Tyres",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 20.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Ultegra Groupsets",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Shoes",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Kids",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 20.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - E-Bikes",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 85.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - MT Bikes",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 40.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Helmets",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Priority Campaign",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 75.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax: Shopping - Zipp",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 40.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax: Jan Sale",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Shoes",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 40.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax: January Sale - 2021",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 45.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax: Shopping - Wahoo Rival",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax: Jan Sale - New",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Ultegra Groupsets",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax: Shopping - Paddleboards",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax: Shopping - Clothing",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 100.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax: Shopping - Tyres",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax: Shopping - Catch All",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 65.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax: Shopping - Jan Sale - Old",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Rab Clothing",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping - Specialized Summer Sale",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 53.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Summer Specialized Sale",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 100.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Test",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 40.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Search - E-Bikes  Trial 479",
+   "status": "ENABLED",
+   "type": "SEARCH",
+   "budget": 12.5,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - End Of Summer Sale",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 150.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Black Friday Bikes",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 100.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Search - Local Footfall - Bristol",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 80.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Jan Equipment sale '24",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 35.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Jan Bike sale '24",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Cannondale Bikes (Shopping)",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 20.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shimano (Shopping)",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 20.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Shimano",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 95.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Cube bikes",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax (shopping) - Ex-Demo/Shop-Soiled Bikes",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 100.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax (shopping) - P&A - Ex-Demo/Shop-Soiled",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - SRAM",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 35.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Specialized Bikes",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 200.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Search - Ex-Demo/Shop-soiled Bikes",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 20.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Additional Black Friday Sale Items",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - January Sale 2025",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax - Clothing, Shoes, Helmets",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 300.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax- Cannondale & Merida Clearance",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 10.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Search - Local Footfall - Stafford",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Dynamic Re-Marketing Certini",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "New In Stock (PMAX)",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Specialized SL7/SL8 Focus",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 81.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Dynamic Re-Marketing",
+   "status": "PAUSED",
+   "type": "DISPLAY",
+   "budget": 75.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "New Product Launches 2026",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 100.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Demand Gen Campaign June 2026",
+   "status": "PAUSED",
+   "type": "DEMAND_GEN",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  }
+ ],
+ "products_30d": [
+  {
+   "id": "94927-0254",
+   "title": "2027 S-Works Tarmac SL9 Shimano Dura-Ace Di2 Road Bike - Gloss Carbon|L",
+   "cost": 15.63,
+   "conv": 0.99,
+   "value": 11799.8,
+   "clicks": 41,
+   "impr": 2004
+  },
+  {
+   "id": "95426-3054",
+   "title": "2026 Specialized Diverge 4 Expert Shimano GRX Di2 Gravel Bike - Fjord|L",
+   "cost": 14.77,
+   "conv": 1.08,
+   "value": 9100.11,
+   "clicks": 32,
+   "impr": 8538
+  },
+  {
+   "id": "94927-0756",
+   "title": "2027 S-Works Tarmac SL9 SRAM Red AXS Road Bike - Gloss Ruby Metallic|L",
+   "cost": 25.54,
+   "conv": 5.76,
+   "value": 8025.57,
+   "clicks": 50,
+   "impr": 3340
+  },
+  {
+   "id": "94926-1361",
+   "title": "2026 Specialized Tarmac SL8 Pro Shimano Ultegra Di2 Road Bike - Gloss Red|61",
+   "cost": 6.56,
+   "conv": 0.95,
+   "value": 7646.08,
+   "clicks": 30,
+   "impr": 2135
+  },
+  {
+   "id": "96824-3005 demo 9269u",
+   "title": "Ex-Demo Specialized Turbo Levo SL 2 Expert Carbon E-Mountain Bike S5|one size",
+   "cost": 70.02,
+   "conv": 9.54,
+   "value": 6940.47,
+   "clicks": 315,
+   "impr": 11536
+  },
+  {
+   "id": "95224-5805",
+   "title": "2026 Specialized Turbo Levo 4 Comp Carbon Electric Bike - Satin Champagne|XL",
+   "cost": 2.38,
+   "conv": 4.0,
+   "value": 6177.0,
+   "clicks": 3,
+   "impr": 333
+  },
+  {
+   "id": "fcr8100d26 ss",
+   "title": "Shop Soiled: Shimano Ultegra FC-R8100 12Sp Double Chainset 52/36T 172.5mm|one size",
+   "cost": 24.76,
+   "conv": 3.98,
+   "value": 6055.0,
+   "clicks": 99,
+   "impr": 4768
+  },
+  {
+   "id": "21123-1123",
+   "title": "Roval Control Cockpit - Matte Carbon/Gloss Black|90Mm X 780Mm",
+   "cost": 4.32,
+   "conv": 1.15,
+   "value": 5675.96,
+   "clicks": 22,
+   "impr": 610
+  },
+  {
+   "id": "94926-1161",
+   "title": "2026 Specialized Tarmac SL8 Pro SRAM Force AXS Road Bike - Gloss Dolomite|61",
+   "cost": 28.72,
+   "conv": 1.01,
+   "value": 5499.11,
+   "clicks": 82,
+   "impr": 5030
+  },
+  {
+   "id": "gpm8250bsgs",
+   "title": "Shimano Deore XT M8250 Di2 Upgrade SW-M8250 Band-On SGS Mech|one size",
+   "cost": 2.61,
+   "conv": 1.92,
+   "value": 4799.94,
+   "clicks": 4,
+   "impr": 895
+  },
+  {
+   "id": "94925-3061",
+   "title": "2025 Specialized Tarmac SL8 Expert Ultegra Di2 Road Bike - Champagne|61",
+   "cost": 15.56,
+   "conv": 2.21,
+   "value": 4699.82,
+   "clicks": 49,
+   "impr": 2581
+  },
+  {
+   "id": "74925-0752",
+   "title": "2025 S-Works Tarmac SL8 Road Bike Frameset - Carbon/Silver|M",
+   "cost": 36.02,
+   "conv": 2.02,
+   "value": 4616.78,
+   "clicks": 152,
+   "impr": 10252
+  },
+  {
+   "id": "qwh-65-lkh-lrg",
+   "title": "Rab Cinder Kinetic Mens Waterproof Shorts - Light Khaki|L",
+   "cost": 2.33,
+   "conv": 1.0,
+   "value": 4249.0,
+   "clicks": 17,
+   "impr": 314
+  },
+  {
+   "id": "94925-0156",
+   "title": "2025 S-Works Tarmac SL8 Shimano Dura-Ace Di2 Road Bike - Gloss Solidity|L",
+   "cost": 74.41,
+   "conv": 9.12,
+   "value": 4122.41,
+   "clicks": 354,
+   "impr": 7654
+  },
+  {
+   "id": "91425-1058 demo 9338v",
+   "title": "Ex-Demo: Specialized Crux Pro Gravel Bike - Satin Carbon/Deep Lake - 58cm|one size",
+   "cost": 30.72,
+   "conv": 3.54,
+   "value": 4067.35,
+   "clicks": 114,
+   "impr": 5050
+  },
+  {
+   "id": "94927-0754",
+   "title": "2027 S-Works Tarmac SL9 SRAM Red AXS Road Bike - Gloss Ruby Metallic|L",
+   "cost": 3.02,
+   "conv": 3.0,
+   "value": 4002.33,
+   "clicks": 18,
+   "impr": 802
+  },
+  {
+   "id": "s154700002",
+   "title": "Specialized S154700002 Tarmac SL5 Seatpost Wedge Assembly with Ti Bolt|one size",
+   "cost": 1.46,
+   "conv": 2.94,
+   "value": 3960.01,
+   "clicks": 8,
+   "impr": 172
+  },
+  {
+   "id": "95226-8204",
+   "title": "2026 Specialized Turbo Levo R Comp Carbon Electric Mountain Bike - Gunmetal|L",
+   "cost": 7.14,
+   "conv": 1.04,
+   "value": 3875.88,
+   "clicks": 10,
+   "impr": 170
+  },
+  {
+   "id": "74926-1052",
+   "title": "2026 Specialized Tarmac SL8 Road Bike Frameset - Gloss Silver Dust/Shadow|M",
+   "cost": 22.39,
+   "conv": 4.3,
+   "value": 3594.1,
+   "clicks": 94,
+   "impr": 4053
+  },
+  {
+   "id": "74925-0754",
+   "title": "2025 S-Works Tarmac SL8 Road Bike Frameset - Carbon/Silver|L",
+   "cost": 42.8,
+   "conv": 15.83,
+   "value": 3450.5,
+   "clicks": 170,
+   "impr": 4982
+  },
+  {
+   "id": "s216800041",
+   "title": "Specialized S216800041 TCD-W 2 Wired Display with Remote|one size",
+   "cost": 8.19,
+   "conv": 7.45,
+   "value": 3359.43,
+   "clicks": 40,
+   "impr": 1138
+  },
+  {
+   "id": "rtcl900si",
+   "title": "Shimano Dura-Ace RT-CL900 Ice Tech FREEZA Rotor with Internal Lockring 160mm|one size",
+   "cost": 167.03,
+   "conv": 149.53,
+   "value": 3329.14,
+   "clicks": 286,
+   "impr": 13013
+  },
+  {
+   "id": "30026-5202",
+   "title": "Roval Terra CL III 700c Gravel Racing Rear Wheel - Satin Carbon/Satin Black|one size",
+   "cost": 7.92,
+   "conv": 2.04,
+   "value": 3302.4,
+   "clicks": 15,
+   "impr": 522
+  },
+  {
+   "id": "fw8155000",
+   "title": "SRAM PG-720 Powerglide Downhill Cassette - Black|one size",
+   "cost": 1.22,
+   "conv": 1.0,
+   "value": 3229.06,
+   "clicks": 4,
+   "impr": 259
+  },
+  {
+   "id": "61823-0447",
+   "title": "S-Works Recon Gravel and Mountain Bike Shoes - White|12",
+   "cost": 7.16,
+   "conv": 1.01,
+   "value": 3229.06,
+   "clicks": 21,
+   "impr": 571
+  },
+  {
+   "id": "93924-3103 demo 0132v",
+   "title": "Ex-Demo: Specialized Turbo Vado SL 2 5.0 Electric Hybrid Bike - Medium|one size",
+   "cost": 11.92,
+   "conv": 1.0,
+   "value": 3205.0,
+   "clicks": 27,
+   "impr": 1088
+  },
+  {
+   "id": "12621058",
+   "title": "2026 Cube Agree C:62 Pro Road Bike - Bali/Prism|XL",
+   "cost": 24.82,
+   "conv": 6.53,
+   "value": 3164.53,
+   "clicks": 28,
+   "impr": 1412
+  },
+  {
+   "id": "fw8116001",
+   "title": "SRAM Rival eTap AXS XG-1250 Cassette 12-Speed - Silver|10-36T",
+   "cost": 40.91,
+   "conv": 26.93,
+   "value": 3110.25,
+   "clicks": 95,
+   "impr": 3113
+  },
+  {
+   "id": "cw8048004",
+   "title": "SRAM Red E1 Road Chainring Direct Mount X-Sync Aero - Black|46T",
+   "cost": 8.16,
+   "conv": 14.88,
+   "value": 3012.88,
+   "clicks": 26,
+   "impr": 906
+  },
+  {
+   "id": "90326-0302",
+   "title": "2026 S-Works Epic 8 Evo Di2 Mountain Bike - Gloss Carbon|S",
+   "cost": 3.27,
+   "conv": 1.1,
+   "value": 3000.41,
+   "clicks": 33,
+   "impr": 2977
+  },
+  {
+   "id": "98920-5640",
+   "title": "Specialized SL Range-Extender Battery - Black|one size",
+   "cost": 92.65,
+   "conv": 43.28,
+   "value": 2923.96,
+   "clicks": 264,
+   "impr": 5931
+  },
+  {
+   "id": "93924-5102",
+   "title": "2026 Specialized Turbo Vado SL 2 4.0 Electric Hybrid Bike - Satin Gunmetal|S",
+   "cost": 6.11,
+   "conv": 8.03,
+   "value": 2867.41,
+   "clicks": 19,
+   "impr": 3464
+  },
+  {
+   "id": "27126-8303",
+   "title": "Specialized Power Evo Comp Saddle - Black|143Mm",
+   "cost": 1.5,
+   "conv": 3.17,
+   "value": 2849.39,
+   "clicks": 5,
+   "impr": 1126
+  },
+  {
+   "id": "71426-0054",
+   "title": "2026 S-Works Crux Gravel Bike Frameset - Desert Rose|L",
+   "cost": 9.73,
+   "conv": 4.97,
+   "value": 2844.31,
+   "clicks": 31,
+   "impr": 3153
+  },
+  {
+   "id": "rtcl800si",
+   "title": "Shimano Ultegra RT-CL800 Ice Tech FREEZA Rotor with Internal Lockring 160mm|one size",
+   "cost": 188.41,
+   "conv": 185.54,
+   "value": 2828.16,
+   "clicks": 345,
+   "impr": 13706
+  },
+  {
+   "id": "74926-1049",
+   "title": "2026 Specialized Tarmac SL8 Road Bike Frameset - Gloss Silver Dust/Shadow|S",
+   "cost": 15.08,
+   "conv": 1.02,
+   "value": 2799.03,
+   "clicks": 59,
+   "impr": 3175
+  },
+  {
+   "id": "67019-3034",
+   "title": "Specialized SL Pro Mens Short Finger Cycling Gloves - Black|L",
+   "cost": 1.33,
+   "conv": 1.0,
+   "value": 2799.01,
+   "clicks": 3,
+   "impr": 160
+  },
+  {
+   "id": "95322-3402 demo 2778t",
+   "title": "Ex-Demo: Specialized Turbo Vado 5.0 IGH Electric Hybrid Bike - Small|one size",
+   "cost": 3.34,
+   "conv": 1.0,
+   "value": 2799.01,
+   "clicks": 11,
+   "impr": 630
+  },
+  {
+   "id": "98924-5680",
+   "title": "Specialized Turbo Levo 4 Full Power Range Extender 280wh - Black|one size",
+   "cost": 22.46,
+   "conv": 14.9,
+   "value": 2707.41,
+   "clicks": 90,
+   "impr": 2046
+  },
+  {
+   "id": "71427-0154",
+   "title": "2027 S-Works Crux 5 Gravel Bike Frameset - Agave Grey/Phonton Tint|L",
+   "cost": 3.83,
+   "conv": 2.0,
+   "value": 2656.49,
+   "clicks": 14,
+   "impr": 1254
+  }
+ ],
+ "products_90d": [
+  {
+   "id": "90326-0102",
+   "title": "2026 S-Works Epic 8 Mountain Bike - Gloss Fiery Red Dry Impasto|S",
+   "cost": 72.31,
+   "conv": 6.95,
+   "value": 21002.8,
+   "clicks": 210,
+   "impr": 21246
+  },
+  {
+   "id": "91427-1054",
+   "title": "2027 Specialized Crux 5 S-Level SRAM Red XPLR Gravel Bike - Redwood|L",
+   "cost": 18.74,
+   "conv": 9.67,
+   "value": 19525.29,
+   "clicks": 76,
+   "impr": 3495
+  },
+  {
+   "id": "rtcl900si",
+   "title": "Shimano Dura-Ace RT-CL900 Ice Tech FREEZA Rotor with Internal Lockring 160mm|one size",
+   "cost": 540.1,
+   "conv": 566.08,
+   "value": 18170.52,
+   "clicks": 1062,
+   "impr": 41802
+  },
+  {
+   "id": "91426-3054",
+   "title": "2026 Specialized Crux Expert SRAM Rival XPLR AXS Gravel Bike - Grey Blue|L",
+   "cost": 88.04,
+   "conv": 7.79,
+   "value": 17038.24,
+   "clicks": 268,
+   "impr": 27406
+  },
+  {
+   "id": "rtcl800si",
+   "title": "Shimano Ultegra RT-CL800 Ice Tech FREEZA Rotor with Internal Lockring 160mm|one size",
+   "cost": 515.14,
+   "conv": 613.44,
+   "value": 14891.88,
+   "clicks": 1044,
+   "impr": 44276
+  },
+  {
+   "id": "s182500005",
+   "title": "Specialized S182500005 Headset Complete Integrated 46mm Top Cover H2387|one size",
+   "cost": 49.43,
+   "conv": 59.28,
+   "value": 13578.58,
+   "clicks": 243,
+   "impr": 4255
+  },
+  {
+   "id": "94927-0254",
+   "title": "2027 S-Works Tarmac SL9 Shimano Dura-Ace Di2 Road Bike - Gloss Carbon|L",
+   "cost": 34.6,
+   "conv": 12.76,
+   "value": 11821.23,
+   "clicks": 110,
+   "impr": 4226
+  },
+  {
+   "id": "csm9100051",
+   "title": "Shimano XTR CS-M9100 Cassette - 12-Speed - Silver|10 - 51",
+   "cost": 66.85,
+   "conv": 17.42,
+   "value": 11235.4,
+   "clicks": 128,
+   "impr": 5515
+  },
+  {
+   "id": "98924-5610",
+   "title": "Specialized M2 and M3 700Wh UL/EN Series Battery - Black|one size",
+   "cost": 95.24,
+   "conv": 36.58,
+   "value": 10324.63,
+   "clicks": 346,
+   "impr": 7933
+  },
+  {
+   "id": "csr920012130",
+   "title": "Shimano Dura-Ace CS-R9200 12-Speed Cassette - Silver|11 - 30 Teeth",
+   "cost": 383.76,
+   "conv": 163.76,
+   "value": 10065.88,
+   "clicks": 1133,
+   "impr": 31429
+  },
+  {
+   "id": "95224-3205",
+   "title": "2026 Specialized Turbo Levo 4 Expert Carbon Electric Bike - Gloss Cypress|XL",
+   "cost": 22.61,
+   "conv": 3.14,
+   "value": 9897.58,
+   "clicks": 38,
+   "impr": 1874
+  },
+  {
+   "id": "98920-5640",
+   "title": "Specialized SL Range-Extender Battery - Black|one size",
+   "cost": 251.99,
+   "conv": 97.8,
+   "value": 9701.92,
+   "clicks": 547,
+   "impr": 17658
+  },
+  {
+   "id": "rdr8150",
+   "title": "Shimano Ultegra Di2 RD-R8150 12-Speed Rear Derailleur E-Tube - Grey|one size",
+   "cost": 184.58,
+   "conv": 109.27,
+   "value": 9418.65,
+   "clicks": 458,
+   "impr": 15763
+  },
+  {
+   "id": "clxterra2blk",
+   "title": "Roval Terra CLX II 700c Gravel Wheelset - Satin Carbon/Gloss Black|one size",
+   "cost": 42.28,
+   "conv": 44.08,
+   "value": 9363.54,
+   "clicks": 113,
+   "impr": 3712
+  },
+  {
+   "id": "custom ultrap 74925-0454",
+   "title": "Custom Build: 2025 S-Works Tarmac SL8 Ultegra Road Bike - Solidity|L",
+   "cost": 249.6,
+   "conv": 48.94,
+   "value": 9302.49,
+   "clicks": 898,
+   "impr": 36321
+  },
+  {
+   "id": "95426-3054",
+   "title": "2026 Specialized Diverge 4 Expert Shimano GRX Di2 Gravel Bike - Fjord|L",
+   "cost": 22.86,
+   "conv": 3.16,
+   "value": 9163.21,
+   "clicks": 47,
+   "impr": 24150
+  },
+  {
+   "id": "74925-0752",
+   "title": "2025 S-Works Tarmac SL8 Road Bike Frameset - Carbon/Silver|M",
+   "cost": 112.06,
+   "conv": 4.28,
+   "value": 8405.45,
+   "clicks": 425,
+   "impr": 38821
+  },
+  {
+   "id": "94926-1254",
+   "title": "2026 Specialized Tarmac SL8 Pro Shimano Ultegra Di2 Road Bike - Dolomite|L",
+   "cost": 70.67,
+   "conv": 9.04,
+   "value": 8190.35,
+   "clicks": 243,
+   "impr": 6819
+  },
+  {
+   "id": "21026-0811",
+   "title": "Roval Terra Cockpit - Satin Carbon/Gloss Black|110Mm X 380Mm 12 Flare",
+   "cost": 7.6,
+   "conv": 3.7,
+   "value": 8130.43,
+   "clicks": 24,
+   "impr": 686
+  },
+  {
+   "id": "90326-0204",
+   "title": "2026 S-Works Epic 8 Evo AXS XC Mountain Bike - Gloss Carbon/Green-Purple|L",
+   "cost": 20.83,
+   "conv": 2.48,
+   "value": 8077.79,
+   "clicks": 57,
+   "impr": 6246
+  },
+  {
+   "id": "94927-0756",
+   "title": "2027 S-Works Tarmac SL9 SRAM Red AXS Road Bike - Gloss Ruby Metallic|L",
+   "cost": 42.56,
+   "conv": 5.77,
+   "value": 8025.58,
+   "clicks": 90,
+   "impr": 5626
+  },
+  {
+   "id": "94926-1361",
+   "title": "2026 Specialized Tarmac SL8 Pro Shimano Ultegra Di2 Road Bike - Gloss Red|61",
+   "cost": 17.11,
+   "conv": 1.22,
+   "value": 7646.68,
+   "clicks": 76,
+   "impr": 4207
+  },
+  {
+   "id": "21086",
+   "title": "Muc-Off AirMach Electric Mini Bike Tyre Inflator|one size",
+   "cost": 28.07,
+   "conv": 24.81,
+   "value": 7627.81,
+   "clicks": 117,
+   "impr": 9326
+  },
+  {
+   "id": "mt200blr",
+   "title": "Shimano BR-MT200/BL-MT200 Bled Brake Lever - Black|Rear Left",
+   "cost": 5.56,
+   "conv": 9.0,
+   "value": 7613.03,
+   "clicks": 36,
+   "impr": 2266
+  },
+  {
+   "id": "rede1axs103606",
+   "title": "SRAM Red AXS E1 Complete Groupset 10-36T|170mm - 50/37t",
+   "cost": 10.04,
+   "conv": 3.0,
+   "value": 7419.01,
+   "clicks": 16,
+   "impr": 466
+  },
+  {
+   "id": "s199900064",
+   "title": "Specialized Stem Front Panel for Computer Mount|one size",
+   "cost": 19.12,
+   "conv": 33.45,
+   "value": 7262.25,
+   "clicks": 117,
+   "impr": 3601
+  },
+  {
+   "id": "csm9001140",
+   "title": "Shimano XTR CS-M9001 11-Speed Cassette 11-40T - Silver|one size",
+   "cost": 40.78,
+   "conv": 23.08,
+   "value": 7050.95,
+   "clicks": 168,
+   "impr": 3678
+  },
+  {
+   "id": "96824-3005 demo 9269u",
+   "title": "Ex-Demo Specialized Turbo Levo SL 2 Expert Carbon E-Mountain Bike S5|one size",
+   "cost": 70.02,
+   "conv": 9.54,
+   "value": 6940.47,
+   "clicks": 315,
+   "impr": 11536
+  },
+  {
+   "id": "98025-0004",
+   "title": "2025 Specialized Turbo Kenevo SL 2 Ohlins Coil Electric Bike - Charcoal|L",
+   "cost": 27.18,
+   "conv": 11.66,
+   "value": 6859.86,
+   "clicks": 117,
+   "impr": 5083
+  },
+  {
+   "id": "tld110124015",
+   "title": "Troy Lee Designs Flowline SE MTB Helmet with MIPS - Phantom White|XL",
+   "cost": 0.29,
+   "conv": 1.0,
+   "value": 6799.01,
+   "clicks": 1,
+   "impr": 34
+  },
+  {
+   "id": "fcr8100d26 ss",
+   "title": "Shop Soiled: Shimano Ultegra FC-R8100 12Sp Double Chainset 52/36T 172.5mm|one size",
+   "cost": 77.29,
+   "conv": 18.58,
+   "value": 6766.41,
+   "clicks": 303,
+   "impr": 12593
+  },
+  {
+   "id": "csr810112134",
+   "title": "Shimano Ultegra CS-R8101 12-Speed Cassette - Silver|11-34",
+   "cost": 240.78,
+   "conv": 181.38,
+   "value": 6631.4,
+   "clicks": 413,
+   "impr": 12025
+  },
+  {
+   "id": "74927-1454",
+   "title": "2027 S-Works Tarmac SL9 Road Bike Frameset - Gloss White Silver|L",
+   "cost": 24.01,
+   "conv": 4.78,
+   "value": 6457.76,
+   "clicks": 69,
+   "impr": 2124
+  },
+  {
+   "id": "20021-1103",
+   "title": "S-Works Tarmac SL7 31.8mm Stem - Black|31.8Mm X 90Mm; 6 Degree",
+   "cost": 9.86,
+   "conv": 6.97,
+   "value": 6276.01,
+   "clicks": 23,
+   "impr": 905
+  },
+  {
+   "id": "95224-5805",
+   "title": "2026 Specialized Turbo Levo 4 Comp Carbon Electric Bike - Satin Champagne|XL",
+   "cost": 6.53,
+   "conv": 4.0,
+   "value": 6177.0,
+   "clicks": 11,
+   "impr": 900
+  },
+  {
+   "id": "94425-3154",
+   "title": "2025 Specialized Roubaix SL8 Expert Road Bike - Gloss Sea Foam|L",
+   "cost": 36.76,
+   "conv": 8.0,
+   "value": 6143.72,
+   "clicks": 143,
+   "impr": 4192
+  },
+  {
+   "id": "fcr7100a04",
+   "title": "Shimano 105 FC-R7100 Double 12-Speed Chainset HollowTech II - Black|50 / 34 Teeth 165 Mm",
+   "cost": 264.05,
+   "conv": 146.68,
+   "value": 5881.82,
+   "clicks": 708,
+   "impr": 26295
+  },
+  {
+   "id": "95227-5703",
+   "title": "2027 Specialized Turbo Levo 4 EVO Comp Alloy Electric Mountain Bike - Redwood|M",
+   "cost": 34.06,
+   "conv": 4.28,
+   "value": 5705.56,
+   "clicks": 50,
+   "impr": 4515
+  },
+  {
+   "id": "21123-1123",
+   "title": "Roval Control Cockpit - Matte Carbon/Gloss Black|90Mm X 780Mm",
+   "cost": 12.44,
+   "conv": 1.34,
+   "value": 5689.14,
+   "clicks": 59,
+   "impr": 2042
+  },
+  {
+   "id": "94926-1161",
+   "title": "2026 Specialized Tarmac SL8 Pro SRAM Force AXS Road Bike - Gloss Dolomite|61",
+   "cost": 28.72,
+   "conv": 1.01,
+   "value": 5499.11,
+   "clicks": 82,
+   "impr": 5044
+  }
+ ],
+ "devices": [
+  {
+   "device": "DESKTOP",
+   "cost": 5602.76,
+   "conv": 1993.54,
+   "value": 131472.62,
+   "clicks": 13273
+  },
+  {
+   "device": "MOBILE",
+   "cost": 9165.03,
+   "conv": 3572.09,
+   "value": 234521.53,
+   "clicks": 35158
+  },
+  {
+   "device": "TABLET",
+   "cost": 274.55,
+   "conv": 109.02,
+   "value": 15374.95,
+   "clicks": 1192
+  },
+  {
+   "device": "CONNECTED_TV",
+   "cost": 12.29,
+   "conv": 3.14,
+   "value": 197.67,
+   "clicks": 1
+  }
+ ]
+}

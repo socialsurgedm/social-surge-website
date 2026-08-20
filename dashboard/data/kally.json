@@ -1,0 +1,3762 @@
+{
+ "client": "Kally",
+ "cid": "4929131586",
+ "currency": "GBP",
+ "pulled_at": "2026-08-18T11:22:14.778439+00:00",
+ "daily": [
+  {
+   "date": "2026-04-20",
+   "cost": 151.84,
+   "conv": 5.44,
+   "value": 444.16,
+   "clicks": 181,
+   "impr": 17868
+  },
+  {
+   "date": "2026-04-21",
+   "cost": 142.98,
+   "conv": 1.0,
+   "value": 80.86,
+   "clicks": 191,
+   "impr": 17379
+  },
+  {
+   "date": "2026-04-22",
+   "cost": 122.29,
+   "conv": 4.01,
+   "value": 279.53,
+   "clicks": 176,
+   "impr": 18555
+  },
+  {
+   "date": "2026-04-23",
+   "cost": 238.56,
+   "conv": 3.0,
+   "value": 285.58,
+   "clicks": 246,
+   "impr": 24565
+  },
+  {
+   "date": "2026-04-24",
+   "cost": 174.39,
+   "conv": 2.0,
+   "value": 85.99,
+   "clicks": 172,
+   "impr": 21721
+  },
+  {
+   "date": "2026-04-25",
+   "cost": 118.16,
+   "conv": 2.0,
+   "value": 158.35,
+   "clicks": 170,
+   "impr": 19521
+  },
+  {
+   "date": "2026-04-26",
+   "cost": 138.06,
+   "conv": 7.0,
+   "value": 393.34,
+   "clicks": 171,
+   "impr": 17509
+  },
+  {
+   "date": "2026-04-27",
+   "cost": 132.15,
+   "conv": 6.0,
+   "value": 219.35,
+   "clicks": 173,
+   "impr": 13578
+  },
+  {
+   "date": "2026-04-28",
+   "cost": 161.02,
+   "conv": 2.01,
+   "value": 108.83,
+   "clicks": 173,
+   "impr": 15351
+  },
+  {
+   "date": "2026-04-29",
+   "cost": 192.82,
+   "conv": 7.0,
+   "value": 484.02,
+   "clicks": 214,
+   "impr": 21036
+  },
+  {
+   "date": "2026-04-30",
+   "cost": 177.76,
+   "conv": 5.02,
+   "value": 293.91,
+   "clicks": 230,
+   "impr": 29922
+  },
+  {
+   "date": "2026-05-01",
+   "cost": 150.26,
+   "conv": 4.98,
+   "value": 346.84,
+   "clicks": 191,
+   "impr": 27235
+  },
+  {
+   "date": "2026-05-02",
+   "cost": 189.25,
+   "conv": 6.89,
+   "value": 486.56,
+   "clicks": 245,
+   "impr": 34021
+  },
+  {
+   "date": "2026-05-03",
+   "cost": 168.34,
+   "conv": 7.0,
+   "value": 452.69,
+   "clicks": 273,
+   "impr": 31908
+  },
+  {
+   "date": "2026-05-04",
+   "cost": 202.25,
+   "conv": 7.0,
+   "value": 452.38,
+   "clicks": 311,
+   "impr": 38303
+  },
+  {
+   "date": "2026-05-05",
+   "cost": 158.32,
+   "conv": 4.02,
+   "value": 338.99,
+   "clicks": 235,
+   "impr": 40289
+  },
+  {
+   "date": "2026-05-06",
+   "cost": 216.48,
+   "conv": 8.04,
+   "value": 590.68,
+   "clicks": 271,
+   "impr": 43489
+  },
+  {
+   "date": "2026-05-07",
+   "cost": 232.83,
+   "conv": 6.0,
+   "value": 374.41,
+   "clicks": 258,
+   "impr": 26065
+  },
+  {
+   "date": "2026-05-08",
+   "cost": 207.75,
+   "conv": 8.44,
+   "value": 503.42,
+   "clicks": 263,
+   "impr": 28821
+  },
+  {
+   "date": "2026-05-09",
+   "cost": 238.16,
+   "conv": 8.59,
+   "value": 679.52,
+   "clicks": 294,
+   "impr": 25228
+  },
+  {
+   "date": "2026-05-10",
+   "cost": 271.77,
+   "conv": 7.91,
+   "value": 606.74,
+   "clicks": 381,
+   "impr": 31491
+  },
+  {
+   "date": "2026-05-11",
+   "cost": 258.61,
+   "conv": 5.0,
+   "value": 380.18,
+   "clicks": 390,
+   "impr": 30722
+  },
+  {
+   "date": "2026-05-12",
+   "cost": 257.67,
+   "conv": 3.0,
+   "value": 136.85,
+   "clicks": 846,
+   "impr": 41358
+  },
+  {
+   "date": "2026-05-13",
+   "cost": 280.26,
+   "conv": 13.0,
+   "value": 943.95,
+   "clicks": 936,
+   "impr": 46058
+  },
+  {
+   "date": "2026-05-14",
+   "cost": 200.18,
+   "conv": 7.0,
+   "value": 518.48,
+   "clicks": 648,
+   "impr": 38183
+  },
+  {
+   "date": "2026-05-15",
+   "cost": 276.65,
+   "conv": 8.5,
+   "value": 475.92,
+   "clicks": 624,
+   "impr": 38694
+  },
+  {
+   "date": "2026-05-16",
+   "cost": 253.42,
+   "conv": 10.53,
+   "value": 702.71,
+   "clicks": 695,
+   "impr": 49885
+  },
+  {
+   "date": "2026-05-17",
+   "cost": 254.74,
+   "conv": 3.0,
+   "value": 196.8,
+   "clicks": 654,
+   "impr": 44713
+  },
+  {
+   "date": "2026-05-18",
+   "cost": 269.18,
+   "conv": 7.99,
+   "value": 589.78,
+   "clicks": 911,
+   "impr": 51541
+  },
+  {
+   "date": "2026-05-19",
+   "cost": 249.46,
+   "conv": 6.99,
+   "value": 365.42,
+   "clicks": 482,
+   "impr": 41385
+  },
+  {
+   "date": "2026-05-20",
+   "cost": 337.23,
+   "conv": 12.17,
+   "value": 961.54,
+   "clicks": 481,
+   "impr": 40026
+  },
+  {
+   "date": "2026-05-21",
+   "cost": 283.45,
+   "conv": 5.0,
+   "value": 368.04,
+   "clicks": 490,
+   "impr": 40715
+  },
+  {
+   "date": "2026-05-22",
+   "cost": 286.14,
+   "conv": 4.02,
+   "value": 320.9,
+   "clicks": 351,
+   "impr": 36071
+  },
+  {
+   "date": "2026-05-23",
+   "cost": 222.38,
+   "conv": 6.84,
+   "value": 418.57,
+   "clicks": 444,
+   "impr": 44850
+  },
+  {
+   "date": "2026-05-24",
+   "cost": 211.84,
+   "conv": 8.04,
+   "value": 467.16,
+   "clicks": 601,
+   "impr": 43758
+  },
+  {
+   "date": "2026-05-25",
+   "cost": 214.19,
+   "conv": 4.0,
+   "value": 248.33,
+   "clicks": 474,
+   "impr": 33609
+  },
+  {
+   "date": "2026-05-26",
+   "cost": 251.84,
+   "conv": 4.0,
+   "value": 287.11,
+   "clicks": 513,
+   "impr": 37274
+  },
+  {
+   "date": "2026-05-27",
+   "cost": 263.47,
+   "conv": 5.0,
+   "value": 222.45,
+   "clicks": 666,
+   "impr": 34165
+  },
+  {
+   "date": "2026-05-28",
+   "cost": 221.54,
+   "conv": 3.98,
+   "value": 197.11,
+   "clicks": 488,
+   "impr": 31626
+  },
+  {
+   "date": "2026-05-29",
+   "cost": 285.69,
+   "conv": 7.0,
+   "value": 418.42,
+   "clicks": 515,
+   "impr": 41343
+  },
+  {
+   "date": "2026-05-30",
+   "cost": 227.6,
+   "conv": 7.64,
+   "value": 420.27,
+   "clicks": 511,
+   "impr": 37757
+  },
+  {
+   "date": "2026-05-31",
+   "cost": 230.8,
+   "conv": 5.33,
+   "value": 239.29,
+   "clicks": 512,
+   "impr": 37375
+  },
+  {
+   "date": "2026-06-01",
+   "cost": 229.17,
+   "conv": 7.0,
+   "value": 412.92,
+   "clicks": 575,
+   "impr": 45439
+  },
+  {
+   "date": "2026-06-02",
+   "cost": 252.37,
+   "conv": 8.0,
+   "value": 449.92,
+   "clicks": 469,
+   "impr": 38588
+  },
+  {
+   "date": "2026-06-03",
+   "cost": 202.65,
+   "conv": 4.53,
+   "value": 202.37,
+   "clicks": 446,
+   "impr": 36996
+  },
+  {
+   "date": "2026-06-04",
+   "cost": 256.95,
+   "conv": 8.43,
+   "value": 415.31,
+   "clicks": 505,
+   "impr": 38294
+  },
+  {
+   "date": "2026-06-05",
+   "cost": 233.66,
+   "conv": 3.05,
+   "value": 228.92,
+   "clicks": 490,
+   "impr": 43465
+  },
+  {
+   "date": "2026-06-06",
+   "cost": 248.72,
+   "conv": 8.03,
+   "value": 411.24,
+   "clicks": 507,
+   "impr": 50968
+  },
+  {
+   "date": "2026-06-07",
+   "cost": 285.3,
+   "conv": 9.98,
+   "value": 508.56,
+   "clicks": 475,
+   "impr": 44710
+  },
+  {
+   "date": "2026-06-08",
+   "cost": 195.87,
+   "conv": 8.33,
+   "value": 410.86,
+   "clicks": 474,
+   "impr": 38258
+  },
+  {
+   "date": "2026-06-09",
+   "cost": 262.97,
+   "conv": 4.97,
+   "value": 222.06,
+   "clicks": 490,
+   "impr": 43930
+  },
+  {
+   "date": "2026-06-10",
+   "cost": 222.25,
+   "conv": 7.02,
+   "value": 312.25,
+   "clicks": 494,
+   "impr": 38353
+  },
+  {
+   "date": "2026-06-11",
+   "cost": 233.52,
+   "conv": 5.98,
+   "value": 298.73,
+   "clicks": 438,
+   "impr": 39439
+  },
+  {
+   "date": "2026-06-12",
+   "cost": 140.96,
+   "conv": 4.93,
+   "value": 246.49,
+   "clicks": 232,
+   "impr": 21478
+  },
+  {
+   "date": "2026-06-13",
+   "cost": 156.29,
+   "conv": 5.0,
+   "value": 274.99,
+   "clicks": 144,
+   "impr": 18554
+  },
+  {
+   "date": "2026-06-14",
+   "cost": 198.84,
+   "conv": 6.03,
+   "value": 274.27,
+   "clicks": 197,
+   "impr": 26827
+  },
+  {
+   "date": "2026-06-15",
+   "cost": 216.5,
+   "conv": 10.02,
+   "value": 524.74,
+   "clicks": 268,
+   "impr": 29008
+  },
+  {
+   "date": "2026-06-16",
+   "cost": 190.74,
+   "conv": 4.98,
+   "value": 345.71,
+   "clicks": 221,
+   "impr": 24797
+  },
+  {
+   "date": "2026-06-17",
+   "cost": 156.16,
+   "conv": 5.0,
+   "value": 227.51,
+   "clicks": 179,
+   "impr": 21043
+  },
+  {
+   "date": "2026-06-18",
+   "cost": 120.57,
+   "conv": 2.0,
+   "value": 42.51,
+   "clicks": 162,
+   "impr": 18824
+  },
+  {
+   "date": "2026-06-19",
+   "cost": 121.42,
+   "conv": 6.7,
+   "value": 423.33,
+   "clicks": 164,
+   "impr": 17412
+  },
+  {
+   "date": "2026-06-20",
+   "cost": 159.21,
+   "conv": 9.0,
+   "value": 452.02,
+   "clicks": 173,
+   "impr": 17335
+  },
+  {
+   "date": "2026-06-21",
+   "cost": 138.08,
+   "conv": 6.03,
+   "value": 290.01,
+   "clicks": 170,
+   "impr": 13393
+  },
+  {
+   "date": "2026-06-22",
+   "cost": 152.11,
+   "conv": 3.0,
+   "value": 172.51,
+   "clicks": 187,
+   "impr": 17822
+  },
+  {
+   "date": "2026-06-23",
+   "cost": 155.93,
+   "conv": 6.0,
+   "value": 330.0,
+   "clicks": 155,
+   "impr": 18255
+  },
+  {
+   "date": "2026-06-24",
+   "cost": 149.39,
+   "conv": 8.0,
+   "value": 403.45,
+   "clicks": 141,
+   "impr": 13026
+  },
+  {
+   "date": "2026-06-25",
+   "cost": 179.13,
+   "conv": 2.97,
+   "value": 118.27,
+   "clicks": 208,
+   "impr": 22519
+  },
+  {
+   "date": "2026-06-26",
+   "cost": 155.42,
+   "conv": 1.03,
+   "value": 41.4,
+   "clicks": 131,
+   "impr": 14232
+  },
+  {
+   "date": "2026-06-27",
+   "cost": 82.91,
+   "conv": 1.0,
+   "value": 57.97,
+   "clicks": 72,
+   "impr": 7981
+  },
+  {
+   "date": "2026-06-28",
+   "cost": 230.88,
+   "conv": 6.43,
+   "value": 347.88,
+   "clicks": 222,
+   "impr": 27036
+  },
+  {
+   "date": "2026-06-29",
+   "cost": 211.35,
+   "conv": 8.03,
+   "value": 339.89,
+   "clicks": 202,
+   "impr": 20642
+  },
+  {
+   "date": "2026-06-30",
+   "cost": 208.53,
+   "conv": 4.0,
+   "value": 171.01,
+   "clicks": 188,
+   "impr": 18118
+  },
+  {
+   "date": "2026-07-01",
+   "cost": 182.02,
+   "conv": 12.47,
+   "value": 590.99,
+   "clicks": 206,
+   "impr": 16822
+  },
+  {
+   "date": "2026-07-02",
+   "cost": 177.15,
+   "conv": 3.33,
+   "value": 162.9,
+   "clicks": 152,
+   "impr": 14166
+  },
+  {
+   "date": "2026-07-03",
+   "cost": 164.29,
+   "conv": 6.04,
+   "value": 324.57,
+   "clicks": 156,
+   "impr": 16276
+  },
+  {
+   "date": "2026-07-04",
+   "cost": 216.2,
+   "conv": 4.04,
+   "value": 204.49,
+   "clicks": 212,
+   "impr": 22013
+  },
+  {
+   "date": "2026-07-05",
+   "cost": 224.09,
+   "conv": 5.96,
+   "value": 272.63,
+   "clicks": 220,
+   "impr": 23150
+  },
+  {
+   "date": "2026-07-06",
+   "cost": 193.39,
+   "conv": 4.7,
+   "value": 187.0,
+   "clicks": 203,
+   "impr": 18618
+  },
+  {
+   "date": "2026-07-07",
+   "cost": 100.7,
+   "conv": 4.5,
+   "value": 349.49,
+   "clicks": 111,
+   "impr": 9303
+  },
+  {
+   "date": "2026-07-08",
+   "cost": 78.43,
+   "conv": 3.96,
+   "value": 213.91,
+   "clicks": 83,
+   "impr": 7181
+  },
+  {
+   "date": "2026-07-09",
+   "cost": 108.84,
+   "conv": 3.0,
+   "value": 129.7,
+   "clicks": 123,
+   "impr": 10390
+  },
+  {
+   "date": "2026-07-10",
+   "cost": 79.42,
+   "conv": 5.0,
+   "value": 424.48,
+   "clicks": 83,
+   "impr": 8219
+  },
+  {
+   "date": "2026-07-11",
+   "cost": 79.19,
+   "conv": 6.0,
+   "value": 262.76,
+   "clicks": 95,
+   "impr": 9405
+  },
+  {
+   "date": "2026-07-12",
+   "cost": 95.09,
+   "conv": 8.01,
+   "value": 422.9,
+   "clicks": 118,
+   "impr": 10281
+  },
+  {
+   "date": "2026-07-13",
+   "cost": 78.67,
+   "conv": 3.0,
+   "value": 115.01,
+   "clicks": 88,
+   "impr": 8198
+  },
+  {
+   "date": "2026-07-14",
+   "cost": 72.86,
+   "conv": 1.0,
+   "value": 37.96,
+   "clicks": 102,
+   "impr": 8183
+  },
+  {
+   "date": "2026-07-15",
+   "cost": 64.59,
+   "conv": 7.5,
+   "value": 494.43,
+   "clicks": 105,
+   "impr": 7492
+  },
+  {
+   "date": "2026-07-16",
+   "cost": 91.53,
+   "conv": 9.46,
+   "value": 451.9,
+   "clicks": 112,
+   "impr": 8097
+  },
+  {
+   "date": "2026-07-17",
+   "cost": 81.25,
+   "conv": 11.0,
+   "value": 455.24,
+   "clicks": 116,
+   "impr": 10570
+  },
+  {
+   "date": "2026-07-18",
+   "cost": 138.89,
+   "conv": 11.0,
+   "value": 420.77,
+   "clicks": 189,
+   "impr": 17000
+  },
+  {
+   "date": "2026-07-19",
+   "cost": 156.41,
+   "conv": 8.0,
+   "value": 404.97,
+   "clicks": 192,
+   "impr": 15236
+  },
+  {
+   "date": "2026-07-20",
+   "cost": 132.01,
+   "conv": 6.0,
+   "value": 291.02,
+   "clicks": 158,
+   "impr": 13724
+  },
+  {
+   "date": "2026-07-21",
+   "cost": 141.73,
+   "conv": 5.51,
+   "value": 253.0,
+   "clicks": 180,
+   "impr": 13648
+  },
+  {
+   "date": "2026-07-22",
+   "cost": 150.06,
+   "conv": 5.5,
+   "value": 337.49,
+   "clicks": 142,
+   "impr": 15358
+  },
+  {
+   "date": "2026-07-23",
+   "cost": 116.2,
+   "conv": 7.0,
+   "value": 312.55,
+   "clicks": 143,
+   "impr": 14428
+  },
+  {
+   "date": "2026-07-24",
+   "cost": 103.11,
+   "conv": 2.47,
+   "value": 103.6,
+   "clicks": 165,
+   "impr": 20512
+  },
+  {
+   "date": "2026-07-25",
+   "cost": 125.82,
+   "conv": 5.99,
+   "value": 263.01,
+   "clicks": 174,
+   "impr": 18715
+  },
+  {
+   "date": "2026-07-26",
+   "cost": 147.58,
+   "conv": 4.0,
+   "value": 205.5,
+   "clicks": 174,
+   "impr": 16972
+  },
+  {
+   "date": "2026-07-27",
+   "cost": 99.76,
+   "conv": 8.04,
+   "value": 377.0,
+   "clicks": 141,
+   "impr": 15673
+  },
+  {
+   "date": "2026-07-28",
+   "cost": 116.16,
+   "conv": 6.0,
+   "value": 278.51,
+   "clicks": 159,
+   "impr": 14799
+  },
+  {
+   "date": "2026-07-29",
+   "cost": 78.65,
+   "conv": 2.0,
+   "value": 205.98,
+   "clicks": 135,
+   "impr": 12282
+  },
+  {
+   "date": "2026-07-30",
+   "cost": 69.88,
+   "conv": 6.0,
+   "value": 310.75,
+   "clicks": 114,
+   "impr": 10562
+  },
+  {
+   "date": "2026-07-31",
+   "cost": 93.59,
+   "conv": 8.0,
+   "value": 347.25,
+   "clicks": 147,
+   "impr": 12504
+  },
+  {
+   "date": "2026-08-01",
+   "cost": 118.15,
+   "conv": 4.0,
+   "value": 209.89,
+   "clicks": 159,
+   "impr": 10596
+  },
+  {
+   "date": "2026-08-02",
+   "cost": 102.22,
+   "conv": 6.0,
+   "value": 294.5,
+   "clicks": 137,
+   "impr": 12395
+  },
+  {
+   "date": "2026-08-03",
+   "cost": 104.18,
+   "conv": 10.0,
+   "value": 480.5,
+   "clicks": 133,
+   "impr": 11652
+  },
+  {
+   "date": "2026-08-04",
+   "cost": 71.54,
+   "conv": 2.0,
+   "value": 117.5,
+   "clicks": 127,
+   "impr": 10578
+  },
+  {
+   "date": "2026-08-05",
+   "cost": 88.21,
+   "conv": 3.0,
+   "value": 197.49,
+   "clicks": 137,
+   "impr": 9737
+  },
+  {
+   "date": "2026-08-06",
+   "cost": 82.79,
+   "conv": 4.0,
+   "value": 215.0,
+   "clicks": 121,
+   "impr": 9779
+  },
+  {
+   "date": "2026-08-07",
+   "cost": 74.6,
+   "conv": 6.0,
+   "value": 287.04,
+   "clicks": 127,
+   "impr": 9508
+  },
+  {
+   "date": "2026-08-08",
+   "cost": 57.39,
+   "conv": 4.0,
+   "value": 186.99,
+   "clicks": 100,
+   "impr": 9658
+  },
+  {
+   "date": "2026-08-09",
+   "cost": 98.65,
+   "conv": 5.0,
+   "value": 176.03,
+   "clicks": 195,
+   "impr": 13199
+  },
+  {
+   "date": "2026-08-10",
+   "cost": 108.88,
+   "conv": 6.0,
+   "value": 273.79,
+   "clicks": 140,
+   "impr": 11224
+  },
+  {
+   "date": "2026-08-11",
+   "cost": 71.2,
+   "conv": 4.0,
+   "value": 180.99,
+   "clicks": 123,
+   "impr": 11120
+  },
+  {
+   "date": "2026-08-12",
+   "cost": 96.21,
+   "conv": 3.96,
+   "value": 221.01,
+   "clicks": 127,
+   "impr": 11465
+  },
+  {
+   "date": "2026-08-13",
+   "cost": 94.86,
+   "conv": 6.0,
+   "value": 290.24,
+   "clicks": 119,
+   "impr": 10043
+  },
+  {
+   "date": "2026-08-14",
+   "cost": 68.16,
+   "conv": 4.0,
+   "value": 157.76,
+   "clicks": 108,
+   "impr": 9269
+  },
+  {
+   "date": "2026-08-15",
+   "cost": 85.31,
+   "conv": 3.0,
+   "value": 135.26,
+   "clicks": 142,
+   "impr": 9247
+  },
+  {
+   "date": "2026-08-16",
+   "cost": 97.44,
+   "conv": 7.0,
+   "value": 357.5,
+   "clicks": 146,
+   "impr": 10548
+  },
+  {
+   "date": "2026-08-17",
+   "cost": 80.91,
+   "conv": 3.0,
+   "value": 200.51,
+   "clicks": 103,
+   "impr": 9178
+  }
+ ],
+ "monthly": [
+  {
+   "month": "2025-08",
+   "cost": 3552.5,
+   "conv": 193.19,
+   "value": 11414.68,
+   "clicks": 5470,
+   "impr": 549150
+  },
+  {
+   "month": "2025-09",
+   "cost": 9051.69,
+   "conv": 722.9,
+   "value": 42542.12,
+   "clicks": 9325,
+   "impr": 846961
+  },
+  {
+   "month": "2025-10",
+   "cost": 16945.1,
+   "conv": 1028.66,
+   "value": 61116.02,
+   "clicks": 16097,
+   "impr": 1779598
+  },
+  {
+   "month": "2025-11",
+   "cost": 9494.04,
+   "conv": 456.38,
+   "value": 29817.62,
+   "clicks": 10320,
+   "impr": 1010544
+  },
+  {
+   "month": "2025-12",
+   "cost": 5822.73,
+   "conv": 317.02,
+   "value": 20874.46,
+   "clicks": 7151,
+   "impr": 582062
+  },
+  {
+   "month": "2026-01",
+   "cost": 3796.55,
+   "conv": 234.09,
+   "value": 15320.01,
+   "clicks": 6269,
+   "impr": 513355
+  },
+  {
+   "month": "2026-02",
+   "cost": 8228.33,
+   "conv": 460.35,
+   "value": 30622.15,
+   "clicks": 9115,
+   "impr": 1000377
+  },
+  {
+   "month": "2026-03",
+   "cost": 3691.07,
+   "conv": 168.13,
+   "value": 10786.33,
+   "clicks": 4865,
+   "impr": 389844
+  },
+  {
+   "month": "2026-04",
+   "cost": 3705.68,
+   "conv": 122.65,
+   "value": 8195.59,
+   "clicks": 4811,
+   "impr": 477683
+  },
+  {
+   "month": "2026-05",
+   "cost": 7371.76,
+   "conv": 206.9,
+   "value": 13711.52,
+   "clicks": 14954,
+   "impr": 1167958
+  },
+  {
+   "month": "2026-06",
+   "cost": 5747.88,
+   "conv": 175.49,
+   "value": 8957.08,
+   "clicks": 8779,
+   "impr": 826742
+  },
+  {
+   "month": "2026-07",
+   "cost": 3757.55,
+   "conv": 184.47,
+   "value": 9211.78,
+   "clicks": 4498,
+   "impr": 419777
+  },
+  {
+   "month": "2026-08",
+   "cost": 1500.68,
+   "conv": 80.96,
+   "value": 3982.0,
+   "clicks": 2244,
+   "impr": 179196
+  }
+ ],
+ "campaigns": [
+  {
+   "name": "PMAX CONSOLIDATED CATCH ALL (KALLY SLEEP)",
+   "status": "ENABLED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 100.0,
+   "cost": 2247.53,
+   "conv": 83.97,
+   "value": 4348.37,
+   "clicks": 3200,
+   "impr": 366677
+  },
+  {
+   "name": "SEARCH | BRAND+PRODUCTS |",
+   "status": "ENABLED",
+   "type": "SEARCH",
+   "budget": 17.5,
+   "cost": 438.26,
+   "conv": 42.5,
+   "value": 1945.06,
+   "clicks": 645,
+   "impr": 5589
+  },
+  {
+   "name": "SEARCH | BRAND CORE |",
+   "status": "ENABLED",
+   "type": "SEARCH",
+   "budget": 17.5,
+   "cost": 345.84,
+   "conv": 29.0,
+   "value": 1379.22,
+   "clicks": 423,
+   "impr": 1343
+  },
+  {
+   "name": "Body > Exact",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Contour > Exact",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Back Pain > Exact",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Body > BMM",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Contour > BMM",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Side Sleeper > Exact",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Pregnancy Pillow > Exact",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Side Sleeper > BMM",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Back Pain > BMM",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Pregnancy Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Neck Pain > BMM",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Neck Pain > Exact",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "KS Shopping 2 (Relevant)",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 600.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Brand Kally Sleep (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 100.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Brand - Health",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Brand Kally Sleep Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 100.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Competitors Campaign",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 20.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Kally Display - Dynamic Remarketing (Legacy)",
+   "status": "PAUSED",
+   "type": "DISPLAY",
+   "budget": 10.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Leg Pain > BMM",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shoulder Pain > BMM",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Side Sleeper > Exact #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Neck Pain > BMM #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": ".Brand #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Neck Pain > Exact #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shoulder Pain > BMM #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Contour > BMM #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": ".Brand - Health #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Pregnancy > Exact #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Leg Pain > BMM #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Contour > Exact #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Pregnancy > BMM #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Body > BMM #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": ".Brand - Pillow #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Hip Pain > BMM",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Kally Display - PJs (Legacy)",
+   "status": "PAUSED",
+   "type": "DISPLAY",
+   "budget": 5.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Kally Display - Pregnancy (Legacy)",
+   "status": "PAUSED",
+   "type": "DISPLAY",
+   "budget": 5.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Kally Display - Athlete (Legacy)",
+   "status": "PAUSED",
+   "type": "DISPLAY",
+   "budget": 5.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Pregnancy > Exact #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": ".Brand #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": ".Brand - Pillow #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": ".Brand - Health #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Contour > Exact #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Contour > BMM #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Pregnancy > BMM #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Leg Pain > BMM #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Neck Pain > BMM #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Neck Pain > Exact #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Neck Pain > Exact #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Neck Pain > BMM #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Side Sleeper > Exact #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": ".Brand - Pillow #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Contour > BMM #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": ".Brand #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Hip Pain > BMM #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Body > BMM #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Leg Pain > BMM #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Hip Pain > BMM #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shoulder Pain > BMM #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Body > BMM #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Contour > Exact #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Pregnancy > BMM #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": ".Brand - Health #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shoulder Pain > BMM #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Side Sleeper > Exact #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "G: Pregnancy > Exact #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Kally Kids Pillow",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Kally Kids Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Kally Display - Complete (Legacy)",
+   "status": "PAUSED",
+   "type": "DISPLAY",
+   "budget": 5.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Pregnancy Pillow #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Pregnancy Pillow #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Maternity Pillow",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Competitor Search SISSEL (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Competitor Search #5",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Competitor Search #2",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Competitor Search #4",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Competitor Search #6",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Competitor Search SISSEL - copy shell (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Competitor Search #3",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Neck Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Spine Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Maternity Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Back Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Lumbar Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shoulder Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Joint Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Hip Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Leg Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Sciatica Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Prenatal Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Side Sleeper Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Orthopedic Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Body, Support & Contour Pillow (Legacy)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Product Remarketing",
+   "status": "PAUSED",
+   "type": "DISPLAY",
+   "budget": 15.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Brand - BMM",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 10.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Pregnancy & Maternity - BMM (<30p)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 5.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Pillow - BMM",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Kids - BMM *OOS",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Pain & Support - BMM (< 15p)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 60.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Competitors - BMM (< 20p)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 20.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "SEARCH_Brand",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 180.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Pain & Support - Exact",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 80.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Competitors - Exact (< 20p)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 20.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Baby - Exact",
+   "status": "REMOVED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "SEARCH_Pregnancy & Maternity Pillow",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "SEARCH_Pillow",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "YouTube",
+   "status": "PAUSED",
+   "type": "VIDEO",
+   "budget": 10.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Remarketing",
+   "status": "PAUSED",
+   "type": "DISPLAY",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Tactical",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Smart Shopping",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 1000.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "test",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 0.01,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 100.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Display - Standard",
+   "status": "PAUSED",
+   "type": "DISPLAY",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Target ROAS",
+   "status": "ENABLED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Maximise Conversions",
+   "status": "ENABLED",
+   "type": "SEARCH",
+   "budget": 80.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Baby - BMM (< 15p)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 20.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Kids - Exact *OOS",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 25.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "YouTube - Remarketing",
+   "status": "REMOVED",
+   "type": "VIDEO",
+   "budget": 10.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "SEARCH_Baby Nest/Pod",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Eye Mask -  BMM (< 10p)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 40.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Eye Mask -  Exact (< 10p)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 40.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "2020 Shopping - Generic",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 1000.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "KS Shopping 3 (Branded)",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 600.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "KS Shopping 1 (Generic)",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 600.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "KS Shopping 1 (Generic)",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 600.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Blanket -  BMM",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Blanket -  Exact",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Brand - BMM (Max conversions)",
+   "status": "ENABLED",
+   "type": "SEARCH",
+   "budget": 10.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Brand - Exact (Max Conversions)",
+   "status": "ENABLED",
+   "type": "SEARCH",
+   "budget": 180.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Dynamic Remarketing",
+   "status": "PAUSED",
+   "type": "DISPLAY",
+   "budget": 5.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Topper -  BMM (< 20p)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 20.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Topper -  Exact (< 20p)",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 20.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - accessories - HIGH",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - accessories - LOW",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - accessories - MEDIUM",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - anxiety - HIGH",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - anxiety - LOW",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - anxiety - MEDIUM",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - baby & maternity - HIGH",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - baby & maternity - LOW",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - baby & maternity - MEDIUM",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - comfort - HIGH",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - comfort - LOW",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - comfort - MEDIUM",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - recovery - HIGH",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - recovery - LOW",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - recovery - MEDIUM",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - temperature - HIGH",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - temperature - LOW",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - temperature - MEDIUM",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - travel - HIGH",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - travel - LOW",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - travel - MEDIUM",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - tst - EXTRA_LOW",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - all products - HIGH",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 150.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - all products - LOW",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 150.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - all products - MEDIUM",
+   "status": "REMOVED",
+   "type": "SHOPPING",
+   "budget": 150.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - snoring - HIGH",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - snoring - LOW",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shift - Shopping - GB - snoring - MEDIUM",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "SEARCH_Gummies",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 13.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "SEARCH_Dog Bed",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 5.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Dog Bed - Phrase",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 5.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Gummies -  Phrase",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Kally Sutra Video Campaign",
+   "status": "PAUSED",
+   "type": "VIDEO",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "P. MAX_ AOV < \u00a325 (Shopping Only)",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 150.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax: test",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 0.01,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMax: Smart Shopping",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 1000.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMAX | SIDE SLEEPERS & ADJUSTABLE PILLOWS |",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 56.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "RLSA_DSA All Pages",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 10.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "DSA_Hero Products",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 30.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "P. MAX_Product_Push",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 20.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "Shopping Test",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 5.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "SEARCH | NECK PAIN PILLOW | BOFU",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 20.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "P-Max-Pregnancy & Maternity",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 50.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "PMAX | BODY + PREGNANCY PILLOW | BRAND EXC",
+   "status": "PAUSED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 80.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "SEARCH | NECK PAIN PILLOW | TOFU KW",
+   "status": "PAUSED",
+   "type": "SEARCH",
+   "budget": 10.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "STD SHOPPING | BRAND",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 10.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "STD SHOPPING | CATCH ALL |",
+   "status": "PAUSED",
+   "type": "SHOPPING",
+   "budget": 5.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "DEMAND GEN | ALL PILLOWS",
+   "status": "PAUSED",
+   "type": "DEMAND_GEN",
+   "budget": 8.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  },
+  {
+   "name": "DEMAND GEN | PREGNANCY FOCUSED | TARGETED PLACEMENTS",
+   "status": "PAUSED",
+   "type": "DEMAND_GEN",
+   "budget": 12.0,
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 0
+  }
+ ],
+ "products_30d": [
+  {
+   "id": "kp.sp.lm1",
+   "title": "Sports Recovery Body Pillow - Support for Muscular Healing & Sleep Quality - Grey/Lime",
+   "cost": 415.03,
+   "conv": 15.95,
+   "value": 808.25,
+   "clicks": 504,
+   "impr": 57187
+  },
+  {
+   "id": "kcp.v1.bl",
+   "title": "Cooling Body Pillow - Full-Body Support for Better Sleep & Temperature Regulation",
+   "cost": 350.55,
+   "conv": 13.42,
+   "value": 779.92,
+   "clicks": 444,
+   "impr": 50474
+  },
+  {
+   "id": "kfp.v1.cr",
+   "title": "Body Support Pillow for Comfortable Sleep, Pregnancy & Recovery Support - Cream (Sherpa)",
+   "cost": 318.43,
+   "conv": 10.5,
+   "value": 670.96,
+   "clicks": 282,
+   "impr": 42368
+  },
+  {
+   "id": "kb.ne.gr",
+   "title": "Baby Nest Creates a Cosy Cocoon for Safe, Comfy Sleep & Portability - Heathered Grey",
+   "cost": 163.36,
+   "conv": 12.0,
+   "value": 572.08,
+   "clicks": 384,
+   "impr": 43279
+  },
+  {
+   "id": "kup.v2.hg1",
+   "title": "U-Shaped Pregnancy Pillow for Comfort & Support During Pregnancy and Beyond - Heathered Grey",
+   "cost": 111.84,
+   "conv": 5.5,
+   "value": 282.75,
+   "clicks": 113,
+   "impr": 13882
+  },
+  {
+   "id": "kss.v1.pw2",
+   "title": "Ultimate Side Sleeper Pillow - Supportive & Comfortable Sleep Solution - Twin Pack",
+   "cost": 139.01,
+   "conv": 4.0,
+   "value": 150.0,
+   "clicks": 210,
+   "impr": 33049
+  },
+  {
+   "id": "kp.v2.hg1",
+   "title": "The Pregnancy Body Pillow - Kally Sleep - Light Grey",
+   "cost": 124.78,
+   "conv": 2.0,
+   "value": 100.0,
+   "clicks": 134,
+   "impr": 28036
+  },
+  {
+   "id": "kp.sp.bl1",
+   "title": "Sports Recovery Body Pillow - Support for Muscular Healing & Sleep Quality - Grey/Blue",
+   "cost": 52.08,
+   "conv": 1.9,
+   "value": 100.0,
+   "clicks": 48,
+   "impr": 15442
+  },
+  {
+   "id": "kup.v2.pw1",
+   "title": "U-Shaped Pregnancy Pillow for Comfort & Support During Pregnancy and Beyond - Pure White",
+   "cost": 33.22,
+   "conv": 1.5,
+   "value": 66.38,
+   "clicks": 34,
+   "impr": 4397
+  },
+  {
+   "id": "kp.v2.pw",
+   "title": "Pregnancy Body Pillow: Comfort & Support for Expectant Moms & Postpartum - Pure White",
+   "cost": 18.1,
+   "conv": 1.0,
+   "value": 60.0,
+   "clicks": 9,
+   "impr": 3177
+  },
+  {
+   "id": "kfp.v1.gr1",
+   "title": "Body Support Pillow for Comfortable Sleep, Pregnancy & Recovery Support - Grey (Sherpa)",
+   "cost": 67.19,
+   "conv": 1.0,
+   "value": 57.5,
+   "clicks": 38,
+   "impr": 9694
+  },
+  {
+   "id": "kpp.v1.pw",
+   "title": "Adjustable Pillow - Customizable Support for Pain Relief & Comfort - Single",
+   "cost": 24.79,
+   "conv": 1.5,
+   "value": 55.0,
+   "clicks": 45,
+   "impr": 4200
+  },
+  {
+   "id": "kb.ne.wh",
+   "title": "Baby Nest Creates a Cosy Cocoon for Safe, Comfy Sleep & Portability - Pure White",
+   "cost": 22.76,
+   "conv": 1.0,
+   "value": 50.0,
+   "clicks": 33,
+   "impr": 7830
+  },
+  {
+   "id": "kp.v2.sb1",
+   "title": "Body Support Pillow for Comfortable Sleep, Pregnancy & Recovery Support - Stone Blue",
+   "cost": 28.6,
+   "conv": 0.83,
+   "value": 43.34,
+   "clicks": 33,
+   "impr": 6209
+  },
+  {
+   "id": "kupc.v1.hg",
+   "title": "U-Shaped Pregnancy Pillowcase - Soft, Durable & Easy to Maintain - Heathered Grey",
+   "cost": 11.76,
+   "conv": 1.0,
+   "value": 41.63,
+   "clicks": 15,
+   "impr": 1482
+  },
+  {
+   "id": "kfpc.v1.cr",
+   "title": "Body Pillowcase - Soft, Breathable Cotton Cover for Full-Length Pillows - Cream (Sherpa)",
+   "cost": 4.94,
+   "conv": 1.0,
+   "value": 29.95,
+   "clicks": 14,
+   "impr": 3155
+  },
+  {
+   "id": "kpp.v1.pw2",
+   "title": "Adjustable Pillow - Customizable Support for Pain Relief & Comfort - Twin Pack",
+   "cost": 19.14,
+   "conv": 0.5,
+   "value": 25.0,
+   "clicks": 26,
+   "impr": 2482
+  },
+  {
+   "id": "kpc.v1.sb",
+   "title": "Body Pillowcase - Soft, Breathable Cotton Cover for Full-Length Pillows - Stone Blue",
+   "cost": 9.38,
+   "conv": 0.54,
+   "value": 24.27,
+   "clicks": 14,
+   "impr": 4773
+  },
+  {
+   "id": "kp.sp.pk1",
+   "title": "Sports Recovery Body Pillow - Support for Muscular Healing & Sleep Quality - Grey/Pink",
+   "cost": 28.2,
+   "conv": 0.33,
+   "value": 20.83,
+   "clicks": 26,
+   "impr": 12309
+  },
+  {
+   "id": null,
+   "title": null,
+   "cost": 0.58,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 385
+  },
+  {
+   "id": "kcpc.v3.bl",
+   "title": "Body Pillowcase - Soft, Breathable Cotton Cover for Full-Length Pillows - Cooling Blue",
+   "cost": 0.71,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 1061
+  },
+  {
+   "id": "kpc.v1.hg",
+   "title": "Body Pillowcase - Soft, Breathable Cotton Cover for Full-Length Pillows - Heathered Grey",
+   "cost": 0.98,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 295
+  },
+  {
+   "id": "kbc.ne.wh",
+   "title": "Baby Nest Spare Cover - Soft, Breathable, Easy to Clean Fit for Your Baby - White",
+   "cost": 5.49,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 18,
+   "impr": 1845
+  },
+  {
+   "id": "kpc.v1.pw",
+   "title": "Body Pillowcase - Soft, Breathable Cotton Cover for Full-Length Pillows - Pure White",
+   "cost": 16.56,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 24,
+   "impr": 5217
+  },
+  {
+   "id": "kp.v2.sb1",
+   "title": "Pregnancy Body Pillow: Comfort & Support for Expectant Moms & Postpartum - Light Blue",
+   "cost": 1.52,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 3171
+  },
+  {
+   "id": "kss.v1.pw",
+   "title": "Ultimate Side Sleeper Pillow - Supportive & Comfortable Sleep Solution - Single",
+   "cost": 28.63,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 78,
+   "impr": 7502
+  },
+  {
+   "id": "kupc.v1.pw",
+   "title": "U-Shaped Pregnancy Pillowcase - Soft, Durable & Easy to Maintain - White",
+   "cost": 1.65,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 291
+  },
+  {
+   "id": "kp.v2.pw",
+   "title": "Body Support Pillow for Comfortable Sleep, Pregnancy & Recovery Support - Pure White",
+   "cost": 15.67,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 10,
+   "impr": 3435
+  },
+  {
+   "id": "kss.v1.pw4",
+   "title": "Ultimate Side Sleeper Pillow - Supportive & Comfortable Sleep Solution - Four Pack",
+   "cost": 29.06,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 15,
+   "impr": 3303
+  },
+  {
+   "id": "kpp.v1.pw4",
+   "title": "Adjustable Pillow - Customizable Support for Pain Relief & Comfort - Four Pack",
+   "cost": 5.65,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 3,
+   "impr": 441
+  },
+  {
+   "id": "kfpc.v1.gr",
+   "title": "Body Pillowcase - Soft, Breathable Cotton Cover for Full-Length Pillows - Grey (Sherpa)",
+   "cost": 5.61,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 5,
+   "impr": 907
+  }
+ ],
+ "products_90d": [
+  {
+   "id": "kfp.v1.cr",
+   "title": "Body Support Pillow for Comfortable Sleep, Pregnancy & Recovery Support - Cream (Sherpa)",
+   "cost": 1404.61,
+   "conv": 46.5,
+   "value": 2712.96,
+   "clicks": 1226,
+   "impr": 186478
+  },
+  {
+   "id": "kp.sp.lm1",
+   "title": "Sports Recovery Body Pillow - Support for Muscular Healing & Sleep Quality - Grey/Lime",
+   "cost": 977.29,
+   "conv": 38.26,
+   "value": 1908.69,
+   "clicks": 1055,
+   "impr": 124772
+  },
+  {
+   "id": "kb.ne.gr",
+   "title": "Baby Nest Creates a Cosy Cocoon for Safe, Comfy Sleep & Portability - Heathered Grey",
+   "cost": 642.72,
+   "conv": 30.5,
+   "value": 1760.06,
+   "clicks": 1373,
+   "impr": 160618
+  },
+  {
+   "id": "kss.v1.pw",
+   "title": "Ultimate Side Sleeper Pillow - Supportive & Comfortable Sleep Solution - Single",
+   "cost": 1881.61,
+   "conv": 35.81,
+   "value": 1596.95,
+   "clicks": 2119,
+   "impr": 262910
+  },
+  {
+   "id": "kcp.v1.bl",
+   "title": "Cooling Body Pillow - Full-Body Support for Better Sleep & Temperature Regulation",
+   "cost": 452.86,
+   "conv": 20.51,
+   "value": 1184.59,
+   "clicks": 564,
+   "impr": 58880
+  },
+  {
+   "id": "kp.v2.hg1",
+   "title": "The Pregnancy Body Pillow - Kally Sleep - Light Grey",
+   "cost": 873.19,
+   "conv": 20.42,
+   "value": 1173.05,
+   "clicks": 642,
+   "impr": 124853
+  },
+  {
+   "id": "kp.sp.lm1",
+   "title": "Sports Recovery Body Pillow for Muscle Support & Restful Sleep | Kallysleep - Grey/Lime",
+   "cost": 517.31,
+   "conv": 13.82,
+   "value": 834.31,
+   "clicks": 422,
+   "impr": 68314
+  },
+  {
+   "id": "kup.v2.hg1",
+   "title": "U-Shaped Pregnancy Pillow for Comfort & Support During Pregnancy and Beyond - Heathered Grey",
+   "cost": 383.62,
+   "conv": 11.2,
+   "value": 641.25,
+   "clicks": 347,
+   "impr": 60511
+  },
+  {
+   "id": "kpp.v1.pw",
+   "title": "Adjustable Pillow - Customizable Support for Pain Relief & Comfort - Single",
+   "cost": 411.49,
+   "conv": 6.92,
+   "value": 381.59,
+   "clicks": 394,
+   "impr": 58297
+  },
+  {
+   "id": "kfp.v1.bh1",
+   "title": "Body Support Pillow for Comfortable Sleep, Pregnancy & Recovery Support - Pink (Sherpa)",
+   "cost": 279.84,
+   "conv": 6.39,
+   "value": 364.04,
+   "clicks": 205,
+   "impr": 48897
+  },
+  {
+   "id": "kss.v1.pw2",
+   "title": "Ultimate Side Sleeper Pillow - Supportive & Comfortable Sleep Solution - Twin Pack",
+   "cost": 172.22,
+   "conv": 8.0,
+   "value": 340.0,
+   "clicks": 269,
+   "impr": 40424
+  },
+  {
+   "id": "kup.v2.pw1",
+   "title": "U-Shaped Pregnancy Pillow for Comfort & Support During Pregnancy and Beyond - Pure White",
+   "cost": 99.83,
+   "conv": 3.83,
+   "value": 223.03,
+   "clicks": 85,
+   "impr": 19169
+  },
+  {
+   "id": "kp.sp.bl1",
+   "title": "Sports Recovery Body Pillow for Muscle Support & Restful Sleep | Kallysleep - Grey/Blue",
+   "cost": 75.62,
+   "conv": 3.64,
+   "value": 220.01,
+   "clicks": 44,
+   "impr": 12434
+  },
+  {
+   "id": "kp.sp.bl1",
+   "title": "Sports Recovery Body Pillow - Support for Muscular Healing & Sleep Quality - Grey/Blue",
+   "cost": 125.06,
+   "conv": 3.9,
+   "value": 217.5,
+   "clicks": 99,
+   "impr": 30717
+  },
+  {
+   "id": "kpc.v1.sb",
+   "title": "Body Pillowcase - Soft, Breathable Cotton Cover for Full-Length Pillows - Stone Blue",
+   "cost": 14.41,
+   "conv": 4.04,
+   "value": 188.53,
+   "clicks": 23,
+   "impr": 5749
+  },
+  {
+   "id": "kp.sp.pk1",
+   "title": "Sports Recovery Body Pillow - Support for Muscular Healing & Sleep Quality - Grey/Pink",
+   "cost": 122.93,
+   "conv": 3.07,
+   "value": 163.95,
+   "clicks": 109,
+   "impr": 30220
+  },
+  {
+   "id": "kpp.v1.pw2",
+   "title": "Adjustable Pillow - Customizable Support for Pain Relief & Comfort - Twin Pack",
+   "cost": 153.51,
+   "conv": 3.5,
+   "value": 154.99,
+   "clicks": 122,
+   "impr": 27554
+  },
+  {
+   "id": "kfp.v1.gr1",
+   "title": "Body Support Pillow for Comfortable Sleep, Pregnancy & Recovery Support - Grey (Sherpa)",
+   "cost": 194.31,
+   "conv": 2.5,
+   "value": 136.5,
+   "clicks": 129,
+   "impr": 38451
+  },
+  {
+   "id": "kp.v2.pw",
+   "title": "Pregnancy Body Pillow: Comfort & Support for Expectant Moms & Postpartum - Pure White",
+   "cost": 75.86,
+   "conv": 2.0,
+   "value": 127.49,
+   "clicks": 34,
+   "impr": 15116
+  },
+  {
+   "id": "kbc.ne.wh",
+   "title": "Baby Nest Spare Cover - Soft, Breathable, Easy to Clean Fit for Your Baby - White",
+   "cost": 30.35,
+   "conv": 2.5,
+   "value": 120.46,
+   "clicks": 76,
+   "impr": 9774
+  },
+  {
+   "id": "kp.v2.sb1",
+   "title": "Body Support Pillow for Comfortable Sleep, Pregnancy & Recovery Support - Stone Blue",
+   "cost": 102.09,
+   "conv": 1.87,
+   "value": 101.24,
+   "clicks": 89,
+   "impr": 23586
+  },
+  {
+   "id": "kcp.v1.pw",
+   "title": "Cooling Pillow for Better Sleep | Stay Cooler All Night",
+   "cost": 127.06,
+   "conv": 1.16,
+   "value": 88.28,
+   "clicks": 132,
+   "impr": 20412
+  },
+  {
+   "id": "kpc.v1.pw",
+   "title": "Body Pillowcase - Soft, Breathable Cotton Cover for Full-Length Pillows - Pure White",
+   "cost": 21.4,
+   "conv": 2.0,
+   "value": 59.99,
+   "clicks": 28,
+   "impr": 5647
+  },
+  {
+   "id": "kb.ne.wh",
+   "title": "Baby Nest Creates a Cosy Cocoon for Safe, Comfy Sleep & Portability - Pure White",
+   "cost": 130.99,
+   "conv": 1.03,
+   "value": 52.89,
+   "clicks": 188,
+   "impr": 40206
+  },
+  {
+   "id": "kp.sp.pk1",
+   "title": "Sports Recovery Body Pillow for Muscle Support & Restful Sleep | Kallysleep - Grey/Pink",
+   "cost": 75.37,
+   "conv": 0.83,
+   "value": 48.04,
+   "clicks": 45,
+   "impr": 13630
+  },
+  {
+   "id": "kfpc.v1.cr",
+   "title": "Body Pillowcase - Soft, Breathable Cotton Cover for Full-Length Pillows - Cream (Sherpa)",
+   "cost": 5.79,
+   "conv": 1.5,
+   "value": 42.45,
+   "clicks": 17,
+   "impr": 3519
+  },
+  {
+   "id": "kupc.v1.hg",
+   "title": "U-Shaped Pregnancy Pillowcase - Soft, Durable & Easy to Maintain - Heathered Grey",
+   "cost": 12.65,
+   "conv": 1.0,
+   "value": 41.63,
+   "clicks": 17,
+   "impr": 1763
+  },
+  {
+   "id": "kp.v2.pw",
+   "title": "Body Support Pillow for Comfortable Sleep, Pregnancy & Recovery Support - Pure White",
+   "cost": 64.72,
+   "conv": 0.34,
+   "value": 18.96,
+   "clicks": 40,
+   "impr": 16379
+  },
+  {
+   "id": "kp.v2.sb1",
+   "title": "Pregnancy Body Pillow: Comfort & Support for Expectant Moms & Postpartum - Light Blue",
+   "cost": 89.95,
+   "conv": 0.33,
+   "value": 18.33,
+   "clicks": 44,
+   "impr": 23657
+  },
+  {
+   "id": null,
+   "title": null,
+   "cost": 0.74,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 451
+  },
+  {
+   "id": "kpc.sp.bl",
+   "title": "Sports Recovery Pillowcase - Cooling, Soft Jersey Cotton for Restful Sleep - Grey/Blue",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 3
+  },
+  {
+   "id": "kcpc.v3.bl",
+   "title": "Body Pillowcase - Soft, Breathable Cotton Cover for Full-Length Pillows - Cooling Blue",
+   "cost": 0.75,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 1199
+  },
+  {
+   "id": "kpc.v1.hg",
+   "title": "Body Pillowcase - Soft, Breathable Cotton Cover for Full-Length Pillows - Heathered Grey",
+   "cost": 0.99,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1,
+   "impr": 386
+  },
+  {
+   "id": "kpc.sp.lm",
+   "title": "Sports Recovery Pillowcase - Cooling, Soft Jersey Cotton for Restful Sleep - Grey/Lime",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 4
+  },
+  {
+   "id": "kknp.v1.pw",
+   "title": "Knee Pillow for Comfort & Pain Relief | Supports Proper Sleep Posture",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 15
+  },
+  {
+   "id": "kar.v1.wp",
+   "title": "GERD Support Pillow - Comfortable Acid Reflux Wedge Pillow for Sleep",
+   "cost": 5.32,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 9,
+   "impr": 902
+  },
+  {
+   "id": "kcp.v1.bl",
+   "title": "Cooling Body Pillow for Ultimate Comfort and Support",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 30
+  },
+  {
+   "id": "kctpc.v1.pw",
+   "title": "Cotton Pillowcase for Neck Pain - 100% Soft Comfort",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 15
+  },
+  {
+   "id": "kupc.v1.pw",
+   "title": "U-Shaped Pregnancy Pillowcase - Kally Sleep - White",
+   "cost": 0.0,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 0,
+   "impr": 3
+  },
+  {
+   "id": "kupc.v1.pw",
+   "title": "U-Shaped Pregnancy Pillowcase - Soft, Durable & Easy to Maintain - White",
+   "cost": 1.65,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 2,
+   "impr": 343
+  }
+ ],
+ "devices": [
+  {
+   "device": "DESKTOP",
+   "cost": 376.57,
+   "conv": 20.01,
+   "value": 877.5,
+   "clicks": 432
+  },
+  {
+   "device": "MOBILE",
+   "cost": 2599.77,
+   "conv": 131.46,
+   "value": 6650.63,
+   "clicks": 3672
+  },
+  {
+   "device": "TABLET",
+   "cost": 52.07,
+   "conv": 4.0,
+   "value": 144.52,
+   "clicks": 163
+  },
+  {
+   "device": "CONNECTED_TV",
+   "cost": 3.23,
+   "conv": 0.0,
+   "value": 0.0,
+   "clicks": 1
+  }
+ ]
+}

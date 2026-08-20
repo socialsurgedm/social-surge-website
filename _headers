@@ -8,6 +8,10 @@
   X-Robots-Tag: noindex, nofollow
   Cache-Control: no-store
 
+/dashboard/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
+
 /*
   Strict-Transport-Security: max-age=31536000
   X-Content-Type-Options: nosniff

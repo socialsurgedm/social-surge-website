@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Social Surge | Client Performance Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<style>
+  :root{
+    --navy:#152337; --navy2:#1F3451; --blue:#5299E0; --green:#37BE76;
+    --orange:#F7B76E; --red:#E44444; --bg:#0f1a2b; --card:#1a2a44;
+    --card2:#213453; --text:#eaf1fa; --muted:#8fa3c0; --line:#2c4166;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+  header{background:var(--navy);padding:14px 22px;display:flex;align-items:center;gap:16px;border-bottom:2px solid var(--blue);position:sticky;top:0;z-index:50;flex-wrap:wrap}
+  header h1{font-size:17px;font-weight:700;letter-spacing:.3px}
+  header .sub{color:var(--muted);font-size:12px}
+  .logo{width:30px;height:30px;border-radius:7px;background:linear-gradient(135deg,var(--blue),var(--green));display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;color:#fff}
+  nav{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto}
+  nav button{background:var(--card);border:1px solid var(--line);color:var(--text);padding:7px 14px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600}
+  nav button.active{background:var(--blue);border-color:var(--blue);color:#fff}
+  nav button:hover{border-color:var(--blue)}
+  main{padding:20px;max-width:1400px;margin:0 auto}
+  .toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:18px}
+  .toolbar label{font-size:12px;color:var(--muted)}
+  select,input[type=date],input[type=text]{background:var(--card);border:1px solid var(--line);color:var(--text);padding:7px 10px;border-radius:8px;font-size:13px}
+  .grid{display:grid;gap:14px}
+  .kpis{grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .kpi .label{font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);margin-bottom:6px}
+  .kpi .val{font-size:22px;font-weight:800}
+  .kpi .delta{font-size:12px;margin-top:5px;font-weight:600}
+  .up{color:var(--green)} .down{color:var(--red)} .flat{color:var(--muted)}
+  h2{font-size:15px;margin:26px 0 12px;color:#fff;display:flex;align-items:center;gap:8px}
+  h2 .tag{font-size:10px;background:var(--navy2);color:var(--muted);padding:3px 8px;border-radius:20px;font-weight:600;letter-spacing:.5px}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th{color:var(--muted);text-transform:uppercase;font-size:10px;letter-spacing:.6px;text-align:right;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+  th:first-child,td:first-child{text-align:left}
+  td{padding:8px 10px;border-bottom:1px solid rgba(44,65,102,.5);text-align:right;white-space:nowrap}
+  tr:hover td{background:rgba(82,153,224,.06)}
+  .scroll{overflow-x:auto}
+  .chartbox{height:320px;position:relative}
+  .row2{display:grid;grid-template-columns:2fr 1fr;gap:14px}
+  @media(max-width:900px){.row2{grid-template-columns:1fr}}
+  .pill{padding:2px 8px;border-radius:12px;font-size:10px;font-weight:700}
+  .pill.ok{background:rgba(55,190,118,.15);color:var(--green)}
+  .pill.warn{background:rgba(247,183,110,.15);color:var(--orange)}
+  .pill.bad{background:rgba(228,68,68,.15);color:var(--red)}
+  .recs .item{display:flex;gap:10px;align-items:flex-start;padding:10px 4px;border-bottom:1px solid rgba(44,65,102,.5)}
+  .recs .item input{margin-top:3px;accent-color:var(--green);width:16px;height:16px;cursor:pointer}
+  .recs .item.done span{text-decoration:line-through;color:var(--muted)}
+  .recs .prio{font-size:9px;font-weight:800;padding:2px 6px;border-radius:4px;margin-left:auto;flex-shrink:0}
+  .p-high{background:rgba(228,68,68,.2);color:var(--red)}
+  .p-med{background:rgba(247,183,110,.2);color:var(--orange)}
+  .p-low{background:rgba(82,153,224,.2);color:var(--blue)}
+  .addrec{display:flex;gap:8px;margin-top:12px}
+  .addrec input{flex:1}
+  .btn{background:var(--blue);border:none;color:#fff;padding:8px 16px;border-radius:8px;cursor:pointer;font-weight:700;font-size:13px}
+  .btn:hover{opacity:.9}
+  .btn.ghost{background:var(--card2);border:1px solid var(--line)}
+  .note{background:rgba(247,183,110,.08);border:1px solid rgba(247,183,110,.3);border-radius:10px;padding:12px 14px;font-size:12.5px;color:var(--orange);margin:10px 0}
+  .muted{color:var(--muted)}
+  .cmp-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+  @media(max-width:700px){.cmp-grid{grid-template-columns:1fr}}
+  .loading{text-align:center;padding:60px;color:var(--muted)}
+  footer{text-align:center;color:var(--muted);font-size:11px;padding:30px 0}
+  .togglegrp button{background:var(--card2);border:1px solid var(--line);color:var(--text);padding:5px 12px;font-size:12px;cursor:pointer}
+  .togglegrp button:first-child{border-radius:8px 0 0 8px}
+  .togglegrp button:last-child{border-radius:0 8px 8px 0}
+  .togglegrp button.on{background:var(--blue);border-color:var(--blue)}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">SS</div>
+  <div>
+    <h1>Client Performance Dashboard</h1>
+    <div class="sub" id="pulledAt">Loading data...</div>
+  </div>
+  <nav id="nav"></nav>
+</header>
+<main id="main"><div class="loading">Loading account data...</div></main>
+<footer>Social Surge DM LTD | Internal use only | Google Ads API v23 | All revenue figures are Google Ads conversion value (GBP)</footer>
+
+<script>
+const SLUGS = ["certini","veals","kally","lookincredible","shyre"];
+const NAMES = {certini:"Certini",veals:"Veals",kally:"Kally Sleep",lookincredible:"Look Incredible",shyre:"Shyre Bikes"};
+const DATA = {};
+let charts = [];
+
+const DEFAULT_RECS = {
+  certini: [
+    ["Verify June revenue spike vs Google Ads UI (seasonality check)","high"],
+    ["Prepare September upsell case: YoY performance pack (rev +23.6% on +5.6% spend precedent)","high"],
+    ["Stage 3 product exclusion review on rolling 90-day zero-conversion products","med"],
+    ["Request product cost / margin feed from Carl for profit-level reporting","med"],
+    ["Restore Merchant Center API access for live inventory and disapproval data","low"]
+  ],
+  veals: [
+    ["Quarterly negative keyword refresh (last done Mar 2026, £1,618/mo saved)","high"],
+    ["Product exclusion refresh on rolling 90-day data (proven Certini play)","med"],
+    ["CRO proposal: 82.8% cart abandonment, 77.7% lost basket-to-checkout","med"],
+    ["Build the 5 Klaviyo flows from existing templates","med"],
+    ["Request product cost / margin feed for profit-level reporting","low"]
+  ],
+  kally: [
+    ["Confirm all 4 legacy campaigns are PAUSED (triple-bidding risk, ~£300/day dormant)","high"],
+    ["PMAX Catch All: cut £120 to £60/day and set tROAS 250%","high"],
+    ["Launch non-brand Search: Pillows £20/day, Toppers £10/day","high"],
+    ["PMAX restructure: asset groups, product exclusions, brand exclusions","med"],
+    ["Weekly ROAS tracking vs 4x September target (escalation to £1,475 + 3%)","high"],
+    ["Request product cost / margin feed from Justin","low"]
+  ],
+  lookincredible: [
+    ["No active retainer: run full opportunity audit as pitch ammunition","med"],
+    ["Request product cost / margin feed if engagement starts","low"]
+  ],
+  shyre: [
+    ["No active retainer: run full opportunity audit as pitch ammunition","med"],
+    ["Request product cost / margin feed if engagement starts","low"]
+  ]
+};
+
+// ---------- utils ----------
+const fmtGBP = v => v==null||isNaN(v) ? "-" : "£"+Number(v).toLocaleString("en-GB",{maximumFractionDigits:0});
+const fmtGBP2 = v => v==null||isNaN(v) ? "-" : "£"+Number(v).toLocaleString("en-GB",{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmtX = v => v==null||!isFinite(v) ? "-" : v.toFixed(2)+"x";
+const fmtN = v => v==null||isNaN(v) ? "-" : Number(v).toLocaleString("en-GB",{maximumFractionDigits:0});
+const fmtP = v => v==null||!isFinite(v) ? "-" : (v*100).toFixed(2)+"%";
+function deltaHtml(cur, prev, invert=false){
+  if(prev==null||cur==null||!isFinite(prev)||!isFinite(cur)||prev===0) return '<span class="flat">-</span>';
+  const pct = (cur-prev)/Math.abs(prev)*100;
+  if(Math.abs(pct)<0.05) return '<span class="flat">0.0%</span>';
+  const good = invert ? pct<0 : pct>0;
+  const arrow = pct>0 ? "▲" : "▼";
+  return `<span class="${good?'up':'down'}">${arrow} ${Math.abs(pct).toFixed(1)}%</span>`;
+}
+function kpisOf(rows){
+  const s = rows.reduce((a,r)=>{a.cost+=r.cost;a.value+=r.value;a.conv+=r.conv;a.clicks+=r.clicks;a.impr+=r.impr||0;return a;},{cost:0,value:0,conv:0,clicks:0,impr:0});
+  return {
+    spend:s.cost, revenue:s.value, conv:s.conv, clicks:s.clicks, impr:s.impr,
+    roas: s.cost>0 ? s.value/s.cost : null,
+    cpa: s.conv>0 ? s.cost/s.conv : null,
+    aov: s.conv>0 ? s.value/s.conv : null,
+    ctr: s.impr>0 ? s.clicks/s.impr : null,
+    cpc: s.clicks>0 ? s.cost/s.clicks : null
+  };
+}
+function dailyBetween(d, from, to){ return (d.daily||[]).filter(r=>r.date>=from && r.date<=to); }
+function iso(dt){ return dt.toISOString().slice(0,10); }
+function addDays(s,n){ const d=new Date(s+"T00:00:00Z"); d.setUTCDate(d.getUTCDate()+n); return iso(d); }
+function lastFullWeek(){ // most recent completed Mon-Sun
+  const now=new Date(); const dow=(now.getUTCDay()+6)%7; // Mon=0
+  const lastSun=new Date(now); lastSun.setUTCDate(now.getUTCDate()-dow-1);
+  const mon=new Date(lastSun); mon.setUTCDate(lastSun.getUTCDate()-6);
+  return [iso(mon), iso(lastSun)];
+}
+function weeksList(d, n=12){ // last n full Mon-Sun weeks, newest first
+  const out=[]; let [mon,sun]=lastFullWeek();
+  for(let i=0;i<n;i++){ out.push([mon,sun]); mon=addDays(mon,-7); sun=addDays(sun,-7); }
+  return out;
+}
+function roasPill(r){
+  if(r==null||!isFinite(r)) return '<span class="muted">-</span>';
+  const cls = r>=4 ? "ok" : r>=2.5 ? "warn" : "bad";
+  return `<span class="pill ${cls}">${r.toFixed(2)}x</span>`;
+}
+
+// ---------- recommendations (localStorage) ----------
+function recState(slug){
+  const key="ssdash_recs_"+slug;
+  let st = JSON.parse(localStorage.getItem(key)||"null");
+  if(!st){ st={items:DEFAULT_RECS[slug].map(([t,p])=>({t,p,done:false}))}; localStorage.setItem(key,JSON.stringify(st)); }
+  return st;
+}
+function saveRecs(slug,st){ localStorage.setItem("ssdash_recs_"+slug, JSON.stringify(st)); }
+window.toggleRec = (slug,i)=>{ const st=recState(slug); st.items[i].done=!st.items[i].done; saveRecs(slug,st); render(); };
+window.addRec = (slug)=>{ const inp=document.getElementById("newrec-"+slug); if(!inp.value.trim())return; const st=recState(slug); st.items.push({t:inp.value.trim(),p:"med",done:false,custom:true}); saveRecs(slug,st); render(); };
+window.delRec = (slug,i)=>{ const st=recState(slug); st.items.splice(i,1); saveRecs(slug,st); render(); };
+
+// ---------- views ----------
+let view="overview", period="lastweek", prodRange="30", cmp=null;
+window.setView=(v)=>{view=v;render();};
+window.setPeriod=(p)=>{period=p;render();};
+window.setProdRange=(r)=>{prodRange=r;render();};
+
+function periodRange(p){
+  const today=iso(new Date()); const yesterday=addDays(today,-1);
+  if(p==="lastweek"){ const [a,b]=lastFullWeek(); return {label:"Last full week ("+a+" to "+b+")",from:a,to:b,prevFrom:addDays(a,-7),prevTo:addDays(b,-7)}; }
+  if(p==="7d") return {label:"Last 7 days",from:addDays(yesterday,-6),to:yesterday,prevFrom:addDays(yesterday,-13),prevTo:addDays(yesterday,-7)};
+  if(p==="30d") return {label:"Last 30 days",from:addDays(yesterday,-29),to:yesterday,prevFrom:addDays(yesterday,-59),prevTo:addDays(yesterday,-30)};
+  if(p==="lastmonth"){ const n=new Date(); const first=new Date(Date.UTC(n.getUTCFullYear(),n.getUTCMonth()-1,1)); const last=new Date(Date.UTC(n.getUTCFullYear(),n.getUTCMonth(),0)); const pf=new Date(Date.UTC(n.getUTCFullYear(),n.getUTCMonth()-2,1)); const pl=new Date(Date.UTC(n.getUTCFullYear(),n.getUTCMonth()-1,0)); return {label:"Last calendar month",from:iso(first),to:iso(last),prevFrom:iso(pf),prevTo:iso(pl)}; }
+  return periodRange("lastweek");
+}
+
+function kpiCards(d, pr){
+  const cur=kpisOf(dailyBetween(d,pr.from,pr.to)), prev=kpisOf(dailyBetween(d,pr.prevFrom,pr.prevTo));
+  const defs=[
+    ["Spend",fmtGBP(cur.spend),deltaHtml(cur.spend,prev.spend)],
+    ["Revenue",fmtGBP(cur.revenue),deltaHtml(cur.revenue,prev.revenue)],
+    ["ROAS",fmtX(cur.roas),deltaHtml(cur.roas,prev.roas)],
+    ["Conversions",fmtN(cur.conv),deltaHtml(cur.conv,prev.conv)],
+    ["CPA",fmtGBP2(cur.cpa),deltaHtml(cur.cpa,prev.cpa,true)],
+    ["AOV",fmtGBP2(cur.aov),deltaHtml(cur.aov,prev.aov)],
+    ["CTR",fmtP(cur.ctr),deltaHtml(cur.ctr,prev.ctr)],
+    ["CPC",fmtGBP2(cur.cpc),deltaHtml(cur.cpc,prev.cpc,true)]
+  ];
+  return `<div class="grid kpis">${defs.map(([l,v,dl])=>`<div class="card kpi"><div class="label">${l}</div><div class="val">${v}</div><div class="delta">${dl} <span class="muted">vs prev</span></div></div>`).join("")}</div>`;
+}
+
+function weeklyTable(d){
+  const rows=weeksList(d,12).map(([a,b],i,arr)=>{
+    const k=kpisOf(dailyBetween(d,a,b));
+    const prev = arr[i+1] ? kpisOf(dailyBetween(d,arr[i+1][0],arr[i+1][1])) : null;
+    return `<tr><td>${a} → ${b}</td><td>${fmtGBP(k.spend)}</td><td>${fmtGBP(k.revenue)}</td><td>${roasPill(k.roas)}</td><td>${fmtN(k.conv)}</td><td>${fmtGBP2(k.cpa)}</td><td>${fmtGBP2(k.aov)}</td><td>${prev?deltaHtml(k.revenue,prev.revenue):"-"}</td><td>${prev?deltaHtml(k.roas,prev.roas):"-"}</td></tr>`;
+  }).join("");
+  return `<div class="card scroll"><table><thead><tr><th>Week (Mon-Sun)</th><th>Spend</th><th>Revenue</th><th>ROAS</th><th>Conv</th><th>CPA</th><th>AOV</th><th>Rev WoW</th><th>ROAS WoW</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function monthlyTable(d){
+  const ms=(d.monthly||[]).slice().sort((a,b)=>b.month.localeCompare(a.month));
+  const byM={}; ms.forEach(m=>byM[m.month]=m);
+  const rows=ms.map((m,i)=>{
+    const k=kpisOf([m]); const prev=ms[i+1]?kpisOf([ms[i+1]]):null;
+    const yoyKey=(parseInt(m.month.slice(0,4))-1)+m.month.slice(4);
+    const yoy=byM[yoyKey]?kpisOf([byM[yoyKey]]):null;
+    return `<tr><td>${m.month}</td><td>${fmtGBP(k.spend)}</td><td>${fmtGBP(k.revenue)}</td><td>${roasPill(k.roas)}</td><td>${fmtN(k.conv)}</td><td>${fmtGBP2(k.cpa)}</td><td>${prev?deltaHtml(k.revenue,prev.revenue):"-"}</td><td>${prev?deltaHtml(k.roas,prev.roas):"-"}</td><td>${yoy?deltaHtml(k.revenue,yoy.revenue):"-"}</td></tr>`;
+  }).join("");
+  return `<div class="card scroll"><table><thead><tr><th>Month</th><th>Spend</th><th>Revenue</th><th>ROAS</th><th>Conv</th><th>CPA</th><th>Rev MoM</th><th>ROAS MoM</th><th>Rev YoY</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function campaignTable(d){
+  const cs=(d.campaigns||[]).filter(c=>c.cost>0.5||c.status==="ENABLED");
+  if(!cs.length) return '<div class="card muted">No campaign data.</div>';
+  const rows=cs.map(c=>{
+    const roas=c.cost>0?c.value/c.cost:null, cpa=c.conv>0?c.cost/c.conv:null;
+    const st=c.status==="ENABLED"?'<span class="pill ok">ON</span>':`<span class="pill bad">${c.status}</span>`;
+    return `<tr><td>${c.name}</td><td>${st}</td><td class="muted">${(c.type||"").replace("PERFORMANCE_MAX","PMAX")}</td><td>${c.budget?fmtGBP2(c.budget)+"/d":"-"}</td><td>${fmtGBP(c.cost)}</td><td>${fmtGBP(c.value)}</td><td>${roasPill(roas)}</td><td>${fmtN(c.conv)}</td><td>${fmtGBP2(cpa)}</td></tr>`;
+  }).join("");
+  return `<div class="card scroll"><table><thead><tr><th>Campaign</th><th>Status</th><th>Type</th><th>Budget</th><th>Spend 30d</th><th>Revenue</th><th>ROAS</th><th>Conv</th><th>CPA</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function productsTable(d){
+  const ps=(prodRange==="30"?d.products_30d:d.products_90d)||[];
+  if(!ps.length) return '<div class="card muted">No Shopping / PMAX product data for this account.</div>';
+  const rows=ps.slice(0,25).map(p=>{
+    const roas=p.cost>0?p.value/p.cost:null;
+    return `<tr><td title="${p.id||""}">${(p.title||p.id||"?").slice(0,60)}</td><td>${fmtGBP(p.value)}</td><td>${fmtGBP(p.cost)}</td><td>${roasPill(roas)}</td><td>${fmtN(p.conv)}</td><td>${fmtN(p.clicks)}</td><td class="muted">needs cost feed</td><td class="muted">needs MC access</td></tr>`;
+  }).join("");
+  return `<div class="card scroll"><table><thead><tr><th>Product</th><th>Revenue</th><th>Spend</th><th>ROAS</th><th>Conv</th><th>Clicks</th><th>Margin</th><th>Inventory</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function recsBlock(slug){
+  const st=recState(slug);
+  const items=st.items.map((r,i)=>`<div class="item ${r.done?'done':''}"><input type="checkbox" ${r.done?'checked':''} onchange="toggleRec('${slug}',${i})"><span>${r.t}</span><span class="prio p-${r.p}">${r.p.toUpperCase()}</span>${r.custom?`<button class="btn ghost" style="padding:2px 8px;font-size:10px" onclick="delRec('${slug}',${i})">✕</button>`:""}</div>`).join("");
+  const done=st.items.filter(r=>r.done).length;
+  return `<div class="card recs"><div style="margin-bottom:8px" class="muted">${done}/${st.items.length} actioned</div>${items}<div class="addrec"><input type="text" id="newrec-${slug}" placeholder="Add a recommendation..."><button class="btn" onclick="addRec('${slug}')">Add</button></div></div>`;
+}
+
+function makeChart(canvasId, d, from, to){
+  const rows=dailyBetween(d,from,to);
+  setTimeout(()=>{
+    const el=document.getElementById(canvasId); if(!el)return;
+    const c=new Chart(el,{data:{labels:rows.map(r=>r.date.slice(5)),datasets:[
+      {type:"bar",label:"Spend",data:rows.map(r=>r.cost),backgroundColor:"rgba(228,68,68,.55)",yAxisID:"y"},
+      {type:"bar",label:"Revenue",data:rows.map(r=>r.value),backgroundColor:"rgba(82,153,224,.65)",yAxisID:"y"},
+      {type:"line",label:"ROAS",data:rows.map(r=>r.cost>0?r.value/r.cost:0),borderColor:"#37BE76",backgroundColor:"#37BE76",yAxisID:"y1",tension:.35,pointRadius:0,borderWidth:2}
+    ]},options:{responsive:true,maintainAspectRatio:false,interaction:{mode:"index",intersect:false},
+      scales:{x:{ticks:{color:"#8fa3c0",maxTicksLimit:16},grid:{display:false}},
+        y:{ticks:{color:"#8fa3c0",callback:v=>"£"+v.toLocaleString()},grid:{color:"rgba(44,65,102,.4)"}},
+        y1:{position:"right",ticks:{color:"#37BE76",callback:v=>v+"x"},grid:{display:false}}},
+      plugins:{legend:{labels:{color:"#eaf1fa"}}}}});
+    charts.push(c);
+  },0);
+}
+function makeDeviceChart(canvasId, d){
+  const ds=(d.devices||[]).filter(x=>x.cost>0);
+  if(!ds.length) return;
+  setTimeout(()=>{
+    const el=document.getElementById(canvasId); if(!el)return;
+    const c=new Chart(el,{type:"doughnut",data:{labels:ds.map(x=>x.device),datasets:[{data:ds.map(x=>x.value),backgroundColor:["#5299E0","#37BE76","#F7B76E","#E44444","#8fa3c0"]}]},
+      options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:"bottom",labels:{color:"#eaf1fa",font:{size:11}}},title:{display:true,text:"Revenue by device (30d)",color:"#8fa3c0",font:{size:11}}}}});
+    charts.push(c);
+  },0);
+}
+
+// ---------- comparison ----------
+window.runCompare=()=>{
+  cmp={client:document.getElementById("cmpClient").value,
+    aFrom:document.getElementById("aFrom").value,aTo:document.getElementById("aTo").value,
+    bFrom:document.getElementById("bFrom").value,bTo:document.getElementById("bTo").value};
+  render();
+};
+function compareView(){
+  const opts=SLUGS.filter(s=>DATA[s]).map(s=>`<option value="${s}" ${cmp&&cmp.client===s?"selected":""}>${NAMES[s]}</option>`).join("");
+  const [lwA,lwB]=lastFullWeek();
+  let result="";
+  if(cmp&&DATA[cmp.client]&&cmp.aFrom&&cmp.aTo&&cmp.bFrom&&cmp.bTo){
+    const d=DATA[cmp.client];
+    const A=kpisOf(dailyBetween(d,cmp.aFrom,cmp.aTo)), B=kpisOf(dailyBetween(d,cmp.bFrom,cmp.bTo));
+    const rows=[["Spend",fmtGBP(A.spend),fmtGBP(B.spend),deltaHtml(A.spend,B.spend)],
+      ["Revenue",fmtGBP(A.revenue),fmtGBP(B.revenue),deltaHtml(A.revenue,B.revenue)],
+      ["ROAS",fmtX(A.roas),fmtX(B.roas),deltaHtml(A.roas,B.roas)],
+      ["Conversions",fmtN(A.conv),fmtN(B.conv),deltaHtml(A.conv,B.conv)],
+      ["CPA",fmtGBP2(A.cpa),fmtGBP2(B.cpa),deltaHtml(A.cpa,B.cpa,true)],
+      ["AOV",fmtGBP2(A.aov),fmtGBP2(B.aov),deltaHtml(A.aov,B.aov)],
+      ["CTR",fmtP(A.ctr),fmtP(B.ctr),deltaHtml(A.ctr,B.ctr)],
+      ["CPC",fmtGBP2(A.cpc),fmtGBP2(B.cpc),deltaHtml(A.cpc,B.cpc,true)],
+      ["Clicks",fmtN(A.clicks),fmtN(B.clicks),deltaHtml(A.clicks,B.clicks)]
+    ].map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td></tr>`).join("");
+    result=`<div class="card scroll"><table><thead><tr><th>KPI</th><th>Period A (${cmp.aFrom} → ${cmp.aTo})</th><th>Period B (${cmp.bFrom} → ${cmp.bTo})</th><th>A vs B</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+  }
+  return `<h2>Period Comparison <span class="tag">ANY TWO DATE RANGES</span></h2>
+  <div class="card"><div class="cmp-grid">
+    <div><label class="muted">Client</label><br><select id="cmpClient">${opts}</select></div><div></div>
+    <div><label class="muted">Period A</label><br><input type="date" id="aFrom" value="${cmp?cmp.aFrom:lwA}"> → <input type="date" id="aTo" value="${cmp?cmp.aTo:lwB}"></div>
+    <div><label class="muted">Period B</label><br><input type="date" id="bFrom" value="${cmp?cmp.bFrom:addDays(lwA,-7)}"> → <input type="date" id="bTo" value="${cmp?cmp.bTo:addDays(lwB,-7)}"></div>
+  </div><button class="btn" onclick="runCompare()">Run comparison</button></div>${result}`;
+}
+
+// ---------- overview ----------
+function overviewView(){
+  const pr=periodRange(period);
+  const cards=SLUGS.filter(s=>DATA[s]&&(DATA[s].daily||[]).length).map(s=>{
+    const d=DATA[s];
+    const cur=kpisOf(dailyBetween(d,pr.from,pr.to)), prev=kpisOf(dailyBetween(d,pr.prevFrom,pr.prevTo));
+    return `<div class="card" style="cursor:pointer" onclick="setView('${s}')">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><strong>${NAMES[s]}</strong>${roasPill(cur.roas)}</div>
+      <table><tbody>
+        <tr><td>Spend</td><td>${fmtGBP(cur.spend)}</td><td>${deltaHtml(cur.spend,prev.spend)}</td></tr>
+        <tr><td>Revenue</td><td>${fmtGBP(cur.revenue)}</td><td>${deltaHtml(cur.revenue,prev.revenue)}</td></tr>
+        <tr><td>Conv</td><td>${fmtN(cur.conv)}</td><td>${deltaHtml(cur.conv,prev.conv)}</td></tr>
+        <tr><td>CPA</td><td>${fmtGBP2(cur.cpa)}</td><td>${deltaHtml(cur.cpa,prev.cpa,true)}</td></tr>
+      </tbody></table>
+      <div class="muted" style="margin-top:8px;font-size:11px">${recState(s).items.filter(r=>!r.done).length} open recommendations</div>
+    </div>`;
+  }).join("");
+  return `<h2>All Accounts <span class="tag">${pr.label.toUpperCase()}</span></h2>
+  <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">${cards}</div>
+  ${compareView()}`;
+}
+
+function clientView(slug){
+  const d=DATA[slug]; if(!d||!(d.daily||[]).length) return `<div class="note">No data pulled for ${NAMES[slug]}.</div>`;
+  const pr=periodRange(period);
+  const chartFrom=addDays(iso(new Date()),-90);
+  return `
+  <h2>${NAMES[slug]} <span class="tag">${pr.label.toUpperCase()}</span></h2>
+  ${kpiCards(d,pr)}
+  <h2>Daily Trend <span class="tag">LAST 90 DAYS</span></h2>
+  <div class="row2">
+    <div class="card chartbox"><canvas id="ch-${slug}"></canvas></div>
+    <div class="card chartbox"><canvas id="dv-${slug}"></canvas></div>
+  </div>
+  <h2>Week on Week <span class="tag">LAST 12 FULL WEEKS, MON-SUN</span></h2>
+  ${weeklyTable(d)}
+  <h2>Month on Month <span class="tag">WITH YOY WHERE AVAILABLE</span></h2>
+  ${monthlyTable(d)}
+  <h2>Campaigns <span class="tag">LAST 30 DAYS</span></h2>
+  ${campaignTable(d)}
+  <h2>Top Selling Products
+    <span class="togglegrp" style="margin-left:8px"><button class="${prodRange==='30'?'on':''}" onclick="setProdRange('30')">30d</button><button class="${prodRange==='90'?'on':''}" onclick="setProdRange('90')">90d</button></span>
+  </h2>
+  <div class="note">Margin and inventory columns need a product cost feed (client) and Merchant Center API access, both flagged in recommendations. Revenue and ROAS are live.</div>
+  ${productsTable(d)}
+  <h2>Recommendations <span class="tag">TICK WHEN ACTIONED, SAVED LOCALLY</span></h2>
+  ${recsBlock(slug)}`;
+}
+
+// ---------- render ----------
+function render(){
+  charts.forEach(c=>c.destroy()); charts=[];
+  const nav=document.getElementById("nav");
+  const tabs=[["overview","Overview"],...SLUGS.filter(s=>DATA[s]).map(s=>[s,NAMES[s]])];
+  nav.innerHTML=tabs.map(([v,l])=>`<button class="${view===v?'active':''}" onclick="setView('${v}')">${l}</button>`).join("");
+  const toolbar=`<div class="toolbar"><label>Period:</label>
+    <select onchange="setPeriod(this.value)">
+      <option value="lastweek" ${period==='lastweek'?'selected':''}>Last full week (Mon-Sun)</option>
+      <option value="7d" ${period==='7d'?'selected':''}>Last 7 days</option>
+      <option value="30d" ${period==='30d'?'selected':''}>Last 30 days</option>
+      <option value="lastmonth" ${period==='lastmonth'?'selected':''}>Last calendar month</option>
+    </select></div>`;
+  const main=document.getElementById("main");
+  main.innerHTML=toolbar+(view==="overview"?overviewView():clientView(view));
+  if(view!=="overview"&&DATA[view]){
+    makeChart("ch-"+view,DATA[view],addDays(iso(new Date()),-90),iso(new Date()));
+    makeDeviceChart("dv-"+view,DATA[view]);
+  }
+}
+
+// ---------- boot ----------
+(async()=>{
+  let newest=null;
+  await Promise.all(SLUGS.map(async s=>{
+    try{ const r=await fetch("data/"+s+".json",{cache:"no-store"}); if(r.ok){ DATA[s]=await r.json(); if(!newest||DATA[s].pulled_at>newest) newest=DATA[s].pulled_at; } }catch(e){}
+  }));
+  document.getElementById("pulledAt").textContent = newest ? "Data pulled: "+new Date(newest).toLocaleString("en-GB")+" | Source: Google Ads API" : "No data files found";
+  render();
+})();
+</script>
+</body>
+</html>
