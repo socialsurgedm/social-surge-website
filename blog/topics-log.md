@@ -21,3 +21,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-08-13 google-ads-vs-meta-ads-ecommerce -- Google Ads vs Meta Ads for e-commerce: which platform should UK e-commerce stores prioritise?
 - 2026-08-18 reduce-cpa-google-ads-ecommerce -- How to reduce CPA on Google Ads for e-commerce
 - 2026-08-20 google-ads-black-friday-ecommerce -- Black Friday Google Ads strategy for e-commerce: how UK e-commerce stores should prepare for Q4
+- 2026-08-25 google-ads-management-cost-uk -- Google Ads management cost UK: what agencies charge and what you should expect
