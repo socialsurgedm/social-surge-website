@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Ads Conversion Tracking for E-Commerce</title>
+  <meta name="description" content="Google Ads conversion tracking for e-commerce: how to set it up correctly, fix the most common errors and stop bad data from killing your ROAS.">
+  <link rel="canonical" href="https://social-surge.co.uk/blog/google-ads-conversion-tracking-ecommerce/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Google Ads Conversion Tracking for E-Commerce">
+  <meta property="og:description" content="Google Ads conversion tracking for e-commerce: how to set it up correctly, fix the most common errors and stop bad data from killing your ROAS.">
+  <meta property="og:url" content="https://social-surge.co.uk/blog/google-ads-conversion-tracking-ecommerce/">
+  <meta property="og:image" content="https://social-surge.co.uk/assets/img/og-image.jpg">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css?v=4">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://social-surge.co.uk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://social-surge.co.uk/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Google Ads Conversion Tracking for E-Commerce"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Google Ads Conversion Tracking for E-Commerce: Set It Up Right and Fix the Common Errors",
+  "description": "Google Ads conversion tracking for e-commerce: how to set it up correctly, fix the most common errors and stop bad data from killing your ROAS.",
+  "url": "https://social-surge.co.uk/blog/google-ads-conversion-tracking-ecommerce/",
+  "datePublished": "2026-08-27",
+  "dateModified": "2026-08-27",
+  "inLanguage": "en-GB",
+  "image": "https://social-surge.co.uk/assets/img/ss-logo.png",
+  "author": {
+    "@type": "Person",
+    "name": "Jack Goldsmith",
+    "jobTitle": "Founder & Performance Marketer",
+    "url": "https://social-surge.co.uk/about/",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Social Surge DM LTD",
+      "url": "https://social-surge.co.uk/"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Social Surge DM LTD",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://social-surge.co.uk/assets/img/ss-logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://social-surge.co.uk/blog/google-ads-conversion-tracking-ecommerce/"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I set up Google Ads conversion tracking for an e-commerce store?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Create a purchase conversion action in Google Ads, install the Google tag via Google Tag Manager, and fire a conversion event on your order-confirmation page with dynamic values: conversion_value (order total in GBP), currency (GBP) and transaction_id (unique order number). Link your GA4 property for cross-platform verification, and enable enhanced conversions to recover signal from cookieless browsers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use GA4 imports or native Google Ads conversion tracking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both methods work, but native Google Ads conversion tracking updates in real time, which helps Smart Bidding react faster and makes it better for seasonal peaks and high-spend accounts. Imported GA4 conversions update with a 24-48 hour delay but align your ad reporting with your analytics. Avoid running both as primary conversion actions simultaneously, as this double-counts every purchase."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are enhanced conversions and do I need them for my e-commerce store?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Enhanced conversions send hashed customer data (email, phone, name, address) alongside your standard conversion signal so Google can match purchases that happen in cookieless environments. With increased browser privacy restrictions and the decline of third-party cookies, enhanced conversions recover signal that would otherwise be lost. Most e-commerce stores running Google Ads should enable them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does Google Ads show more conversions than my actual orders?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most common cause is a missing or blank transaction ID. Without it, Google Ads records a new conversion for every pageview of your order-confirmation page, including refreshes and back-button navigation. Adding a unique transaction ID (your order number) to the conversion tag allows Google to deduplicate events that share the same ID within a 30-day window."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long should my Google Ads conversion window be for e-commerce?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The default 30-day post-click window suits low-cost impulse purchases. For higher-ticket products where shoppers compare options across multiple sessions over several weeks, a 60-90 day window is more accurate and gives Smart Bidding a fuller picture of which clicks ultimately lead to purchases."
+      }
+    }
+  ]
+}
+  </script>
+  <!-- GA4 (Consent Mode v2, cookieless until consent granted) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJYGTYLBR1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {analytics_storage:'denied', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'});
+    try{if(localStorage.getItem('ss_consent')==='granted'){gtag('consent','update',{analytics_storage:'granted', ad_storage:'granted', ad_user_data:'granted', ad_personalization:'granted'});}}catch(e){}
+    gtag('js', new Date());
+    gtag('config', 'G-JJYGTYLBR1');
+  </script>
+  <script src="/assets/js/consent.js?v=1"></script>
+</head>
+<body>
+
+  <div class="announce"><span class="dot"></span>Get your first month FREE or 25% off your first 3 months, <a href="/audit/">Book a free PPC audit</a></div>
+
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" aria-label="Social Surge home"><img src="/assets/img/ss-logo-nav.png" alt="Social Surge logo" width="60" height="48"></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">Home</a></li>
+        <li>
+          <a href="/services/">Services &#9662;</a>
+          <div class="dropdown">
+            <a href="/services/google-ads-management/">Google Ads Management<span>Search, Shopping &amp; Performance Max</span></a>
+            <a href="/services/meta-ads-management/">Meta Ads Management<span>Facebook &amp; Instagram Ads</span></a>
+            <a href="/services/ai-performance-infrastructure/">AI Performance Infrastructure<span>Managed intelligence layer</span></a>
+            <a href="/audit/">Free PPC Audit<span>Full account review, no obligation</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="/industries/">Industries &#9662;</a>
+          <div class="dropdown">
+            <a href="/industries/cycling/">Cycling<span>Bike shops &amp; cycling brands</span></a>
+            <a href="/industries/fishing/">Fishing<span>Tackle shops &amp; angling gear</span></a>
+            <a href="/industries/outdoor-hobbyist/">Outdoor &amp; Hobbyist<span>Enthusiast niche brands</span></a>
+          </div>
+        </li>
+        <li><a href="/case-studies/">Results</a></li>
+        <li><a href="/pricing/">Pricing</a></li>
+        <li><a href="/blog/" class="active">Blog</a></li>
+        <li><a href="/about/">Company</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="/audit/" class="btn btn-primary">Book Free Audit</a>
+        <button class="hamburger" aria-label="Toggle menu" aria-controls="navLinks"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>&#8250;</span><a href="/blog/">Blog</a><span>&#8250;</span>Google Ads Conversion Tracking for E-Commerce</nav>
+  </div>
+
+  <header class="page-hero">
+    <div class="container">
+      <span class="eyebrow"><span class="signal-dot"></span>Blog · 27 August 2026</span>
+      <h1 style="max-width:860px">Google Ads Conversion Tracking for E-Commerce: Set It Up Right and Fix the Common Errors</h1>
+      <p class="lead">Google Ads conversion tracking for e-commerce works by firing a purchase event on your order-confirmation page and passing the order value and a unique transaction ID back to Google. Without that signal, Smart Bidding has no idea which clicks are generating revenue and will optimise toward whatever you have told it to measure, which may have nothing to do with what is actually making you money.</p>
+      <p style="margin-top:18px;font-size:0.9rem;color:var(--text-faint)">By <a href="/about/" style="font-weight:600">Jack Goldsmith</a>, Founder &amp; Performance Marketer, Social Surge · 27 August 2026</p>
+    </div>
+  </header>
+
+  <section class="section-tight" style="padding-top:0">
+    <div class="container prose">
+
+      <div class="answer-box">
+        <p class="q">How do you set up Google Ads conversion tracking for e-commerce?</p>
+        <p>Create a purchase conversion action in Google Ads, install the Google tag via Google Tag Manager, and fire a conversion event on your order-confirmation page with dynamic values: order total (<code>conversion_value</code>), currency (GBP) and a unique transaction ID (your order number). Link your GA4 property for cross-platform verification, and enable enhanced conversions to recover signal from cookieless browsers.</p>
+      </div>
+
+      <h2>Why Conversion Tracking Is the Foundation of Your Google Ads Account</h2>
+      <p>Smart Bidding strategies (Target ROAS, Target CPA, Maximise Conversion Value) rely entirely on the conversion signal you provide. Google's machine learning models adjust bids based on the predicted likelihood of a conversion. The word "conversion" here means whatever action you have designated as primary in your account settings. If that action is misconfigured, you get confident, high-speed optimisation toward the wrong goal.</p>
+      <p>In the accounts we manage, poor conversion tracking is the most common problem we find when auditing new clients. The campaigns look active. Clicks are arriving. The dashboard may even show conversions. But when we cross-check platform data against actual orders, the numbers do not match, and every decision built on top of those numbers is unreliable.</p>
+      <p>This compounds quickly. A Target ROAS strategy that records £0 revenue on every transaction (because revenue values are not being passed dynamically) treats a £250 order identically to an abandoned cart. An account that double-counts conversions believes its cost per acquisition is half what it actually is, and the algorithm will overspend accordingly. Before touching campaign structure, bids or budgets, tracking has to be right.</p>
+
+      <h2>How to Set Up Google Ads Conversion Tracking for an E-Commerce Store</h2>
+
+      <h3>The Google Tag Manager Method (Recommended)</h3>
+      <p>Install a Google Tag Manager container on your site and create two tags inside it: the Google tag (formerly the global site tag) and a conversion event tag that fires on your order-confirmation page only. The conversion event tag needs to pull dynamic values from your checkout flow. Hardcoded values are a common setup error:</p>
+      <ul>
+        <li><strong><code>conversion_value</code></strong>: the order total in GBP, pulled from a dataLayer variable, not a fixed number</li>
+        <li><strong><code>currency</code></strong>: 'GBP'</li>
+        <li><strong><code>transaction_id</code></strong>: the unique order reference number for this transaction</li>
+      </ul>
+      <p>The transaction ID is the most frequently missed element. Without it, Google Ads records a new conversion for every pageview of your order-confirmation URL, including when the customer refreshes the page, navigates back, or revisits via a confirmation email link. Google deduplicates conversion events that share the same transaction ID within a 30-day window, so adding this field prevents overcounting at the root rather than patching it later.</p>
+      <p>On Shopify, the conversion event is typically implemented via the checkout extensibility "Order Status" page or an Additional Scripts field. On WooCommerce, a dataLayer push via a plugin or custom theme function is the standard route. Either way, always verify the passed values are dynamic before treating the setup as complete. <a href="https://support.google.com/google-ads/answer/1722022" target="_blank" rel="noopener">Google Ads Help covers the full conversion tag setup process</a> if you need the technical reference.</p>
+
+      <h3>Importing GA4 Purchase Events</h3>
+      <p>If your GA4 property is already recording purchase events correctly, you can import those conversions into Google Ads via the linked property. This keeps your ad reporting aligned with your analytics source of truth and makes discrepancy analysis simpler.</p>
+      <p>The main trade-off is timing. Imported GA4 conversions update with a 24-48 hour delay, which can slow Smart Bidding reactions during fast-moving periods such as <a href="/blog/google-ads-black-friday-ecommerce/">Q4 peak season</a>. For most stores, this lag is acceptable. For high-spend accounts during Black Friday and Christmas, native Google Ads conversion tracking with real-time data is preferable.</p>
+      <p>If you run both methods, designate one as the primary conversion action and the other as secondary. Running two primary purchase actions counts every sale twice, inflating your reported conversion volume and deflating your apparent CPA.</p>
+
+      <h2>Enhanced Conversions: Why Every E-Commerce Store Should Enable Them</h2>
+      <p>Enhanced conversions send hashed (SHA-256 encrypted) customer data alongside your standard conversion signal. This typically includes the customer's email address, and optionally phone number, name and delivery address. Google uses these hashed values to match conversions that occur in cookieless environments: Safari and Firefox browsers with Intelligent Tracking Prevention, users running ad blockers, or anyone who cleared cookies between clicking your ad and completing the purchase.</p>
+      <p>The practical effect is that enhanced conversions recover purchase signal that would otherwise disappear. <a href="https://support.google.com/google-ads/answer/11062876" target="_blank" rel="noopener">Google's documentation on enhanced conversions</a> confirms that the improvement in measured conversions is typically material, particularly for accounts with significant iOS and mobile traffic. No raw customer data leaves the browser: the hashing happens client-side before anything is sent to Google.</p>
+      <p>Enabling enhanced conversions via GTM involves adding a conversion adjustment tag that pulls the customer's email from the confirmation page (usually via a dataLayer variable or a hidden DOM element populated at checkout) and passes the hash alongside the standard conversion event. The implementation is straightforward if your dataLayer already contains order data.</p>
+      <p>In the accounts we manage, enhanced conversions combined with Consent Mode v2 is now standard on every account. Together, they give Smart Bidding the most complete picture of actual purchase activity that current browser privacy settings allow.</p>
+
+      <h2>The Five Most Common Conversion Tracking Errors</h2>
+
+      <h3>1. Tracking add-to-cart or begin-checkout as a primary conversion</h3>
+      <p>Micro-conversions have genuine diagnostic value as secondary actions: they help you understand where the funnel is leaking. As primary conversion actions, they instruct Smart Bidding to optimise toward basket additions rather than completed purchases. A customer adding a £300 jacket to their basket and abandoning looks identical to a sale in that signal. The algorithm cannot distinguish them unless you tell it which event actually matters.</p>
+
+      <h3>2. Static or zero revenue values</h3>
+      <p>If every conversion records £0 or a fixed amount, Target ROAS has no revenue signal to work from. This happens when a GTM implementation hardcodes a value instead of pulling it dynamically from the dataLayer. The fix is to wire up the dataLayer to pass the actual order total on the confirmation page: this typically requires a developer or a platform-level integration, but it is a one-time task worth prioritising.</p>
+
+      <h3>3. Missing transaction ID</h3>
+      <p>As noted above, every pageview of an order-confirmation URL without a deduplication ID creates a separate conversion record. In an account with meaningful traffic, this can push reported conversion volume materially above actual order volume, which makes every efficiency metric look better than reality. Smart Bidding optimises toward that inflated picture.</p>
+
+      <h3>4. Double-counting via two active primary purchase actions</h3>
+      <p>Running a native Google Ads conversion tag and an imported GA4 purchase event simultaneously, both set to primary, records each sale twice. The fix is to audit your conversion actions in Tools &gt; Conversions, identify duplicates, and move one to secondary or remove it entirely.</p>
+
+      <h3>5. Conversion window too short for the product category</h3>
+      <p>The default 30-day post-click conversion window suits low-cost impulse purchases where the decision happens in a single session. For <a href="/industries/cycling/">cycling</a>, <a href="/industries/fishing/">fishing</a> and <a href="/industries/outdoor-hobbyist/">outdoor gear</a> at higher price points, shoppers typically research across multiple sessions and return to purchase days or weeks later. A 60-90 day window captures a more accurate picture of which clicks led to revenue, and gives Smart Bidding a fuller signal to bid against. <a href="https://support.google.com/google-ads/answer/3123169" target="_blank" rel="noopener">Google Ads Help explains how to configure conversion windows</a> within each conversion action.</p>
+
+      <h2>How to Check Your Tracking Is Working Before You Trust the Data</h2>
+      <p>Run through this verification checklist before making any account decisions based on conversion data:</p>
+      <ul>
+        <li><strong>Google Tag Assistant</strong> (Chrome extension): walk through a real or test purchase on your site and confirm the conversion event fires exactly once, on the confirmation page only, with the correct revenue value and a populated transaction ID field. If the tag fires on other pages, or fires multiple times per transaction, investigate immediately.</li>
+        <li><strong>Google Ads Conversions page</strong> (Tools &gt; Conversions): check the Status column. "Recording" means events are being received. "Unverified" or "No recent conversions" warrants investigation even if the account is receiving traffic and clicks.</li>
+        <li><strong>Cross-check with GA4</strong>: compare purchase count and revenue in GA4 against your Google Ads conversion report for the same date range. Discrepancies beyond 10-15% (after allowing for attribution model differences) typically indicate a tracking issue, not just a reporting difference.</li>
+        <li><strong>Order-level deduplication check</strong>: if your Shopify admin or CRM allows it, spot-check whether any order numbers appear more than once in your Google Ads conversion data for the same period.</li>
+      </ul>
+
+      <h2>When Bad Tracking Warrants Outside Help</h2>
+      <p>Conversion tracking sits at the intersection of Google Tag Manager, GA4, the Google Ads platform and your site's checkout architecture. For most store owners, it is not where their time generates the best return. The cost of leaving tracking problems unresolved is easy to underestimate: <a href="/blog/reduce-cpa-google-ads-ecommerce/">every CPA and ROAS figure in your account is downstream of it</a>, and a <a href="/services/google-ads-management/">Google Ads management service</a> built on bad data will optimise toward the wrong thing with full confidence.</p>
+      <p>A <a href="/audit/">free PPC audit from Social Surge</a> includes a full tracking health check covering conversion action configuration, enhanced conversions setup, GA4 linkage, Consent Mode implementation and a cross-check of reported conversions against order data. It is the first thing we fix on every new account, because everything else depends on getting this right. If you are spending more than a few hundred pounds per month on Google Ads and have any doubt about whether your tracking is accurate, an audit is the highest-ROI thing you can do before touching anything else. See our <a href="/case-studies/">client results</a> for what properly tracked, well-managed accounts can achieve.</p>
+
+
+      <h2>Frequently Asked Questions</h2>
+      <details class="faq-item"><summary>How do I set up Google Ads conversion tracking for an e-commerce store?</summary><div class="faq-body"><p>Create a purchase conversion action in Google Ads, install the Google tag via Google Tag Manager, and fire a conversion event on your order-confirmation page with dynamic values: <code>conversion_value</code> (order total in GBP), <code>currency</code> (GBP) and <code>transaction_id</code> (unique order number). Link your GA4 property for cross-platform verification, and enable enhanced conversions to recover signal from cookieless browsers.</p></div></details>
+      <details class="faq-item"><summary>Should I use GA4 imports or native Google Ads conversion tracking?</summary><div class="faq-body"><p>Both methods work, but native Google Ads conversion tracking updates in real time, which helps Smart Bidding react faster and makes it better for seasonal peaks and high-spend accounts. Imported GA4 conversions update with a 24-48 hour delay but align your ad reporting with your analytics. Avoid running both as primary conversion actions simultaneously, as this double-counts every purchase.</p></div></details>
+      <details class="faq-item"><summary>What are enhanced conversions and do I need them for my e-commerce store?</summary><div class="faq-body"><p>Enhanced conversions send hashed customer data (email, phone, name, address) alongside your standard conversion signal so Google can match purchases that happen in cookieless environments. With increased browser privacy restrictions and the decline of third-party cookies, enhanced conversions recover signal that would otherwise be lost. Most e-commerce stores running Google Ads should enable them.</p></div></details>
+      <details class="faq-item"><summary>Why does Google Ads show more conversions than my actual orders?</summary><div class="faq-body"><p>The most common cause is a missing or blank transaction ID. Without it, Google Ads records a new conversion for every pageview of your order-confirmation page, including refreshes and back-button navigation. Adding a unique transaction ID (your order number) to the conversion tag allows Google to deduplicate events that share the same ID within a 30-day window.</p></div></details>
+      <details class="faq-item"><summary>How long should my Google Ads conversion window be for e-commerce?</summary><div class="faq-body"><p>The default 30-day post-click window suits low-cost impulse purchases. For higher-ticket products where shoppers compare options across multiple sessions over several weeks, a 60-90 day window is more accurate and gives Smart Bidding a fuller picture of which clicks ultimately lead to purchases.</p></div></details>
+
+    </div>
+  </section>
+
+  <section class="cta-final">
+    <canvas class="signal-canvas" aria-hidden="true"></canvas>
+    <div class="container">
+      <span class="eyebrow"><span class="signal-dot"></span>Free, no-obligation audit</span>
+      <h2>Ready to see what your account is really capable of?</h2>
+      <p>Book a free PPC audit: full account review, tracking health check, wasted-spend analysis and a clear growth plan, delivered in plain English.</p>
+      <a href="/audit/" class="btn btn-primary btn-lg">Book Your Free Audit</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/assets/img/ss-logo.png" alt="Social Surge logo">
+          <p>Built on trust. Driven by results. Transparent ads that actually work for you.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/_socialsurge/" target="_blank" rel="noopener" aria-label="Social Surge on Instagram"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+            <a href="https://www.linkedin.com/in/jack-goldsmith30122002/" target="_blank" rel="noopener" aria-label="Jack Goldsmith on LinkedIn"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="/services/google-ads-management/">Google Ads Management</a></li>
+            <li><a href="/services/meta-ads-management/">Meta Ads Management</a></li>
+            <li><a href="/services/ai-performance-infrastructure/">AI Infrastructure</a></li>
+            <li><a href="/audit/">Free PPC Audit</a></li>
+            <li><a href="/pricing/">Pricing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/case-studies/">Case Studies</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/ppc-agency-bristol/">PPC Agency Bristol</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get in Touch</h4>
+          <ul>
+            <li><a href="mailto:hello@social-surge.co.uk">hello@social-surge.co.uk</a></li>
+            <li><a href="tel:+447796374758">+44 7796 374 758</a></li>
+            <li>Bristol, United Kingdom</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&#169; 2026 Social Surge DM LTD. All rights reserved.</div>
+        <div>
+          <a href="/privacy/">Privacy Policy</a>
+          <a href="/terms/">Terms of Service</a>
+          <a href="/data-deletion/">Data Deletion</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/signals.js?v=3" defer></script>
+</body>
+</html>
