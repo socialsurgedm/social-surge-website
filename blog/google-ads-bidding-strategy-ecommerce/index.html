@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Ads Bidding Strategy for E-Commerce | Social Surge</title>
+  <meta name="description" content="Google Ads bidding strategy for e-commerce: when to use target ROAS, target CPA or Maximise Conversion Value. Practical guidance for UK stores.">
+  <link rel="canonical" href="https://social-surge.co.uk/blog/google-ads-bidding-strategy-ecommerce/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Google Ads Bidding Strategy for E-Commerce | Social Surge">
+  <meta property="og:description" content="Google Ads bidding strategy for e-commerce: when to use target ROAS, target CPA or Maximise Conversion Value. Practical guidance for UK stores.">
+  <meta property="og:url" content="https://social-surge.co.uk/blog/google-ads-bidding-strategy-ecommerce/">
+  <meta property="og:image" content="https://social-surge.co.uk/assets/img/og-image.jpg">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css?v=4">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://social-surge.co.uk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://social-surge.co.uk/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Google Ads Bidding Strategy for E-Commerce"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Google Ads Bidding Strategy for E-Commerce: Which Smart Bidding Strategy Actually Works?",
+  "description": "Google Ads bidding strategy for e-commerce: when to use target ROAS, target CPA or Maximise Conversion Value. Practical guidance for UK stores.",
+  "url": "https://social-surge.co.uk/blog/google-ads-bidding-strategy-ecommerce/",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-03",
+  "inLanguage": "en-GB",
+  "image": "https://social-surge.co.uk/assets/img/ss-logo.png",
+  "author": {
+    "@type": "Person",
+    "name": "Jack Goldsmith",
+    "jobTitle": "Founder & Performance Marketer",
+    "url": "https://social-surge.co.uk/about/",
+    "worksFor": { "@type": "Organization", "name": "Social Surge DM LTD", "url": "https://social-surge.co.uk/" }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Social Surge DM LTD",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://social-surge.co.uk/assets/img/ss-logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://social-surge.co.uk/blog/google-ads-bidding-strategy-ecommerce/"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many conversions do I need before switching to target ROAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At least 30 conversions per month at the campaign level, with 50 being the more comfortable threshold. Below 30, Smart Bidding does not have enough signal to set bids reliably. Use Maximise Conversions first to build data, then introduce a target ROAS once you are consistently above that number."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between target ROAS and Maximise Conversion Value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maximise Conversion Value tells Google to maximise total revenue within your budget, with no constraint on return. Target ROAS adds a floor: Google will only bid in auctions where it expects to meet your stated return. Target ROAS is more precise but requires more conversion data and a realistic starting target."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use portfolio bid strategies or campaign-level bidding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Portfolio strategies can work well when campaigns are closely related, for example the same product category and similar margins, because they share conversion data across campaigns to reach the minimum threshold faster. For most small and mid-size stores, campaign-level strategies are simpler to manage and diagnose."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My target ROAS campaign is stuck in learning limited. What should I do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check the status column for the specific reason. Common causes are budget too low, a conversion tracking issue, or the target ROAS being set too restrictively. Lower the target ROAS by 20-30%, stabilise the budget for two weeks, and avoid making other changes until learning resolves."
+      }
+    }
+  ]
+}
+  </script>
+  <!-- GA4 (Consent Mode v2, cookieless until consent granted) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJYGTYLBR1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {analytics_storage:'denied', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'});
+    try{if(localStorage.getItem('ss_consent')==='granted'){gtag('consent','update',{analytics_storage:'granted', ad_storage:'granted', ad_user_data:'granted', ad_personalization:'granted'});}}catch(e){}
+    gtag('js', new Date());
+    gtag('config', 'G-JJYGTYLBR1');
+  </script>
+  <script src="/assets/js/consent.js?v=1"></script>
+</head>
+<body>
+
+  <div class="announce"><span class="dot"></span>Get your first month FREE or 25% off your first 3 months, <a href="/audit/">Book a free PPC audit</a></div>
+
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" aria-label="Social Surge home"><img src="/assets/img/ss-logo-nav.png" alt="Social Surge logo" width="60" height="48"></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">Home</a></li>
+        <li>
+          <a href="/services/">Services &#9662;</a>
+          <div class="dropdown">
+            <a href="/services/google-ads-management/">Google Ads Management<span>Search, Shopping &amp; Performance Max</span></a>
+            <a href="/services/meta-ads-management/">Meta Ads Management<span>Facebook &amp; Instagram Ads</span></a>
+            <a href="/services/ai-performance-infrastructure/">AI Performance Infrastructure<span>Managed intelligence layer</span></a>
+            <a href="/audit/">Free PPC Audit<span>Full account review, no obligation</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="/industries/">Industries &#9662;</a>
+          <div class="dropdown">
+            <a href="/industries/cycling/">Cycling<span>Bike shops &amp; cycling brands</span></a>
+            <a href="/industries/fishing/">Fishing<span>Tackle shops &amp; angling gear</span></a>
+            <a href="/industries/outdoor-hobbyist/">Outdoor &amp; Hobbyist<span>Enthusiast niche brands</span></a>
+          </div>
+        </li>
+        <li><a href="/case-studies/">Results</a></li>
+        <li><a href="/pricing/">Pricing</a></li>
+        <li><a href="/blog/" class="active">Blog</a></li>
+        <li><a href="/about/">Company</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="/audit/" class="btn btn-primary">Book Free Audit</a>
+        <button class="hamburger" aria-label="Toggle menu" aria-controls="navLinks"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>&#x203A;</span><a href="/blog/">Blog</a><span>&#x203A;</span>Google Ads Bidding Strategy for E-Commerce</nav>
+  </div>
+
+  <header class="page-hero">
+    <div class="container">
+      <span class="eyebrow"><span class="signal-dot"></span>Blog · 3 September 2026</span>
+      <h1 style="max-width:860px">Google Ads Bidding Strategy for E-Commerce: Which Smart Bidding Strategy Actually Works?</h1>
+      <p class="lead">Target ROAS, target CPA, Maximise Conversion Value: the right choice depends on your conversion volume. Here is what the data tells us, and the sequencing that protects your account while you scale.</p>
+      <p style="margin-top:18px;font-size:0.9rem;color:var(--text-faint)">By <a href="/about/" style="font-weight:600">Jack Goldsmith</a>, Founder &amp; Performance Marketer, Social Surge · 3 September 2026</p>
+    </div>
+  </header>
+
+  <section class="section-tight" style="padding-top:0">
+    <div class="container prose">
+
+      <div class="answer-box">
+        <p class="q">Which Google Ads bidding strategy should e-commerce stores use?</p>
+        <p>For most online stores, Maximise Conversion Value with a target ROAS is the right long-term strategy. It only performs reliably once a campaign records at least 30-50 conversions per month. Below that threshold, use Maximise Conversions (without a CPA target) to build data first. Target CPA suits stores where all products are similar in value; target ROAS suits stores with varied price points.</p>
+      </div>
+
+      <p>The Google Ads bidding strategy for e-commerce that you choose is one of the highest-leverage decisions in the account. Get it right and Smart Bidding compounds every other optimisation you make. Get it wrong, or apply the right strategy too early, and the algorithm optimises toward noise rather than signal. This guide covers the three strategies that matter for product-based stores, the conversion volume rule that governs all of them, and the sequencing to move between them without breaking performance.</p>
+
+      <h2>The Smart Bidding Strategies That Actually Matter for E-Commerce</h2>
+      <p>Google's automated bidding options cover a wide range, but for product-based e-commerce the shortlist is three:</p>
+      <ul>
+        <li><strong>Maximise Conversions:</strong> tells Google to generate as many conversions as possible within your daily budget. No revenue floor, just volume. Useful for new campaigns and any campaign that has not yet built enough conversion history for a target strategy.</li>
+        <li><strong>Maximise Conversion Value:</strong> tells Google to maximise total purchase revenue rather than conversion count. A £25 order and a £250 order are not equally valuable; this strategy accounts for that difference. The correct default for most product stores with varied price points.</li>
+        <li><strong>Target ROAS (tROAS):</strong> adds a return constraint on top of Maximise Conversion Value. Google will only bid where its model predicts your target return can be achieved. The most precise strategy available, and the most data-hungry.</li>
+      </ul>
+      <p>Target CPA belongs on the list too, but it fits a narrower set of circumstances: stores where every product is similar in value, or where conversion tracking passes a fixed sale value rather than the actual order total. Where products vary in price, tROAS will almost always outperform tCPA over time.</p>
+      <p>Manual CPC still exists but is increasingly marginalised. Google has moved the auction infrastructure toward machine-set bids, and in the accounts we manage, Smart Bidding consistently outperforms manual bidding once sufficient conversion history exists. The key phrase is "once sufficient history exists".</p>
+
+      <h2>The Conversion Volume Rule That Changes Everything</h2>
+      <p>Google's <a href="https://support.google.com/google-ads/answer/7065882" target="_blank" rel="noopener noreferrer">Smart Bidding documentation</a> states that automated strategies work best with at least 30-50 conversions per month at the campaign level. In the accounts we manage, we treat 30 as the practical minimum and 50 as the point where tROAS becomes reliably stable.</p>
+      <p>Below 30 conversions per month, the algorithm has too little signal. It cannot confidently predict which auctions will convert or what bid is appropriate. The result is typically erratic CPA, underdelivery on high-intent searches, or spend concentrated in a narrow window while the rest of the month goes quiet. Raising the tROAS target in this state makes things worse, not better: the algorithm restricts volume further, which means fewer conversions, which means even less data to learn from.</p>
+      <p>The rule is simple: below 30 conversions per month, run Maximise Conversions uncapped and let the campaign generate data. Above 30, and ideally closer to 50, introduce a tROAS target set conservatively below your recent average return.</p>
+
+      <h2>When to Use Target ROAS (and How to Set It Correctly)</h2>
+      <p>Target ROAS is the right choice once your campaign is generating consistent conversion volume and you want to control return rather than just maximise spend efficiency. It is particularly suited to stores with a wide product range, where the revenue difference between a low-value and high-value sale is significant.</p>
+      <p>The most common mistake we see when setting up tROAS is using an aspirational target rather than an achievable one. If a campaign has been returning 3x ROAS and the new target is set to 8x, Google will restrict bidding so severely that volume collapses: it is only bidding in auctions where its model predicts at least 8x return, and at that level, very few auctions qualify. The campaign starves itself of conversions, which means less data, which means the algorithm cannot improve.</p>
+      <p>In the accounts we manage, we typically enter tROAS at 10-20% below the campaign's recent average ROAS, then raise it gradually in 10-15% increments as performance stabilises. A campaign averaging 4x ROAS gets an initial tROAS of 300-350%, not 600%. This approach takes longer to reach your target return but maintains the conversion volume the algorithm needs to keep learning.</p>
+
+      <h2>When Target CPA Makes More Sense Than Target ROAS</h2>
+      <p>There are specific circumstances where tCPA is the more appropriate strategy:</p>
+      <ul>
+        <li>Your conversion tracking passes a fixed value for every purchase rather than the actual order total. tROAS is effectively working with fictional data in this case, and will misallocate bids across products.</li>
+        <li>Your product catalogue is narrow and orders are similar in size. If 90% of your transactions are in a tight range, tCPA and tROAS produce similar results and tCPA is simpler to manage.</li>
+        <li>You are running a lead-generation or subscription element alongside product sales, where conversion events have no revenue value attached.</li>
+      </ul>
+      <p>If your conversion tracking does not pass dynamic revenue values, fixing that should be the priority before touching bidding strategy. Our <a href="/blog/google-ads-conversion-tracking-ecommerce/">Google Ads conversion tracking guide</a> covers the setup and the most common errors in detail.</p>
+
+      <h2>How to Start a New Campaign Without Wasting Budget on Smart Bidding</h2>
+      <p>New campaigns have no conversion history. Smart Bidding strategies that depend on historical data (tROAS, tCPA) will immediately enter a learning period, and without prior signal that learning period is expensive guessing. We have audited accounts where a new campaign was launched directly into tROAS and spent six weeks in perpetual learning with single-digit conversion counts to show for it.</p>
+      <p>The correct sequencing is:</p>
+      <ol>
+        <li>Launch with Maximise Conversions, uncapped (no CPA target), with a sensible daily budget.</li>
+        <li>Run for 4-6 weeks, or until the campaign records 30-50 conversions, whichever comes first.</li>
+        <li>Review the average CPA and ROAS achieved over that period.</li>
+        <li>Switch to Maximise Conversion Value and introduce a tROAS set 10-20% below the achieved average.</li>
+      </ol>
+      <p>This approach costs patience at the start but is far more consistent than forcing Smart Bidding onto an account with no data. The first month of Maximise Conversions is not wasted: it is the data-collection phase that makes everything after it work.</p>
+
+      <h2>The Mistakes We See Most Often When Switching Bidding Strategies</h2>
+      <p>Beyond setting an unrealistic initial target, several other patterns appear repeatedly across accounts we audit:</p>
+      <p><strong>Making other changes during the learning period.</strong> Every significant change (budget adjustment, targeting change, creative update) resets the learning period. A campaign that never exits learning is a common cause of stalled performance. In the two to four weeks after a strategy switch, keep everything else stable. One variable at a time.</p>
+      <p><strong>Mixing ROAS targets across unequal products.</strong> Smart Bidding operates at campaign level. A campaign carrying low-margin clearance stock should not be expected to hit the same tROAS as a campaign selling high-margin flagship products. If your account mixes product types with very different margins in a single campaign, the algorithm will arbitrarily favour whichever products are easiest to hit the target on, regardless of what is commercially best for you.</p>
+      <p><strong>Confusing account-level ROAS with campaign-level ROAS.</strong> A strong account-level ROAS may be carried by one or two performing campaigns. Setting tROAS based on the blended account figure applies an unrealistic target to weaker campaigns. Pull the tROAS figure from the specific campaign's history, not the account summary.</p>
+      <p><strong>Not verifying conversion tracking first.</strong> Broken or double-counting conversion tracking does not cause Smart Bidding to fail gracefully. It causes it to optimise toward the wrong signal, and performance degrades in ways that are hard to diagnose. Before changing bidding strategy, confirm conversions are firing correctly and passing real revenue values. See our <a href="/blog/google-ads-conversion-tracking-ecommerce/">conversion tracking guide</a> for the audit checklist.</p>
+
+      <h2>When Not to Use Smart Bidding at All</h2>
+      <p>Smart Bidding is not always the right answer. Three situations where it is better to hold off:</p>
+      <ul>
+        <li><strong>Conversion tracking is broken or unreliable.</strong> Optimising toward bad data makes performance worse, not better. Fix the tracking first, always.</li>
+        <li><strong>Daily budget is very low.</strong> Campaigns spending under roughly £15-20 per day rarely generate enough auction signal for Smart Bidding to function as intended. At that budget level, careful manual CPC with tightly sculpted keywords may outperform until budget increases.</li>
+        <li><strong>The campaign has just launched with zero history.</strong> As above: start with Maximise Conversions and migrate once the conversion data exists. There are no shortcuts here.</li>
+      </ul>
+      <p>If you are unsure where your account stands on any of these points, a <a href="/audit/">free PPC audit</a> will surface the issues clearly. We review bidding strategy, conversion setup and campaign structure as part of every audit we run.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <details class="faq-item"><summary>How many conversions do I need before switching to target ROAS?</summary><div class="faq-body"><p>At least 30 conversions per month at the campaign level, with 50 being the more comfortable threshold. Below 30, Smart Bidding does not have enough signal to set bids reliably. Use Maximise Conversions first to build data, then introduce a target ROAS once you are consistently above that number.</p></div></details>
+      <details class="faq-item"><summary>What is the difference between target ROAS and Maximise Conversion Value?</summary><div class="faq-body"><p>Maximise Conversion Value tells Google to maximise total revenue within your budget, with no constraint on return. Target ROAS adds a floor: Google will only bid in auctions where it expects to meet your stated return. Target ROAS is more precise but requires more conversion data and a realistic starting target.</p></div></details>
+      <details class="faq-item"><summary>Should I use portfolio bid strategies or campaign-level bidding?</summary><div class="faq-body"><p>Portfolio strategies can work well when campaigns are closely related, for example the same product category and similar margins, because they share conversion data across campaigns to reach the minimum threshold faster. For most small and mid-size stores, campaign-level strategies are simpler to manage and diagnose.</p></div></details>
+      <details class="faq-item"><summary>My target ROAS campaign is stuck in learning limited. What should I do?</summary><div class="faq-body"><p>Check the status column for the specific reason. Common causes are budget too low, a conversion tracking issue, or the target ROAS being set too restrictively. Lower the target ROAS by 20-30%, stabilise the budget for two weeks, and avoid making other changes until learning resolves.</p></div></details>
+
+    </div>
+  </section>
+
+  <section class="cta-final">
+    <canvas class="signal-canvas" aria-hidden="true"></canvas>
+    <div class="container">
+      <span class="eyebrow"><span class="signal-dot"></span>Free, no-obligation audit</span>
+      <h2>Not sure which bidding strategy your account should be on?</h2>
+      <p>Book a free PPC audit. We review your bidding setup, conversion tracking and campaign structure and give you a clear action plan, delivered in plain English.</p>
+      <a href="/audit/" class="btn btn-primary btn-lg">Book Your Free Audit</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/assets/img/ss-logo.png" alt="Social Surge logo">
+          <p>Built on trust. Driven by results. Transparent ads that actually work for you.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/_socialsurge/" target="_blank" rel="noopener" aria-label="Social Surge on Instagram"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+            <a href="https://www.linkedin.com/in/jack-goldsmith30122002/" target="_blank" rel="noopener" aria-label="Jack Goldsmith on LinkedIn"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="/services/google-ads-management/">Google Ads Management</a></li>
+            <li><a href="/services/meta-ads-management/">Meta Ads Management</a></li>
+            <li><a href="/services/ai-performance-infrastructure/">AI Infrastructure</a></li>
+            <li><a href="/audit/">Free PPC Audit</a></li>
+            <li><a href="/pricing/">Pricing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/case-studies/">Case Studies</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/ppc-agency-bristol/">PPC Agency Bristol</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get in Touch</h4>
+          <ul>
+            <li><a href="mailto:hello@social-surge.co.uk">hello@social-surge.co.uk</a></li>
+            <li><a href="tel:+447796374758">+44 7796 374 758</a></li>
+            <li>Bristol, United Kingdom</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&#169; 2026 Social Surge DM LTD. All rights reserved.</div>
+        <div>
+          <a href="/privacy/">Privacy Policy</a>
+          <a href="/terms/">Terms of Service</a>
+          <a href="/data-deletion/">Data Deletion</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/signals.js?v=3" defer></script>
+</body>
+</html>

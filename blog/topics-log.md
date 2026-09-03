@@ -24,3 +24,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-08-25 google-ads-management-cost-uk -- Google Ads management cost UK: what agencies charge and what you should expect
 - 2026-08-27 google-ads-conversion-tracking-ecommerce -- Google Ads conversion tracking for e-commerce: set it up correctly and fix the common errors
 - 2026-09-01 scale-google-ads-without-losing-roas -- How to scale Google Ads without losing ROAS
+- 2026-09-03 google-ads-bidding-strategy-ecommerce -- Google Ads bidding strategy for e-commerce: which Smart Bidding strategy should UK e-commerce stores use?
