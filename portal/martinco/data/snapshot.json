@@ -1,0 +1,701 @@
+{
+ "generated": "2026-09-07 07:49",
+ "totals": {
+  "contacts": 81808,
+  "sales_properties": 5525,
+  "lettings_properties": 3671,
+  "tenancies": 3755,
+  "active_tenancies": 495,
+  "avg_active_rent": 1315.54,
+  "move_outs_next_90d": 17
+ },
+ "sales_pipeline": {
+  "Appraisal": 2887,
+  "Completed": 1098,
+  "Withdrawn": 1032,
+  "Instructed": 223,
+  "Sold STC": 220,
+  "Exchanged": 65
+ },
+ "lettings_pipeline": {
+  "Withdrawn": 1137,
+  "Instructed": 943,
+  "Let": 873,
+  "Appraisal": 642,
+  "Let Agreed": 54,
+  "On Hold": 13,
+  "References Pending": 9
+ },
+ "hubspot": {
+  "eligible_pool": 9503,
+  "appraisal_sales": 1126,
+  "appraisal_lettings": 96,
+  "last_sync": "2026-09-07",
+  "suppressed_optouts": 19594,
+  "parked_5y": 16860
+ },
+ "intelligence": {
+  "generated": "2026-09-01",
+  "collections": {
+   "salesappraisals": 3075,
+   "lettingsappraisals": 878,
+   "offers": 1532,
+   "potentialowners": 2368,
+   "lettingsproperties_geo": 3670
+  },
+  "appraisals": {
+   "sales": {
+    "total_appraisals_non_deleted": 2676,
+    "won_total": 1968,
+    "lost_total": 171,
+    "overall_win_rate_pct": 92.0,
+    "by_year": {
+     "2012": {
+      "won": 0,
+      "lost": 0,
+      "pending": 1,
+      "cancelled": 0,
+      "other": 0,
+      "win_rate_pct": null
+     },
+     "2013": {
+      "won": 21,
+      "lost": 15,
+      "pending": 0,
+      "cancelled": 3,
+      "other": 0,
+      "win_rate_pct": 58.3
+     },
+     "2014": {
+      "won": 10,
+      "lost": 8,
+      "pending": 4,
+      "cancelled": 3,
+      "other": 6,
+      "win_rate_pct": 55.6
+     },
+     "2015": {
+      "won": 17,
+      "lost": 15,
+      "pending": 1,
+      "cancelled": 3,
+      "other": 8,
+      "win_rate_pct": 53.1
+     },
+     "2016": {
+      "won": 46,
+      "lost": 8,
+      "pending": 8,
+      "cancelled": 14,
+      "other": 9,
+      "win_rate_pct": 85.2
+     },
+     "2017": {
+      "won": 26,
+      "lost": 8,
+      "pending": 2,
+      "cancelled": 14,
+      "other": 0,
+      "win_rate_pct": 76.5
+     },
+     "2018": {
+      "won": 22,
+      "lost": 30,
+      "pending": 0,
+      "cancelled": 17,
+      "other": 0,
+      "win_rate_pct": 42.3
+     },
+     "2019": {
+      "won": 190,
+      "lost": 4,
+      "pending": 1,
+      "cancelled": 5,
+      "other": 0,
+      "win_rate_pct": 97.9
+     },
+     "2020": {
+      "won": 328,
+      "lost": 2,
+      "pending": 2,
+      "cancelled": 15,
+      "other": 0,
+      "win_rate_pct": 99.4
+     },
+     "2021": {
+      "won": 253,
+      "lost": 6,
+      "pending": 8,
+      "cancelled": 24,
+      "other": 0,
+      "win_rate_pct": 97.7
+     },
+     "2022": {
+      "won": 252,
+      "lost": 2,
+      "pending": 46,
+      "cancelled": 25,
+      "other": 0,
+      "win_rate_pct": 99.2
+     },
+     "2023": {
+      "won": 281,
+      "lost": 8,
+      "pending": 72,
+      "cancelled": 23,
+      "other": 0,
+      "win_rate_pct": 97.2
+     },
+     "2024": {
+      "won": 233,
+      "lost": 23,
+      "pending": 56,
+      "cancelled": 35,
+      "other": 1,
+      "win_rate_pct": 91.0
+     },
+     "2025": {
+      "won": 217,
+      "lost": 32,
+      "pending": 27,
+      "cancelled": 21,
+      "other": 1,
+      "win_rate_pct": 87.1
+     },
+     "2026": {
+      "won": 72,
+      "lost": 10,
+      "pending": 60,
+      "cancelled": 13,
+      "other": 9,
+      "win_rate_pct": 87.8
+     }
+    },
+    "lost_records": 171,
+    "lost_with_price": 133,
+    "lost_value_total": 39258420,
+    "recoverable_owners_valid_email": 131
+   },
+   "lettings": {
+    "total_appraisals_non_deleted": 779,
+    "won_total": 529,
+    "lost_total": 163,
+    "overall_win_rate_pct": 76.4,
+    "by_year": {
+     "2012": {
+      "won": 46,
+      "lost": 8,
+      "pending": 3,
+      "cancelled": 0,
+      "other": 0,
+      "win_rate_pct": 85.2
+     },
+     "2013": {
+      "won": 43,
+      "lost": 21,
+      "pending": 1,
+      "cancelled": 0,
+      "other": 0,
+      "win_rate_pct": 67.2
+     },
+     "2014": {
+      "won": 48,
+      "lost": 13,
+      "pending": 11,
+      "cancelled": 2,
+      "other": 0,
+      "win_rate_pct": 78.7
+     },
+     "2015": {
+      "won": 63,
+      "lost": 11,
+      "pending": 1,
+      "cancelled": 1,
+      "other": 0,
+      "win_rate_pct": 85.1
+     },
+     "2016": {
+      "won": 57,
+      "lost": 16,
+      "pending": 1,
+      "cancelled": 4,
+      "other": 0,
+      "win_rate_pct": 78.1
+     },
+     "2017": {
+      "won": 34,
+      "lost": 9,
+      "pending": 0,
+      "cancelled": 3,
+      "other": 0,
+      "win_rate_pct": 79.1
+     },
+     "2018": {
+      "won": 22,
+      "lost": 3,
+      "pending": 2,
+      "cancelled": 1,
+      "other": 0,
+      "win_rate_pct": 88.0
+     },
+     "2019": {
+      "won": 26,
+      "lost": 8,
+      "pending": 0,
+      "cancelled": 3,
+      "other": 0,
+      "win_rate_pct": 76.5
+     },
+     "2020": {
+      "won": 11,
+      "lost": 7,
+      "pending": 0,
+      "cancelled": 2,
+      "other": 0,
+      "win_rate_pct": 61.1
+     },
+     "2021": {
+      "won": 10,
+      "lost": 3,
+      "pending": 1,
+      "cancelled": 1,
+      "other": 0,
+      "win_rate_pct": 76.9
+     },
+     "2022": {
+      "won": 26,
+      "lost": 13,
+      "pending": 1,
+      "cancelled": 6,
+      "other": 0,
+      "win_rate_pct": 66.7
+     },
+     "2023": {
+      "won": 42,
+      "lost": 24,
+      "pending": 0,
+      "cancelled": 8,
+      "other": 0,
+      "win_rate_pct": 63.6
+     },
+     "2024": {
+      "won": 38,
+      "lost": 18,
+      "pending": 2,
+      "cancelled": 2,
+      "other": 0,
+      "win_rate_pct": 67.9
+     },
+     "2025": {
+      "won": 31,
+      "lost": 7,
+      "pending": 2,
+      "cancelled": 3,
+      "other": 0,
+      "win_rate_pct": 81.6
+     },
+     "2026": {
+      "won": 32,
+      "lost": 2,
+      "pending": 23,
+      "cancelled": 3,
+      "other": 0,
+      "win_rate_pct": 94.1
+     }
+    },
+    "lost_records": 163,
+    "lost_with_price": 81,
+    "lost_value_total": 87337,
+    "recoverable_owners_valid_email": 134
+   }
+  },
+  "offers": {
+   "total_non_deleted": 1498,
+   "status_counts": {
+    "Accepted": 745,
+    "Declined - New Offer Made": 184,
+    "Declined": 381,
+    "Withdrawn": 110,
+    "Pending": 78
+   },
+   "status_counts_last_24m": {
+    "Accepted": 237,
+    "Declined": 188,
+    "Withdrawn": 46,
+    "Declined - New Offer Made": 95,
+    "Pending": 26
+   },
+   "unsuccessful_offers_total": 675,
+   "unsuccessful_offers_last_24m": 329,
+   "unsuccessful_offer_value_last_24m": 75860371,
+   "losing_bidders_unique": 322,
+   "losing_bidders_valid_email": 280,
+   "losing_bidders_last_24m": 124,
+   "losing_bidders_valid_email_last_24m": 121
+  },
+  "rent_review": {
+   "active_managed_tenancies_analysed": 372,
+   "flagged_below_market_10pct": 112,
+   "flagged_no_increase_18m": 188,
+   "flagged_both": 65,
+   "total_monthly_uplift_to_median": 30732,
+   "total_annual_uplift_to_median": 368784,
+   "top20": [
+    {
+     "district": "EX4",
+     "beds": 5,
+     "current_pcm": 2320,
+     "market_median_pcm": 3765,
+     "gap_pcm": 1445,
+     "gap_pct": 38.4,
+     "comps": 12,
+     "stale_18m": false
+    },
+    {
+     "district": "EX4",
+     "beds": 6,
+     "current_pcm": 3900,
+     "market_median_pcm": 4914,
+     "gap_pcm": 1014,
+     "gap_pct": 20.6,
+     "comps": 7,
+     "stale_18m": false
+    },
+    {
+     "district": "EX4",
+     "beds": 6,
+     "current_pcm": 4005,
+     "market_median_pcm": 4914,
+     "gap_pcm": 909,
+     "gap_pct": 18.5,
+     "comps": 7,
+     "stale_18m": false
+    },
+    {
+     "district": "EX4",
+     "beds": 5,
+     "current_pcm": 3030,
+     "market_median_pcm": 3765,
+     "gap_pcm": 735,
+     "gap_pct": 19.5,
+     "comps": 12,
+     "stale_18m": false
+    },
+    {
+     "district": "EX1",
+     "beds": 3,
+     "current_pcm": 815,
+     "market_median_pcm": 1400,
+     "gap_pcm": 585,
+     "gap_pct": 41.8,
+     "comps": 27,
+     "stale_18m": true
+    },
+    {
+     "district": "EX2",
+     "beds": 2,
+     "current_pcm": 625,
+     "market_median_pcm": 1175,
+     "gap_pcm": 550,
+     "gap_pct": 46.8,
+     "comps": 75,
+     "stale_18m": true
+    },
+    {
+     "district": "EX2",
+     "beds": 3,
+     "current_pcm": 795,
+     "market_median_pcm": 1325,
+     "gap_pcm": 530,
+     "gap_pct": 40.0,
+     "comps": 32,
+     "stale_18m": true
+    },
+    {
+     "district": "EX2",
+     "beds": 3,
+     "current_pcm": 800,
+     "market_median_pcm": 1325,
+     "gap_pcm": 525,
+     "gap_pct": 39.6,
+     "comps": 32,
+     "stale_18m": true
+    },
+    {
+     "district": "EX4",
+     "beds": 5,
+     "current_pcm": 3250,
+     "market_median_pcm": 3765,
+     "gap_pcm": 515,
+     "gap_pct": 13.7,
+     "comps": 12,
+     "stale_18m": false
+    },
+    {
+     "district": "EX4",
+     "beds": 5,
+     "current_pcm": 3250,
+     "market_median_pcm": 3765,
+     "gap_pcm": 515,
+     "gap_pct": 13.7,
+     "comps": 12,
+     "stale_18m": false
+    },
+    {
+     "district": "EX2",
+     "beds": 4,
+     "current_pcm": 1300,
+     "market_median_pcm": 1800,
+     "gap_pcm": 500,
+     "gap_pct": 27.8,
+     "comps": 5,
+     "stale_18m": true
+    },
+    {
+     "district": "EX1",
+     "beds": 3,
+     "current_pcm": 920,
+     "market_median_pcm": 1400,
+     "gap_pcm": 480,
+     "gap_pct": 34.3,
+     "comps": 27,
+     "stale_18m": true
+    },
+    {
+     "district": "EX4",
+     "beds": 3,
+     "current_pcm": 800,
+     "market_median_pcm": 1225,
+     "gap_pcm": 425,
+     "gap_pct": 34.7,
+     "comps": 12,
+     "stale_18m": false
+    },
+    {
+     "district": "EX2",
+     "beds": 2,
+     "current_pcm": 750,
+     "market_median_pcm": 1175,
+     "gap_pcm": 425,
+     "gap_pct": 36.2,
+     "comps": 75,
+     "stale_18m": true
+    },
+    {
+     "district": "EX1",
+     "beds": 3,
+     "current_pcm": 980,
+     "market_median_pcm": 1400,
+     "gap_pcm": 420,
+     "gap_pct": 30.0,
+     "comps": 27,
+     "stale_18m": true
+    },
+    {
+     "district": "EX5",
+     "beds": 3,
+     "current_pcm": 950,
+     "market_median_pcm": 1350,
+     "gap_pcm": 400,
+     "gap_pct": 29.6,
+     "comps": 16,
+     "stale_18m": true
+    },
+    {
+     "district": "EX2",
+     "beds": 2,
+     "current_pcm": 775,
+     "market_median_pcm": 1175,
+     "gap_pcm": 400,
+     "gap_pct": 34.0,
+     "comps": 75,
+     "stale_18m": true
+    },
+    {
+     "district": "EX2",
+     "beds": 2,
+     "current_pcm": 790,
+     "market_median_pcm": 1175,
+     "gap_pcm": 385,
+     "gap_pct": 32.8,
+     "comps": 75,
+     "stale_18m": true
+    },
+    {
+     "district": "EX2",
+     "beds": 3,
+     "current_pcm": 940,
+     "market_median_pcm": 1325,
+     "gap_pcm": 385,
+     "gap_pct": 29.1,
+     "comps": 32,
+     "stale_18m": true
+    },
+    {
+     "district": "EX2",
+     "beds": 2,
+     "current_pcm": 795,
+     "market_median_pcm": 1175,
+     "gap_pcm": 380,
+     "gap_pct": 32.3,
+     "comps": 75,
+     "stale_18m": false
+    }
+   ]
+  },
+  "tenancy_end_pipeline": {
+   "window": "2026-09-01 to 2026-11-30",
+   "count": 17,
+   "total_rent_pcm": 17880,
+   "list": [
+    {
+     "month": "September 2026",
+     "end_date": "2026-09-01",
+     "district": "EX1",
+     "beds": 1,
+     "rent_pcm": 725,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "September 2026",
+     "end_date": "2026-09-02",
+     "district": "EX2",
+     "beds": 2,
+     "rent_pcm": 1300,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "September 2026",
+     "end_date": "2026-09-02",
+     "district": "EX2",
+     "beds": 2,
+     "rent_pcm": 1275,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "September 2026",
+     "end_date": "2026-09-09",
+     "district": "EX4",
+     "beds": 2,
+     "rent_pcm": 1100,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "September 2026",
+     "end_date": "2026-09-10",
+     "district": "EX1",
+     "beds": 1,
+     "rent_pcm": 750,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "September 2026",
+     "end_date": "2026-09-15",
+     "district": "EX2",
+     "beds": 2,
+     "rent_pcm": 1200,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "September 2026",
+     "end_date": "2026-09-15",
+     "district": "EX2",
+     "beds": 2,
+     "rent_pcm": 1250,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "September 2026",
+     "end_date": "2026-09-26",
+     "district": "EX4",
+     "beds": 1,
+     "rent_pcm": 1100,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "September 2026",
+     "end_date": "2026-09-30",
+     "district": "EX1",
+     "beds": 3,
+     "rent_pcm": 980,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "October 2026",
+     "end_date": "2026-10-01",
+     "district": "EX5",
+     "beds": 2,
+     "rent_pcm": 895,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "October 2026",
+     "end_date": "2026-10-06",
+     "district": "EX5",
+     "beds": 2,
+     "rent_pcm": 1100,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "October 2026",
+     "end_date": "2026-10-13",
+     "district": "EX4",
+     "beds": 1,
+     "rent_pcm": 775,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "October 2026",
+     "end_date": "2026-10-14",
+     "district": "EX4",
+     "beds": 2,
+     "rent_pcm": 950,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "October 2026",
+     "end_date": "2026-10-19",
+     "district": "EX4",
+     "beds": 0,
+     "rent_pcm": 850,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "October 2026",
+     "end_date": "2026-10-28",
+     "district": "EX4",
+     "beds": 2,
+     "rent_pcm": 950,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "October 2026",
+     "end_date": "2026-10-28",
+     "district": "EX1",
+     "beds": 4,
+     "rent_pcm": 1800,
+     "status": "Active - Ending"
+    },
+    {
+     "month": "October 2026",
+     "end_date": "2026-10-31",
+     "district": "EX4",
+     "beds": 1,
+     "rent_pcm": 880,
+     "status": "Active - Ending"
+    }
+   ]
+  },
+  "potential_owners": {
+   "total_records": 2368,
+   "active": 1535,
+   "active_by_type": {
+    "Landlord": 1406,
+    "Vendor": 67,
+    "Unspecified": 62
+   },
+   "active_with_valid_email": 325,
+   "active_with_property_notes": 1257
+  }
+ }
+}

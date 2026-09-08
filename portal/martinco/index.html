@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Martin &amp; Co Exeter | Data Platform</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<style>
+  :root{--p:#1E6E8C;--a:#B6C931;--t:#34373D;--bg:#F0F2F1;--muted:#6d7680;--line:#e2e6e4;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--t);}
+  header{background:var(--p);color:#fff;padding:16px 26px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;border-bottom:4px solid var(--a);}
+  header h1{font-size:17px;font-weight:700;}
+  header .sub{font-size:12px;color:#D9EDF5;}
+  main{max-width:1280px;margin:0 auto;padding:22px 16px;}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:20px;}
+  .kpi{background:#fff;border-radius:10px;padding:16px;border-top:3px solid var(--p);}
+  .kpi b{display:block;font-size:22px;color:var(--p);}
+  .kpi span{font-size:11.5px;color:var(--muted);}
+  .card{background:#fff;border-radius:10px;padding:20px;margin-bottom:20px;}
+  .card h2{font-size:15px;color:var(--p);margin-bottom:12px;}
+  .toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:14px;}
+  .toolbar .grp{display:flex;gap:4px;background:var(--bg);border-radius:8px;padding:3px;}
+  .toolbar button{border:0;background:transparent;padding:7px 13px;border-radius:6px;font-size:12.5px;font-weight:600;color:var(--muted);cursor:pointer;}
+  .toolbar button.on{background:var(--p);color:#fff;}
+  .mets{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;}
+  .mets label{display:flex;align-items:center;gap:5px;font-size:12px;background:var(--bg);padding:5px 10px;border-radius:14px;cursor:pointer;}
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+  @media(max-width:860px){.split{grid-template-columns:1fr;}}
+  canvas{max-height:340px;}
+  .note{font-size:11.5px;color:var(--muted);margin-top:8px;}
+  .pill{display:inline-block;background:var(--bg);border-radius:8px;padding:8px 14px;margin:4px 6px 4px 0;font-size:13px;}
+  .pill b{color:var(--p);}
+</style>
+</head>
+<body>
+<header>
+  <h1>Martin &amp; Co Exeter — Data Platform</h1>
+  <span class="sub" id="gen"></span>
+  <span class="sub" style="margin-left:auto">Social Surge · private</span>
+</header>
+<main>
+  <div class="kpis" id="kpis"></div>
+
+  <div class="card">
+    <h2>Activity Over Time</h2>
+    <div class="toolbar">
+      <div class="grp" id="gran">
+        <button data-g="daily">Daily</button>
+        <button data-g="weekly">Weekly</button>
+        <button data-g="monthly" class="on">Monthly</button>
+        <button data-g="yearly">Yearly</button>
+      </div>
+      <div class="grp" id="range">
+        <button data-d="30">30d</button>
+        <button data-d="90">90d</button>
+        <button data-d="365">12m</button>
+        <button data-d="730" class="on">2y</button>
+        <button data-d="1825">5y</button>
+        <button data-d="3650">10y</button>
+        <button data-d="0">All</button>
+      </div>
+    </div>
+    <div class="mets" id="mets"></div>
+    <canvas id="mainChart"></canvas>
+    <p class="note">Counts from Jupix records: valuations = property records created, instructions = date instructed. Rolls up by the selected granularity.</p>
+  </div>
+
+  <div class="split">
+    <div class="card">
+      <h2>Average New-Tenancy Rent (pcm)</h2>
+      <canvas id="rentChart"></canvas>
+      <p class="note">Average rent of tenancies starting each month. Source: Jupix tenancy records.</p>
+    </div>
+    <div class="card">
+      <h2>Pipelines Today</h2>
+      <div id="pipes"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Reactivation Campaign (HubSpot)</h2>
+    <div id="hubspot"></div>
+  </div>
+
+  <div class="card" id="intelCard" style="display:none">
+    <h2>Jupix Intelligence</h2>
+    <div id="intel"></div>
+  </div>
+</main>
+<script>
+const METRIC_LABELS = {
+  new_contacts:"New contacts", sales_valuations:"Sales valuations", sales_instructions:"Sales instructions",
+  sales_completions:"Sales completions", lettings_valuations:"Lettings valuations",
+  lettings_instructions:"Lettings instructions", tenancy_starts:"Tenancy starts", tenancy_ends:"Tenancy ends"};
+const COLORS = ["#1E6E8C","#B6C931","#E67E22","#8E44AD","#2E86C1","#16A085","#C0392B","#7F8C8D"];
+let TS=null, SNAP=null, gran="monthly", days=730;
+let active = new Set(["sales_valuations","sales_instructions","new_contacts"]);
+let mainChart=null, rentChart=null;
+
+function bucket(dateStr){
+  if(gran==="daily") return dateStr;
+  const d=new Date(dateStr+"T00:00:00Z");
+  if(gran==="weekly"){const day=(d.getUTCDay()+6)%7; d.setUTCDate(d.getUTCDate()-day); return d.toISOString().slice(0,10);}
+  if(gran==="monthly") return dateStr.slice(0,7);
+  return dateStr.slice(0,4);
+}
+function draw(){
+  const cutoff = days? new Date(Date.now()-days*864e5).toISOString().slice(0,10) : "0000";
+  const buckets={};
+  for(const row of TS.daily){
+    if(row.date<cutoff) continue;
+    const b=bucket(row.date);
+    buckets[b]=buckets[b]||{};
+    for(const m of active) if(row[m]) buckets[b][m]=(buckets[b][m]||0)+row[m];
+  }
+  const labels=Object.keys(buckets).sort();
+  const datasets=[...active].map((m,i)=>({label:METRIC_LABELS[m],data:labels.map(l=>buckets[l][m]||0),
+    borderColor:COLORS[i%8],backgroundColor:COLORS[i%8]+"33",tension:.25,fill:false,pointRadius:labels.length>60?0:2,borderWidth:2}));
+  if(mainChart) mainChart.destroy();
+  mainChart=new Chart(document.getElementById("mainChart"),{type:"line",
+    data:{labels,datasets},options:{responsive:true,interaction:{mode:"index",intersect:false},
+    plugins:{legend:{labels:{boxWidth:12,font:{size:11}}}},scales:{y:{beginAtZero:true}}}});
+}
+function drawRent(){
+  const entries=Object.entries(TS.avg_rent_by_month).filter(([m])=>m>="2012-01");
+  if(rentChart) rentChart.destroy();
+  rentChart=new Chart(document.getElementById("rentChart"),{type:"line",
+    data:{labels:entries.map(e=>e[0]),datasets:[{label:"Avg rent pcm (£)",data:entries.map(e=>e[1]),
+    borderColor:"#1E6E8C",backgroundColor:"#1E6E8C22",tension:.3,fill:true,pointRadius:0,borderWidth:2}]},
+    options:{plugins:{legend:{display:false}},scales:{y:{ticks:{callback:v=>"£"+v}}}}});
+}
+function kpi(v,l){return `<div class="kpi"><b>${v??"–"}</b><span>${l}</span></div>`;}
+function pills(obj){return Object.entries(obj).map(([k,v])=>`<span class="pill">${k}: <b>${v.toLocaleString()}</b></span>`).join("");}
+
+Promise.all([
+  fetch("data/timeseries.json").then(r=>r.json()),
+  fetch("data/snapshot.json").then(r=>r.json()),
+]).then(([ts,snap])=>{
+  TS=ts; SNAP=snap;
+  document.getElementById("gen").textContent="Data refreshed "+snap.generated;
+  const t=snap.totals, h=snap.hubspot;
+  document.getElementById("kpis").innerHTML =
+    kpi(t.contacts.toLocaleString(),"Jupix contacts")+
+    kpi(t.sales_properties.toLocaleString(),"Sales property records")+
+    kpi(t.lettings_properties.toLocaleString(),"Lettings property records")+
+    kpi(t.active_tenancies.toLocaleString(),"Active tenancies")+
+    kpi(t.avg_active_rent?("£"+t.avg_active_rent.toLocaleString()):"–","Avg active rent pcm")+
+    kpi(t.move_outs_next_90d,"Move-outs next 90d")+
+    kpi((h.eligible_pool||0).toLocaleString(),"Reactivation pool")+
+    kpi((h.appraisal_sales||0)+" / "+(h.appraisal_lettings||0),"Appraisal chains S/L");
+  document.getElementById("pipes").innerHTML =
+    "<p style='font-size:12px;color:var(--muted);margin-bottom:6px'>Sales</p>"+pills(snap.sales_pipeline)+
+    "<p style='font-size:12px;color:var(--muted);margin:10px 0 6px'>Lettings</p>"+pills(snap.lettings_pipeline);
+  document.getElementById("hubspot").innerHTML =
+    pills({"Eligible pool":h.eligible_pool||0,"Sales chain":h.appraisal_sales||0,"Lettings chain":h.appraisal_lettings||0,
+      "Opt-outs honoured":h.suppressed_optouts||0,"Parked (5y+ dormant)":h.parked_5y||0})+
+    `<p class="note">Last weekly sync: ${h.last_sync||"–"} · Suppression re-checked automatically every Monday. No emails send until approved.</p>`;
+  const I=snap.intelligence||{};
+  if(Object.keys(I).length){
+    const gbp=v=>v==null?"\u2013":"\u00a3"+Math.round(v).toLocaleString();
+    const A=I.appraisals||{}, S=A.sales||{}, L=A.lettings||{}, O=I.offers||{},
+          R=I.rent_review||{}, T=I.tenancy_end_pipeline||{}, P=I.potential_owners||{};
+    document.getElementById("intelCard").style.display="block";
+    document.getElementById("intel").innerHTML =
+      "<p style='font-size:12px;color:var(--muted);margin-bottom:6px'>Valuation win/loss</p>"+
+      pills({"Sales win rate":(S.overall_win_rate_pct||0)+"%","Sales valuations lost":S.lost_total||0,
+        "Lost sales pipeline":gbp(S.lost_value_total),"Lettings win rate":(L.overall_win_rate_pct||0)+"%",
+        "Lost rent pipeline pcm":gbp(L.lost_rent_pcm_total||L.lost_value_total),
+        "Recoverable owners w/ email":(S.recoverable_owners_valid_email||0)+(L.recoverable_owners_valid_email||0)})+
+      "<p style='font-size:12px;color:var(--muted);margin:10px 0 6px'>Offers and buyers</p>"+
+      pills({"Unsuccessful offers 24m":O.unsuccessful_offers_last_24m||0,
+        "Value of those offers":gbp(O.unsuccessful_offer_value_last_24m),
+        "Hot buyers (24m, valid email)":O.losing_bidders_valid_email_last_24m||0,
+        "Hot buyers all time":O.losing_bidders_valid_email||0})+
+      "<p style='font-size:12px;color:var(--muted);margin:10px 0 6px'>Rent reviews (managed book)</p>"+
+      pills({"Tenancies benchmarked":R.active_managed_tenancies_analysed||0,
+        "10%+ below market":R.flagged_below_market_10pct||0,
+        "No increase 18m+":R.flagged_no_increase_18m||0,
+        "Monthly uplift available":gbp(R.total_monthly_uplift_to_median),
+        "Annual uplift":gbp(R.total_annual_uplift_to_median)})+
+      "<p style='font-size:12px;color:var(--muted);margin:10px 0 6px'>Pipeline and prospecting</p>"+
+      pills({"Move-outs next 90d":T.count||0,"Managed rent at stake pcm":gbp(T.total_rent_pcm),
+        "Potential owners (active)":P.active||0,"of which landlords":(P.active_by_type||{}).Landlord||0,
+        "With valid email":P.active_with_valid_email||0})+
+      `<p class="note">Full analysis: Jupix Intelligence report (1 Sep 2026). Values are conservative, guide prices only partially recorded in Jupix.</p>`;
+  }
+  const mets=document.getElementById("mets");
+  for(const m of ts.metrics){
+    const l=document.createElement("label");
+    l.innerHTML=`<input type="checkbox" value="${m}" ${active.has(m)?"checked":""}> ${METRIC_LABELS[m]||m}`;
+    l.querySelector("input").addEventListener("change",e=>{
+      e.target.checked?active.add(m):active.delete(m); draw();});
+    mets.appendChild(l);
+  }
+  document.getElementById("gran").addEventListener("click",e=>{
+    if(!e.target.dataset.g) return;
+    gran=e.target.dataset.g;
+    document.querySelectorAll("#gran button").forEach(b=>b.classList.toggle("on",b===e.target));
+    draw();});
+  document.getElementById("range").addEventListener("click",e=>{
+    if(e.target.dataset.d===undefined) return;
+    days=parseInt(e.target.dataset.d,10);
+    document.querySelectorAll("#range button").forEach(b=>b.classList.toggle("on",b===e.target));
+    draw();});
+  draw(); drawRent();
+});
+</script>
+</body>
+</html>

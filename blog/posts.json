@@ -1,5 +1,26 @@
 [
   {
+    "slug": "google-ads-bidding-strategy-ecommerce",
+    "title": "Google Ads Bidding Strategy for E-Commerce: Which Smart Bidding Strategy Actually Works?",
+    "excerpt": "The conversion volume rule that decides between target ROAS and target CPA, how to set targets Smart Bidding can actually hit, launching new campaigns without wasting budget, and the strategy-switch mistakes that break bidding.",
+    "tag": "Paid Media",
+    "date": "2026-09-03"
+  },
+  {
+    "slug": "scale-google-ads-without-losing-roas",
+    "title": "How to Scale Google Ads Without Losing ROAS",
+    "excerpt": "The three mechanics behind ROAS drops when you scale, the audit to run before adding budget, and the 15-20% increment sequence with a 14-day hold that grows spend without breaking Smart Bidding.",
+    "tag": "Paid Media",
+    "date": "2026-09-01"
+  },
+  {
+    "slug": "google-ads-conversion-tracking-ecommerce",
+    "title": "Google Ads Conversion Tracking for E-Commerce: Set It Up Right and Fix the Common Errors",
+    "excerpt": "GTM setup with the three dynamic values most implementations get wrong, the GA4 import trade-off, why enhanced conversions are non-negotiable, and the five silent errors that corrupt Smart Bidding data.",
+    "tag": "Paid Media",
+    "date": "2026-08-27"
+  },
+  {
     "slug": "google-ads-management-cost-uk",
     "title": "Google Ads Management Cost UK: What Agencies Charge in 2026",
     "excerpt": "Google Ads management in the UK runs £500-£3,000+/month. What each pricing tier actually includes, the conflict of interest in percentage-of-spend fees, and how to audit whether your agency is earning it.",

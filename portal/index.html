@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Client Portal | Social Surge</title>
+<style>
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+       background:linear-gradient(135deg,#152337,#1F3451);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;}
+  .box{background:#fff;border-radius:12px;padding:40px 42px;width:340px;box-shadow:0 20px 60px rgba(0,0,0,.35);}
+  .logo{display:flex;align-items:center;gap:10px;margin-bottom:22px;}
+  .logo .mark{width:34px;height:34px;border-radius:8px;background:linear-gradient(135deg,#5299E0,#37BE76);
+       display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:15px;}
+  .logo span{font-weight:700;color:#152337;font-size:16px;}
+  h1{font-size:19px;color:#152337;margin:0 0 4px 0;}
+  p.sub{color:#6a7686;font-size:13px;margin:0 0 22px 0;}
+  label{display:block;font-size:12px;font-weight:600;color:#3c4757;margin:14px 0 5px;}
+  input{width:100%;box-sizing:border-box;padding:11px 12px;border:1px solid #d4dae2;border-radius:8px;font-size:14px;}
+  input:focus{outline:none;border-color:#5299E0;}
+  button{width:100%;margin-top:22px;padding:12px;background:#1F3451;color:#fff;border:0;border-radius:8px;
+       font-size:14px;font-weight:700;cursor:pointer;}
+  button:hover{background:#152337;}
+  .err{display:none;background:#fdeaea;color:#c0392b;border-radius:8px;padding:10px 12px;font-size:13px;margin-bottom:6px;}
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="logo"><div class="mark">SS</div><span>Social Surge</span></div>
+  <h1>Client Data Portal</h1>
+  <p class="sub">Sign in to continue</p>
+  <div class="err" id="err">Incorrect email or password.</div>
+  <form method="POST" action="/api/portal-login">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" autocomplete="username" required>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" autocomplete="current-password" required>
+    <button type="submit">Sign in</button>
+  </form>
+</div>
+<script>
+  if (new URLSearchParams(location.search).get("err")) {
+    document.getElementById("err").style.display = "block";
+  }
+</script>
+</body>
+</html>
