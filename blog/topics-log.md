@@ -27,3 +27,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-09-03 google-ads-bidding-strategy-ecommerce -- Google Ads bidding strategy for e-commerce: which Smart Bidding strategy should UK e-commerce stores use?
 - 2026-09-08 google-shopping-feed-optimisation -- Google Shopping product feed optimisation: what actually moves ROAS
 - 2026-09-10 meta-ads-management-cost-uk -- Meta Ads management cost UK: what agencies charge in 2026
+- 2026-09-15 google-ads-not-converting-ecommerce -- Why your Google Ads are not converting: six root causes for ecommerce stores and how to fix each one

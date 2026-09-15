@@ -1,38 +1,38 @@
 {
- "generated": "2026-09-07 07:49",
+ "generated": "2026-09-14 07:46",
  "totals": {
-  "contacts": 81808,
-  "sales_properties": 5525,
-  "lettings_properties": 3671,
-  "tenancies": 3755,
-  "active_tenancies": 495,
-  "avg_active_rent": 1315.54,
+  "contacts": 81997,
+  "sales_properties": 5534,
+  "lettings_properties": 3672,
+  "tenancies": 3759,
+  "active_tenancies": 493,
+  "avg_active_rent": 1310.07,
   "move_outs_next_90d": 17
  },
  "sales_pipeline": {
-  "Appraisal": 2887,
-  "Completed": 1098,
+  "Appraisal": 2893,
+  "Completed": 1100,
   "Withdrawn": 1032,
-  "Instructed": 223,
-  "Sold STC": 220,
-  "Exchanged": 65
+  "Instructed": 225,
+  "Sold STC": 217,
+  "Exchanged": 67
  },
  "lettings_pipeline": {
-  "Withdrawn": 1137,
-  "Instructed": 943,
-  "Let": 873,
-  "Appraisal": 642,
-  "Let Agreed": 54,
+  "Withdrawn": 1139,
+  "Instructed": 948,
+  "Let": 875,
+  "Appraisal": 640,
+  "Let Agreed": 50,
   "On Hold": 13,
-  "References Pending": 9
+  "References Pending": 7
  },
  "hubspot": {
-  "eligible_pool": 9503,
-  "appraisal_sales": 1126,
-  "appraisal_lettings": 96,
-  "last_sync": "2026-09-07",
-  "suppressed_optouts": 19594,
-  "parked_5y": 16860
+  "eligible_pool": 9526,
+  "appraisal_sales": 1125,
+  "appraisal_lettings": 95,
+  "last_sync": "2026-09-14",
+  "suppressed_optouts": 19748,
+  "parked_5y": 16871
  },
  "intelligence": {
   "generated": "2026-09-01",
