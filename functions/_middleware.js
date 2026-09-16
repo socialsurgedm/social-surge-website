@@ -2,9 +2,14 @@
  * Edge middleware — SEO hygiene:
  * 1. 301 www.social-surge.co.uk -> social-surge.co.uk (single canonical host)
  * 2. Noindex the *.pages.dev preview hosts so they never compete in search
+ * 3. Block /docs/* — internal specs live in the repo but are never served publicly
  */
 export async function onRequest(context) {
   const url = new URL(context.request.url);
+
+  if (url.pathname === "/docs" || url.pathname.startsWith("/docs/")) {
+    return new Response("Not found", { status: 404 });
+  }
 
   if (url.hostname === "www.social-surge.co.uk") {
     url.hostname = "social-surge.co.uk";
