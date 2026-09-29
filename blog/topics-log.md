@@ -31,3 +31,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-09-17 meta-ads-not-converting-ecommerce -- Why your Meta ads are not converting: seven root causes for e-commerce stores and how to fix each one
 - 2026-09-22 performance-max-vs-standard-shopping -- Performance Max vs Standard Shopping: which should UK e-commerce stores use?
 - 2026-09-24 google-ads-budget-ecommerce -- How much should you spend on Google Ads for e-commerce?
+- 2026-09-29 google-ads-negative-keywords-ecommerce -- Google Ads negative keywords for e-commerce: how to stop wasting budget on irrelevant searches

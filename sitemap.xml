@@ -117,12 +117,30 @@
   </url>
   <url>
     <loc>https://social-surge.co.uk/blog/</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://social-surge.co.uk/blog/google-ads-budget-ecommerce/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://social-surge.co.uk/blog/performance-max-vs-standard-shopping/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://social-surge.co.uk/blog/google-ads-not-converting-ecommerce/</loc>
     <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://social-surge.co.uk/blog/meta-ads-not-converting-ecommerce/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -240,6 +258,18 @@
   <url>
     <loc>https://social-surge.co.uk/blog/google-shopping-feed-optimisation/</loc>
     <lastmod>2026-09-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://social-surge.co.uk/blog/paid-ad-campaign-online-store/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://social-surge.co.uk/blog/google-merchant-center-suspended/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 </urlset>

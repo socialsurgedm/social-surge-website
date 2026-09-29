@@ -1,5 +1,40 @@
 [
   {
+    "slug": "paid-ad-campaign-online-store",
+    "title": "How to Create a Paid Ad Campaign That Rapidly Increases Your Online Store's Sales",
+    "excerpt": "How to create a paid ad campaign that rapidly increases your online store's sales | platforms, campaign structure, budgets and what to expect.",
+    "tag": "Paid Media",
+    "date": "2026-09-28"
+  },
+  {
+    "slug": "google-merchant-center-suspended",
+    "title": "Google Merchant Center Suspended: How to Fix Your Account and Get Shopping Ads Running Again",
+    "excerpt": "Google Merchant Center suspended? How to fix product disapprovals, appeal account suspensions and get your Shopping ads running again.",
+    "tag": "Paid Media",
+    "date": "2026-09-28"
+  },
+  {
+    "slug": "google-ads-budget-ecommerce",
+    "title": "How Much Should You Spend on Google Ads for Your E-Commerce Store?",
+    "excerpt": "How much should you spend on Google Ads for e-commerce? Minimum budgets, the 30-conversion threshold and the scaling rules UK stores need.",
+    "tag": "Paid Media",
+    "date": "2026-09-24"
+  },
+  {
+    "slug": "performance-max-vs-standard-shopping",
+    "title": "Performance Max vs Standard Shopping: Which Should UK E-Commerce Stores Use?",
+    "excerpt": "The real differences between Performance Max and Standard Shopping: control vs reach, the 30-50 conversions-per-month threshold that decides when PMax is ready, feed-only PMax as a transitional option, and the hybrid structure we run in practice.",
+    "tag": "Paid Media",
+    "date": "2026-09-22"
+  },
+  {
+    "slug": "meta-ads-not-converting-ecommerce",
+    "title": "Why Your Meta Ads Aren't Converting: Seven Root Causes for E-Commerce Stores",
+    "excerpt": "Seven root causes behind Meta ads that spend without converting: tracking and CAPI gaps, learning phase interruptions, budgets below the 50-events-per-week floor, creative fatigue, aggressive ROAS targets, audience saturation and landing page failure, plus when to fix versus when to walk away.",
+    "tag": "Paid Media",
+    "date": "2026-09-17"
+  },
+  {
     "slug": "google-ads-not-converting-ecommerce",
     "title": "Why Your Google Ads Are Not Converting: Six Root Causes for E-Commerce Stores",
     "excerpt": "Six root causes behind Google Ads that spend without converting: broken conversion tracking, thin Smart Bidding data, irrelevant search terms, landing page failure, Shopping feed quality, and budget-to-CPA mismatch, with the fix for each.",

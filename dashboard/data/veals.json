@@ -2,104 +2,8 @@
  "client": "Veals",
  "cid": "9072526995",
  "currency": "GBP",
- "pulled_at": "2026-09-17T08:47:17.552818+00:00",
+ "pulled_at": "2026-09-29T05:15:13.499600+00:00",
  "daily": [
-  {
-   "date": "2026-05-20",
-   "cost": 195.29,
-   "conv": 40.28,
-   "value": 4096.12,
-   "clicks": 764,
-   "impr": 46016
-  },
-  {
-   "date": "2026-05-21",
-   "cost": 232.34,
-   "conv": 26.78,
-   "value": 3178.59,
-   "clicks": 810,
-   "impr": 53482
-  },
-  {
-   "date": "2026-05-22",
-   "cost": 196.66,
-   "conv": 54.68,
-   "value": 3992.36,
-   "clicks": 734,
-   "impr": 52704
-  },
-  {
-   "date": "2026-05-23",
-   "cost": 236.72,
-   "conv": 42.22,
-   "value": 4192.12,
-   "clicks": 916,
-   "impr": 56988
-  },
-  {
-   "date": "2026-05-24",
-   "cost": 217.81,
-   "conv": 21.24,
-   "value": 2306.69,
-   "clicks": 916,
-   "impr": 56438
-  },
-  {
-   "date": "2026-05-25",
-   "cost": 256.46,
-   "conv": 39.38,
-   "value": 4359.73,
-   "clicks": 960,
-   "impr": 62172
-  },
-  {
-   "date": "2026-05-26",
-   "cost": 179.46,
-   "conv": 24.43,
-   "value": 2556.13,
-   "clicks": 779,
-   "impr": 52462
-  },
-  {
-   "date": "2026-05-27",
-   "cost": 237.71,
-   "conv": 33.14,
-   "value": 2331.4,
-   "clicks": 979,
-   "impr": 64299
-  },
-  {
-   "date": "2026-05-28",
-   "cost": 195.42,
-   "conv": 28.65,
-   "value": 3263.58,
-   "clicks": 781,
-   "impr": 49656
-  },
-  {
-   "date": "2026-05-29",
-   "cost": 201.4,
-   "conv": 59.74,
-   "value": 3643.05,
-   "clicks": 753,
-   "impr": 45561
-  },
-  {
-   "date": "2026-05-30",
-   "cost": 227.59,
-   "conv": 106.87,
-   "value": 8271.21,
-   "clicks": 926,
-   "impr": 53889
-  },
-  {
-   "date": "2026-05-31",
-   "cost": 209.73,
-   "conv": 59.21,
-   "value": 5581.83,
-   "clicks": 825,
-   "impr": 46823
-  },
   {
    "date": "2026-06-01",
    "cost": 209.72,
@@ -719,250 +623,346 @@
   {
    "date": "2026-08-17",
    "cost": 140.72,
-   "conv": 52.19,
-   "value": 7276.03,
+   "conv": 53.19,
+   "value": 7303.77,
    "clicks": 664,
    "impr": 34315
   },
   {
    "date": "2026-08-18",
    "cost": 147.23,
-   "conv": 58.8,
-   "value": 4967.0,
+   "conv": 60.05,
+   "value": 4994.45,
    "clicks": 620,
    "impr": 35792
   },
   {
    "date": "2026-08-19",
    "cost": 138.79,
-   "conv": 36.14,
-   "value": 2393.89,
+   "conv": 36.79,
+   "value": 2424.81,
    "clicks": 505,
    "impr": 28902
   },
   {
    "date": "2026-08-20",
    "cost": 144.28,
-   "conv": 38.71,
-   "value": 6016.21,
+   "conv": 42.96,
+   "value": 6120.44,
    "clicks": 494,
    "impr": 26038
   },
   {
    "date": "2026-08-21",
    "cost": 139.63,
-   "conv": 19.15,
-   "value": 1630.94,
+   "conv": 19.27,
+   "value": 1634.69,
    "clicks": 462,
    "impr": 29142
   },
   {
    "date": "2026-08-22",
    "cost": 142.25,
-   "conv": 38.0,
-   "value": 5036.93,
+   "conv": 40.6,
+   "value": 5581.87,
    "clicks": 422,
    "impr": 22563
   },
   {
    "date": "2026-08-23",
    "cost": 137.89,
-   "conv": 29.18,
-   "value": 3145.67,
+   "conv": 32.44,
+   "value": 3786.23,
    "clicks": 495,
    "impr": 27742
   },
   {
    "date": "2026-08-24",
    "cost": 137.11,
-   "conv": 43.25,
-   "value": 2525.21,
+   "conv": 48.78,
+   "value": 2905.8,
    "clicks": 509,
    "impr": 30023
   },
   {
    "date": "2026-08-25",
    "cost": 127.94,
-   "conv": 52.65,
-   "value": 4370.4,
+   "conv": 54.0,
+   "value": 4448.97,
    "clicks": 459,
    "impr": 29712
   },
   {
    "date": "2026-08-26",
    "cost": 124.17,
-   "conv": 36.29,
-   "value": 2757.28,
+   "conv": 39.06,
+   "value": 2985.72,
    "clicks": 494,
    "impr": 26817
   },
   {
    "date": "2026-08-27",
    "cost": 129.02,
-   "conv": 13.52,
-   "value": 1435.75,
+   "conv": 16.09,
+   "value": 1572.44,
    "clicks": 494,
    "impr": 27112
   },
   {
    "date": "2026-08-28",
    "cost": 124.65,
-   "conv": 15.31,
-   "value": 1656.08,
+   "conv": 16.21,
+   "value": 1700.79,
    "clicks": 370,
    "impr": 25090
   },
   {
    "date": "2026-08-29",
    "cost": 126.69,
-   "conv": 18.6,
-   "value": 1004.45,
+   "conv": 20.38,
+   "value": 1191.17,
    "clicks": 305,
    "impr": 22762
   },
   {
    "date": "2026-08-30",
    "cost": 124.55,
-   "conv": 24.2,
-   "value": 2052.69,
+   "conv": 27.72,
+   "value": 2225.06,
    "clicks": 320,
    "impr": 22737
   },
   {
    "date": "2026-08-31",
    "cost": 119.05,
-   "conv": 30.48,
-   "value": 2068.39,
+   "conv": 43.12,
+   "value": 2507.06,
    "clicks": 363,
    "impr": 24921
   },
   {
    "date": "2026-09-01",
-   "cost": 170.2,
-   "conv": 24.97,
-   "value": 1504.96,
-   "clicks": 355,
+   "cost": 170.16,
+   "conv": 25.88,
+   "value": 1526.97,
+   "clicks": 354,
    "impr": 27432
   },
   {
    "date": "2026-09-02",
-   "cost": 150.48,
-   "conv": 7.79,
-   "value": 900.44,
-   "clicks": 423,
+   "cost": 150.46,
+   "conv": 9.99,
+   "value": 1009.66,
+   "clicks": 422,
    "impr": 27781
   },
   {
    "date": "2026-09-03",
-   "cost": 151.58,
-   "conv": 11.41,
-   "value": 1296.75,
-   "clicks": 469,
+   "cost": 151.55,
+   "conv": 17.09,
+   "value": 1671.44,
+   "clicks": 468,
    "impr": 30347
   },
   {
    "date": "2026-09-04",
-   "cost": 148.5,
-   "conv": 16.49,
-   "value": 1847.67,
-   "clicks": 504,
+   "cost": 148.35,
+   "conv": 24.26,
+   "value": 3415.11,
+   "clicks": 501,
    "impr": 35833
   },
   {
    "date": "2026-09-05",
-   "cost": 153.09,
-   "conv": 14.13,
-   "value": 597.17,
-   "clicks": 498,
+   "cost": 152.85,
+   "conv": 21.34,
+   "value": 1146.71,
+   "clicks": 494,
    "impr": 36543
   },
   {
    "date": "2026-09-06",
-   "cost": 166.85,
-   "conv": 25.25,
-   "value": 1773.39,
-   "clicks": 494,
+   "cost": 166.56,
+   "conv": 28.64,
+   "value": 1962.77,
+   "clicks": 488,
    "impr": 31131
   },
   {
    "date": "2026-09-07",
-   "cost": 154.83,
-   "conv": 36.24,
-   "value": 2503.24,
-   "clicks": 516,
+   "cost": 154.8,
+   "conv": 47.09,
+   "value": 4002.43,
+   "clicks": 515,
    "impr": 36517
   },
   {
    "date": "2026-09-08",
-   "cost": 157.47,
-   "conv": 25.02,
-   "value": 1465.84,
-   "clicks": 480,
+   "cost": 157.33,
+   "conv": 32.27,
+   "value": 1847.23,
+   "clicks": 477,
    "impr": 34633
   },
   {
    "date": "2026-09-09",
-   "cost": 138.36,
-   "conv": 17.3,
-   "value": 638.87,
-   "clicks": 477,
-   "impr": 32607
+   "cost": 138.3,
+   "conv": 26.33,
+   "value": 1507.16,
+   "clicks": 474,
+   "impr": 32608
   },
   {
    "date": "2026-09-10",
-   "cost": 142.49,
-   "conv": 10.08,
-   "value": 652.47,
-   "clicks": 571,
+   "cost": 142.48,
+   "conv": 17.36,
+   "value": 2320.27,
+   "clicks": 570,
    "impr": 34642
   },
   {
    "date": "2026-09-11",
-   "cost": 143.74,
-   "conv": 8.9,
-   "value": 421.73,
-   "clicks": 551,
+   "cost": 143.35,
+   "conv": 12.31,
+   "value": 665.89,
+   "clicks": 541,
    "impr": 36332
   },
   {
    "date": "2026-09-12",
-   "cost": 145.03,
-   "conv": 10.93,
-   "value": 734.11,
-   "clicks": 560,
-   "impr": 38345
+   "cost": 144.64,
+   "conv": 17.2,
+   "value": 1111.05,
+   "clicks": 555,
+   "impr": 38342
   },
   {
    "date": "2026-09-13",
-   "cost": 147.34,
-   "conv": 15.41,
-   "value": 960.38,
-   "clicks": 526,
-   "impr": 36652
+   "cost": 147.27,
+   "conv": 21.85,
+   "value": 1910.31,
+   "clicks": 522,
+   "impr": 36617
   },
   {
    "date": "2026-09-14",
-   "cost": 147.14,
-   "conv": 15.56,
-   "value": 998.61,
-   "clicks": 619,
-   "impr": 37835
+   "cost": 146.67,
+   "conv": 26.0,
+   "value": 1518.88,
+   "clicks": 614,
+   "impr": 37828
   },
   {
    "date": "2026-09-15",
-   "cost": 149.73,
-   "conv": 6.35,
-   "value": 852.82,
-   "clicks": 507,
-   "impr": 29260
+   "cost": 149.23,
+   "conv": 22.92,
+   "value": 1757.99,
+   "clicks": 499,
+   "impr": 29240
   },
   {
    "date": "2026-09-16",
-   "cost": 142.06,
+   "cost": 141.16,
+   "conv": 17.61,
+   "value": 1610.24,
+   "clicks": 494,
+   "impr": 31670
+  },
+  {
+   "date": "2026-09-17",
+   "cost": 136.99,
+   "conv": 7.2,
+   "value": 328.24,
+   "clicks": 502,
+   "impr": 32173
+  },
+  {
+   "date": "2026-09-18",
+   "cost": 141.55,
+   "conv": 18.44,
+   "value": 1316.73,
+   "clicks": 442,
+   "impr": 28478
+  },
+  {
+   "date": "2026-09-19",
+   "cost": 141.78,
+   "conv": 30.3,
+   "value": 2373.8,
+   "clicks": 546,
+   "impr": 32594
+  },
+  {
+   "date": "2026-09-20",
+   "cost": 137.27,
+   "conv": 16.11,
+   "value": 760.3,
+   "clicks": 608,
+   "impr": 34022
+  },
+  {
+   "date": "2026-09-21",
+   "cost": 145.53,
+   "conv": 30.42,
+   "value": 3552.17,
+   "clicks": 642,
+   "impr": 35770
+  },
+  {
+   "date": "2026-09-22",
+   "cost": 142.57,
+   "conv": 20.47,
+   "value": 830.83,
+   "clicks": 606,
+   "impr": 29767
+  },
+  {
+   "date": "2026-09-23",
+   "cost": 141.29,
+   "conv": 8.0,
+   "value": 572.81,
+   "clicks": 529,
+   "impr": 27333
+  },
+  {
+   "date": "2026-09-24",
+   "cost": 138.63,
+   "conv": 5.34,
+   "value": 130.71,
+   "clicks": 485,
+   "impr": 26523
+  },
+  {
+   "date": "2026-09-25",
+   "cost": 136.42,
+   "conv": 19.25,
+   "value": 1533.74,
+   "clicks": 542,
+   "impr": 26541
+  },
+  {
+   "date": "2026-09-26",
+   "cost": 135.12,
+   "conv": 7.11,
+   "value": 519.21,
+   "clicks": 541,
+   "impr": 26660
+  },
+  {
+   "date": "2026-09-27",
+   "cost": 137.54,
    "conv": 2.0,
-   "value": 245.28,
-   "clicks": 503,
-   "impr": 31666
+   "value": 202.81,
+   "clicks": 481,
+   "impr": 26325
+  },
+  {
+   "date": "2026-09-28",
+   "cost": 134.3,
+   "conv": 1.85,
+   "value": 91.02,
+   "clicks": 591,
+   "impr": 26256
   }
  ],
  "monthly": [
@@ -1057,18 +1057,18 @@
   {
    "month": "2026-08",
    "cost": 4321.5,
-   "conv": 1383.92,
-   "value": 139696.56,
+   "conv": 1428.12,
+   "value": 142742.92,
    "clicks": 17115,
    "impr": 983147
   },
   {
    "month": "2026-09",
-   "cost": 2408.89,
-   "conv": 247.83,
-   "value": 17393.73,
-   "clicks": 8053,
-   "impr": 537556
+   "cost": 4074.16,
+   "conv": 534.63,
+   "value": 41196.45,
+   "clicks": 14503,
+   "impr": 889938
   }
  ],
  "campaigns": [
@@ -1077,66 +1077,66 @@
    "status": "ENABLED",
    "type": "PERFORMANCE_MAX",
    "budget": 40.0,
-   "cost": 1204.75,
-   "conv": 161.32,
-   "value": 17531.05,
-   "clicks": 4165,
-   "impr": 271673
+   "cost": 1218.77,
+   "conv": 131.24,
+   "value": 10443.99,
+   "clicks": 4604,
+   "impr": 299217
   },
   {
    "name": "Lure Fishing (OCT 25)",
    "status": "ENABLED",
    "type": "PERFORMANCE_MAX",
    "budget": 35.0,
-   "cost": 1051.5,
-   "conv": 166.0,
-   "value": 11194.94,
-   "clicks": 3113,
-   "impr": 209177
+   "cost": 1063.41,
+   "conv": 122.76,
+   "value": 11176.6,
+   "clicks": 3286,
+   "impr": 241065
   },
   {
    "name": "Luggage (OCT 25)",
    "status": "ENABLED",
    "type": "PERFORMANCE_MAX",
    "budget": 32.0,
-   "cost": 970.2,
-   "conv": 144.54,
-   "value": 11868.64,
-   "clicks": 3977,
-   "impr": 209040
-  },
-  {
-   "name": "Clothing New (OCT 25)",
-   "status": "ENABLED",
-   "type": "PERFORMANCE_MAX",
-   "budget": 15.0,
-   "cost": 451.08,
-   "conv": 83.97,
-   "value": 8137.22,
-   "clicks": 1427,
-   "impr": 94271
+   "cost": 968.93,
+   "conv": 106.62,
+   "value": 9085.74,
+   "clicks": 4145,
+   "impr": 183708
   },
   {
    "name": "Sea Accessories (OCT 25)",
    "status": "ENABLED",
    "type": "PERFORMANCE_MAX",
    "budget": 15.0,
-   "cost": 442.42,
-   "conv": 94.94,
-   "value": 6466.63,
-   "clicks": 1310,
-   "impr": 102993
+   "cost": 458.77,
+   "conv": 110.33,
+   "value": 5853.66,
+   "clicks": 1287,
+   "impr": 93880
+  },
+  {
+   "name": "Clothing New (OCT 25)",
+   "status": "ENABLED",
+   "type": "PERFORMANCE_MAX",
+   "budget": 15.0,
+   "cost": 457.22,
+   "conv": 87.01,
+   "value": 6841.66,
+   "clicks": 1497,
+   "impr": 86981
   },
   {
    "name": "Terminal Tackle (OCT 25)",
    "status": "ENABLED",
    "type": "PERFORMANCE_MAX",
    "budget": 5.0,
-   "cost": 152.21,
-   "conv": 51.32,
-   "value": 3256.13,
-   "clicks": 373,
-   "impr": 29755
+   "cost": 150.66,
+   "conv": 47.52,
+   "value": 2526.91,
+   "clicks": 367,
+   "impr": 32745
   },
   {
    "name": "Sales-Search-1",
@@ -1273,375 +1273,375 @@
  ],
  "products_30d": [
   {
-   "id": "113674",
-   "title": "Reed Chillcheater Storm Jacket",
-   "cost": 18.28,
-   "conv": 6.2,
-   "value": 1665.44,
-   "clicks": 47,
-   "impr": 6917
-  },
-  {
-   "id": null,
-   "title": null,
-   "cost": 53.68,
-   "conv": 11.68,
-   "value": 1051.16,
-   "clicks": 72,
-   "impr": 123407
-  },
-  {
-   "id": "102403",
-   "title": "Century Eliminator T1200",
-   "cost": 18.91,
-   "conv": 9.03,
-   "value": 1046.72,
-   "clicks": 27,
-   "impr": 1929
+   "id": "285656",
+   "title": "Varivas Avani IKAMETAL Max Power X9 Marking",
+   "cost": 0.54,
+   "conv": 3.0,
+   "value": 2618.36,
+   "clicks": 2,
+   "impr": 398
   },
   {
    "id": "333217",
    "title": "Axia Tackle Chest Blue",
-   "cost": 5.78,
-   "conv": 6.73,
-   "value": 912.49,
-   "clicks": 16,
-   "impr": 1200
-  },
-  {
-   "id": "208786",
-   "title": "Zziplex Beanie with Bobble - Black",
-   "cost": 0.41,
-   "conv": 4.0,
-   "value": 906.92,
-   "clicks": 2,
-   "impr": 1229
-  },
-  {
-   "id": "382293",
-   "title": "Seadra Travel Rod Tube 150cm-220cm",
-   "cost": 40.53,
-   "conv": 4.47,
-   "value": 861.81,
-   "clicks": 57,
-   "impr": 26901
-  },
-  {
-   "id": "131216",
-   "title": "Akios AIRPOWER 435 SRS Black Edition",
-   "cost": 0.24,
-   "conv": 1.52,
-   "value": 840.78,
-   "clicks": 2,
-   "impr": 216
-  },
-  {
-   "id": "102301",
-   "title": "Century Kompressor S",
-   "cost": 6.92,
-   "conv": 1.5,
-   "value": 840.0,
-   "clicks": 12,
-   "impr": 1619
-  },
-  {
-   "id": "394401",
-   "title": "Westin W3 Seabass 3rd Gen Travel 9' 12-42g",
-   "cost": 1.71,
-   "conv": 7.0,
-   "value": 790.78,
-   "clicks": 6,
-   "impr": 478
-  },
-  {
-   "id": "104346",
-   "title": "Century Eliminator T900-SGT",
-   "cost": 4.55,
-   "conv": 2.0,
-   "value": 765.56,
-   "clicks": 7,
-   "impr": 471
-  },
-  {
-   "id": "368756",
-   "title": "Akios SeaTrek Double Rod Quiver",
-   "cost": 14.99,
-   "conv": 5.77,
-   "value": 762.62,
-   "clicks": 41,
-   "impr": 7514
-  },
-  {
-   "id": "102242",
-   "title": "Blackrock Kobe Bass King 11'6 Bass & Estuary",
-   "cost": 3.34,
-   "conv": 4.44,
-   "value": 695.06,
-   "clicks": 7,
-   "impr": 854
+   "cost": 8.67,
+   "conv": 10.53,
+   "value": 1930.27,
+   "clicks": 20,
+   "impr": 1401
   },
   {
    "id": "234425",
    "title": "Tronixpro Double Rod Tripod with Single Rod Conversion - 1.8m",
-   "cost": 6.48,
-   "conv": 6.08,
-   "value": 659.89,
-   "clicks": 55,
-   "impr": 6534
+   "cost": 9.94,
+   "conv": 18.45,
+   "value": 1847.8,
+   "clicks": 51,
+   "impr": 6305
   },
   {
-   "id": "375796",
-   "title": "VMO Clear Float Tube",
-   "cost": 2.8,
-   "conv": 6.03,
-   "value": 650.87,
-   "clicks": 11,
-   "impr": 687
-  },
-  {
-   "id": "122596",
-   "title": "Century Eliminator Boat 12-20",
-   "cost": 5.8,
-   "conv": 3.17,
-   "value": 613.2,
-   "clicks": 7,
-   "impr": 712
-  },
-  {
-   "id": "381760",
-   "title": "Seadra URFE Bars",
-   "cost": 6.5,
-   "conv": 6.86,
-   "value": 586.36,
-   "clicks": 11,
-   "impr": 4311
-  },
-  {
-   "id": "101856",
-   "title": "Penn Conflict Offshore Casting - Tuna - 20-130g",
-   "cost": 2.93,
-   "conv": 1.0,
-   "value": 504.97,
-   "clicks": 5,
-   "impr": 374
-  },
-  {
-   "id": "319901",
-   "title": "Shimano Aerlex 14000 XSC",
-   "cost": 6.79,
-   "conv": 1.0,
-   "value": 502.11,
-   "clicks": 11,
-   "impr": 1413
-  },
-  {
-   "id": "217700",
-   "title": "Seadra Bait Cool Box 8L",
-   "cost": 33.33,
-   "conv": 7.53,
-   "value": 495.93,
-   "clicks": 96,
-   "impr": 32659
-  },
-  {
-   "id": "101868",
-   "title": "Penn Fathom II 12 SD Mag Brake - FTHII12SD",
-   "cost": 13.44,
-   "conv": 4.42,
-   "value": 486.02,
-   "clicks": 36,
-   "impr": 6150
-  },
-  {
-   "id": "370479",
-   "title": "Shimano 25 Grappler Type SJ Cast B663",
-   "cost": 2.48,
-   "conv": 3.87,
-   "value": 431.31,
-   "clicks": 6,
-   "impr": 241
-  },
-  {
-   "id": "314066",
-   "title": "O.S.P DoLive Stick",
-   "cost": 1.53,
-   "conv": 3.84,
-   "value": 430.08,
-   "clicks": 5,
-   "impr": 1123
-  },
-  {
-   "id": "105469",
-   "title": "Savage Gear Savage Minnow Weedless Single Combo",
-   "cost": 4.88,
-   "conv": 2.57,
-   "value": 420.15,
-   "clicks": 20,
-   "impr": 1743
-  },
-  {
-   "id": "410675",
-   "title": "Penn Conflict Light Jigging Cast",
-   "cost": 1.13,
-   "conv": 3.36,
-   "value": 415.75,
-   "clicks": 3,
-   "impr": 147
-  },
-  {
-   "id": "323322",
-   "title": "Akios Krave SX420 with Akios Krave KX8 Combo",
-   "cost": 3.78,
-   "conv": 2.0,
-   "value": 399.98,
-   "clicks": 13,
-   "impr": 1431
+   "id": "382293",
+   "title": "Seadra Travel Rod Tube 150cm-220cm",
+   "cost": 30.48,
+   "conv": 3.15,
+   "value": 797.29,
+   "clicks": 38,
+   "impr": 14836
   },
   {
    "id": "143705",
    "title": "Anyfish Anywhere PRO Series Rod Holdall And Hood",
-   "cost": 85.29,
-   "conv": 6.45,
-   "value": 396.71,
-   "clicks": 176,
-   "impr": 39640
+   "cost": 76.52,
+   "conv": 17.21,
+   "value": 791.75,
+   "clicks": 153,
+   "impr": 31403
   },
   {
-   "id": "173890",
-   "title": "Vass Hybrid 700 Chest Wader - Non-Studded",
-   "cost": 27.94,
-   "conv": 4.24,
-   "value": 393.84,
-   "clicks": 32,
-   "impr": 14081
+   "id": null,
+   "title": null,
+   "cost": 58.78,
+   "conv": 17.89,
+   "value": 750.19,
+   "clicks": 73,
+   "impr": 116039
   },
   {
-   "id": "333204",
-   "title": "Axia Big Box Green",
-   "cost": 31.29,
-   "conv": 5.97,
-   "value": 392.81,
-   "clicks": 47,
-   "impr": 32202
-  },
-  {
-   "id": "144153",
-   "title": "GT-Bio Kamaleo Sandeel 155",
-   "cost": 6.39,
-   "conv": 1.5,
-   "value": 376.67,
-   "clicks": 27,
-   "impr": 2151
-  },
-  {
-   "id": "385994",
-   "title": "Akios EVA Rucksack Organiser",
-   "cost": 15.4,
-   "conv": 2.66,
-   "value": 351.47,
-   "clicks": 32,
-   "impr": 8827
-  },
-  {
-   "id": "132086",
-   "title": "Penn Fathom II FTHII40NLDHS",
-   "cost": 0.15,
-   "conv": 2.21,
-   "value": 345.33,
+   "id": "199224",
+   "title": "Vass-Tex All Season Fishing Boot (Fleece lined)",
+   "cost": 0.54,
+   "conv": 1.01,
+   "value": 650.88,
    "clicks": 1,
-   "impr": 87
+   "impr": 514
   },
   {
-   "id": "261193",
-   "title": "Seadra Push-Pull Hook Remover",
-   "cost": 3.58,
-   "conv": 1.27,
-   "value": 311.27,
+   "id": "101868",
+   "title": "Penn Fathom II 12 SD Mag Brake - FTHII12SD",
+   "cost": 10.35,
+   "conv": 5.75,
+   "value": 649.41,
+   "clicks": 27,
+   "impr": 5166
+  },
+  {
+   "id": "112947",
+   "title": "Seadra X-Strong Speed Clip",
+   "cost": 11.92,
+   "conv": 6.12,
+   "value": 573.82,
+   "clicks": 25,
+   "impr": 5693
+  },
+  {
+   "id": "370479",
+   "title": "Shimano 25 Grappler Type SJ Cast B663",
+   "cost": 2.2,
+   "conv": 5.76,
+   "value": 555.38,
+   "clicks": 7,
+   "impr": 344
+  },
+  {
+   "id": "101856",
+   "title": "Penn Conflict Offshore Casting - Tuna - 20-130g",
+   "cost": 4.16,
+   "conv": 1.0,
+   "value": 504.97,
+   "clicks": 10,
+   "impr": 438
+  },
+  {
+   "id": "319901",
+   "title": "Shimano Aerlex 14000 XSC",
+   "cost": 4.23,
+   "conv": 1.0,
+   "value": 502.11,
    "clicks": 9,
-   "impr": 2041
+   "impr": 1461
+  },
+  {
+   "id": "368756",
+   "title": "Akios SeaTrek Double Rod Quiver",
+   "cost": 13.25,
+   "conv": 3.13,
+   "value": 485.62,
+   "clicks": 28,
+   "impr": 4896
+  },
+  {
+   "id": "406481",
+   "title": "Savage Gear Sandeel V2 Weedless - New Colours",
+   "cost": 22.71,
+   "conv": 5.31,
+   "value": 438.91,
+   "clicks": 50,
+   "impr": 12407
+  },
+  {
+   "id": "104054",
+   "title": "VMO Flatfish & Match Disgorger",
+   "cost": 3.9,
+   "conv": 3.0,
+   "value": 424.58,
+   "clicks": 17,
+   "impr": 1452
+  },
+  {
+   "id": "108359",
+   "title": "Vass-Tex 350 Heavy Duty TEAM Vass Edition Smock",
+   "cost": 5.13,
+   "conv": 4.46,
+   "value": 391.94,
+   "clicks": 14,
+   "impr": 4033
   },
   {
    "id": "371343",
    "title": "Tronixpro Pre-Tied Dongle Rigs",
-   "cost": 9.47,
-   "conv": 4.68,
-   "value": 309.35,
-   "clicks": 10,
-   "impr": 5405
+   "cost": 7.21,
+   "conv": 6.87,
+   "value": 349.62,
+   "clicks": 11,
+   "impr": 5235
+  },
+  {
+   "id": "102933",
+   "title": "Abu Garcia 7000 C3",
+   "cost": 1.13,
+   "conv": 1.0,
+   "value": 336.1,
+   "clicks": 4,
+   "impr": 475
+  },
+  {
+   "id": "110224",
+   "title": "IMA Pugachev Cobra 90",
+   "cost": 6.07,
+   "conv": 3.0,
+   "value": 319.99,
+   "clicks": 1,
+   "impr": 101
+  },
+  {
+   "id": "158733",
+   "title": "Gomexus Power Handle Shimano Lure Reels",
+   "cost": 2.01,
+   "conv": 3.0,
+   "value": 302.37,
+   "clicks": 4,
+   "impr": 396
   },
   {
    "id": "201212",
    "title": "Seadra 3D Live Scale Baitfish",
-   "cost": 3.12,
+   "cost": 2.81,
    "conv": 1.0,
    "value": 296.97,
-   "clicks": 6,
-   "impr": 436
+   "clicks": 4,
+   "impr": 486
   },
   {
-   "id": "101622",
-   "title": "Shimano Saragosa SW6000HG",
-   "cost": 0.21,
-   "conv": 1.38,
-   "value": 295.58,
-   "clicks": 3,
-   "impr": 341
+   "id": "189188",
+   "title": "Penn Tidal Long Cast 8000",
+   "cost": 19.39,
+   "conv": 5.12,
+   "value": 282.59,
+   "clicks": 24,
+   "impr": 1445
+  },
+  {
+   "id": "355164",
+   "title": "Seadra Bait Cool Box 18L - Khaki",
+   "cost": 11.76,
+   "conv": 6.65,
+   "value": 278.48,
+   "clicks": 37,
+   "impr": 8031
+  },
+  {
+   "id": "105906",
+   "title": "Storm 360GT Coastal Biscay Minnow - 12cm",
+   "cost": 10.41,
+   "conv": 4.39,
+   "value": 277.31,
+   "clicks": 15,
+   "impr": 7057
+  },
+  {
+   "id": "101824",
+   "title": "Penn Tidal Surfcasting 423 - 100-225g",
+   "cost": 26.49,
+   "conv": 7.68,
+   "value": 275.08,
+   "clicks": 91,
+   "impr": 13114
   },
   {
    "id": "345594",
    "title": "Penn Pro Hooded Jersey",
-   "cost": 13.93,
-   "conv": 3.57,
-   "value": 277.61,
-   "clicks": 10,
-   "impr": 14310
+   "cost": 16.29,
+   "conv": 3.17,
+   "value": 270.27,
+   "clicks": 14,
+   "impr": 12320
   },
   {
-   "id": "126189",
-   "title": "Tronixpro Xenon C-6 LD - 4m - 13ft 2in - 4-8oz",
-   "cost": 3.91,
-   "conv": 2.39,
-   "value": 277.56,
-   "clicks": 12,
-   "impr": 511
+   "id": "261193",
+   "title": "Seadra Push-Pull Hook Remover",
+   "cost": 4.88,
+   "conv": 1.14,
+   "value": 266.52,
+   "clicks": 15,
+   "impr": 1340
+  },
+  {
+   "id": "288845",
+   "title": "Zenaq Tobizo TC77 TUNA - Monster Buster",
+   "cost": 49.18,
+   "conv": 6.32,
+   "value": 263.72,
+   "clicks": 98,
+   "impr": 17938
+  },
+  {
+   "id": "381760",
+   "title": "Seadra URFE Bars",
+   "cost": 7.4,
+   "conv": 3.87,
+   "value": 254.28,
+   "clicks": 10,
+   "impr": 4590
+  },
+  {
+   "id": "217700",
+   "title": "Seadra Bait Cool Box 8L",
+   "cost": 22.86,
+   "conv": 3.71,
+   "value": 253.52,
+   "clicks": 63,
+   "impr": 22702
   },
   {
    "id": "110233",
    "title": "Albie Snax - 5''",
-   "cost": 0.63,
-   "conv": 4.68,
-   "value": 272.59,
-   "clicks": 8,
-   "impr": 795
+   "cost": 1.34,
+   "conv": 2.5,
+   "value": 247.68,
+   "clicks": 6,
+   "impr": 620
   },
   {
-   "id": "196497",
-   "title": "Penn Overseas II Offshore Casting 270 150g",
-   "cost": 5.84,
-   "conv": 3.8,
-   "value": 270.99,
-   "clicks": 10,
-   "impr": 535
+   "id": "173890",
+   "title": "Vass Hybrid 700 Chest Wader - Non-Studded",
+   "cost": 22.71,
+   "conv": 3.71,
+   "value": 247.29,
+   "clicks": 26,
+   "impr": 14427
   },
   {
-   "id": "101807",
-   "title": "Gemini Genie Breakers",
+   "id": "408797",
+   "title": "Sonik Gravity X5 HT 15'4\" - 3pc",
    "cost": 6.55,
-   "conv": 3.2,
-   "value": 267.65,
+   "conv": 2.7,
+   "value": 247.24,
+   "clicks": 15,
+   "impr": 6145
+  },
+  {
+   "id": "409292",
+   "title": "Penn Regiment IV Boat 702 20-30lb",
+   "cost": 2.31,
+   "conv": 1.0,
+   "value": 244.78,
+   "clicks": 8,
+   "impr": 233
+  },
+  {
+   "id": "319618",
+   "title": "Axia Chest Waders",
+   "cost": 17.89,
+   "conv": 3.07,
+   "value": 241.81,
+   "clicks": 19,
+   "impr": 13981
+  },
+  {
+   "id": "278710",
+   "title": "Penn Battalion Solid Hybrid Boat Rod 6-12lb",
+   "cost": 2.62,
+   "conv": 2.02,
+   "value": 241.55,
+   "clicks": 7,
+   "impr": 817
+  },
+  {
+   "id": "103524",
+   "title": "VMO Double Tripod Light",
+   "cost": 31.87,
+   "conv": 7.49,
+   "value": 232.97,
+   "clicks": 71,
+   "impr": 20621
+  },
+  {
+   "id": "208779",
+   "title": "Zziplex Baseball Hat - Black",
+   "cost": 9.8,
+   "conv": 2.8,
+   "value": 228.02,
    "clicks": 3,
-   "impr": 4824
+   "impr": 10286
+  },
+  {
+   "id": "102220",
+   "title": "Abu Garcia Cardinal PRO 802MH Spinning Combo",
+   "cost": 14.66,
+   "conv": 3.01,
+   "value": 227.05,
+   "clicks": 147,
+   "impr": 5897
+  },
+  {
+   "id": "219006",
+   "title": "Shakespeare SALT Surf 80",
+   "cost": 0.98,
+   "conv": 1.54,
+   "value": 222.39,
+   "clicks": 3,
+   "impr": 661
   }
  ],
  "products_90d": [
   {
    "id": "317372",
    "title": "Shimano Grappler Type C Spinning S82M",
-   "cost": 5.0,
+   "cost": 4.97,
    "conv": 28.0,
    "value": 6139.76,
-   "clicks": 18,
-   "impr": 635
+   "clicks": 16,
+   "impr": 637
   },
   {
    "id": "393855",
@@ -1650,379 +1650,379 @@
    "conv": 38.61,
    "value": 5937.34,
    "clicks": 12,
-   "impr": 680
+   "impr": 612
   },
   {
    "id": "102181",
    "title": "Penn Conflict Light Trolling/Drifting Rod - 7' - 6-12lb",
-   "cost": 6.74,
-   "conv": 7.67,
-   "value": 4306.66,
-   "clicks": 15,
-   "impr": 486
-  },
-  {
-   "id": "143705",
-   "title": "Anyfish Anywhere PRO Series Rod Holdall And Hood",
-   "cost": 210.38,
-   "conv": 32.8,
-   "value": 3294.3,
-   "clicks": 538,
-   "impr": 92892
+   "cost": 3.3,
+   "conv": 7.0,
+   "value": 4250.0,
+   "clicks": 12,
+   "impr": 484
   },
   {
    "id": "113674",
    "title": "Reed Chillcheater Storm Jacket",
-   "cost": 38.81,
-   "conv": 10.58,
-   "value": 3103.81,
-   "clicks": 113,
-   "impr": 24339
-  },
-  {
-   "id": "225361",
-   "title": "Okuma Surf 8K 420",
-   "cost": 7.64,
-   "conv": 7.25,
-   "value": 3079.01,
-   "clicks": 59,
-   "impr": 3624
-  },
-  {
-   "id": "378553",
-   "title": "Shimano Beastmaster 14000XC",
-   "cost": 25.6,
-   "conv": 17.74,
-   "value": 3055.04,
-   "clicks": 82,
-   "impr": 8887
+   "cost": 39.14,
+   "conv": 11.16,
+   "value": 3156.06,
+   "clicks": 109,
+   "impr": 26240
   },
   {
    "id": "101824",
    "title": "Penn Tidal Surfcasting 423 - 100-225g",
-   "cost": 58.99,
-   "conv": 24.77,
-   "value": 2988.66,
-   "clicks": 239,
-   "impr": 17544
+   "cost": 65.36,
+   "conv": 27.51,
+   "value": 3093.29,
+   "clicks": 263,
+   "impr": 22405
   },
   {
-   "id": "104346",
-   "title": "Century Eliminator T900-SGT",
-   "cost": 16.67,
-   "conv": 5.15,
-   "value": 2755.21,
-   "clicks": 55,
-   "impr": 1829
+   "id": "143705",
+   "title": "Anyfish Anywhere PRO Series Rod Holdall And Hood",
+   "cost": 211.22,
+   "conv": 40.23,
+   "value": 3037.17,
+   "clicks": 510,
+   "impr": 98990
   },
   {
    "id": null,
    "title": null,
-   "cost": 88.17,
-   "conv": 24.42,
-   "value": 2675.29,
-   "clicks": 114,
-   "impr": 237751
+   "cost": 110.6,
+   "conv": 35.12,
+   "value": 2966.15,
+   "clicks": 150,
+   "impr": 280963
   },
   {
-   "id": "189188",
-   "title": "Penn Tidal Long Cast 8000",
-   "cost": 59.33,
-   "conv": 13.66,
-   "value": 2467.22,
-   "clicks": 165,
-   "impr": 10409
+   "id": "225361",
+   "title": "Okuma Surf 8K 420",
+   "cost": 5.99,
+   "conv": 6.26,
+   "value": 2954.65,
+   "clicks": 45,
+   "impr": 3627
+  },
+  {
+   "id": "378553",
+   "title": "Shimano Beastmaster 14000XC",
+   "cost": 26.68,
+   "conv": 16.74,
+   "value": 2785.04,
+   "clicks": 81,
+   "impr": 9564
+  },
+  {
+   "id": "104346",
+   "title": "Century Eliminator T900-SGT",
+   "cost": 17.66,
+   "conv": 4.75,
+   "value": 2741.83,
+   "clicks": 46,
+   "impr": 1688
   },
   {
    "id": "217700",
    "title": "Seadra Bait Cool Box 8L",
-   "cost": 86.34,
-   "conv": 26.69,
-   "value": 2463.91,
-   "clicks": 487,
-   "impr": 59575
-  },
-  {
-   "id": "368258",
-   "title": "PENN Tidal XT 13' Beach Caster 4-8oz",
-   "cost": 58.51,
-   "conv": 21.03,
-   "value": 2410.56,
-   "clicks": 183,
-   "impr": 15820
+   "cost": 93.94,
+   "conv": 28.66,
+   "value": 2625.62,
+   "clicks": 516,
+   "impr": 66725
   },
   {
    "id": "158733",
    "title": "Gomexus Power Handle Shimano Lure Reels",
-   "cost": 11.32,
-   "conv": 6.0,
-   "value": 2320.32,
-   "clicks": 44,
-   "impr": 1698
+   "cost": 11.19,
+   "conv": 9.0,
+   "value": 2622.69,
+   "clicks": 39,
+   "impr": 1580
   },
   {
-   "id": "189639",
-   "title": "Century Fireblade GT 13' (4-6oz)",
-   "cost": 40.04,
-   "conv": 8.29,
-   "value": 2316.34,
-   "clicks": 119,
-   "impr": 7559
+   "id": "285656",
+   "title": "Varivas Avani IKAMETAL Max Power X9 Marking",
+   "cost": 4.04,
+   "conv": 3.0,
+   "value": 2618.47,
+   "clicks": 15,
+   "impr": 1919
+  },
+  {
+   "id": "189188",
+   "title": "Penn Tidal Long Cast 8000",
+   "cost": 53.44,
+   "conv": 14.63,
+   "value": 2483.09,
+   "clicks": 125,
+   "impr": 8979
   },
   {
    "id": "288277",
    "title": "Shimano Speedmaster Surf H 405 CX",
-   "cost": 13.55,
-   "conv": 8.53,
-   "value": 2177.61,
-   "clicks": 82,
-   "impr": 3675
+   "cost": 13.45,
+   "conv": 9.71,
+   "value": 2202.55,
+   "clicks": 75,
+   "impr": 3517
+  },
+  {
+   "id": "234425",
+   "title": "Tronixpro Double Rod Tripod with Single Rod Conversion - 1.8m",
+   "cost": 17.81,
+   "conv": 21.45,
+   "value": 2074.04,
+   "clicks": 102,
+   "impr": 10588
   },
   {
    "id": "382293",
    "title": "Seadra Travel Rod Tube 150cm-220cm",
-   "cost": 120.74,
-   "conv": 14.57,
-   "value": 2077.52,
-   "clicks": 296,
-   "impr": 59796
+   "cost": 111.33,
+   "conv": 13.83,
+   "value": 1980.3,
+   "clicks": 253,
+   "impr": 58949
   },
   {
-   "id": "105687",
-   "title": "Savage Gear Sandeel Pencil - 90 - 125 - 150",
-   "cost": 29.01,
-   "conv": 33.97,
-   "value": 2066.28,
-   "clicks": 133,
-   "impr": 7846
-  },
-  {
-   "id": "102301",
-   "title": "Century Kompressor S",
-   "cost": 17.02,
-   "conv": 7.43,
-   "value": 1998.14,
-   "clicks": 71,
-   "impr": 3254
-  },
-  {
-   "id": "372673",
-   "title": "Akios Sea Legs Tripod Net & Frame Leg-Lock",
-   "cost": 62.27,
-   "conv": 18.92,
-   "value": 1950.51,
-   "clicks": 241,
-   "impr": 61525
+   "id": "333217",
+   "title": "Axia Tackle Chest Blue",
+   "cost": 13.61,
+   "conv": 10.74,
+   "value": 1945.92,
+   "clicks": 27,
+   "impr": 6196
   },
   {
    "id": "189344",
    "title": "Penn Tidal Elite Hybrid K-Type 450",
-   "cost": 24.67,
+   "cost": 29.66,
    "conv": 6.07,
    "value": 1945.48,
-   "clicks": 92,
-   "impr": 3531
+   "clicks": 104,
+   "impr": 4119
   },
   {
    "id": "103980",
    "title": "Penn Fathom II 20LW - FTHII20LW",
-   "cost": 9.9,
+   "cost": 9.79,
    "conv": 2.02,
    "value": 1929.82,
-   "clicks": 24,
-   "impr": 3201
+   "clicks": 21,
+   "impr": 2504
   },
   {
-   "id": "234311",
-   "title": "Tronixpro Match Combo Tripod \u2013 Double Rod",
-   "cost": 66.32,
-   "conv": 26.19,
-   "value": 1886.76,
-   "clicks": 219,
-   "impr": 56238
+   "id": "189639",
+   "title": "Century Fireblade GT 13' (4-6oz)",
+   "cost": 34.59,
+   "conv": 6.86,
+   "value": 1901.1,
+   "clicks": 99,
+   "impr": 7201
   },
   {
    "id": "131216",
    "title": "Akios AIRPOWER 435 SRS Black Edition",
-   "cost": 6.65,
+   "cost": 5.54,
    "conv": 12.11,
    "value": 1817.87,
-   "clicks": 27,
-   "impr": 1117
+   "clicks": 23,
+   "impr": 1068
   },
   {
    "id": "406508",
    "title": "Savage Gear Sandeel V2 - New colours",
-   "cost": 34.05,
-   "conv": 18.65,
-   "value": 1790.16,
-   "clicks": 137,
-   "impr": 10294
+   "cost": 30.96,
+   "conv": 17.89,
+   "value": 1768.28,
+   "clicks": 104,
+   "impr": 8924
   },
   {
-   "id": "247499",
-   "title": "Seadra Stainless Steel Boat Rod Holder",
-   "cost": 90.11,
-   "conv": 25.05,
-   "value": 1653.35,
-   "clicks": 233,
-   "impr": 63244
-  },
-  {
-   "id": "387166",
-   "title": "Akios Nitron 440 SVR 4-8oz",
-   "cost": 27.35,
-   "conv": 8.64,
-   "value": 1650.48,
-   "clicks": 87,
-   "impr": 4836
-  },
-  {
-   "id": "108972",
-   "title": "Westin Flat Matt - 28gm",
-   "cost": 7.33,
-   "conv": 18.75,
-   "value": 1647.52,
-   "clicks": 44,
-   "impr": 2918
-  },
-  {
-   "id": "102082",
-   "title": "Tronixpro Competition Performance 420 - 100-190gm",
-   "cost": 16.59,
-   "conv": 8.5,
-   "value": 1603.25,
-   "clicks": 58,
-   "impr": 2665
+   "id": "234311",
+   "title": "Tronixpro Match Combo Tripod \u2013 Double Rod",
+   "cost": 68.23,
+   "conv": 23.69,
+   "value": 1741.93,
+   "clicks": 225,
+   "impr": 59426
   },
   {
    "id": "375142",
    "title": "Mustad Daybreak Tactical Pack",
-   "cost": 57.83,
-   "conv": 6.76,
-   "value": 1567.76,
-   "clicks": 159,
-   "impr": 39377
+   "cost": 55.88,
+   "conv": 9.49,
+   "value": 1724.31,
+   "clicks": 147,
+   "impr": 39964
+  },
+  {
+   "id": "372673",
+   "title": "Akios Sea Legs Tripod Net & Frame Leg-Lock",
+   "cost": 59.29,
+   "conv": 17.42,
+   "value": 1703.6,
+   "clicks": 199,
+   "impr": 61110
+  },
+  {
+   "id": "102301",
+   "title": "Century Kompressor S",
+   "cost": 16.6,
+   "conv": 6.79,
+   "value": 1652.26,
+   "clicks": 68,
+   "impr": 3792
+  },
+  {
+   "id": "387166",
+   "title": "Akios Nitron 440 SVR 4-8oz",
+   "cost": 25.45,
+   "conv": 8.64,
+   "value": 1650.48,
+   "clicks": 76,
+   "impr": 5000
+  },
+  {
+   "id": "108972",
+   "title": "Westin Flat Matt - 28gm",
+   "cost": 6.12,
+   "conv": 17.75,
+   "value": 1607.26,
+   "clicks": 38,
+   "impr": 2498
+  },
+  {
+   "id": "102082",
+   "title": "Tronixpro Competition Performance 420 - 100-190gm",
+   "cost": 17.23,
+   "conv": 7.0,
+   "value": 1564.02,
+   "clicks": 56,
+   "impr": 2640
   },
   {
    "id": "110233",
    "title": "Albie Snax - 5''",
-   "cost": 14.65,
-   "conv": 19.47,
-   "value": 1553.61,
-   "clicks": 151,
-   "impr": 3600
+   "cost": 12.76,
+   "conv": 18.57,
+   "value": 1512.16,
+   "clicks": 125,
+   "impr": 3291
   },
   {
-   "id": "206197",
-   "title": "IMA Chappy 80",
-   "cost": 23.7,
-   "conv": 15.76,
-   "value": 1540.18,
-   "clicks": 124,
-   "impr": 2546
-  },
-  {
-   "id": "101623",
-   "title": "Shimano Saragosa SW5000XG",
-   "cost": 36.63,
-   "conv": 12.49,
-   "value": 1512.44,
-   "clicks": 105,
-   "impr": 5045
+   "id": "368258",
+   "title": "PENN Tidal XT 13' Beach Caster 4-8oz",
+   "cost": 58.59,
+   "conv": 16.29,
+   "value": 1504.68,
+   "clicks": 172,
+   "impr": 18775
   },
   {
    "id": "195509",
    "title": "Penn Squall II 40NLDHS - SQLII40NLDHS",
-   "cost": 0.92,
+   "cost": 2.42,
    "conv": 2.09,
    "value": 1452.25,
-   "clicks": 9,
-   "impr": 902
-  },
-  {
-   "id": "278710",
-   "title": "Penn Battalion Solid Hybrid Boat Rod 6-12lb",
-   "cost": 20.04,
-   "conv": 9.88,
-   "value": 1447.18,
-   "clicks": 88,
-   "impr": 2775
-  },
-  {
-   "id": "172510",
-   "title": "Century Tip Tornado Super Match Fixed Spool",
-   "cost": 12.8,
-   "conv": 2.66,
-   "value": 1436.93,
-   "clicks": 27,
-   "impr": 3118
+   "clicks": 11,
+   "impr": 647
   },
   {
    "id": "278839",
    "title": "Penn Fierce Thermo Suit",
-   "cost": 31.92,
-   "conv": 11.9,
-   "value": 1393.54,
+   "cost": 33.07,
+   "conv": 12.27,
+   "value": 1417.59,
    "clicks": 87,
-   "impr": 19902
+   "impr": 22165
   },
   {
-   "id": "113789",
-   "title": "Xorus Patchinko 100mm",
-   "cost": 23.14,
-   "conv": 7.81,
-   "value": 1378.27,
-   "clicks": 85,
-   "impr": 4676
-  },
-  {
-   "id": "369684",
-   "title": "Akios IronSpin 11ft 6in Spin",
-   "cost": 15.74,
-   "conv": 7.97,
-   "value": 1357.06,
-   "clicks": 72,
-   "impr": 3539
+   "id": "385994",
+   "title": "Akios EVA Rucksack Organiser",
+   "cost": 49.74,
+   "conv": 15.0,
+   "value": 1354.61,
+   "clicks": 120,
+   "impr": 35703
   },
   {
    "id": "128134",
    "title": "Inova LUG-IT Cool Bag",
-   "cost": 7.15,
+   "cost": 7.18,
    "conv": 8.84,
    "value": 1350.46,
    "clicks": 20,
-   "impr": 14150
+   "impr": 14289
+  },
+  {
+   "id": "278710",
+   "title": "Penn Battalion Solid Hybrid Boat Rod 6-12lb",
+   "cost": 19.65,
+   "conv": 8.4,
+   "value": 1327.97,
+   "clicks": 84,
+   "impr": 2901
+  },
+  {
+   "id": "246900",
+   "title": "Seadra Solo Dongle Rings",
+   "cost": 4.0,
+   "conv": 13.28,
+   "value": 1290.13,
+   "clicks": 22,
+   "impr": 1376
+  },
+  {
+   "id": "247499",
+   "title": "Seadra Stainless Steel Boat Rod Holder",
+   "cost": 84.48,
+   "conv": 18.94,
+   "value": 1283.66,
+   "clicks": 194,
+   "impr": 66800
+  },
+  {
+   "id": "105687",
+   "title": "Savage Gear Sandeel Pencil - 90 - 125 - 150",
+   "cost": 26.31,
+   "conv": 25.29,
+   "value": 1252.04,
+   "clicks": 104,
+   "impr": 6695
   }
  ],
  "devices": [
   {
    "device": "DESKTOP",
-   "cost": 738.13,
-   "conv": 91.62,
-   "value": 6206.42,
-   "clicks": 1221
+   "cost": 685.58,
+   "conv": 76.81,
+   "value": 4240.74,
+   "clicks": 1131
   },
   {
    "device": "MOBILE",
-   "cost": 2951.45,
-   "conv": 451.87,
-   "value": 42020.95,
-   "clicks": 12351
+   "cost": 3028.67,
+   "conv": 385.38,
+   "value": 33395.52,
+   "clicks": 13168
   },
   {
    "device": "TABLET",
-   "cost": 154.86,
-   "conv": 23.52,
-   "value": 992.76,
-   "clicks": 770
+   "cost": 178.5,
+   "conv": 18.63,
+   "value": 997.84,
+   "clicks": 869
   },
   {
    "device": "CONNECTED_TV",
-   "cost": 427.72,
-   "conv": 135.09,
-   "value": 9234.48,
-   "clicks": 23
+   "cost": 425.01,
+   "conv": 124.66,
+   "value": 7294.46,
+   "clicks": 18
   }
  ]
 }
