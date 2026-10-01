@@ -117,7 +117,7 @@
   </url>
   <url>
     <loc>https://social-surge.co.uk/blog/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-09-29</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -269,6 +269,12 @@
   <url>
     <loc>https://social-surge.co.uk/blog/google-merchant-center-suspended/</loc>
     <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://social-surge.co.uk/blog/google-ads-negative-keywords-ecommerce/</loc>
+    <lastmod>2026-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
