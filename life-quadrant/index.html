@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+<meta name="googlebot" content="noindex, nofollow">
+<title>Life Quadrant — Social Surge</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy: #152337;
+    --navy2: #1F3451;
+    --teal: #37BE76;
+    --blue: #5299E0;
+    --bg: #F4F7FA;
+    --card: #ffffff;
+    --border: #E3EAF2;
+    --text: #1E2B3E;
+    --muted: #6B7A90;
+    --red: #E44444;
+    --amber: #E8A020;
+  }
+  body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 100%);
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 58px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .header-left { display: flex; align-items: center; gap: 12px; }
+  .logo {
+    width: 32px; height: 32px; border-radius: 7px;
+    background: var(--teal);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 900; font-size: 14px; color: #fff; letter-spacing: -0.5px;
+  }
+  .header-title { font-size: 15px; font-weight: 700; color: #fff; }
+  .header-date { font-size: 12px; color: rgba(255,255,255,0.5); margin-top: 1px; }
+  .header-right { display: flex; align-items: center; gap: 10px; }
+  .btn-clear {
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+    color: rgba(255,255,255,0.7); font-size: 12px; padding: 5px 12px;
+    border-radius: 6px; cursor: pointer; font-weight: 600; transition: all 0.15s;
+  }
+  .btn-clear:hover { background: rgba(255,255,255,0.14); color: #fff; }
+
+  /* ── Main layout ── */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 20px;
+  }
+
+  /* ── Check-in banner ── */
+  .checkin-banner {
+    background: linear-gradient(135deg, var(--navy) 0%, #27436B 100%);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .checkin-banner h1 { font-size: 18px; color: #fff; font-weight: 800; }
+  .checkin-banner p { font-size: 13px; color: rgba(255,255,255,0.6); margin-top: 3px; }
+  .btn-checkin {
+    background: var(--teal); color: #fff; border: none; font-size: 13px;
+    font-weight: 700; padding: 10px 20px; border-radius: 8px; cursor: pointer;
+    white-space: nowrap; transition: opacity 0.15s; flex-shrink: 0;
+  }
+  .btn-checkin:hover { opacity: 0.88; }
+
+  /* ── Quadrant grid ── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  @media (max-width: 700px) { .grid { grid-template-columns: 1fr; } }
+
+  /* ── Card ── */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .card-header {
+    display: flex; align-items: center; gap: 10px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--border);
+  }
+  .card-icon {
+    width: 34px; height: 34px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 17px; flex-shrink: 0;
+  }
+  .card-icon.green  { background: rgba(55,190,118,0.12); }
+  .card-icon.blue   { background: rgba(82,153,224,0.12); }
+  .card-icon.amber  { background: rgba(232,160,32,0.12); }
+  .card-icon.purple { background: rgba(130,90,220,0.12); }
+
+  .card-title { font-size: 14px; font-weight: 800; color: var(--text); }
+  .card-sub   { font-size: 11px; color: var(--muted); margin-top: 1px; }
+
+  /* ── Metric chips ── */
+  .metrics { display: flex; flex-wrap: wrap; gap: 8px; }
+  .metric-chip {
+    flex: 1; min-width: 80px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 12px;
+    text-align: center;
+  }
+  .metric-val { font-size: 18px; font-weight: 800; color: var(--navy); }
+  .metric-val.green  { color: #27AE60; }
+  .metric-val.blue   { color: var(--blue); }
+  .metric-val.amber  { color: var(--amber); }
+  .metric-val.purple { color: #8A5ADC; }
+  .metric-label { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin-top: 3px; font-weight: 700; }
+
+  /* ── Form elements ── */
+  .form-group { display: flex; flex-direction: column; gap: 6px; }
+  .form-row    { display: flex; gap: 8px; }
+  label { font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; }
+  input[type="text"], input[type="number"], input[type="date"], textarea, select {
+    width: 100%; border: 1.5px solid var(--border); border-radius: 8px;
+    padding: 8px 11px; font-size: 13px; color: var(--text); background: var(--bg);
+    font-family: inherit; transition: border-color 0.15s; outline: none;
+    -webkit-appearance: none;
+  }
+  input:focus, textarea:focus, select:focus { border-color: var(--teal); background: #fff; }
+  textarea { resize: vertical; min-height: 64px; }
+  .btn-log {
+    background: var(--navy); color: #fff; border: none; font-size: 12px;
+    font-weight: 700; padding: 8px 16px; border-radius: 8px; cursor: pointer;
+    transition: opacity 0.15s; white-space: nowrap; align-self: flex-end;
+  }
+  .btn-log:hover { opacity: 0.85; }
+  .btn-log.teal   { background: var(--teal); }
+  .btn-log.blue   { background: var(--blue); }
+  .btn-log.amber  { background: var(--amber); }
+  .btn-log.purple { background: #8A5ADC; }
+
+  /* ── Entries list ── */
+  .entries { display: flex; flex-direction: column; gap: 6px; max-height: 200px; overflow-y: auto; }
+  .entry {
+    background: var(--bg); border: 1px solid var(--border); border-radius: 8px;
+    padding: 9px 12px; font-size: 12.5px; line-height: 1.5; position: relative;
+  }
+  .entry-ts { font-size: 10px; color: var(--muted); margin-top: 3px; }
+  .entry-del {
+    position: absolute; top: 6px; right: 8px; background: none; border: none;
+    color: var(--muted); cursor: pointer; font-size: 13px; line-height: 1;
+    padding: 2px 4px; border-radius: 4px; opacity: 0.5; transition: opacity 0.15s;
+  }
+  .entry-del:hover { opacity: 1; color: var(--red); }
+  .no-entries { font-size: 12px; color: var(--muted); font-style: italic; text-align: center; padding: 12px 0; }
+
+  /* ── Section label ── */
+  .section-label {
+    font-size: 10px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 1.5px; color: var(--muted);
+  }
+
+  /* ── Modal overlay ── */
+  .modal-overlay {
+    display: none; position: fixed; inset: 0;
+    background: rgba(21,35,55,0.6); z-index: 100;
+    align-items: center; justify-content: center; padding: 20px;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    background: var(--card); border-radius: 16px; padding: 28px;
+    max-width: 540px; width: 100%; max-height: 90vh; overflow-y: auto;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+  }
+  .modal h2 { font-size: 18px; color: var(--navy); margin-bottom: 4px; }
+  .modal p  { font-size: 13px; color: var(--muted); margin-bottom: 20px; line-height: 1.5; }
+  .modal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 500px) { .modal-grid { grid-template-columns: 1fr; } }
+  .modal-section { grid-column: 1 / -1; }
+  .modal-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 20px; }
+  .btn-cancel {
+    background: var(--bg); border: 1px solid var(--border); color: var(--text);
+    font-size: 13px; font-weight: 600; padding: 9px 18px; border-radius: 8px; cursor: pointer;
+  }
+  .btn-save {
+    background: var(--navy); color: #fff; border: none; font-size: 13px;
+    font-weight: 700; padding: 9px 18px; border-radius: 8px; cursor: pointer;
+  }
+  .btn-save:hover { opacity: 0.88; }
+
+  /* ── Toast ── */
+  .toast {
+    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+    background: var(--navy); color: #fff; padding: 10px 20px;
+    border-radius: 8px; font-size: 13px; font-weight: 600;
+    opacity: 0; transition: opacity 0.2s; pointer-events: none; z-index: 200;
+    white-space: nowrap;
+  }
+  .toast.show { opacity: 1; }
+
+  /* ── Footer ── */
+  footer {
+    text-align: center; padding: 24px 0 16px;
+    font-size: 11px; color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <div class="logo">SS</div>
+    <div>
+      <div class="header-title">Life Quadrant</div>
+      <div class="header-date" id="headerDate"></div>
+    </div>
+  </div>
+  <div class="header-right">
+    <button class="btn-clear" onclick="openCheckin()">&#43; Check-in</button>
+    <button class="btn-clear" onclick="exportData()">&#8595; Export</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- Check-in Banner -->
+  <div class="checkin-banner">
+    <div>
+      <h1>&#128293; Weekly Check-in</h1>
+      <p>Log your numbers across all four quadrants to keep the picture current.</p>
+    </div>
+    <button class="btn-checkin" onclick="openCheckin()">Log Check-in</button>
+  </div>
+
+  <!-- 4 Quadrant Grid -->
+  <div class="grid">
+
+    <!-- Q1: Business -->
+    <div class="card" id="card-business">
+      <div class="card-header">
+        <div class="card-icon green">&#128200;</div>
+        <div>
+          <div class="card-title">Business</div>
+          <div class="card-sub">Revenue, clients, pipeline</div>
+        </div>
+      </div>
+      <div class="metrics" id="metrics-business">
+        <div class="metric-chip">
+          <div class="metric-val green" id="val-mrr">—</div>
+          <div class="metric-label">MRR</div>
+        </div>
+        <div class="metric-chip">
+          <div class="metric-val green" id="val-clients">—</div>
+          <div class="metric-label">Clients</div>
+        </div>
+        <div class="metric-chip">
+          <div class="metric-val green" id="val-pipeline">—</div>
+          <div class="metric-label">Pipeline</div>
+        </div>
+      </div>
+      <div class="section-label">Notes</div>
+      <div class="form-row">
+        <input type="text" id="note-business" placeholder="Add a business note..." />
+        <button class="btn-log teal" onclick="logNote('business')">Log</button>
+      </div>
+      <div class="entries" id="entries-business"></div>
+    </div>
+
+    <!-- Q2: Health & Energy -->
+    <div class="card" id="card-health">
+      <div class="card-header">
+        <div class="card-icon blue">&#128170;</div>
+        <div>
+          <div class="card-title">Health &amp; Energy</div>
+          <div class="card-sub">Gym, sleep, physical</div>
+        </div>
+      </div>
+      <div class="metrics">
+        <div class="metric-chip">
+          <div class="metric-val blue" id="val-gym">—</div>
+          <div class="metric-label">Gym (wk)</div>
+        </div>
+        <div class="metric-chip">
+          <div class="metric-val blue" id="val-sleep">—</div>
+          <div class="metric-label">Sleep avg</div>
+        </div>
+        <div class="metric-chip">
+          <div class="metric-val blue" id="val-energy">—</div>
+          <div class="metric-label">Energy</div>
+        </div>
+      </div>
+      <div class="section-label">Notes</div>
+      <div class="form-row">
+        <input type="text" id="note-health" placeholder="Add a health note..." />
+        <button class="btn-log blue" onclick="logNote('health')">Log</button>
+      </div>
+      <div class="entries" id="entries-health"></div>
+    </div>
+
+    <!-- Q3: Goals & Personal -->
+    <div class="card" id="card-personal">
+      <div class="card-header">
+        <div class="card-icon amber">&#127919;</div>
+        <div>
+          <div class="card-title">Goals &amp; Personal</div>
+          <div class="card-sub">Growth, habits, mindset</div>
+        </div>
+      </div>
+      <div class="metrics">
+        <div class="metric-chip">
+          <div class="metric-val amber" id="val-goals">—</div>
+          <div class="metric-label">Goals on track</div>
+        </div>
+        <div class="metric-chip">
+          <div class="metric-val amber" id="val-habits">—</div>
+          <div class="metric-label">Habits (%)</div>
+        </div>
+        <div class="metric-chip">
+          <div class="metric-val amber" id="val-mood">—</div>
+          <div class="metric-label">Mood (1-10)</div>
+        </div>
+      </div>
+      <div class="section-label">Notes</div>
+      <div class="form-row">
+        <input type="text" id="note-personal" placeholder="Add a personal note..." />
+        <button class="btn-log amber" onclick="logNote('personal')">Log</button>
+      </div>
+      <div class="entries" id="entries-personal"></div>
+    </div>
+
+    <!-- Q4: Focus & Wins -->
+    <div class="card" id="card-focus">
+      <div class="card-header">
+        <div class="card-icon purple">&#9889;</div>
+        <div>
+          <div class="card-title">Wins &amp; Focus</div>
+          <div class="card-sub">This week's wins, blockers, priority</div>
+        </div>
+      </div>
+      <div class="metrics">
+        <div class="metric-chip">
+          <div class="metric-val purple" id="val-wins">—</div>
+          <div class="metric-label">Wins logged</div>
+        </div>
+        <div class="metric-chip">
+          <div class="metric-val purple" id="val-focus">—</div>
+          <div class="metric-label">Focus score</div>
+        </div>
+      </div>
+      <div class="section-label">Wins &amp; Blockers</div>
+      <div class="form-row">
+        <input type="text" id="note-focus" placeholder="Log a win or blocker..." />
+        <button class="btn-log purple" onclick="logNote('focus')">Log</button>
+      </div>
+      <div class="entries" id="entries-focus"></div>
+    </div>
+
+  </div>
+
+  <footer>
+    Life Quadrant &mdash; Social Surge &mdash; Private &amp; Confidential
+  </footer>
+</main>
+
+<!-- Check-in Modal -->
+<div class="modal-overlay" id="checkinModal">
+  <div class="modal">
+    <h2>&#128197; Log Check-in</h2>
+    <p>Update your quadrant metrics. Changes save to this browser and persist across visits.</p>
+    <div class="modal-grid">
+      <!-- Business -->
+      <div class="modal-section"><div class="section-label" style="color:#37BE76;margin-bottom:10px;">&#128200; Business</div></div>
+      <div class="form-group">
+        <label>MRR (e.g. £8,500)</label>
+        <input type="text" id="in-mrr" placeholder="£0">
+      </div>
+      <div class="form-group">
+        <label>Active Clients</label>
+        <input type="number" id="in-clients" placeholder="0" min="0">
+      </div>
+      <div class="form-group">
+        <label>Pipeline Value</label>
+        <input type="text" id="in-pipeline" placeholder="£0">
+      </div>
+
+      <!-- Health -->
+      <div class="modal-section" style="margin-top:4px;"><div class="section-label" style="color:#5299E0;margin-bottom:10px;">&#128170; Health &amp; Energy</div></div>
+      <div class="form-group">
+        <label>Gym sessions this week</label>
+        <input type="number" id="in-gym" placeholder="0" min="0" max="14">
+      </div>
+      <div class="form-group">
+        <label>Sleep (avg hrs)</label>
+        <input type="number" id="in-sleep" placeholder="7" min="0" max="24" step="0.5">
+      </div>
+      <div class="form-group">
+        <label>Energy level (1-10)</label>
+        <input type="number" id="in-energy" placeholder="7" min="1" max="10">
+      </div>
+
+      <!-- Personal -->
+      <div class="modal-section" style="margin-top:4px;"><div class="section-label" style="color:#E8A020;margin-bottom:10px;">&#127919; Goals &amp; Personal</div></div>
+      <div class="form-group">
+        <label>Goals on track (#)</label>
+        <input type="number" id="in-goals" placeholder="0" min="0">
+      </div>
+      <div class="form-group">
+        <label>Habit completion (%)</label>
+        <input type="number" id="in-habits" placeholder="0" min="0" max="100">
+      </div>
+      <div class="form-group">
+        <label>Mood (1-10)</label>
+        <input type="number" id="in-mood" placeholder="7" min="1" max="10">
+      </div>
+
+      <!-- Focus -->
+      <div class="modal-section" style="margin-top:4px;"><div class="section-label" style="color:#8A5ADC;margin-bottom:10px;">&#9889; Wins &amp; Focus</div></div>
+      <div class="form-group">
+        <label>Focus score this week (1-10)</label>
+        <input type="number" id="in-focus" placeholder="7" min="1" max="10">
+      </div>
+      <div class="modal-section">
+        <div class="form-group">
+          <label>Top Win this week</label>
+          <input type="text" id="in-topwin" placeholder="What's your biggest win?">
+        </div>
+      </div>
+      <div class="modal-section">
+        <div class="form-group">
+          <label>Main Blocker / Challenge</label>
+          <input type="text" id="in-blocker" placeholder="What's in the way?">
+        </div>
+      </div>
+      <div class="modal-section">
+        <div class="form-group">
+          <label>Notes (optional)</label>
+          <textarea id="in-notes" placeholder="Anything else worth noting this week..."></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeCheckin()">Cancel</button>
+      <button class="btn-save" onclick="saveCheckin()">Save Check-in</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ── Storage ──────────────────────────────────────────────────────────────────
+const STORE = 'ss_lifequadrant_v1';
+
+function load() {
+  try { return JSON.parse(localStorage.getItem(STORE)) || {}; } catch { return {}; }
+}
+function save(data) {
+  localStorage.setItem(STORE, JSON.stringify(data));
+}
+
+// ── Date header ──────────────────────────────────────────────────────────────
+function formatDate() {
+  const d = new Date();
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return `${days[d.getDay()]} ${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
+}
+document.getElementById('headerDate').textContent = formatDate();
+
+// ── Toast ────────────────────────────────────────────────────────────────────
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2200);
+}
+
+// ── Render metrics from stored data ──────────────────────────────────────────
+function renderMetrics() {
+  const d = load();
+  const m = d.metrics || {};
+  const set = (id, val, fallback) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = val !== undefined && val !== '' ? val : fallback;
+  };
+  set('val-mrr',      m.mrr,      '—');
+  set('val-clients',  m.clients,  '—');
+  set('val-pipeline', m.pipeline, '—');
+  set('val-gym',      m.gym !== undefined ? m.gym + 'x' : '—',    '—');
+  set('val-sleep',    m.sleep !== undefined ? m.sleep + 'h' : '—', '—');
+  set('val-energy',   m.energy !== undefined ? m.energy + '/10' : '—', '—');
+  set('val-goals',    m.goals,    '—');
+  set('val-habits',   m.habits !== undefined ? m.habits + '%' : '—', '—');
+  set('val-mood',     m.mood !== undefined ? m.mood + '/10' : '—', '—');
+  set('val-focus',    m.focus !== undefined ? m.focus + '/10' : '—', '—');
+
+  // wins count = wins entries
+  const wins = (d.entries || {}).focus || [];
+  set('val-wins', wins.length || '—', '—');
+}
+
+// ── Render entries ────────────────────────────────────────────────────────────
+function renderEntries(quad) {
+  const d = load();
+  const entries = (d.entries || {})[quad] || [];
+  const container = document.getElementById('entries-' + quad);
+  if (!container) return;
+
+  if (!entries.length) {
+    container.innerHTML = '<div class="no-entries">No entries yet.</div>';
+    return;
+  }
+
+  container.innerHTML = entries.slice().reverse().map((e, ri) => {
+    const realIdx = entries.length - 1 - ri;
+    return `<div class="entry">
+      <button class="entry-del" onclick="deleteEntry('${quad}', ${realIdx})" title="Delete">&#215;</button>
+      <div>${escHtml(e.text)}</div>
+      <div class="entry-ts">${e.ts}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderAll() {
+  renderMetrics();
+  ['business','health','personal','focus'].forEach(renderEntries);
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── Log a note ───────────────────────────────────────────────────────────────
+function logNote(quad) {
+  const inp = document.getElementById('note-' + quad);
+  const text = (inp.value || '').trim();
+  if (!text) return;
+
+  const d = load();
+  if (!d.entries) d.entries = {};
+  if (!d.entries[quad]) d.entries[quad] = [];
+  d.entries[quad].push({ text, ts: new Date().toLocaleString('en-GB') });
+  save(d);
+  inp.value = '';
+  renderEntries(quad);
+  showToast('Logged ✓');
+}
+
+// ── Delete an entry ──────────────────────────────────────────────────────────
+function deleteEntry(quad, idx) {
+  const d = load();
+  if (d.entries && d.entries[quad]) {
+    d.entries[quad].splice(idx, 1);
+    save(d);
+    renderEntries(quad);
+  }
+}
+
+// ── Check-in modal ────────────────────────────────────────────────────────────
+function openCheckin() {
+  const d = load();
+  const m = d.metrics || {};
+  // Pre-fill
+  const fi = (id, val) => { const el = document.getElementById(id); if (el && val !== undefined) el.value = val; };
+  fi('in-mrr',      m.mrr);
+  fi('in-clients',  m.clients);
+  fi('in-pipeline', m.pipeline);
+  fi('in-gym',      m.gym);
+  fi('in-sleep',    m.sleep);
+  fi('in-energy',   m.energy);
+  fi('in-goals',    m.goals);
+  fi('in-habits',   m.habits);
+  fi('in-mood',     m.mood);
+  fi('in-focus',    m.focus);
+  document.getElementById('in-topwin').value = '';
+  document.getElementById('in-blocker').value = '';
+  document.getElementById('in-notes').value = '';
+  document.getElementById('checkinModal').classList.add('open');
+}
+
+function closeCheckin() {
+  document.getElementById('checkinModal').classList.remove('open');
+}
+
+function saveCheckin() {
+  const d = load();
+  if (!d.metrics) d.metrics = {};
+  if (!d.entries) d.entries = {};
+
+  const gv = id => (document.getElementById(id) || {}).value;
+
+  // Save metrics
+  const fields = {
+    mrr: gv('in-mrr'), clients: gv('in-clients'), pipeline: gv('in-pipeline'),
+    gym: gv('in-gym'), sleep: gv('in-sleep'), energy: gv('in-energy'),
+    goals: gv('in-goals'), habits: gv('in-habits'), mood: gv('in-mood'),
+    focus: gv('in-focus')
+  };
+  Object.entries(fields).forEach(([k,v]) => {
+    if (v !== '') d.metrics[k] = v;
+  });
+
+  const ts = new Date().toLocaleString('en-GB');
+
+  // Auto-log win if filled
+  const win = gv('in-topwin').trim();
+  if (win) {
+    if (!d.entries.focus) d.entries.focus = [];
+    d.entries.focus.push({ text: '&#127942; WIN: ' + win, ts });
+  }
+
+  // Auto-log blocker if filled
+  const blocker = gv('in-blocker').trim();
+  if (blocker) {
+    if (!d.entries.focus) d.entries.focus = [];
+    d.entries.focus.push({ text: '&#9888; BLOCKER: ' + blocker, ts });
+  }
+
+  // Auto-log notes
+  const notes = gv('in-notes').trim();
+  if (notes) {
+    if (!d.entries.business) d.entries.business = [];
+    d.entries.business.push({ text: '&#128203; ' + notes, ts });
+  }
+
+  // Save checkin history
+  if (!d.history) d.history = [];
+  d.history.push({ metrics: { ...d.metrics }, win, blocker, notes, ts });
+
+  save(d);
+  closeCheckin();
+  renderAll();
+  showToast('Check-in saved ✓');
+}
+
+// ── Enter key support ────────────────────────────────────────────────────────
+['business','health','personal','focus'].forEach(q => {
+  const inp = document.getElementById('note-' + q);
+  if (inp) inp.addEventListener('keydown', e => { if (e.key === 'Enter') logNote(q); });
+});
+
+// ── Export ────────────────────────────────────────────────────────────────────
+function exportData() {
+  const d = load();
+  const json = JSON.stringify(d, null, 2);
+  const blob = new Blob([json], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'life-quadrant-' + new Date().toISOString().slice(0,10) + '.json';
+  a.click();
+  showToast('Exported ✓');
+}
+
+// ── Modal backdrop close ──────────────────────────────────────────────────────
+document.getElementById('checkinModal').addEventListener('click', function(e) {
+  if (e.target === this) closeCheckin();
+});
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+renderAll();
+</script>
+</body>
+</html>
