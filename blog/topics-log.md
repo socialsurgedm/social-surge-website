@@ -34,3 +34,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-09-29 google-ads-negative-keywords-ecommerce -- Google Ads negative keywords for e-commerce: how to stop wasting budget on irrelevant searches
 - 2026-10-01 google-ads-quality-score-ecommerce -- Google Ads Quality Score for e-commerce: why it matters and how to improve it
 - 2026-10-06 google-ads-christmas-ecommerce -- Google Ads Christmas strategy for e-commerce: how to prepare your Q4 campaigns
+- 2026-10-08 google-ads-agency-vs-in-house-ecommerce -- Google Ads agency vs in-house ecommerce UK: what UK e-commerce stores need to know
