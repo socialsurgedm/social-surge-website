@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Ads Attribution for E-Commerce | Which Model to Use</title>
+  <meta name="description" content="Google Ads attribution model for e-commerce: data-driven vs last click, why ROAS differs across platforms, and which model UK stores should use.">
+  <link rel="canonical" href="https://social-surge.co.uk/blog/google-ads-attribution-model-ecommerce/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Google Ads Attribution for E-Commerce | Which Model to Use">
+  <meta property="og:description" content="Google Ads attribution model for e-commerce: data-driven vs last click, why ROAS differs across platforms, and which model UK stores should use.">
+  <meta property="og:url" content="https://social-surge.co.uk/blog/google-ads-attribution-model-ecommerce/">
+  <meta property="og:image" content="https://social-surge.co.uk/assets/img/og-image.jpg">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css?v=4">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://social-surge.co.uk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://social-surge.co.uk/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Google Ads Attribution for E-Commerce: Which Model to Use"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Google Ads Attribution for E-Commerce: Which Model to Use",
+  "description": "Google Ads attribution model for e-commerce: data-driven vs last click, why ROAS differs across platforms, and which model UK stores should use.",
+  "url": "https://social-surge.co.uk/blog/google-ads-attribution-model-ecommerce/",
+  "datePublished": "2026-10-13",
+  "dateModified": "2026-10-13",
+  "inLanguage": "en-GB",
+  "image": "https://social-surge.co.uk/assets/img/ss-logo.png",
+  "author": {
+    "@type": "Person",
+    "name": "Jack Goldsmith",
+    "jobTitle": "Founder & Performance Marketer",
+    "url": "https://social-surge.co.uk/about/",
+    "worksFor": { "@type": "Organization", "name": "Social Surge DM LTD", "url": "https://social-surge.co.uk/" }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Social Surge DM LTD",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://social-surge.co.uk/assets/img/ss-logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://social-surge.co.uk/blog/google-ads-attribution-model-ecommerce/"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best attribution model for Google Ads e-commerce?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Data-driven attribution is the recommended default for most e-commerce stores because it distributes credit across the full purchase path and gives Smart Bidding more accurate signals. You need roughly 300 conversions per month to use it reliably. Below that threshold, last click is a reliable and transparent fallback while you build volume."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does changing my attribution model affect Smart Bidding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, directly. Smart Bidding reads the conversion data your chosen attribution model produces. Switch from last click to data-driven and your bids will shift to reflect upper-funnel clicks that genuinely contribute to sales. Expect a short learning period, typically 1-2 weeks, as bidding recalibrates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does my Google Ads ROAS not match my Shopify or GA4 data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Several things cause the gap: attribution windows differ across platforms, cross-device journeys are counted differently, GA4 defaults to last non-direct click while Google Ads uses your chosen model, and view-through conversions in Google Ads have no equivalent in GA4. The comparison is useful for sanity-checking, not for exact reconciliation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many conversions do I need for data-driven attribution in Google Ads?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Google requires a minimum of 300 conversions in a 30-day period for the data-driven model to become available, with at least 3,000 ad interactions. In practice, accounts with fewer than 300 monthly conversions do not have enough data for the model to produce reliable results, and last click is a better choice."
+      }
+    }
+  ]
+}
+  </script>
+  <!-- GA4 (Consent Mode v2, cookieless until consent granted) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJYGTYLBR1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {analytics_storage:'denied', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'});
+    try{if(localStorage.getItem('ss_consent')==='granted'){gtag('consent','update',{analytics_storage:'granted', ad_storage:'granted', ad_user_data:'granted', ad_personalization:'granted'});}}catch(e){}
+    gtag('js', new Date());
+    gtag('config', 'G-JJYGTYLBR1');
+  </script>
+  <script src="/assets/js/consent.js?v=1"></script>
+</head>
+<body>
+
+  <div class="announce"><span class="dot"></span>Get your first month FREE or 25% off your first 3 months, <a href="/audit/">Book a free PPC audit</a></div>
+
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" aria-label="Social Surge home"><img src="/assets/img/ss-logo-nav.png" alt="Social Surge logo" width="60" height="48"></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">Home</a></li>
+        <li>
+          <a href="/services/">Services ▾</a>
+          <div class="dropdown">
+            <a href="/services/google-ads-management/">Google Ads Management<span>Search, Shopping &amp; Performance Max</span></a>
+            <a href="/services/meta-ads-management/">Meta Ads Management<span>Facebook &amp; Instagram Ads</span></a>
+            <a href="/services/ai-performance-infrastructure/">AI Performance Infrastructure<span>Managed intelligence layer</span></a>
+            <a href="/audit/">Free PPC Audit<span>Full account review, no obligation</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="/industries/">Industries ▾</a>
+          <div class="dropdown">
+            <a href="/industries/cycling/">Cycling<span>Bike shops &amp; cycling brands</span></a>
+            <a href="/industries/fishing/">Fishing<span>Tackle shops &amp; angling gear</span></a>
+            <a href="/industries/outdoor-hobbyist/">Outdoor &amp; Hobbyist<span>Enthusiast niche brands</span></a>
+          </div>
+        </li>
+        <li><a href="/case-studies/">Results</a></li>
+        <li><a href="/pricing/">Pricing</a></li>
+        <li><a href="/blog/" class="active">Blog</a></li>
+        <li><a href="/about/">Company</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="/audit/" class="btn btn-primary">Book Free Audit</a>
+        <button class="hamburger" aria-label="Toggle menu" aria-controls="navLinks"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/blog/">Blog</a><span>›</span>Google Ads Attribution for E-Commerce: Which Model to Use</nav>
+  </div>
+
+  <header class="page-hero">
+    <div class="container">
+      <span class="eyebrow"><span class="signal-dot"></span>Blog · 13 October 2026</span>
+      <h1 style="max-width:840px">Google Ads Attribution for E-Commerce: Which Model Should You Use?</h1>
+      <p class="lead">Your attribution model decides which clicks get credit for a sale. Get it wrong and Smart Bidding learns from bad data, your reported ROAS misleads you, and scaling becomes guesswork.</p>
+      <p style="margin-top:18px;font-size:0.9rem;color:var(--text-faint)">By <a href="/about/" style="font-weight:600">Jack Goldsmith</a>, Founder &amp; Performance Marketer, Social Surge · 13 October 2026</p>
+    </div>
+  </header>
+
+  <section class="section-tight" style="padding-top:0">
+    <div class="container prose">
+
+      <div class="answer-box">
+        <p class="q">What is the best attribution model for Google Ads e-commerce stores?</p>
+        <p>Data-driven attribution is the recommended default for most established e-commerce stores: it distributes credit across the full purchase path and gives Smart Bidding more accurate signals. You need roughly 300 conversions per month to use it reliably. Below that threshold, last click is the correct baseline. The model you choose directly affects your reported ROAS and how bidding learns, so it is worth getting right before you scale spend.</p>
+      </div>
+
+      <p>Attribution is one of those settings most store owners never touch because nobody explained why it matters. That is a problem, because in the accounts we manage, mismatched attribution is a recurring cause of inflated ROAS numbers, misdirected budget and Smart Bidding that never quite finds its feet. This guide covers the models available, what last click gets wrong, when data-driven attribution works (and when it does not), and the one setting change that helps most established e-commerce accounts immediately.</p>
+
+      <h2>What Does a Google Ads Attribution Model Actually Do?</h2>
+      <p>When a customer buys something after interacting with three of your ads, an attribution model decides how to distribute the credit for that conversion across those touchpoints. Last click gives 100% to the final ad clicked. Data-driven splits credit based on which interactions genuinely influenced the purchase, using Google's modelling across your account data.</p>
+      <p>The model you choose is set per conversion action, not per campaign. It determines which campaigns, ad groups and keywords appear most valuable in your reports, and therefore which ones Smart Bidding bids up or down. That makes it one of the highest-leverage settings in the account.</p>
+
+      <h2>The Attribution Models Available in Google Ads</h2>
+      <p>These are the options you will find in your conversion settings:</p>
+      <ul>
+        <li><strong>Last click:</strong> 100% of credit to the final click before conversion. Simple and transparent, but ignores everything that came before it.</li>
+        <li><strong>First click:</strong> 100% credit to the first interaction. Useful for understanding discovery, rarely the right primary model for e-commerce.</li>
+        <li><strong>Linear:</strong> credit split equally across all touchpoints. Rarely used in practice.</li>
+        <li><strong>Time decay:</strong> more credit to clicks closer to conversion. Has some logic for short purchase cycles; largely superseded by data-driven.</li>
+        <li><strong>Position-based:</strong> 40% to the first click, 40% to the last, 20% spread across the middle. Google has deprecated this model for new conversions.</li>
+        <li><strong>Data-driven:</strong> credit distributed based on machine learning across your account's conversion paths, identifying which touchpoints actually influence purchases.</li>
+      </ul>
+      <p>Google has been deprecating the rule-based models (first click, linear, time decay, position-based) progressively. Per <a href="https://support.google.com/google-ads/answer/6259715" target="_blank" rel="noopener noreferrer">Google's own attribution guidance</a>, data-driven is now the recommended model for search and shopping campaigns where volume allows. If your account is still on a rule-based model, it is worth reviewing.</p>
+
+      <h2>Why Last Click Gets E-Commerce Stores into Trouble</h2>
+      <p>Last click assigns all conversion value to the final touchpoint before purchase, which in most e-commerce accounts is a branded search or a remarketing ad. That sounds reasonable until you map a real purchase path. A customer discovers your product through a generic category search, returns via a display ad three days later, then converts on a branded search the following week. Under last click, the generic keyword that started the whole journey gets zero credit. Smart Bidding sees it as unprofitable and reduces bids. You progressively lose the top-of-funnel traffic that was seeding your branded conversions in the first place.</p>
+      <p>The pattern this creates is consistent: stores running purely on last click tend to over-invest in branded and remarketing campaigns (which show excellent ROAS) and systematically under-invest in prospecting (which shows poor ROAS but is funding the pipeline). It is one of the first things we check when we take over an account, and it is the subject of a deeper look in our <a href="/audit/">free PPC audit</a>.</p>
+
+      <h2>Data-Driven Attribution: What It Does and When to Use It</h2>
+      <p>Data-driven attribution uses a counterfactual approach: Google compares conversion paths that led to a purchase against similar paths that did not, identifies which ad interactions made a genuine difference, and assigns credit proportionally. Unlike rule-based models, it adapts to your specific account and your buyers' behaviour.</p>
+      <p>The practical effect is that upper-funnel and generic terms receive more credit than they do under last click. Smart Bidding then bids those placements more competitively, which typically improves new-customer acquisition without requiring a manual campaign restructure. It is a meaningful upgrade for any account with sufficient volume.</p>
+      <p>For data-driven to work reliably, Google requires a minimum of 300 conversions in the preceding 30 days and at least 3,000 ad interactions. Below that, the model does not have enough data to produce stable results. In those accounts, last click is the better choice: it is predictable, easy to sense-check, and does not introduce noise into Smart Bidding signals.</p>
+
+      <h2>Why Your Google Ads ROAS Does Not Match Your Shopify or GA4 Data</h2>
+      <p>A question we hear regularly from store owners: "Google Ads says 10x ROAS but my Shopify revenue is much lower. Which number is right?" Attribution accounts for part of that gap, but several factors compound it:</p>
+      <ul>
+        <li><strong>Different attribution windows:</strong> Google Ads uses a 30-day click-through window by default; Shopify typically attributes the last session; GA4 has its own lookback logic. None of these are wrong; they simply measure different things.</li>
+        <li><strong>Cross-device journeys:</strong> a customer browsing on mobile and buying on desktop may be counted differently across platforms depending on whether they are signed into a Google account.</li>
+        <li><strong>View-through conversions:</strong> Google Ads can credit a conversion to a display ad the customer saw but never clicked. GA4 and Shopify have no equivalent, so those sales do not appear in session reports.</li>
+        <li><strong>Model differences:</strong> GA4 defaults to last non-direct click while Google Ads uses whichever model you have set. Even if everything else were identical, the two will not agree precisely.</li>
+      </ul>
+      <p>The right approach is to use Google Ads conversion data for bidding decisions and treat Shopify or GA4 as a sanity check rather than a reconciliation target. If your Google Ads reported ROAS is more than 2-3x higher than your blended revenue figure, that warrants investigation. Our guide to <a href="/blog/google-ads-conversion-tracking-ecommerce/">Google Ads conversion tracking for e-commerce</a> covers the measurement errors that artificially inflate these numbers.</p>
+
+      <h2>How Attribution Affects Smart Bidding</h2>
+      <p>Target ROAS and target CPA both read from your conversion data to set bids. Change the attribution model and you change what the algorithm thinks each keyword is worth. Switch from last click to data-driven and you can typically expect higher bids on upper-funnel and generic terms (which now receive partial credit), lower bids on branded terms (which no longer get 100%), and a 1-2 week learning period as Smart Bidding recalibrates.</p>
+      <p>Do not make this change during a high-traffic period. October is fine; the run-up to Black Friday is not. Make the switch on a stable week, keep your ROAS targets unchanged, and allow the full learning period before drawing any conclusions. See our <a href="/blog/google-ads-bidding-strategy-ecommerce/">guide to Smart Bidding strategy</a> for more detail on managing learning phases.</p>
+
+      <h2>When NOT to Switch to Data-Driven Attribution</h2>
+      <p>Data-driven is not always the right answer. Avoid switching if:</p>
+      <ul>
+        <li>You have fewer than 300 conversions per month. The model will produce unreliable signals, and last click is more predictable at that volume.</li>
+        <li>Your conversion tracking has known errors or gaps. Fix the tracking first. Sophisticated attribution on broken data distributes incorrect credit in a more sophisticated way.</li>
+        <li>You are mid-way through a key trading period (Black Friday, a seasonal peak). Save the change for a quieter week.</li>
+        <li>You are running a simple single-campaign account with a very short, direct purchase path. The additional complexity rarely adds value.</li>
+      </ul>
+
+      <h2>The Model We Recommend for E-Commerce Stores</h2>
+      <p>In the accounts we manage, the default for any store meeting the 300-conversion threshold is data-driven attribution paired with target ROAS bidding. For newer or lower-volume accounts, last click with a conservative target ROAS gives the most predictable baseline while conversion volume grows.</p>
+      <p>Either way, we audit attribution settings as part of every account review. A mismatch between model and volume is one of the quietest ways an account bleeds performance: no error message, no alarm, just bidding that consistently undervalues the campaigns doing the real work. If you are unsure what model your account is running, that is exactly the kind of thing a <a href="/audit/">free PPC audit</a> surfaces, alongside conversion tracking, campaign structure and bidding targets, with no obligation to proceed.</p>
+      <p>For the broader picture of how to measure conversions accurately before changing attribution, start with our guide on <a href="/blog/google-ads-conversion-tracking-ecommerce/">Google Ads conversion tracking for e-commerce</a>. For how to scale once bidding is calibrated correctly, see <a href="/blog/scale-google-ads-without-losing-roas/">how to scale Google Ads without losing ROAS</a>.</p>
+
+
+      <h2>Frequently Asked Questions</h2>
+      <details class="faq-item"><summary>What is the best attribution model for Google Ads e-commerce?</summary><div class="faq-body"><p>Data-driven attribution is the recommended default for most e-commerce stores because it distributes credit across the full purchase path and gives Smart Bidding more accurate signals. You need roughly 300 conversions per month to use it reliably. Below that threshold, last click is a reliable and transparent fallback while you build volume.</p></div></details>
+      <details class="faq-item"><summary>Does changing my attribution model affect Smart Bidding?</summary><div class="faq-body"><p>Yes, directly. Smart Bidding reads the conversion data your chosen attribution model produces. Switch from last click to data-driven and your bids will shift to reflect upper-funnel clicks that genuinely contribute to sales. Expect a short learning period, typically 1-2 weeks, as bidding recalibrates.</p></div></details>
+      <details class="faq-item"><summary>Why does my Google Ads ROAS not match my Shopify or GA4 data?</summary><div class="faq-body"><p>Several things cause the gap: attribution windows differ across platforms, cross-device journeys are counted differently, GA4 defaults to last non-direct click while Google Ads uses your chosen model, and view-through conversions in Google Ads have no equivalent in GA4. The comparison is useful for sanity-checking, not for exact reconciliation.</p></div></details>
+      <details class="faq-item"><summary>How many conversions do I need for data-driven attribution in Google Ads?</summary><div class="faq-body"><p>Google requires a minimum of 300 conversions in a 30-day period for the data-driven model to become available, with at least 3,000 ad interactions. In practice, accounts with fewer than 300 monthly conversions do not have enough data for the model to produce reliable results, and last click is a better choice.</p></div></details>
+
+    </div>
+  </section>
+
+  <section class="cta-final">
+    <canvas class="signal-canvas" aria-hidden="true"></canvas>
+    <div class="container">
+      <span class="eyebrow"><span class="signal-dot"></span>Free, no-obligation audit</span>
+      <h2>Ready to see what your account is really capable of?</h2>
+      <p>Book a free PPC audit, full account review, wasted-spend analysis and a clear growth plan, delivered in plain English.</p>
+      <a href="/audit/" class="btn btn-primary btn-lg">Book Your Free Audit</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/assets/img/ss-logo.png" alt="Social Surge logo">
+          <p>Built on trust. Driven by results. Transparent ads that actually work for you.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/_socialsurge/" target="_blank" rel="noopener" aria-label="Social Surge on Instagram"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+            <a href="https://www.linkedin.com/in/jack-goldsmith30122002/" target="_blank" rel="noopener" aria-label="Jack Goldsmith on LinkedIn"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="/services/google-ads-management/">Google Ads Management</a></li>
+            <li><a href="/services/meta-ads-management/">Meta Ads Management</a></li>
+            <li><a href="/services/ai-performance-infrastructure/">AI Infrastructure</a></li>
+            <li><a href="/audit/">Free PPC Audit</a></li>
+            <li><a href="/pricing/">Pricing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/case-studies/">Case Studies</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/ppc-agency-bristol/">PPC Agency Bristol</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get in Touch</h4>
+          <ul>
+            <li><a href="mailto:hello@social-surge.co.uk">hello@social-surge.co.uk</a></li>
+            <li><a href="tel:+447796374758">+44 7796 374 758</a></li>
+            <li>Bristol, United Kingdom</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 Social Surge DM LTD. All rights reserved.</div>
+        <div>
+          <a href="/privacy/">Privacy Policy</a>
+          <a href="/terms/">Terms of Service</a>
+          <a href="/data-deletion/">Data Deletion</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/signals.js?v=3" defer></script>
+</body>
+</html>
