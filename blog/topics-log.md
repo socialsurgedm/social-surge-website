@@ -36,3 +36,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-10-06 google-ads-christmas-ecommerce -- Google Ads Christmas strategy for e-commerce: how to prepare your Q4 campaigns
 - 2026-10-08 google-ads-agency-vs-in-house-ecommerce -- Google Ads agency vs in-house ecommerce UK: what UK e-commerce stores need to know
 - 2026-10-13 google-ads-attribution-model-ecommerce -- Google Ads attribution model for e-commerce: data-driven vs last click, which model to use
+- 2026-10-15 how-long-does-google-ads-take-to-work -- How long does Google Ads take to work for e-commerce?
