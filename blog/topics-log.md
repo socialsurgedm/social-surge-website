@@ -37,3 +37,6 @@ A running record of every post drafted or published, in chronological order.
 - 2026-10-08 google-ads-agency-vs-in-house-ecommerce -- Google Ads agency vs in-house ecommerce UK: what UK e-commerce stores need to know
 - 2026-10-13 google-ads-attribution-model-ecommerce -- Google Ads attribution model for e-commerce: data-driven vs last click, which model to use
 - 2026-10-15 how-long-does-google-ads-take-to-work -- How long does Google Ads take to work for e-commerce?
+- 2026-10-22 meta-ads-event-match-quality -- Meta Ads Event Match Quality: What It Is and How to Improve It
+- 2026-10-25 ai-infrastructure-small-business -- What Is AI Infrastructure for Small Businesses (and Why It Matters in 2026)
+- 2026-10-20 google-ads-not-spending-budget -- Google Ads not spending budget: why your campaign is underspending and how to fix it
