@@ -17,3 +17,13 @@
 6. [PUBLISHED 2026-07-30 audience-targeting-online-retail-campaigns] Effective audience targeting methods for online retail campaigns
 
 7. [DRAFTED 2026-08-04 optimising-social-media-ad-spend-ecommerce] Strategies for optimising ad spend on popular social platforms
+
+8. [DRAFTED 2026-10-22 meta-ads-event-match-quality] Meta Ads event match quality: what it is and how to improve it
+   - secondary: Why is my Meta Ads purchase event match quality 0? How to fix low EMQ on Meta pixel.
+
+9. [DRAFTED 2026-10-25 ai-infrastructure-small-business] What is AI infrastructure for small businesses and why does it matter?
+   - secondary: How to build AI infrastructure for a small UK business. AI automation for SMEs.
+
+
+10. [DRAFTED 2026-10-22 google-ads-target-roas-not-working] Google Ads target ROAS not working: why Smart Bidding misses your targets
+    - secondary: How to set target ROAS Google Ads. Smart Bidding not hitting targets. Target ROAS throttling campaign.

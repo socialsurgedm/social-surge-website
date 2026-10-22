@@ -1,5 +1,33 @@
 [
   {
+    "slug": "meta-ads-event-match-quality",
+    "title": "Meta Ads Event Match Quality: What It Is and How to Improve It",
+    "excerpt": "Low event match quality on Meta Ads means your campaigns can't find the right buyers. What EMQ actually is, how it's scored, and the fixes that move the needle.",
+    "tag": "Meta Ads",
+    "date": "2026-10-20"
+  },
+  {
+    "slug": "google-ads-not-spending-budget",
+    "title": "Google Ads Not Spending Budget: Seven Reasons Why and How to Fix Each One",
+    "excerpt": "Google Ads not spending budget? Seven reasons your campaign is underspending and the exact fixes for UK e-commerce stores.",
+    "tag": "Paid Media",
+    "date": "2026-10-20"
+  },
+  {
+    "slug": "how-long-does-google-ads-take-to-work",
+    "title": "How Long Does Google Ads Take to Work for E-Commerce Stores?",
+    "excerpt": "How long does Google Ads take to work for e-commerce? The 60-90 day Smart Bidding timeline, conversion thresholds and what slows results for UK stores.",
+    "tag": "Paid Media",
+    "date": "2026-10-15"
+  },
+  {
+    "slug": "google-ads-attribution-model-ecommerce",
+    "title": "Google Ads Attribution for E-Commerce: Which Model Should You Use?",
+    "excerpt": "Google Ads attribution model for e-commerce: data-driven vs last click, why ROAS differs across platforms, and which model UK stores should use.",
+    "tag": "Paid Media",
+    "date": "2026-10-13"
+  },
+  {
     "slug": "google-ads-agency-vs-in-house-ecommerce",
     "title": "Google Ads Agency vs In-House: What UK E-Commerce Stores Need to Know",
     "excerpt": "Google Ads agency vs in-house | costs, expertise gaps and the honest answer for UK e-commerce store owners weighing both options.",
@@ -107,7 +135,7 @@
   {
     "slug": "google-ads-management-cost-uk",
     "title": "Google Ads Management Cost UK: What Agencies Charge in 2026",
-    "excerpt": "Google Ads management in the UK runs £500-£3,000+/month. What each pricing tier actually includes, the conflict of interest in percentage-of-spend fees, and how to audit whether your agency is earning it.",
+    "excerpt": "Google Ads management in the UK runs \u00a3500-\u00a33,000+/month. What each pricing tier actually includes, the conflict of interest in percentage-of-spend fees, and how to audit whether your agency is earning it.",
     "tag": "Paid Media",
     "date": "2026-08-25"
   },
@@ -191,7 +219,7 @@
   {
     "slug": "what-is-a-good-roas-google-ads",
     "title": "What Is a Good ROAS for Google Ads? Real UK E-Commerce Numbers",
-    "excerpt": "Industry benchmarks vs our H1 2026 numbers: £4.3M revenue on £235K spend, an 18.29x blended ROAS, and exactly what moved it.",
+    "excerpt": "Industry benchmarks vs our H1 2026 numbers: \u00a34.3M revenue on \u00a3235K spend, an 18.29x blended ROAS, and exactly what moved it.",
     "tag": "Google Ads",
     "date": "2026-07-09"
   },

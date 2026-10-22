@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta Ads Event Match Quality: What It Is and How to Improve It | Social Surge</title>
+  <meta name="description" content="Low event match quality on Meta Ads means your campaigns can't find the right buyers. What EMQ actually is, how it's scored, and the fixes that move the needle.">
+  <link rel="canonical" href="https://social-surge.co.uk/blog/meta-ads-event-match-quality/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Meta Ads Event Match Quality: What It Is and How to Improve It | Social Surge">
+  <meta property="og:description" content="Low event match quality on Meta Ads means your campaigns can't find the right buyers. What EMQ actually is, how it's scored, and the fixes that move the needle.">
+  <meta property="og:url" content="https://social-surge.co.uk/blog/meta-ads-event-match-quality/">
+  <meta property="og:image" content="https://social-surge.co.uk/assets/img/og-image.jpg">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css?v=4">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://social-surge.co.uk/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://social-surge.co.uk/blog/" },
+    { "@type": "ListItem", "position": 3, "name": "Meta Ads Event Match Quality: What It Is and How to Improve It" }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Meta Ads Event Match Quality: What It Is and How to Improve It",
+  "description": "Low event match quality on Meta Ads means your campaigns can't find the right buyers. What EMQ actually is, how it's scored, and the fixes that move the needle.",
+  "url": "https://social-surge.co.uk/blog/meta-ads-event-match-quality/",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "inLanguage": "en-GB",
+  "image": "https://social-surge.co.uk/assets/img/ss-logo.png",
+  "author": {
+    "@type": "Person",
+    "name": "Jack Goldsmith",
+    "jobTitle": "Founder & Performance Marketer",
+    "url": "https://social-surge.co.uk/about/",
+    "worksFor": { "@type": "Organization", "name": "Social Surge DM LTD", "url": "https://social-surge.co.uk/" }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Social Surge DM LTD",
+    "logo": { "@type": "ImageObject", "url": "https://social-surge.co.uk/assets/img/ss-logo.png" }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://social-surge.co.uk/blog/meta-ads-event-match-quality/" }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a good Meta Ads event match quality score?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A score of 7 or above is considered good. Scores of 9–10 are excellent and typically require full customer data — hashed email, phone, name and address — passed alongside a CAPI server-side signal. Scores below 6 indicate Meta is struggling to match your events to real users, which limits lookalike audience quality and purchase optimisation. A score of 0 on the purchase event means that conversion is, for bidding purposes, invisible to the algorithm." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does event match quality affect which people see my Meta ads?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, directly. Meta uses matched purchase events to identify your best customers, build lookalike audiences, optimise delivery toward buyers, and exclude people who have already converted. Low purchase EMQ degrades all of these functions simultaneously. An account with 0.0/10 purchase EMQ is asking Meta's algorithm to find more buyers without being able to show it who bought." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I check my event match quality score?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Open Meta Events Manager, select your pixel dataset, and click the Overview tab. Each event displays its EMQ score alongside event volume. The score updates as new events fire — changes to your tracking setup appear within hours of the next real purchases. The Test Events tab lets you browse the site in real time and verify that customer data (email address, phone number) is being received by Meta alongside each event." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I improve event match quality without setting up CAPI?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Partially. The largest single gain comes from passing hashed customer data (email and phone) with the browser pixel's purchase event. This alone can lift a 0.0 score to 6–7/10. Adding CAPI with matching event IDs then pushes the score higher and adds resilience against browser blocking from iOS, Safari, and ad blockers. For Shopify stores, the Custom Pixel approach provides customer data across all payment methods including Shop Pay, Apple Pay and Google Pay — which is where most stores lose match quality on their highest-value orders." }
+    }
+  ]
+}
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJYGTYLBR1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {analytics_storage:'denied', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'});
+    try{if(localStorage.getItem('ss_consent')==='granted'){gtag('consent','update',{analytics_storage:'granted', ad_storage:'granted', ad_user_data:'granted', ad_personalization:'granted'});}}catch(e){}
+    gtag('js', new Date());
+    gtag('config', 'G-JJYGTYLBR1');
+  </script>
+  <script src="/assets/js/consent.js?v=1"></script>
+</head>
+<body>
+
+  <div class="announce"><span class="dot"></span>Get your first month FREE or 25% off your first 3 months, <a href="/audit/">Book a free PPC audit</a></div>
+
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" aria-label="Social Surge home"><img src="/assets/img/ss-logo-nav.png" alt="Social Surge logo" width="60" height="48"></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">Home</a></li>
+        <li>
+          <a href="/services/">Services &#9662;</a>
+          <div class="dropdown">
+            <a href="/services/google-ads-management/">Google Ads Management<span>Search, Shopping &amp; Performance Max</span></a>
+            <a href="/services/meta-ads-management/">Meta Ads Management<span>Facebook &amp; Instagram Ads</span></a>
+            <a href="/services/ai-performance-infrastructure/">AI Performance Infrastructure<span>Managed intelligence layer</span></a>
+            <a href="/audit/">Free PPC Audit<span>Full account review, no obligation</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="/industries/">Industries &#9662;</a>
+          <div class="dropdown">
+            <a href="/industries/cycling/">Cycling<span>Bike shops &amp; cycling brands</span></a>
+            <a href="/industries/fishing/">Fishing<span>Tackle shops &amp; angling gear</span></a>
+            <a href="/industries/outdoor-hobbyist/">Outdoor &amp; Hobbyist<span>Enthusiast niche brands</span></a>
+          </div>
+        </li>
+        <li><a href="/case-studies/">Results</a></li>
+        <li><a href="/pricing/">Pricing</a></li>
+        <li><a href="/blog/" class="active">Blog</a></li>
+        <li><a href="/about/">Company</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="/audit/" class="btn btn-primary">Book Free Audit</a>
+        <button class="hamburger" aria-label="Toggle menu" aria-controls="navLinks"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>&#8250;</span><a href="/blog/">Blog</a><span>&#8250;</span>Meta Ads Event Match Quality: What It Is and How to Improve It</nav>
+  </div>
+
+  <header class="page-hero">
+    <div class="container">
+      <span class="eyebrow"><span class="signal-dot"></span>Blog · 22 October 2026</span>
+      <h1 style="max-width:840px">Meta Ads Event Match Quality: What It Is and How to Improve It</h1>
+      <p class="lead">Low event match quality means Meta's algorithm is optimising your campaigns without being able to identify your buyers. Here's what the score actually measures, why a 0.0 on your purchase event is a serious problem, and the specific fixes that lift it.</p>
+      <p style="margin-top:18px;font-size:0.9rem;color:var(--text-faint)">By <a href="/about/" style="font-weight:600">Jack Goldsmith</a>, Founder &amp; Performance Marketer, Social Surge · 22 October 2026</p>
+    </div>
+  </header>
+
+  <section class="section-tight" style="padding-top:0">
+    <div class="container prose">
+
+      <div class="answer-box">
+        <p class="q">What is Meta Ads event match quality?</p>
+        <p>Event match quality (EMQ) is Meta's 0–10 score for how reliably its algorithm can connect your pixel events — pageviews, add-to-carts, purchases — back to the real people who took those actions. The higher the score, the better Meta can identify the buyer, retarget them on Instagram, exclude them from future ads, and build lookalike audiences from your actual customers. A purchase event with 0.0 EMQ is, for bidding purposes, close to worthless: Meta received the conversion signal but could not match it to anyone it knows.</p>
+      </div>
+
+      <p>Meta's advertising algorithm does not simply count conversions — it identifies <em>who</em> converted, then uses that pattern to find more people like them. Event match quality is the measure of how accurately that identification is working. When EMQ is high, Meta knows exactly who bought. When it is low, it is guessing. The difference shows up in ROAS, CPM, and lookalike audience quality, but the root cause is almost always invisible unless you know where to check.</p>
+
+      <h2>How Meta Calculates Event Match Quality</h2>
+      <p>Meta uses the customer identifiers attached to each pixel event to score its ability to match that event to a person in its system. The identifiers it looks for, roughly in order of weight, include:</p>
+      <ul>
+        <li><strong>Hashed email address</strong> — the highest-weight identifier, often worth 3–4 points of EMQ on its own</li>
+        <li><strong>Hashed phone number</strong> — the second most valuable, particularly useful for users who log into Meta with a phone number</li>
+        <li><strong>First and last name</strong> — moderate weight, helps disambiguate between users with the same email domain</li>
+        <li><strong>City, postcode, and country</strong> — supplementary; most useful when email or phone is unavailable</li>
+        <li><strong>Facebook click ID (fbc) and browser ID (fbp) cookies</strong> — useful for session-level matching but subject to browser blocking</li>
+      </ul>
+      <p>More identifiers mean higher confidence. A purchase event that fires with a hashed email, phone number, first name, last name, and postal code can typically achieve 8–9/10. A purchase event that fires with only browser cookies — and no customer data — scores 3–4/10 at best, and often lower as iOS and Safari privacy restrictions further limit cookie-based matching.</p>
+      <p>The score is not a fixed calculation — it reflects matching performance across recent events. This means changes to your tracking setup appear in the score within hours of the next real purchases firing. If you implement a fix on a Sunday evening and orders come through overnight, you can check the updated score by Monday morning.</p>
+
+      <h2>Why Low Purchase EMQ Destroys Campaign Performance</h2>
+      <p>Purchase events with low EMQ do not simply provide weaker signal — they actively limit what Meta's algorithm can do across your account.</p>
+      <p><strong>Lookalike audiences degrade.</strong> Meta builds lookalike audiences by analysing the characteristics of your matched converters. If it cannot identify who converted, it cannot build an accurate model. A lookalike audience built from purchase events scoring 0.0 EMQ is based on statistical noise rather than actual buyer characteristics.</p>
+      <p><strong>Retargeting exclusions fail.</strong> If Meta cannot confirm that a specific user purchased, it continues showing purchase-intent ads to people who already bought. This wastes budget and creates a poor experience for existing customers.</p>
+      <p><strong>Purchase optimisation breaks down.</strong> Campaigns optimised for purchases use conversion event patterns to decide which users are worth bidding up for. Poor-quality events mean that targeting becomes unreliable, and spend concentrates on users who superficially resemble buyers but are not.</p>
+      <p><strong>Reporting becomes misleading.</strong> Low EMQ often appears alongside events that are counted without being attributed to real people. When you later fix tracking and EMQ rises, reported conversions may temporarily appear to drop — because Meta stops counting weak, unmatched events. This looks like performance fell when it actually became more accurate.</p>
+
+      <h2>Five Root Causes of Low Purchase EMQ</h2>
+
+      <h3>1. No CAPI — browser pixel only</h3>
+      <p>The browser pixel fires the purchase event, but no server-side Conversions API (CAPI) signal reinforces it. Browser tracking is blocked by iOS 17's link tracking protection, Safari's Intelligent Tracking Prevention, and browser-based ad blockers — tools now used by an estimated 40–50% of UK desktop users. Without CAPI, a meaningful share of purchases arrive at Meta without any event at all, and the events that do arrive carry less confidence because they come from a single, increasingly restricted source.</p>
+
+      <h3>2. Purchase event missing customer data</h3>
+      <p>The pixel fires on the order confirmation page, but no hashed email or phone is passed with the event. This is the single most common cause of 0.0/10 purchase EMQ. The event exists — Meta can see a purchase happened — but has no way to identify who made it. Every session-based identifier (the fbp cookie, the fbc click ID) has limited reach and is subject to the same browser restrictions that limit all cookie-based tracking. Without customer identifiers, there is no match.</p>
+
+      <h3>3. Express checkout bypassing data collection</h3>
+      <p>Shop Pay, Apple Pay, Google Pay and PayPal Express all skip the standard checkout steps where a customer enters their email address and shipping details. If your pixel only captures customer data at the address-input stage of the standard checkout, express payment orders — which often represent 40–60% of mobile purchases — arrive with zero customer data attached. The purchase event fires, but with no identifiers.</p>
+
+      <h3>4. Duplicate events without deduplication</h3>
+      <p>Both the browser pixel and another tool — most commonly the Shopify Facebook &amp; Instagram app — fire the same purchase event, but with mismatched or missing event IDs. Meta sees two apparent purchase events for the same order, cannot reconcile them, and applies lower confidence to both. Without consistent event IDs shared between browser pixel and server-side events, deduplication fails and EMQ suffers.</p>
+
+      <h3>5. The Shopify Facebook app conflicting with a custom pixel setup</h3>
+      <p>The Shopify Facebook &amp; Instagram app generates its own CAPI events and browser pixel events. If you also have a custom pixel implementation, both fire on the same purchases with different event ID formats, different customer data structures, and no coordination. The conflicting signals reduce Meta's confidence in your purchase events. We have seen this combination produce 0.0/10 purchase EMQ on accounts that appeared to have tracking in place — because two tools were fighting over the same events.</p>
+
+      <h2>How to Fix Low Purchase EMQ</h2>
+
+      <h3>Fix 1 — Use a Shopify Custom Pixel for checkout events</h3>
+      <p>For Shopify stores, the correct approach for checkout tracking is a Custom Pixel in Shopify's Customer Events section (Online Store → Customer Events → Add Custom Pixel). This gives your pixel access to Shopify's native checkout events — including <code>checkout_completed</code> — which fires for every payment method (standard card, Shop Pay, Apple Pay, Google Pay, PayPal) and includes the customer's email, phone number, name and shipping address.</p>
+      <p>The Custom Pixel works because Shopify's Customer Events API runs inside the checkout environment, where GTM tags cannot operate. GTM tags cannot fire on Shopify's checkout pages through <code>theme.liquid</code>. The Custom Pixel is the only reliable method to capture purchase events with customer data across all payment methods on Shopify's checkout.</p>
+      <p>If you are currently running the Shopify Facebook &amp; Instagram app, remove it before implementing the Custom Pixel. Running both creates exactly the duplication and conflict described above.</p>
+
+      <h3>Fix 2 — Pass hashed customer data with every purchase event</h3>
+      <p>Inside the <code>checkout_completed</code> event listener, re-initialise the pixel with the customer's data before firing the purchase event. Meta's pixel hashes these values before transmission. Shopify's Customer Events API provides all of these fields for standard checkout orders and for express payment methods, since email and phone are captured during the payment provider flow.</p>
+      <p>This single change typically lifts purchase EMQ from 0.0 to 6–8/10 immediately on the next order. It is the highest-leverage fix available and costs nothing to implement beyond the code change.</p>
+
+      <h3>Fix 3 — Add CAPI alongside the browser pixel</h3>
+      <p>CAPI sends the purchase event directly to Meta's API server-side, bypassing browser restrictions entirely. The critical requirement is that browser and CAPI events share the same <code>event_id</code>. Meta uses matching event IDs to deduplicate: it receives both signals, recognises they represent the same purchase, and counts it once. Without matching event IDs, Meta counts the purchase twice, lowering signal confidence.</p>
+      <p>For Shopify stores, CAPI calls can be made directly within the Custom Pixel using <code>fetch()</code> to Meta's Graph API endpoint. Using the Shopify order ID as the event ID (for example, <code>PUR_454305</code>) ensures perfect deduplication between browser and server signals, since the order ID is unique per transaction.</p>
+
+      <h3>Fix 4 — Verify with Meta's Test Events tab</h3>
+      <p>After making changes, open Meta Events Manager → your pixel → Test Events tab. Browse the site in the same browser, add to cart, and proceed through checkout. Each event should appear in the feed in real time. For the purchase event specifically, click through to its detail view and confirm that user data keys — email address, phone number — are listed as received. This confirms customer identifiers are reaching Meta alongside the conversion signal.</p>
+      <p>EMQ updates within hours of the next real purchases firing after a fix. A score that was 0.0 should move to 6+ within the same day on an active store.</p>
+
+      <h2>What to Expect After Fixing</h2>
+      <p>Once customer data is passing correctly with purchase events, alongside CAPI with matching event IDs, purchase EMQ typically reaches 7–9/10. Scores of 10/10 are rare: some customers browse in private mode, have opted out of tracking, or have limited cookie consent, which naturally reduces match confidence on those events regardless of setup quality.</p>
+      <p>The practical effect on campaign performance takes longer to materialise than the EMQ change. Meta's algorithm needs time to re-learn from the improved signal, particularly if purchase EMQ was at 0.0 for an extended period — it will have built bidding patterns around poor data that need to be replaced. Expect 2–4 weeks before delivery patterns fully reflect the improved data quality. Lookalike audiences built after the fix will be meaningfully more accurate than those built before; audiences created while EMQ was 0.0 are worth refreshing once you have 4–6 weeks of clean data.</p>
+      <p>Improving purchase EMQ is one of the highest-leverage changes available in a Meta Ads account. It costs nothing in additional ad spend. In accounts we manage, we have moved purchase EMQ from 0.0 to 8.5/10 in a single implementation, with measurable improvements to delivery quality following as the algorithm retrains on accurate buyer data. If your purchase event is currently below 6/10, it is the first thing to fix before adjusting budgets, audiences or creative — everything else sits on top of a tracking foundation that needs to be accurate first.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <details class="faq-item"><summary>What is a good Meta Ads event match quality score?</summary><div class="faq-body"><p>A score of 7 or above is considered good. Scores of 9–10 are excellent and typically require full customer data — hashed email, phone, name and address — passed alongside a CAPI server-side signal. Scores below 6 indicate Meta is struggling to match your events to real users, which limits lookalike audience quality and purchase optimisation. A score of 0 on the purchase event means that conversion is, for bidding purposes, invisible to the algorithm.</p></div></details>
+      <details class="faq-item"><summary>Does event match quality affect which people see my Meta ads?</summary><div class="faq-body"><p>Yes, directly. Meta uses matched purchase events to identify your best customers, build lookalike audiences, optimise delivery toward buyers, and exclude people who have already converted. Low purchase EMQ degrades all of these functions simultaneously. An account with 0.0/10 purchase EMQ is asking Meta's algorithm to find more buyers without being able to show it who bought.</p></div></details>
+      <details class="faq-item"><summary>How do I check my event match quality score?</summary><div class="faq-body"><p>Open Meta Events Manager, select your pixel dataset, and click the Overview tab. Each event displays its EMQ score alongside event volume. The score updates as new events fire — changes to your tracking setup appear within hours of the next real purchases. The Test Events tab lets you browse the site in real time and verify that customer data (email address, phone number) is being received by Meta alongside each event.</p></div></details>
+      <details class="faq-item"><summary>Can I improve event match quality without setting up CAPI?</summary><div class="faq-body"><p>Partially. The largest single gain comes from passing hashed customer data (email and phone) with the browser pixel's purchase event. This alone can lift a 0.0 score to 6–7/10. Adding CAPI with matching event IDs then pushes the score higher and adds resilience against browser blocking from iOS, Safari, and ad blockers. For Shopify stores, the Custom Pixel approach provides customer data across all payment methods including Shop Pay, Apple Pay and Google Pay — which is where most stores lose match quality on their highest-value orders.</p></div></details>
+
+    </div>
+  </section>
+
+  <section class="cta-final">
+    <canvas class="signal-canvas" aria-hidden="true"></canvas>
+    <div class="container">
+      <span class="eyebrow"><span class="signal-dot"></span>Free, no-obligation audit</span>
+      <h2>Ready to see what your account is really capable of?</h2>
+      <p>Book a free PPC audit — full account review, wasted-spend analysis and a clear growth plan, delivered in plain English.</p>
+      <a href="/audit/" class="btn btn-primary btn-lg">Book Your Free Audit</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/assets/img/ss-logo.png" alt="Social Surge logo">
+          <p>Built on trust. Driven by results. Transparent ads that actually work for you.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/_socialsurge/" target="_blank" rel="noopener" aria-label="Social Surge on Instagram"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+            <a href="https://www.linkedin.com/in/jack-goldsmith30122002/" target="_blank" rel="noopener" aria-label="Jack Goldsmith on LinkedIn"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="/services/google-ads-management/">Google Ads Management</a></li>
+            <li><a href="/services/meta-ads-management/">Meta Ads Management</a></li>
+            <li><a href="/services/ai-performance-infrastructure/">AI Infrastructure</a></li>
+            <li><a href="/audit/">Free PPC Audit</a></li>
+            <li><a href="/pricing/">Pricing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/case-studies/">Case Studies</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/ppc-agency-bristol/">PPC Agency Bristol</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get in Touch</h4>
+          <ul>
+            <li><a href="mailto:hello@social-surge.co.uk">hello@social-surge.co.uk</a></li>
+            <li><a href="tel:+447796374758">+44 7796 374 758</a></li>
+            <li>Bristol, United Kingdom</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&#169; 2026 Social Surge DM LTD. All rights reserved.</div>
+        <div>
+          <a href="/privacy/">Privacy Policy</a>
+          <a href="/terms/">Terms of Service</a>
+          <a href="/data-deletion/">Data Deletion</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/signals.js?v=3" defer></script>
+</body>
+</html>
