@@ -79,7 +79,12 @@ export async function onRequestPost(context) {
   const website = (form.get("website") || "").toString().trim().slice(0, 300);
   const spend = (form.get("monthly_ad_spend") || "").toString().trim().slice(0, 50);
   const message = (form.get("message") || "").toString().trim().slice(0, 5000);
-  const formType = (form.get("form_type") || "contact").toString().trim().slice(0, 20);
+  const ALLOWED_FORM_TYPES = new Set([
+    'contact', 'audit',
+    'lp-google-ads', 'lp-meta-ads', 'lp-ppc-bristol', 'lp-cycling', 'lp-fishing',
+  ]);
+  const rawFormType = (form.get("form_type") || "").toString().trim();
+  const formType = ALLOWED_FORM_TYPES.has(rawFormType) ? rawFormType : "contact";
 
   if (!name || !email || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
     return new Response("Missing or invalid fields", { status: 422 });
