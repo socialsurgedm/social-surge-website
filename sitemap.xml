@@ -116,8 +116,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://social-surge.co.uk/blog/google-ads-target-roas-not-working/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://social-surge.co.uk/blog/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -317,6 +323,12 @@
   <url>
     <loc>https://social-surge.co.uk/blog/google-ads-quality-score-ecommerce/</loc>
     <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://social-surge.co.uk/blog/ai-infrastructure-small-business/</loc>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

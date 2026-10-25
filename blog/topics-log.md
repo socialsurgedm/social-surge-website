@@ -41,3 +41,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-10-25 ai-infrastructure-small-business -- What Is AI Infrastructure for Small Businesses (and Why It Matters in 2026)
 - 2026-10-20 google-ads-not-spending-budget -- Google Ads not spending budget: why your campaign is underspending and how to fix it
 - 2026-10-22 google-ads-target-roas-not-working -- Google Ads target ROAS not working: why Smart Bidding misses your targets
+- 2026-10-25 performance-max-limited-by-budget -- Google Ads Performance Max limited by budget
