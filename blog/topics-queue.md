@@ -28,10 +28,10 @@
 10. [DRAFTED 2026-10-22 google-ads-target-roas-not-working] Google Ads target ROAS not working: why Smart Bidding misses your targets
     - secondary: How to set target ROAS Google Ads. Smart Bidding not hitting targets. Target ROAS throttling campaign.
 
-11. [DRAFTED 2026-10-25 performance-max-limited-by-budget] Google Ads Performance Max limited by budget
+11. [PUBLISHED 2026-10-25 performance-max-limited-by-budget] Google Ads Performance Max limited by budget
 - Target query: Google Ads Performance Max limited by budget | Secondary: Performance Max not spending, Google Ads channel prioritisation budget allocation | Intent: Store owner whose capped PMax lost its ROAS cushion after the August 2026 bid change, or whose Display is eating Shopping spend.
 
-12. Google Merchant Center misrepresentation suspension
+12. [DRAFTED 2026-10-27 google-merchant-center-misrepresentation] Google Merchant Center misrepresentation suspension
 - Target query: Google Merchant Center misrepresentation suspension | Secondary: products disapproved Merchant Center price mismatch, Google Shopping feed VAT price UK | Intent: Shopping or PMax volume collapsed because products or the whole Merchant Center account were disapproved.
 
 13. How much does a Google Ads agency cost UK ecommerce
