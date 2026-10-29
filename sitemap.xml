@@ -123,7 +123,7 @@
   </url>
   <url>
     <loc>https://social-surge.co.uk/blog/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -341,6 +341,12 @@
   <url>
     <loc>https://social-surge.co.uk/blog/google-merchant-center-misrepresentation/</loc>
     <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://social-surge.co.uk/blog/google-ads-agency-cost-uk-ecommerce/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
