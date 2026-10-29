@@ -45,3 +45,4 @@ A running record of every post drafted or published, in chronological order.
 
 - 2026-10-25 performance-max-limited-by-budget — Google Ads Performance Max limited by budget
 - 2026-10-27 google-merchant-center-misrepresentation -- Google Merchant Center misrepresentation suspension
+- 2026-10-29 google-ads-agency-cost-uk-ecommerce -- How much does a Google Ads agency cost UK ecommerce

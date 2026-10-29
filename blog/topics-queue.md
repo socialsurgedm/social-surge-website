@@ -34,7 +34,7 @@
 12. [DRAFTED 2026-10-27 google-merchant-center-misrepresentation] Google Merchant Center misrepresentation suspension
 - Target query: Google Merchant Center misrepresentation suspension | Secondary: products disapproved Merchant Center price mismatch, Google Shopping feed VAT price UK | Intent: Shopping or PMax volume collapsed because products or the whole Merchant Center account were disapproved.
 
-13. How much does a Google Ads agency cost UK ecommerce
+13. [DRAFTED 2026-10-29 google-ads-agency-cost-uk-ecommerce] How much does a Google Ads agency cost UK ecommerce
 - Target query: how much does a Google Ads agency cost UK ecommerce | Secondary: Google Ads agency red flags, percentage of ad spend vs flat fee PPC | Intent: Owner comparing retainers before they sign, or deciding whether to leave an agency.
 
 14. Why GA4 and Google Ads conversions do not match
