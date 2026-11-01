@@ -1,5 +1,12 @@
 [
   {
+    "slug": "ga4-google-ads-conversions-dont-match",
+    "title": "Why GA4 and Google Ads Conversions Don't Match (and Which Number to Trust)",
+    "excerpt": "Why GA4 and Google Ads conversions don't match: click date vs event date, attribution scope, double-counting and which number to trust for Smart Bidding.",
+    "tag": "Paid Media",
+    "date": "2026-11-01"
+  },
+  {
     "slug": "google-ads-agency-cost-uk-ecommerce",
     "title": "How Much Does a Google Ads Agency Cost for UK E-Commerce?",
     "excerpt": "How much does a Google Ads agency cost for UK e-commerce? Flat fees, percentage pricing, red flags and what a good retainer includes in 2026.",
@@ -170,7 +177,7 @@
   {
     "slug": "google-ads-management-cost-uk",
     "title": "Google Ads Management Cost UK: What Agencies Charge in 2026",
-    "excerpt": "Google Ads management in the UK runs £500-£3,000+/month. What each pricing tier actually includes, the conflict of interest in percentage-of-spend fees, and how to audit whether your agency is earning it.",
+    "excerpt": "Google Ads management in the UK runs \u00a3500-\u00a33,000+/month. What each pricing tier actually includes, the conflict of interest in percentage-of-spend fees, and how to audit whether your agency is earning it.",
     "tag": "Paid Media",
     "date": "2026-08-25"
   },
@@ -254,7 +261,7 @@
   {
     "slug": "what-is-a-good-roas-google-ads",
     "title": "What Is a Good ROAS for Google Ads? Real UK E-Commerce Numbers",
-    "excerpt": "Industry benchmarks vs our H1 2026 numbers: £4.3M revenue on £235K spend, an 18.29x blended ROAS, and exactly what moved it.",
+    "excerpt": "Industry benchmarks vs our H1 2026 numbers: \u00a34.3M revenue on \u00a3235K spend, an 18.29x blended ROAS, and exactly what moved it.",
     "tag": "Google Ads",
     "date": "2026-07-09"
   },
