@@ -40,7 +40,7 @@
 14. [DRAFTED 2026-11-01 ga4-google-ads-conversions-dont-match] Why GA4 and Google Ads conversions do not match
 - Target query: why don't GA4 and Google Ads conversions match | Secondary: enhanced conversions double counting purchases, Google Ads revenue higher than Shopify | Intent: Owner about to change tROAS because the two reports disagree.
 
-15. Black Friday Google Shopping budget without killing ROAS
+15. [DRAFTED 2026-11-03 black-friday-google-shopping-budget-roas] Black Friday Google Shopping budget without killing ROAS
 - Target query: Black Friday Google Shopping budget without killing ROAS | Secondary: Black Friday Performance Max seasonality adjustment, cycling outdoor Black Friday Google Ads | Intent: Cycling or outdoor store setting November budgets in the next two weeks, with sale-price margins not full-price ROAS.
 
 16. Performance Max spending on brand searches

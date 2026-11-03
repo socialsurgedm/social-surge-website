@@ -47,3 +47,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-10-27 google-merchant-center-misrepresentation -- Google Merchant Center misrepresentation suspension
 - 2026-10-29 google-ads-agency-cost-uk-ecommerce -- How much does a Google Ads agency cost UK ecommerce
 - 2026-11-01 ga4-google-ads-conversions-dont-match -- Why GA4 and Google Ads conversions don't match
+- 2026-11-03 black-friday-google-shopping-budget-roas -- Black Friday Google Shopping budget without killing ROAS
