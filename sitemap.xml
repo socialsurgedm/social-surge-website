@@ -129,7 +129,7 @@
   </url>
   <url>
     <loc>https://social-surge.co.uk/blog/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -353,6 +353,13 @@
   <url>
     <loc>https://social-surge.co.uk/blog/google-ads-agency-cost-uk-ecommerce/</loc>
     <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://social-surge.co.uk/blog/black-friday-google-shopping-budget-roas/</loc>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
