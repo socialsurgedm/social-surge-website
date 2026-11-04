@@ -68,6 +68,28 @@ export async function onRequestPost(context) {
     return Response.redirect(new URL("/thanks/", request.url).toString(), 302);
   }
 
+  // Cloudflare Turnstile verification
+  const turnstileToken = form.get("cf-turnstile-response");
+  if (env.TURNSTILE_SECRET_KEY) {
+    if (!turnstileToken) {
+      return new Response("CAPTCHA required", { status: 422 });
+    }
+    const verifyRes = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams({
+        secret: env.TURNSTILE_SECRET_KEY,
+        response: turnstileToken,
+        remoteip: request.headers.get("CF-Connecting-IP") || "",
+      }),
+    });
+    const verifyData = await verifyRes.json();
+    if (!verifyData.success) {
+      console.error("Turnstile failed:", verifyData["error-codes"]);
+      return new Response("CAPTCHA verification failed", { status: 422 });
+    }
+  }
+
   const thanksUrl = (t) => {
     const u = new URL("/thanks/", request.url);
     u.searchParams.set("src", t);

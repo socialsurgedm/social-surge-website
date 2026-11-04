@@ -1,46 +1,35 @@
 # Social Surge
 
-> Social Surge DM LTD is a UK-based, PPC-only digital marketing agency in Bristol that scales e-commerce brands through Google Ads, Meta Ads and managed AI performance infrastructure. 18.3x average ROAS across the client base, 100% ad account transparency, weekly reporting, rolling monthly agreements, no long-term contracts.
+> Bristol growth agency for e-commerce brands in any niche turning over £1M+ a year (or close) and advertising on Google, Meta or both; also helps service-based businesses. Google Ads and Meta Ads are managed hands-on by the team; email marketing, SEO, AEO, GEO and Google Tag Manager setup are run by Social Surge’s AI infrastructure with a specialist reviewing every change. Flat fees, full account access, weekly reporting, rolling monthly agreements, 18.3x average ROAS across managed accounts.
 
-## Who we are
-
-- **Company:** Social Surge DM LTD, Bristol, United Kingdom
-- **Focus:** Pay-per-click (PPC) advertising for UK e-commerce retailers, nothing else
-- **Niches:** Cycling, fishing and outdoor/hobbyist e-commerce, plus broader UK online retail
-- **Contact:** hello@social-surge.co.uk · +44 7796 374 758
-- **Website:** https://social-surge.co.uk/
+Founder: Jack Goldsmith. Contact: jack@social-surge.co.uk, +44 7796 374 758.
 
 ## Services
+- [Google Ads management](https://social-surge.co.uk/services/google-ads-management/): Google Ads management from a Bristol agency: Search, Shopping and Performance Max built around margin, with full account access and weekly reporting.
+- [Meta Ads management](https://social-surge.co.uk/services/meta-ads-management/): Facebook and Instagram ads for online retailers, DTC brands and service businesses: structured creative testing, Conversions API tracking and profitable scaling.
+- [AI performance infrastructure](https://social-surge.co.uk/services/ai-performance-infrastructure/): A managed AI layer that analyses your Google and Meta ad accounts continuously: anomaly detection, change history, budget signals and automated reporting.
+- [Email marketing](https://social-surge.co.uk/services/email-marketing/): Klaviyo flows and campaigns for retail, DTC and service brands, built by our AI infrastructure and checked by a specialist before anything sends.
+- [SEO](https://social-surge.co.uk/services/seo/): Technical SEO, product and category optimisation and keyword-led content, run by our AI infrastructure with every change reviewed by a specialist.
+- [AEO](https://social-surge.co.uk/services/aeo/): Answer engine optimisation for Google AI Overviews, featured snippets and voice search. Run by our AI infrastructure with specialist review.
+- [GEO](https://social-surge.co.uk/services/geo/): Generative engine optimisation to get your brand named by ChatGPT, Gemini, Perplexity and Copilot. Run by our AI infrastructure with specialist review.
+- [Google Tag Manager setup](https://social-surge.co.uk/services/google-tag-manager-setup/): Google Tag Manager setup for GA4, Google Ads enhanced conversions, Meta Conversions API and Consent Mode v2. Configured by AI, verified by a specialist.
 
-- **Google Ads Management** (from £1,500/month): Search, Shopping and Performance Max for e-commerce, feed optimisation, product-level exclusions, tROAS bidding, weekly reporting. https://social-surge.co.uk/services/google-ads-management/
-- **Meta Ads Management** (from £1,000/month): Facebook & Instagram ads with creative testing, Conversions API tracking and disciplined scaling. https://social-surge.co.uk/services/meta-ads-management/
-- **AI Performance Infrastructure**: a managed intelligence layer that continuously analyses ad accounts, anomaly detection, product performance analysis, budget signals, automated reporting. https://social-surge.co.uk/services/ai-performance-infrastructure/
-- **Free PPC Audit**: full account review (tracking, wasted spend, structure, opportunities), no obligation. https://social-surge.co.uk/audit/
-- Combined Google + Meta management from £2,250/month. Full pricing: https://social-surge.co.uk/pricing/
+## Pricing
+- [Pricing](https://social-surge.co.uk/pricing/): starting prices: Google Ads from £1,650/month, Meta Ads from £1,650/month, combined from £2,250/month, AI infrastructure from £1,105/month inc VAT. Final fee depends on revenue, ad spend and scope. No percentage of spend, no contracts.
 
-## Verified results
+## Proof
+- [Case studies](https://social-surge.co.uk/case-studies/): £1.62M revenue in 92 days; £2.5M growth in 12 months; 144% more conversions on 16% less spend; +23.6% revenue with AI analysis.
 
-- £1.62M revenue in 92 days (Black Friday-February, UK e-commerce retailer): https://social-surge.co.uk/case-studies/1-6m-revenue-92-days/
-- £2.5M revenue growth in 12 months; £4.3M record year after rebuilding a Search-only account with Shopping and Performance Max: https://social-surge.co.uk/case-studies/2-5m-growth-12-months/
-- 144% more conversions on 16% less spend via tracking fixes, waste removal and restructuring: https://social-surge.co.uk/case-studies/144-percent-more-conversions/
-- +23.6% YoY revenue on +5.6% spend for a UK cycling retailer; 304 zero-conversion products excluded, Shopping ROAS 12.09x → 16.20x, AOV £33.41 → £51.72: https://social-surge.co.uk/case-studies/ai-infrastructure-performance/
+## Free tools
+- [Search term savings](https://social-surge.co.uk/tools/search-term-savings-calculator/): What you spend on searches that never buy, and what a negative keyword script would recover.
+- [POAS calculator](https://social-surge.co.uk/tools/poas-calculator/): Profit on ad spend and break-even point, from your margin, fees and delivery.
+- [Break-even ROAS](https://social-surge.co.uk/tools/break-even-roas-calculator/): The minimum ROAS before ads lose money, and the target for your profit goal.
+- [Google Ads health check](https://social-surge.co.uk/tools/google-ads-health-check/): Eight questions, a score out of 100 and your top three fixes.
+- [Budget pacing](https://social-surge.co.uk/tools/ad-budget-pacing-calculator/): Whether this month’s spend is on track, and the daily budget you need from here.
+- [Black Friday planner](https://social-surge.co.uk/tools/black-friday-budget-planner/): The November ad budget your revenue target needs, split across the peak.
 
-## Why clients choose Social Surge
-
-- PPC-only specialisation (no generalist dilution)
-- 100% ad account transparency, clients own their accounts and data
-- Flat published fees, rolling monthly agreements, no lock-ins
-- Weekly revenue-first reporting (ROAS, CPA, conversion value)
-- Proprietary AI performance infrastructure for catalogue-scale analysis
-
-## Key pages
-
-- Home: https://social-surge.co.uk/
-- Services: https://social-surge.co.uk/services/
-- Pricing: https://social-surge.co.uk/pricing/
-- Case studies: https://social-surge.co.uk/case-studies/
-- Industries: https://social-surge.co.uk/industries/ (cycling, fishing, outdoor & hobbyist)
-- Blog: https://social-surge.co.uk/blog/
-- About: https://social-surge.co.uk/about/
-- Contact: https://social-surge.co.uk/contact/
-- PPC Agency Bristol: https://social-surge.co.uk/ppc-agency-bristol/
+## Reference
+- [Glossary](https://social-surge.co.uk/glossary/): ROAS, POAS, break-even ROAS, tROAS, Performance Max, AEO, GEO and more.
+- [In-house vs agency PPC](https://social-surge.co.uk/guides/in-house-vs-agency-ppc/)
+- [Blog](https://social-surge.co.uk/blog/): guides on Google Ads, Performance Max, Meta Ads, tracking and budgets.
+- [About](https://social-surge.co.uk/about/) and [Jack Goldsmith](https://social-surge.co.uk/about/jack-goldsmith/)

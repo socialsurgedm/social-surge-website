@@ -1,25 +1,50 @@
+# Cloudflare Pages headers. Only social-surge.co.uk pages built here (and blog posts) are indexable.
+
+# Never index Cloudflare preview or *.pages.dev copies of the site
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+# Never index www subdomain (redirects to apex, belt-and-suspenders)
+https://www.social-surge.co.uk/*
+  X-Robots-Tag: noindex
+
+# Old pages kept for existing links but not indexed
+/industries/cycling/
+  X-Robots-Tag: noindex
+
+/industries/fishing/
+  X-Robots-Tag: noindex
+
+/industries/outdoor-hobbyist/
+  X-Robots-Tag: noindex
+
+/ppc-agency-bristol/
+  X-Robots-Tag: noindex
+
+/case-studies/1-6m-revenue-92-days/
+  X-Robots-Tag: noindex
+
+/case-studies/2-5m-growth-12-months/
+  X-Robots-Tag: noindex
+
+/case-studies/144-percent-more-conversions/
+  X-Robots-Tag: noindex
+
+/case-studies/ai-infrastructure-performance/
+  X-Robots-Tag: noindex
+
+/privacy/
+  X-Robots-Tag: noindex
+
+/terms/
+  X-Robots-Tag: noindex
+
+/data-deletion/
+  X-Robots-Tag: noindex
+
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
 
-/blog/posts.json
-  Cache-Control: public, max-age=300, must-revalidate
-
-/oauth/*
-  X-Robots-Tag: noindex, nofollow
-  Cache-Control: no-store
-
-/dashboard/*
-  X-Robots-Tag: noindex, nofollow
-  Cache-Control: no-store
-
-/portal/*
-  X-Robots-Tag: noindex, nofollow
-  Cache-Control: no-store
-
-/*
-  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-  X-Content-Type-Options: nosniff
-  X-Frame-Options: SAMEORIGIN
-  Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: camera=(), microphone=(), geolocation=()
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com; frame-src https://www.googletagmanager.com https://www.google.com; form-action 'self'; base-uri 'self'; upgrade-insecure-requests
