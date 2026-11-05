@@ -4,7 +4,7 @@
   <url><loc>https://social-surge.co.uk/about/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://social-surge.co.uk/about/jack-goldsmith/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://social-surge.co.uk/audit/</loc><lastmod>2026-11-03</lastmod></url>
-  <url><loc>https://social-surge.co.uk/blog/</loc><lastmod>2026-11-03</lastmod></url>
+  <url><loc>https://social-surge.co.uk/blog/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://social-surge.co.uk/blog/ai-infrastructure-small-business/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://social-surge.co.uk/blog/audience-targeting-online-retail-campaigns/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://social-surge.co.uk/blog/best-digital-marketing-agencies-uk-small-businesses/</loc><lastmod>2026-11-03</lastmod></url>
@@ -73,4 +73,10 @@
   <url><loc>https://social-surge.co.uk/tools/google-ads-health-check/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://social-surge.co.uk/tools/poas-calculator/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://social-surge.co.uk/tools/search-term-savings-calculator/</loc><lastmod>2026-11-03</lastmod></url>
+  <url>
+    <loc>https://social-surge.co.uk/blog/performance-max-brand-spending/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
