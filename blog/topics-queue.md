@@ -43,7 +43,7 @@
 15. [DRAFTED 2026-11-03 black-friday-google-shopping-budget-roas] Black Friday Google Shopping budget without killing ROAS
 - Target query: Black Friday Google Shopping budget without killing ROAS | Secondary: Black Friday Performance Max seasonality adjustment, cycling outdoor Black Friday Google Ads | Intent: Cycling or outdoor store setting November budgets in the next two weeks, with sale-price margins not full-price ROAS.
 
-16. Performance Max spending on brand searches
+16. [DRAFTED 2026-11-05 performance-max-brand-spending] Performance Max spending on brand searches
 - Target query: Performance Max spending on my brand name | Secondary: Performance Max brand exclusions, PMax ROAS inflated by brand searches | Intent: Owner whose PMax ROAS looks ready to scale, but orders are flat because brand queries are doing the work.
 
 17. Shopify Google Ads conversions stopped after the checkout change
