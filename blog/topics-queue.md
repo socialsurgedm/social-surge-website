@@ -46,7 +46,7 @@
 16. [DRAFTED 2026-11-05 performance-max-brand-spending] Performance Max spending on brand searches
 - Target query: Performance Max spending on my brand name | Secondary: Performance Max brand exclusions, PMax ROAS inflated by brand searches | Intent: Owner whose PMax ROAS looks ready to scale, but orders are flat because brand queries are doing the work.
 
-17. Shopify Google Ads conversions stopped after the checkout change
+17. [DRAFTED 2026-11-08 shopify-google-ads-conversions-stopped] Shopify Google Ads conversions stopped after the checkout change
 - Target query: Shopify Google Ads conversions stopped tracking | Secondary: enhanced conversions not recording Shopify, Shopify additional scripts stopped August 2026 | Intent: Owner whose purchase tag died when Shopify killed thank-you page scripts on 26 Aug 2026, and is about to change tROAS on missing data.
 
 18. Google Ads new customer goal making ROAS look better than cash
@@ -57,3 +57,18 @@
 
 20. Google Shopping custom labels by margin
 - Target query: Google Shopping custom labels by margin | Secondary: exclude low margin products Performance Max, product exclusions Google Ads ecommerce | Intent: Owner scaling spend into SKUs that look fine on platform ROAS and lose money after cost of goods.
+
+21. Performance Max stopped showing brand searches
+- Target query: Performance Max stopped showing brand searches | Secondary: PMax ROAS dropped November 2026, brand Search campaign not picking up queries PMax used to take | Intent: Owner whose PMax ROAS fell in early November 2026 because Google may now filter brand queries out of PMax, and brand Search is not funded to catch them.
+
+22. Meta product browsing not sending traffic to my website
+- Target query: Meta product browsing not sending traffic to my website | Secondary: Meta ads ROAS drop late October 2026, Advantage+ catalogue ads skipping Shopify | Intent: Owner whose site sessions fell after 28 Oct 2026, when Meta turned product browsing on by default and started keeping shoppers inside the app.
+
+23. Google Merchant Center shipping mismatch UK
+- Target query: Google Merchant Center shipping mismatch UK | Secondary: products disapproved inaccurate shipping costs, free delivery threshold not in Merchant Center | Intent: Shopping or PMax volume down because the UK delivery price in the feed does not match checkout, including free-over thresholds on bulky cycling and outdoor kit.
+
+24. Performance Max sending traffic to the wrong pages
+- Target query: Performance Max sending traffic to the wrong pages | Secondary: turn off final URL expansion Google Ads, PMax landing page report blog spend | Intent: Owner paying for clicks that land on blog, size-guide, or policy pages instead of the product.
+
+25. Google Ads Smart Bidding Exploration lowering ROAS
+- Target query: Google Ads Smart Bidding Exploration lowering ROAS | Secondary: Performance Max exploring below target ROAS, Shopping campaign accepting a lower ROAS before Black Friday | Intent: Owner whose campaign can bid 5 to 30 percent under target into peak, and is about to raise budget on a number that is no longer the real target.

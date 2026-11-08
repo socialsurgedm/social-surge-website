@@ -49,3 +49,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-11-01 ga4-google-ads-conversions-dont-match -- Why GA4 and Google Ads conversions don't match
 - 2026-11-03 black-friday-google-shopping-budget-roas -- Black Friday Google Shopping budget without killing ROAS
 - 2026-11-05 performance-max-brand-spending -- Performance Max spending on my brand name
+- 2026-11-08 shopify-google-ads-conversions-stopped -- Shopify Google Ads conversions stopped tracking
