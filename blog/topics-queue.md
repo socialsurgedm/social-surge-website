@@ -49,7 +49,7 @@
 17. [DRAFTED 2026-11-08 shopify-google-ads-conversions-stopped] Shopify Google Ads conversions stopped after the checkout change
 - Target query: Shopify Google Ads conversions stopped tracking | Secondary: enhanced conversions not recording Shopify, Shopify additional scripts stopped August 2026 | Intent: Owner whose purchase tag died when Shopify killed thank-you page scripts on 26 Aug 2026, and is about to change tROAS on missing data.
 
-18. Google Ads new customer goal making ROAS look better than cash
+18. [DRAFTED 2026-11-10 google-ads-new-customer-acquisition-goal-roas] Google Ads new customer goal making ROAS look better than cash
 - Target query: Google Ads new customer acquisition goal ROAS | Secondary: Performance Max bid higher for new customers, new customer value multiplier | Intent: Owner who switched on new-customer bidding before peak and can no longer tell cash ROAS from the extra value Google adds for bidding.
 
 19. Christmas Google Shopping for cycling gifts, not bikes

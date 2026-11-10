@@ -50,3 +50,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-11-03 black-friday-google-shopping-budget-roas -- Black Friday Google Shopping budget without killing ROAS
 - 2026-11-05 performance-max-brand-spending -- Performance Max spending on my brand name
 - 2026-11-08 shopify-google-ads-conversions-stopped -- Shopify Google Ads conversions stopped tracking
+- 2026-11-10 google-ads-new-customer-acquisition-goal-roas — Google Ads new customer acquisition goal ROAS
