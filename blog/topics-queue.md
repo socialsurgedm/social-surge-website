@@ -52,10 +52,10 @@
 18. [DRAFTED 2026-11-10 google-ads-new-customer-acquisition-goal-roas] Google Ads new customer goal making ROAS look better than cash
 - Target query: Google Ads new customer acquisition goal ROAS | Secondary: Performance Max bid higher for new customers, new customer value multiplier | Intent: Owner who switched on new-customer bidding before peak and can no longer tell cash ROAS from the extra value Google adds for bidding.
 
-19. Christmas Google Shopping for cycling gifts, not bikes
+19. [DRAFTED 2026-11-12 christmas-google-shopping-cycling-gifts] Christmas Google Shopping for cycling gifts, not bikes
 - Target query: Christmas Google Shopping ads for cycling gifts | Secondary: bike shop Google Ads winter accessories, cycling gift product feed titles | Intent: Cycling store still pushing full bikes in November instead of lights, tools, and winter kit that convert as gifts.
 
-20. Google Shopping custom labels by margin
+20. [DRAFTED 2026-11-15 google-shopping-custom-labels-by-margin] Google Shopping custom labels by margin
 - Target query: Google Shopping custom labels by margin | Secondary: exclude low margin products Performance Max, product exclusions Google Ads ecommerce | Intent: Owner scaling spend into SKUs that look fine on platform ROAS and lose money after cost of goods.
 
 21. Performance Max stopped showing brand searches

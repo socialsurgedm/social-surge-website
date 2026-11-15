@@ -51,3 +51,6 @@ A running record of every post drafted or published, in chronological order.
 - 2026-11-05 performance-max-brand-spending -- Performance Max spending on my brand name
 - 2026-11-08 shopify-google-ads-conversions-stopped -- Shopify Google Ads conversions stopped tracking
 - 2026-11-10 google-ads-new-customer-acquisition-goal-roas — Google Ads new customer acquisition goal ROAS
+
+- 2026-11-12 christmas-google-shopping-cycling-gifts -- Christmas Google Shopping ads for cycling gifts
+- 2026-11-15 google-shopping-custom-labels-by-margin -- Google Shopping custom labels by margin
