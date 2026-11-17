@@ -58,7 +58,7 @@
 20. [PUBLISHED 2026-11-15 google-shopping-custom-labels-by-margin] Google Shopping custom labels by margin
 - Target query: Google Shopping custom labels by margin | Secondary: exclude low margin products Performance Max, product exclusions Google Ads ecommerce | Intent: Owner scaling spend into SKUs that look fine on platform ROAS and lose money after cost of goods.
 
-21. Performance Max stopped showing brand searches
+21. [DRAFTED 2026-11-17 performance-max-stopped-showing-brand-searches] Performance Max stopped showing brand searches
 - Target query: Performance Max stopped showing brand searches | Secondary: PMax ROAS dropped November 2026, brand Search campaign not picking up queries PMax used to take | Intent: Owner whose PMax ROAS fell in early November 2026 because Google may now filter brand queries out of PMax, and brand Search is not funded to catch them.
 
 22. Meta product browsing not sending traffic to my website
