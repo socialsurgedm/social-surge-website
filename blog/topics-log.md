@@ -55,3 +55,4 @@ A running record of every post drafted or published, in chronological order.
 - 2026-11-12 christmas-google-shopping-cycling-gifts -- Christmas Google Shopping ads for cycling gifts
 - 2026-11-15 google-shopping-custom-labels-by-margin -- Google Shopping custom labels by margin
 - 2026-11-17 performance-max-stopped-showing-brand-searches -- Performance Max stopped showing brand searches
+- 2026-11-19 meta-product-browsing-not-sending-traffic -- Meta product browsing not sending traffic to my website

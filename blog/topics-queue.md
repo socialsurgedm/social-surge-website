@@ -61,7 +61,7 @@
 21. [DRAFTED 2026-11-17 performance-max-stopped-showing-brand-searches] Performance Max stopped showing brand searches
 - Target query: Performance Max stopped showing brand searches | Secondary: PMax ROAS dropped November 2026, brand Search campaign not picking up queries PMax used to take | Intent: Owner whose PMax ROAS fell in early November 2026 because Google may now filter brand queries out of PMax, and brand Search is not funded to catch them.
 
-22. Meta product browsing not sending traffic to my website
+22. [DRAFTED 2026-11-19 meta-product-browsing-not-sending-traffic] Meta product browsing not sending traffic to my website
 - Target query: Meta product browsing not sending traffic to my website | Secondary: Meta ads ROAS drop late October 2026, Advantage+ catalogue ads skipping Shopify | Intent: Owner whose site sessions fell after 28 Oct 2026, when Meta turned product browsing on by default and started keeping shoppers inside the app.
 
 23. Google Merchant Center shipping mismatch UK
