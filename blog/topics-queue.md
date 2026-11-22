@@ -64,7 +64,7 @@
 22. [DRAFTED 2026-11-19 meta-product-browsing-not-sending-traffic] Meta product browsing not sending traffic to my website
 - Target query: Meta product browsing not sending traffic to my website | Secondary: Meta ads ROAS drop late October 2026, Advantage+ catalogue ads skipping Shopify | Intent: Owner whose site sessions fell after 28 Oct 2026, when Meta turned product browsing on by default and started keeping shoppers inside the app.
 
-23. Google Merchant Center shipping mismatch UK
+23. [DRAFTED 2026-11-22 google-merchant-center-shipping-mismatch-uk] Google Merchant Center shipping mismatch UK
 - Target query: Google Merchant Center shipping mismatch UK | Secondary: products disapproved inaccurate shipping costs, free delivery threshold not in Merchant Center | Intent: Shopping or PMax volume down because the UK delivery price in the feed does not match checkout, including free-over thresholds on bulky cycling and outdoor kit.
 
 24. Performance Max sending traffic to the wrong pages
@@ -72,3 +72,15 @@
 
 25. Google Ads Smart Bidding Exploration lowering ROAS
 - Target query: Google Ads Smart Bidding Exploration lowering ROAS | Secondary: Performance Max exploring below target ROAS, Shopping campaign accepting a lower ROAS before Black Friday | Intent: Owner whose campaign can bid 5 to 30 percent under target into peak, and is about to raise budget on a number that is no longer the real target.
+
+26. AI Max for Shopping vs Performance Max
+- Target query: AI Max for Shopping vs Performance Max | Secondary: feed only Performance Max worth it, Standard Shopping maximize conversion value | Intent: Owner deciding this week whether to drop feed-only PMax after Standard Shopping gained value bidding in mid-November 2026.
+
+27. Google Merchant Center promotion disapproved
+- Target query: Google Merchant Center promotion disapproved | Secondary: Black Friday code not showing on Shopping ads, sale price already on the product page promotion rejected | Intent: Store whose Friday offer badge is stuck in review, or whose products got pulled because the discount is already the landing-page price.
+
+28. Google Shopping products approved but not showing
+- Target query: Google Shopping products approved but not showing | Secondary: approved products zero impressions Performance Max, Shopping feed label mismatch | Intent: Merchant Center looks clean but bestsellers have no impressions going into Black Friday.
+
+29. Google Shopping product titles for cycling and outdoor kit
+- Target query: Google Shopping product title formula cycling | Secondary: outdoor product feed titles Google Ads, bike helmet title Merchant Center | Intent: Specialist whose feed titles are the catalogue name, so Shopping never matches the query the buyer actually types.
