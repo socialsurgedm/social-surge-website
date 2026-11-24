@@ -67,7 +67,7 @@
 23. [DRAFTED 2026-11-22 google-merchant-center-shipping-mismatch-uk] Google Merchant Center shipping mismatch UK
 - Target query: Google Merchant Center shipping mismatch UK | Secondary: products disapproved inaccurate shipping costs, free delivery threshold not in Merchant Center | Intent: Shopping or PMax volume down because the UK delivery price in the feed does not match checkout, including free-over thresholds on bulky cycling and outdoor kit.
 
-24. Performance Max sending traffic to the wrong pages
+24. [DRAFTED 2026-11-24 performance-max-sending-traffic-wrong-pages] Performance Max sending traffic to the wrong pages
 - Target query: Performance Max sending traffic to the wrong pages | Secondary: turn off final URL expansion Google Ads, PMax landing page report blog spend | Intent: Owner paying for clicks that land on blog, size-guide, or policy pages instead of the product.
 
 25. Google Ads Smart Bidding Exploration lowering ROAS
