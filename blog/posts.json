@@ -1,5 +1,12 @@
 [
   {
+    "slug": "performance-max-sending-traffic-wrong-pages",
+    "title": "Performance Max Sending Traffic to the Wrong Pages",
+    "excerpt": "Performance Max sending traffic to the wrong pages? Final URL expansion is on by default. Check the landing page report before you change ROAS.",
+    "tag": "Shopping & PMax",
+    "date": "2026-11-24"
+  },
+  {
     "slug": "google-merchant-center-shipping-mismatch-uk",
     "title": "Google Merchant Center Shipping Mismatch UK",
     "excerpt": "Google Merchant Center shipping mismatch UK: products disapproved when feed delivery is cheaper than checkout, including free-over thresholds.",
