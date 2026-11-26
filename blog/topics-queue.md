@@ -70,7 +70,7 @@
 24. [DRAFTED 2026-11-24 performance-max-sending-traffic-wrong-pages] Performance Max sending traffic to the wrong pages
 - Target query: Performance Max sending traffic to the wrong pages | Secondary: turn off final URL expansion Google Ads, PMax landing page report blog spend | Intent: Owner paying for clicks that land on blog, size-guide, or policy pages instead of the product.
 
-25. Google Ads Smart Bidding Exploration lowering ROAS
+25. [DRAFTED 2026-11-26 google-ads-smart-bidding-exploration-roas] Google Ads Smart Bidding Exploration lowering ROAS
 - Target query: Google Ads Smart Bidding Exploration lowering ROAS | Secondary: Performance Max exploring below target ROAS, Shopping campaign accepting a lower ROAS before Black Friday | Intent: Owner whose campaign can bid 5 to 30 percent under target into peak, and is about to raise budget on a number that is no longer the real target.
 
 26. AI Max for Shopping vs Performance Max
